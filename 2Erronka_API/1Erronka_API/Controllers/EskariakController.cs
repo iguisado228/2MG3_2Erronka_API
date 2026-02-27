@@ -2,9 +2,12 @@ using Microsoft.AspNetCore.Mvc;
 using _1Erronka_API.Repositorioak;
 using _1Erronka_API.DTOak;
 using _1Erronka_API.Modeloak;
-
+ 
 namespace _1Erronka_API.Controllers
 {
+    /// <summary>
+    /// Eskaeren (eskariak) kudeaketarako API amaierako puntuak.
+    /// </summary>
     [ApiController]
     [Route("api/[controller]")]
     public class EskariakController : ControllerBase
@@ -14,8 +17,8 @@ namespace _1Erronka_API.Controllers
         private readonly ErreserbaRepository _erreserbaRepo;
         private readonly ProduktuaOsagaiaRepository _produktuaOsagaiaRepo;
         private readonly OsagaiaRepository _osagaiaRepo;
-
-
+ 
+ 
         public EskariakController(EskariaRepository repo, ProduktuaRepository produktuaRepo, ErreserbaRepository erreserbaRepo, ProduktuaOsagaiaRepository produktuOsagaiaRepo, OsagaiaRepository osagaiaRepo)
         {
             _repo = repo;
@@ -24,21 +27,26 @@ namespace _1Erronka_API.Controllers
             _produktuaOsagaiaRepo = produktuOsagaiaRepo;
             _osagaiaRepo = osagaiaRepo;
         }
-
+ 
+        /// <summary>
+        /// Eskari berria sortzen du erreserba bati lotuta, eta stockak eguneratzen ditu.
+        /// </summary>
+        /// <param name="dto">Eskaria sortzeko datuak.</param>
+        /// <returns>200 OK (sortutako eskariaren laburpenarekin) edo 400 Bad Request.</returns>
         [HttpPost]
         public IActionResult Sortu([FromBody] EskariaSortuDto dto)
         {
             object erantzuna = null;
-
+ 
             try
             {
                 _repo.ExecuteSerializableTransaction(() =>
                 {
                     var erreserba = _erreserbaRepo.Get(dto.ErreserbaId);
                     if (erreserba == null) throw new Exception("Erreserba ez da aurkitu");
-
+ 
                     if (erreserba.Langilea == null) throw new Exception("Erreserbak ez du langilerik asignatuta");
-
+ 
                     var eskaria = new Eskaria
                     {
                         Erreserba = erreserba,
@@ -48,43 +56,43 @@ namespace _1Erronka_API.Controllers
                         Mahaia = erreserba.Mahaia,
                         Produktuak = new List<EskariaProduktua>()
                     };
-
+ 
                     foreach (var p in dto.Produktuak)
                     {
                         var produktua = _produktuaRepo.Get(p.ProduktuaId);
                         if (produktua == null) continue;
-
+ 
                         if (produktua.Stock <= 0)
                             throw new Exception($"Ez dago stock-ik '{produktua.Izena}' produktuan.");
-
+ 
                         if (produktua.Stock < p.Kantitatea)
                         {
                             p.Kantitatea = produktua.Stock;
                         }
-
+ 
                         var osagaiak = _produktuaOsagaiaRepo.GetByProduktuaId(produktua.Id);
-
+ 
                         foreach (var po in osagaiak)
                         {
                             var osagaia = po.Osagaia;
                             var kantitateaTotala = po.Kantitatea * p.Kantitatea;
-
+ 
                             if (osagaia.Stock < kantitateaTotala)
                                 throw new Exception($"Ez dago nahikoa stock '{osagaia.Izena}' osagaian");
                         }
-
+ 
                         foreach (var po in osagaiak)
                         {
                             var osagaia = po.Osagaia;
                             var kantitateaTotala = po.Kantitatea * p.Kantitatea;
-
+ 
                             osagaia.Stock -= kantitateaTotala;
                             _osagaiaRepo.Update(osagaia);
                         }
-
+ 
                         produktua.Stock -= p.Kantitatea;
                         _produktuaRepo.Update(produktua);
-
+ 
                         eskaria.Produktuak.Add(new EskariaProduktua
                         {
                             Eskaria = eskaria,
@@ -93,10 +101,10 @@ namespace _1Erronka_API.Controllers
                             Prezioa = produktua.Prezioa
                         });
                     }
-
+ 
                     eskaria.Prezioa = eskaria.Produktuak.Sum(p => p.Prezioa * p.Kantitatea);
                     _repo.Add(eskaria);
-
+ 
                     erantzuna = new
                     {
                         EskariaId = eskaria.Id,
@@ -115,11 +123,17 @@ namespace _1Erronka_API.Controllers
             {
                 return BadRequest(ex.Message);
             }
-
+ 
             return Ok(erantzuna);
         }
-
-
+ 
+ 
+        /// <summary>
+        /// Eskari baten produktuak eta egoera eguneratzen ditu, eta stockak doitzen ditu.
+        /// </summary>
+        /// <param name="id">Eskariaren identifikatzailea.</param>
+        /// <param name="dto">Eguneratzeko eskariaren datuak.</param>
+        /// <returns>200 OK edo 400 Bad Request.</returns>
         [HttpPut("{id}")]
         public IActionResult Eguneratu(int id, [FromBody] EskariaSortuDto dto)
         {
@@ -129,79 +143,79 @@ namespace _1Erronka_API.Controllers
                 {
                     var eskaria = _repo.Get(id);
                     if (eskaria == null) throw new Exception("Eskaria ez da aurkitu");
-
+ 
                     var existingProductsMap = eskaria.Produktuak.ToDictionary(p => p.Produktua.Id);
                     var newProductIds = dto.Produktuak.Select(p => p.ProduktuaId).ToHashSet();
-
+ 
                     var toRemove = existingProductsMap.Values.Where(p => !newProductIds.Contains(p.Produktua.Id)).ToList();
                     foreach (var item in toRemove)
                     {
                         var produktua = item.Produktua;
                         produktua.Stock += item.Kantitatea;
                         _produktuaRepo.Update(produktua);
-
+ 
                         var osagaiak = _produktuaOsagaiaRepo.GetByProduktuaId(produktua.Id);
                         foreach (var po in osagaiak)
                         {
                             po.Osagaia.Stock += po.Kantitatea * item.Kantitatea;
                             _osagaiaRepo.Update(po.Osagaia);
                         }
-
+ 
                         eskaria.Produktuak.Remove(item);
                     }
-
+ 
                     foreach (var newItem in dto.Produktuak)
                     {
                         if (existingProductsMap.TryGetValue(newItem.ProduktuaId, out var existingItem))
                         {
                             int diff = newItem.Kantitatea - existingItem.Kantitatea;
-
+ 
                             if (diff != 0)
                             {
                                 var produktua = existingItem.Produktua;
-
+ 
                                 if (diff > 0 && produktua.Stock < diff)
                                     throw new Exception($"Ez dago stock-ik '{produktua.Izena}' produktuan.");
-
+ 
                                 produktua.Stock -= diff;
                                 _produktuaRepo.Update(produktua);
-
+ 
                                 var osagaiak = _produktuaOsagaiaRepo.GetByProduktuaId(produktua.Id);
                                 foreach (var po in osagaiak)
                                 {
                                     if (diff > 0 && po.Osagaia.Stock < po.Kantitatea * diff)
                                         throw new Exception($"Ez dago nahikoa stock '{po.Osagaia.Izena}' osagaian");
-
+ 
                                     po.Osagaia.Stock -= po.Kantitatea * diff;
                                     _osagaiaRepo.Update(po.Osagaia);
                                 }
-
+ 
                                 existingItem.Kantitatea = newItem.Kantitatea;
                             }
-                            
+                           
                             existingItem.Prezioa = newItem.Prezioa;
                         }
                         else
                         {
                             var produktua = _produktuaRepo.Get(newItem.ProduktuaId);
                             if (produktua == null) continue;
-
+ 
                             if (produktua.Stock < newItem.Kantitatea)
                                 throw new Exception($"Ez dago stock-ik '{produktua.Izena}' produktuan.");
-
+ 
                             produktua.Stock -= newItem.Kantitatea;
                             _produktuaRepo.Update(produktua);
-
+ 
                             var osagaiak = _produktuaOsagaiaRepo.GetByProduktuaId(produktua.Id);
                             foreach (var po in osagaiak)
                             {
                                 if (po.Osagaia.Stock < po.Kantitatea * newItem.Kantitatea)
                                     throw new Exception($"Ez dago nahikoa stock '{po.Osagaia.Izena}' osagaian");
-
+ 
                                 po.Osagaia.Stock -= po.Kantitatea * newItem.Kantitatea;
                                 _osagaiaRepo.Update(po.Osagaia);
                             }
-
+ 
                             eskaria.Produktuak.Add(new EskariaProduktua
                             {
                                 Eskaria = eskaria,
@@ -211,13 +225,13 @@ namespace _1Erronka_API.Controllers
                             });
                         }
                     }
-
+ 
                     eskaria.Prezioa = dto.Prezioa;
                     eskaria.Egoera = dto.Egoera;
-
+ 
                     _repo.Update(eskaria);
                 });
-
+ 
                 return Ok(true);
             }
             catch (Exception ex)
@@ -225,7 +239,12 @@ namespace _1Erronka_API.Controllers
                 return BadRequest(ex.Message);
             }
         }
-
+ 
+        /// <summary>
+        /// Eskari bat ezabatzen du eta stockak leheneratzen ditu.
+        /// </summary>
+        /// <param name="id">Eskariaren identifikatzailea.</param>
+        /// <returns>200 OK edo 400 Bad Request.</returns>
         [HttpDelete("{id}")]
         public IActionResult Ezabatu(int id)
         {
@@ -235,7 +254,7 @@ namespace _1Erronka_API.Controllers
                 {
                     var eskaria = _repo.Get(id);
                     if (eskaria == null) throw new Exception("Eskaria ez da aurkitu");
-
+ 
                     foreach (var p in eskaria.Produktuak)
                     {
                         var produktua = _produktuaRepo.Get(p.Produktua.Id);
@@ -243,7 +262,7 @@ namespace _1Erronka_API.Controllers
                         {
                             produktua.Stock += p.Kantitatea;
                             _produktuaRepo.Update(produktua);
-
+ 
                             var osagaiak = _produktuaOsagaiaRepo.GetByProduktuaId(produktua.Id);
                             foreach (var po in osagaiak)
                             {
@@ -252,10 +271,10 @@ namespace _1Erronka_API.Controllers
                             }
                         }
                     }
-
+ 
                     _repo.Delete(eskaria);
                 });
-
+ 
                 return Ok(true);
             }
             catch (Exception ex)
@@ -263,13 +282,18 @@ namespace _1Erronka_API.Controllers
                 return BadRequest(ex.Message);
             }
         }
-
+ 
+        /// <summary>
+        /// IDaren arabera eskari bat eskuratzen du.
+        /// </summary>
+        /// <param name="id">Eskariaren identifikatzailea.</param>
+        /// <returns>200 OK (EskariaDto) edo 404 Not Found.</returns>
         [HttpGet("{id}")]
         public IActionResult GetEskaria(int id)
         {
             var eskaria = _repo.Get(id);
             if (eskaria == null) return NotFound();
-
+ 
             var dto = new EskariaDto
             {
                 Id = eskaria.Id,
@@ -284,15 +308,20 @@ namespace _1Erronka_API.Controllers
                     Prezioa = p.Prezioa
                 }).ToList()
             };
-
+ 
             return Ok(dto);
         }
-
+ 
+        /// <summary>
+        /// Erreserba baten IDaren arabera eskari guztiak eskuratzen ditu.
+        /// </summary>
+        /// <param name="erreserbaId">Erreserbaren identifikatzailea.</param>
+        /// <returns>200 OK (EskariaDto zerrendarekin).</returns>
         [HttpGet("erreserba/{erreserbaId}")]
         public IActionResult GetEskariakByErreserba(int erreserbaId)
         {
             var eskariak = _repo.GetAll().Where(e => e.Erreserba.Id == erreserbaId).ToList();
-
+ 
             var dtoList = eskariak.Select(e => new EskariaDto
             {
                 Id = e.Id,
@@ -307,25 +336,29 @@ namespace _1Erronka_API.Controllers
                     Prezioa = p.Prezioa
                 }).ToList()
             }).ToList();
-
+ 
             return Ok(dtoList);
         }
-
-
+ 
+ 
+        /// <summary>
+        /// Eskari guztiak eskuratzen ditu.
+        /// </summary>
+        /// <returns>200 OK (EskariaDto zerrendarekin).</returns>
         [HttpGet]
         public IActionResult GetEskariak()
         {
             var eskariak = _repo.GetAll().ToList();
-
+ 
             var dtoList = eskariak.Select(e => new EskariaDto
             {
                 Id = e.Id,
                 Prezioa = e.Prezioa,
                 Egoera = e.Egoera,
                 ErreserbaId = e.Erreserba.Id,
-
+ 
                 MahaiaZenbakia = e.Erreserba.Mahaia.Zenbakia,
-
+ 
                 Produktuak = e.Produktuak.Select(p => new EskariaProduktuaDto
                 {
                     ProduktuaId = p.Produktua.Id,
@@ -334,19 +367,24 @@ namespace _1Erronka_API.Controllers
                     Prezioa = p.Prezioa
                 }).ToList()
             }).ToList();
-
+ 
             return Ok(dtoList);
         }
-
-
-
+ 
+ 
+ 
+        /// <summary>
+        /// Egoeraren arabera eskariak eskuratzen ditu.
+        /// </summary>
+        /// <param name="egoera">Eskariaren egoera (case-insensitive).</param>
+        /// <returns>200 OK (EskariaDto zerrendarekin).</returns>
         [HttpGet("egoera/{egoera}")]
         public IActionResult GetEskariakByEgoera(string egoera)
         {
             var eskariak = _repo.GetAll()
                 .Where(e => e.Egoera.Equals(egoera, StringComparison.OrdinalIgnoreCase))
                 .ToList();
-
+ 
             var dtoList = eskariak.Select(e => new EskariaDto
             {
                 Id = e.Id,
@@ -361,9 +399,9 @@ namespace _1Erronka_API.Controllers
                     Prezioa = p.Prezioa
                 }).ToList()
             }).ToList();
-
+ 
             return Ok(dtoList);
         }
-
+ 
     }
 }

@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36616.10
+# Visual Studio Version 18
+VisualStudioVersion = 18.3.11426.168 d18.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Erronka1Api", "1Erronka_API\Erronka1Api.csproj", "{17120138-E4A6-4C3D-84BD-F577B7BA9385}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Erronka2Api", "1Erronka_API\Erronka2Api.csproj", "{17120138-E4A6-4C3D-84BD-F577B7BA9385}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
