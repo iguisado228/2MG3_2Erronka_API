@@ -1,9 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿﻿using Microsoft.AspNetCore.Mvc;
 using _1Erronka_API.Repositorioak;
 using _1Erronka_API.DTOak;
 
 namespace _1Erronka_API.Controllers
 {
+    /// <summary>
+    /// Osagaien kontsultarako API amaierako puntuak.
+    /// </summary>
     [ApiController]
     [Route("api/[controller]")]
     public class OsagaiakController : ControllerBase
@@ -15,6 +18,10 @@ namespace _1Erronka_API.Controllers
             _repo = repo;
         }
 
+        /// <summary>
+        /// Osagai guztiak eskuratzen ditu.
+        /// </summary>
+        /// <returns>200 OK erantzuna, OsagaiaDto zerrendarekin.</returns>
         [HttpGet]
         public IActionResult GetAll()
         {
@@ -32,6 +39,11 @@ namespace _1Erronka_API.Controllers
             return Ok(dtoList);
         }
 
+        /// <summary>
+        /// IDaren arabera osagai bat eskuratzen du.
+        /// </summary>
+        /// <param name="id">Osagaiaren identifikatzailea.</param>
+        /// <returns>200 OK (OsagaiaDto) edo 404 Not Found.</returns>
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
