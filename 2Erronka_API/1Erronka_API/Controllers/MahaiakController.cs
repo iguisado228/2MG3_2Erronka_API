@@ -5,6 +5,9 @@ using _1Erronka_API.Modeloak;
 
 namespace _1Erronka_API.Controllers
 {
+    /// <summary>
+    /// Mahaien kudeaketarako API amaierako puntuak.
+    /// </summary>
     [ApiController]
     [Route("api/[controller]")]
     public class MahaiakController : ControllerBase
@@ -16,6 +19,10 @@ namespace _1Erronka_API.Controllers
             _repo = repo;
         }
 
+        /// <summary>
+        /// Mahai guztiak eskuratzen ditu.
+        /// </summary>
+        /// <returns>200 OK erantzuna, MahaiaDto zerrendarekin.</returns>
         [HttpGet]
         public IActionResult GetAll()
         {
@@ -32,6 +39,11 @@ namespace _1Erronka_API.Controllers
             return Ok(dtoList);
         }
 
+        /// <summary>
+        /// Mahai berria sortzen du.
+        /// </summary>
+        /// <param name="dto">Mahaiaren datuak.</param>
+        /// <returns>200 OK erantzuna.</returns>
         [HttpPost]
         public IActionResult Create([FromBody] MahaiaDto dto)
         {
@@ -48,7 +60,12 @@ namespace _1Erronka_API.Controllers
             Console.WriteLine($"Zenbakia: {dto.Zenbakia}, PertsonaKopurua: {dto.PertsonaKopurua}, Kokapena: {dto.Kokapena}");
         }
 
-
+        /// <summary>
+        /// Existitzen den mahai bat eguneratzen du.
+        /// </summary>
+        /// <param name="id">Mahaiaren identifikatzailea.</param>
+        /// <param name="dto">Eguneratzeko mahaiaren datuak.</param>
+        /// <returns>200 OK edo 404 Not Found.</returns>
         [HttpPut("{id}")]
         public IActionResult Update(int id, [FromBody] MahaiaDto dto)
         {
@@ -65,6 +82,11 @@ namespace _1Erronka_API.Controllers
             return Ok();
         }
 
+        /// <summary>
+        /// Mahai bat ezabatzen du.
+        /// </summary>
+        /// <param name="id">Mahaiaren identifikatzailea.</param>
+        /// <returns>200 OK edo 404 Not Found.</returns>
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {

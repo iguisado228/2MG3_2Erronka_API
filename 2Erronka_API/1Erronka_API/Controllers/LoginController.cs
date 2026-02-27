@@ -5,10 +5,18 @@ using Microsoft.AspNetCore.Mvc;
 using System.Text;
 using System.Security.Cryptography;
 
+/// <summary>
+/// Autentifikazioaren (login) API amaierako puntuak.
+/// </summary>
 [ApiController]
 [Route("api/[controller]")]
 public class LoginController : ControllerBase
 {
+    /// <summary>
+    /// Langile baten kredentzialak balioztatzen ditu eta loginaren emaitza itzultzen du.
+    /// </summary>
+    /// <param name="request">Langile-kodea eta pasahitza dituen eskaera.</param>
+    /// <returns>200 OK erantzuna, LoginErantzuna egiturarekin.</returns>
     [HttpPost]
     public IActionResult Login([FromBody] LoginRequest request)
     {
@@ -77,16 +85,28 @@ public class LoginController : ControllerBase
     }
 }
 
+/// <summary>
+/// Login egiteko behar diren datuak.
+/// </summary>
 public class LoginRequest
 {
+    /// <summary>Langilearen kodea.</summary>
     public int Langile_kodea { get; set; }
+    /// <summary>Langilearen pasahitza (testu arrunta).</summary>
     public string Pasahitza { get; set; }
 }
 
+/// <summary>
+/// Loginaren erantzun estandarra.
+/// </summary>
 public class LoginErantzuna
 {
+    /// <summary>Operazioa ongi joan den adierazlea.</summary>
     public bool Ok { get; set; }
+    /// <summary>Errore- edo egoera-kode laburra.</summary>
     public string Code { get; set; } = "";
+    /// <summary>Erabiltzaileari erakusteko mezua.</summary>
     public string Message { get; set; } = "";
+    /// <summary>Login zuzena denean, langilearen datu laburrak.</summary>
     public LangileaDto? Data { get; set; }
 }
