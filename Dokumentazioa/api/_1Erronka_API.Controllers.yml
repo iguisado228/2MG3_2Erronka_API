@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: _1Erronka_API.Controllers
+  commentId: N:_1Erronka_API.Controllers
+  id: _1Erronka_API.Controllers
+  children:
+  - _1Erronka_API.Controllers.ErreserbakController
+  - _1Erronka_API.Controllers.EskariakController
+  - _1Erronka_API.Controllers.LoginController
+  - _1Erronka_API.Controllers.MahaiakController
+  - _1Erronka_API.Controllers.OsagaiakController
+  - _1Erronka_API.Controllers.ProduktuakController
+  langs:
+  - csharp
+  - vb
+  name: _1Erronka_API.Controllers
+  nameWithType: _1Erronka_API.Controllers
+  fullName: _1Erronka_API.Controllers
+  type: Namespace
+  assemblies:
+  - Erronka2Api
+references:
+- uid: _1Erronka_API.Controllers.ErreserbakController
+  commentId: T:_1Erronka_API.Controllers.ErreserbakController
+  href: _1Erronka_API.Controllers.ErreserbakController.html
+  name: ErreserbakController
+  nameWithType: ErreserbakController
+  fullName: _1Erronka_API.Controllers.ErreserbakController
+- uid: _1Erronka_API.Controllers.EskariakController
+  commentId: T:_1Erronka_API.Controllers.EskariakController
+  href: _1Erronka_API.Controllers.EskariakController.html
+  name: EskariakController
+  nameWithType: EskariakController
+  fullName: _1Erronka_API.Controllers.EskariakController
+- uid: _1Erronka_API.Controllers.LoginController
+  commentId: T:_1Erronka_API.Controllers.LoginController
+  href: _1Erronka_API.Controllers.LoginController.html
+  name: LoginController
+  nameWithType: LoginController
+  fullName: _1Erronka_API.Controllers.LoginController
+- uid: _1Erronka_API.Controllers.MahaiakController
+  commentId: T:_1Erronka_API.Controllers.MahaiakController
+  href: _1Erronka_API.Controllers.MahaiakController.html
+  name: MahaiakController
+  nameWithType: MahaiakController
+  fullName: _1Erronka_API.Controllers.MahaiakController
+- uid: _1Erronka_API.Controllers.OsagaiakController
+  commentId: T:_1Erronka_API.Controllers.OsagaiakController
+  href: _1Erronka_API.Controllers.OsagaiakController.html
+  name: OsagaiakController
+  nameWithType: OsagaiakController
+  fullName: _1Erronka_API.Controllers.OsagaiakController
+- uid: _1Erronka_API.Controllers.ProduktuakController
+  commentId: T:_1Erronka_API.Controllers.ProduktuakController
+  href: _1Erronka_API.Controllers.ProduktuakController.html
+  name: ProduktuakController
+  nameWithType: ProduktuakController
+  fullName: _1Erronka_API.Controllers.ProduktuakController

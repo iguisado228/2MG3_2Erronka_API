@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: _1Erronka_API.Modeloak
+  commentId: N:_1Erronka_API.Modeloak
+  id: _1Erronka_API.Modeloak
+  children:
+  - _1Erronka_API.Modeloak.Erreserba
+  - _1Erronka_API.Modeloak.Eskaria
+  - _1Erronka_API.Modeloak.EskariaProduktua
+  - _1Erronka_API.Modeloak.Mahaia
+  - _1Erronka_API.Modeloak.Osagaia
+  - _1Erronka_API.Modeloak.Produktua
+  - _1Erronka_API.Modeloak.ProduktuaOsagaia
+  langs:
+  - csharp
+  - vb
+  name: _1Erronka_API.Modeloak
+  nameWithType: _1Erronka_API.Modeloak
+  fullName: _1Erronka_API.Modeloak
+  type: Namespace
+  assemblies:
+  - Erronka2Api
+references:
+- uid: _1Erronka_API.Modeloak.Erreserba
+  commentId: T:_1Erronka_API.Modeloak.Erreserba
+  parent: _1Erronka_API.Modeloak
+  href: _1Erronka_API.Modeloak.Erreserba.html
+  name: Erreserba
+  nameWithType: Erreserba
+  fullName: _1Erronka_API.Modeloak.Erreserba
+- uid: _1Erronka_API.Modeloak.Eskaria
+  commentId: T:_1Erronka_API.Modeloak.Eskaria
+  parent: _1Erronka_API.Modeloak
+  href: _1Erronka_API.Modeloak.Eskaria.html
+  name: Eskaria
+  nameWithType: Eskaria
+  fullName: _1Erronka_API.Modeloak.Eskaria
+- uid: _1Erronka_API.Modeloak.EskariaProduktua
+  commentId: T:_1Erronka_API.Modeloak.EskariaProduktua
+  href: _1Erronka_API.Modeloak.EskariaProduktua.html
+  name: EskariaProduktua
+  nameWithType: EskariaProduktua
+  fullName: _1Erronka_API.Modeloak.EskariaProduktua
+- uid: _1Erronka_API.Modeloak.Mahaia
+  commentId: T:_1Erronka_API.Modeloak.Mahaia
+  parent: _1Erronka_API.Modeloak
+  href: _1Erronka_API.Modeloak.Mahaia.html
+  name: Mahaia
+  nameWithType: Mahaia
+  fullName: _1Erronka_API.Modeloak.Mahaia
+- uid: _1Erronka_API.Modeloak.Osagaia
+  commentId: T:_1Erronka_API.Modeloak.Osagaia
+  parent: _1Erronka_API.Modeloak
+  href: _1Erronka_API.Modeloak.Osagaia.html
+  name: Osagaia
+  nameWithType: Osagaia
+  fullName: _1Erronka_API.Modeloak.Osagaia
+- uid: _1Erronka_API.Modeloak.Produktua
+  commentId: T:_1Erronka_API.Modeloak.Produktua
+  parent: _1Erronka_API.Modeloak
+  href: _1Erronka_API.Modeloak.Produktua.html
+  name: Produktua
+  nameWithType: Produktua
+  fullName: _1Erronka_API.Modeloak.Produktua
+- uid: _1Erronka_API.Modeloak.ProduktuaOsagaia
+  commentId: T:_1Erronka_API.Modeloak.ProduktuaOsagaia
+  href: _1Erronka_API.Modeloak.ProduktuaOsagaia.html
+  name: ProduktuaOsagaia
+  nameWithType: ProduktuaOsagaia
+  fullName: _1Erronka_API.Modeloak.ProduktuaOsagaia
+- uid: _1Erronka_API.Modeloak
+  commentId: N:_1Erronka_API.Modeloak
+  href: _1Erronka_API.html
+  name: _1Erronka_API.Modeloak
+  nameWithType: _1Erronka_API.Modeloak
+  fullName: _1Erronka_API.Modeloak
+  spec.csharp:
+  - uid: _1Erronka_API
+    name: _1Erronka_API
+    href: _1Erronka_API.html
+  - name: .
+  - uid: _1Erronka_API.Modeloak
+    name: Modeloak
+    href: _1Erronka_API.Modeloak.html
+  spec.vb:
+  - uid: _1Erronka_API
+    name: _1Erronka_API
+    href: _1Erronka_API.html
+  - name: .
+  - uid: _1Erronka_API.Modeloak
+    name: Modeloak
+    href: _1Erronka_API.Modeloak.html

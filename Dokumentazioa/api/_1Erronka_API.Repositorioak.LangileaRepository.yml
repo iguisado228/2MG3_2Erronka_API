@@ -1,0 +1,616 @@
+### YamlMime:ManagedReference
+items:
+- uid: _1Erronka_API.Repositorioak.LangileaRepository
+  commentId: T:_1Erronka_API.Repositorioak.LangileaRepository
+  id: LangileaRepository
+  parent: _1Erronka_API.Repositorioak
+  children:
+  - _1Erronka_API.Repositorioak.LangileaRepository.#ctor(NHibernate.ISessionFactory)
+  - _1Erronka_API.Repositorioak.LangileaRepository.Add(_1Erronka_API.Domain.Langilea)
+  - _1Erronka_API.Repositorioak.LangileaRepository.Get(System.Int32,System.Boolean)
+  - _1Erronka_API.Repositorioak.LangileaRepository.GetAll
+  langs:
+  - csharp
+  - vb
+  name: LangileaRepository
+  nameWithType: LangileaRepository
+  fullName: _1Erronka_API.Repositorioak.LangileaRepository
+  type: Class
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/Repositorioak/LangileaRepository.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: LangileaRepository
+    path: ../2Erronka_API/1Erronka_API/Repositorioak/LangileaRepository.cs
+    startLine: 7
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.Repositorioak
+  syntax:
+    content: public class LangileaRepository
+    content.vb: Public Class LangileaRepository
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: _1Erronka_API.Repositorioak.LangileaRepository.#ctor(NHibernate.ISessionFactory)
+  commentId: M:_1Erronka_API.Repositorioak.LangileaRepository.#ctor(NHibernate.ISessionFactory)
+  id: '#ctor(NHibernate.ISessionFactory)'
+  parent: _1Erronka_API.Repositorioak.LangileaRepository
+  langs:
+  - csharp
+  - vb
+  name: LangileaRepository(ISessionFactory)
+  nameWithType: LangileaRepository.LangileaRepository(ISessionFactory)
+  fullName: _1Erronka_API.Repositorioak.LangileaRepository.LangileaRepository(NHibernate.ISessionFactory)
+  type: Constructor
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/Repositorioak/LangileaRepository.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: .ctor
+    path: ../2Erronka_API/1Erronka_API/Repositorioak/LangileaRepository.cs
+    startLine: 11
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.Repositorioak
+  syntax:
+    content: public LangileaRepository(ISessionFactory sessionFactory)
+    parameters:
+    - id: sessionFactory
+      type: NHibernate.ISessionFactory
+    content.vb: Public Sub New(sessionFactory As ISessionFactory)
+  overload: _1Erronka_API.Repositorioak.LangileaRepository.#ctor*
+  nameWithType.vb: LangileaRepository.New(ISessionFactory)
+  fullName.vb: _1Erronka_API.Repositorioak.LangileaRepository.New(NHibernate.ISessionFactory)
+  name.vb: New(ISessionFactory)
+- uid: _1Erronka_API.Repositorioak.LangileaRepository.Add(_1Erronka_API.Domain.Langilea)
+  commentId: M:_1Erronka_API.Repositorioak.LangileaRepository.Add(_1Erronka_API.Domain.Langilea)
+  id: Add(_1Erronka_API.Domain.Langilea)
+  parent: _1Erronka_API.Repositorioak.LangileaRepository
+  langs:
+  - csharp
+  - vb
+  name: Add(Langilea)
+  nameWithType: LangileaRepository.Add(Langilea)
+  fullName: _1Erronka_API.Repositorioak.LangileaRepository.Add(_1Erronka_API.Domain.Langilea)
+  type: Method
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/Repositorioak/LangileaRepository.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: Add
+    path: ../2Erronka_API/1Erronka_API/Repositorioak/LangileaRepository.cs
+    startLine: 16
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.Repositorioak
+  syntax:
+    content: public void Add(Langilea langilea)
+    parameters:
+    - id: langilea
+      type: _1Erronka_API.Domain.Langilea
+    content.vb: Public Sub Add(langilea As Langilea)
+  overload: _1Erronka_API.Repositorioak.LangileaRepository.Add*
+- uid: _1Erronka_API.Repositorioak.LangileaRepository.Get(System.Int32,System.Boolean)
+  commentId: M:_1Erronka_API.Repositorioak.LangileaRepository.Get(System.Int32,System.Boolean)
+  id: Get(System.Int32,System.Boolean)
+  parent: _1Erronka_API.Repositorioak.LangileaRepository
+  langs:
+  - csharp
+  - vb
+  name: Get(int, bool)
+  nameWithType: LangileaRepository.Get(int, bool)
+  fullName: _1Erronka_API.Repositorioak.LangileaRepository.Get(int, bool)
+  type: Method
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/Repositorioak/LangileaRepository.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: Get
+    path: ../2Erronka_API/1Erronka_API/Repositorioak/LangileaRepository.cs
+    startLine: 25
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.Repositorioak
+  syntax:
+    content: public Langilea? Get(int id, bool eager = false)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: eager
+      type: System.Boolean
+    return:
+      type: _1Erronka_API.Domain.Langilea
+    content.vb: Public Function [Get](id As Integer, eager As Boolean = False) As Langilea
+  overload: _1Erronka_API.Repositorioak.LangileaRepository.Get*
+  nameWithType.vb: LangileaRepository.Get(Integer, Boolean)
+  fullName.vb: _1Erronka_API.Repositorioak.LangileaRepository.Get(Integer, Boolean)
+  name.vb: Get(Integer, Boolean)
+- uid: _1Erronka_API.Repositorioak.LangileaRepository.GetAll
+  commentId: M:_1Erronka_API.Repositorioak.LangileaRepository.GetAll
+  id: GetAll
+  parent: _1Erronka_API.Repositorioak.LangileaRepository
+  langs:
+  - csharp
+  - vb
+  name: GetAll()
+  nameWithType: LangileaRepository.GetAll()
+  fullName: _1Erronka_API.Repositorioak.LangileaRepository.GetAll()
+  type: Method
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/Repositorioak/LangileaRepository.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: GetAll
+    path: ../2Erronka_API/1Erronka_API/Repositorioak/LangileaRepository.cs
+    startLine: 35
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.Repositorioak
+  syntax:
+    content: public IList<Langilea> GetAll()
+    return:
+      type: System.Collections.Generic.IList{_1Erronka_API.Domain.Langilea}
+    content.vb: Public Function GetAll() As IList(Of Langilea)
+  overload: _1Erronka_API.Repositorioak.LangileaRepository.GetAll*
+references:
+- uid: _1Erronka_API.Repositorioak
+  commentId: N:_1Erronka_API.Repositorioak
+  href: _1Erronka_API.html
+  name: _1Erronka_API.Repositorioak
+  nameWithType: _1Erronka_API.Repositorioak
+  fullName: _1Erronka_API.Repositorioak
+  spec.csharp:
+  - uid: _1Erronka_API
+    name: _1Erronka_API
+    href: _1Erronka_API.html
+  - name: .
+  - uid: _1Erronka_API.Repositorioak
+    name: Repositorioak
+    href: _1Erronka_API.Repositorioak.html
+  spec.vb:
+  - uid: _1Erronka_API
+    name: _1Erronka_API
+    href: _1Erronka_API.html
+  - name: .
+  - uid: _1Erronka_API.Repositorioak
+    name: Repositorioak
+    href: _1Erronka_API.Repositorioak.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: _1Erronka_API.Repositorioak.LangileaRepository.#ctor*
+  commentId: Overload:_1Erronka_API.Repositorioak.LangileaRepository.#ctor
+  href: _1Erronka_API.Repositorioak.LangileaRepository.html#_1Erronka_API_Repositorioak_LangileaRepository__ctor_NHibernate_ISessionFactory_
+  name: LangileaRepository
+  nameWithType: LangileaRepository.LangileaRepository
+  fullName: _1Erronka_API.Repositorioak.LangileaRepository.LangileaRepository
+  nameWithType.vb: LangileaRepository.New
+  fullName.vb: _1Erronka_API.Repositorioak.LangileaRepository.New
+  name.vb: New
+- uid: NHibernate.ISessionFactory
+  commentId: T:NHibernate.ISessionFactory
+  parent: NHibernate
+  isExternal: true
+  name: ISessionFactory
+  nameWithType: ISessionFactory
+  fullName: NHibernate.ISessionFactory
+- uid: NHibernate
+  commentId: N:NHibernate
+  isExternal: true
+  name: NHibernate
+  nameWithType: NHibernate
+  fullName: NHibernate
+- uid: _1Erronka_API.Repositorioak.LangileaRepository.Add*
+  commentId: Overload:_1Erronka_API.Repositorioak.LangileaRepository.Add
+  href: _1Erronka_API.Repositorioak.LangileaRepository.html#_1Erronka_API_Repositorioak_LangileaRepository_Add__1Erronka_API_Domain_Langilea_
+  name: Add
+  nameWithType: LangileaRepository.Add
+  fullName: _1Erronka_API.Repositorioak.LangileaRepository.Add
+- uid: _1Erronka_API.Domain.Langilea
+  commentId: T:_1Erronka_API.Domain.Langilea
+  parent: _1Erronka_API.Domain
+  href: _1Erronka_API.Domain.Langilea.html
+  name: Langilea
+  nameWithType: Langilea
+  fullName: _1Erronka_API.Domain.Langilea
+- uid: _1Erronka_API.Domain
+  commentId: N:_1Erronka_API.Domain
+  href: _1Erronka_API.html
+  name: _1Erronka_API.Domain
+  nameWithType: _1Erronka_API.Domain
+  fullName: _1Erronka_API.Domain
+  spec.csharp:
+  - uid: _1Erronka_API
+    name: _1Erronka_API
+    href: _1Erronka_API.html
+  - name: .
+  - uid: _1Erronka_API.Domain
+    name: Domain
+    href: _1Erronka_API.Domain.html
+  spec.vb:
+  - uid: _1Erronka_API
+    name: _1Erronka_API
+    href: _1Erronka_API.html
+  - name: .
+  - uid: _1Erronka_API.Domain
+    name: Domain
+    href: _1Erronka_API.Domain.html
+- uid: _1Erronka_API.Repositorioak.LangileaRepository.Get*
+  commentId: Overload:_1Erronka_API.Repositorioak.LangileaRepository.Get
+  href: _1Erronka_API.Repositorioak.LangileaRepository.html#_1Erronka_API_Repositorioak_LangileaRepository_Get_System_Int32_System_Boolean_
+  name: Get
+  nameWithType: LangileaRepository.Get
+  fullName: _1Erronka_API.Repositorioak.LangileaRepository.Get
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: _1Erronka_API.Repositorioak.LangileaRepository.GetAll*
+  commentId: Overload:_1Erronka_API.Repositorioak.LangileaRepository.GetAll
+  href: _1Erronka_API.Repositorioak.LangileaRepository.html#_1Erronka_API_Repositorioak_LangileaRepository_GetAll
+  name: GetAll
+  nameWithType: LangileaRepository.GetAll
+  fullName: _1Erronka_API.Repositorioak.LangileaRepository.GetAll
+- uid: System.Collections.Generic.IList{_1Erronka_API.Domain.Langilea}
+  commentId: T:System.Collections.Generic.IList{_1Erronka_API.Domain.Langilea}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<Langilea>
+  nameWithType: IList<Langilea>
+  fullName: System.Collections.Generic.IList<_1Erronka_API.Domain.Langilea>
+  nameWithType.vb: IList(Of Langilea)
+  fullName.vb: System.Collections.Generic.IList(Of _1Erronka_API.Domain.Langilea)
+  name.vb: IList(Of Langilea)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: _1Erronka_API.Domain.Langilea
+    name: Langilea
+    href: _1Erronka_API.Domain.Langilea.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: _1Erronka_API.Domain.Langilea
+    name: Langilea
+    href: _1Erronka_API.Domain.Langilea.html
+  - name: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

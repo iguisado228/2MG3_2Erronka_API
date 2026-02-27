@@ -1,0 +1,863 @@
+### YamlMime:ManagedReference
+items:
+- uid: _1Erronka_API.Repositorioak.ErreserbaRepository
+  commentId: T:_1Erronka_API.Repositorioak.ErreserbaRepository
+  id: ErreserbaRepository
+  parent: _1Erronka_API.Repositorioak
+  children:
+  - _1Erronka_API.Repositorioak.ErreserbaRepository.#ctor(NHibernate.ISessionFactory)
+  - _1Erronka_API.Repositorioak.ErreserbaRepository.Add(_1Erronka_API.Modeloak.Erreserba)
+  - _1Erronka_API.Repositorioak.ErreserbaRepository.Delete(_1Erronka_API.Modeloak.Erreserba)
+  - _1Erronka_API.Repositorioak.ErreserbaRepository.ExecuteSerializableTransaction(System.Action)
+  - _1Erronka_API.Repositorioak.ErreserbaRepository.Get(System.Int32)
+  - _1Erronka_API.Repositorioak.ErreserbaRepository.GetAll
+  - _1Erronka_API.Repositorioak.ErreserbaRepository.LortuProduktuakErreserbarako(System.Int32)
+  - _1Erronka_API.Repositorioak.ErreserbaRepository.OpenSession
+  - _1Erronka_API.Repositorioak.ErreserbaRepository.Update(_1Erronka_API.Modeloak.Erreserba)
+  langs:
+  - csharp
+  - vb
+  name: ErreserbaRepository
+  nameWithType: ErreserbaRepository
+  fullName: _1Erronka_API.Repositorioak.ErreserbaRepository
+  type: Class
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: ErreserbaRepository
+    path: ../2Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
+    startLine: 9
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.Repositorioak
+  syntax:
+    content: public class ErreserbaRepository
+    content.vb: Public Class ErreserbaRepository
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: _1Erronka_API.Repositorioak.ErreserbaRepository.#ctor(NHibernate.ISessionFactory)
+  commentId: M:_1Erronka_API.Repositorioak.ErreserbaRepository.#ctor(NHibernate.ISessionFactory)
+  id: '#ctor(NHibernate.ISessionFactory)'
+  parent: _1Erronka_API.Repositorioak.ErreserbaRepository
+  langs:
+  - csharp
+  - vb
+  name: ErreserbaRepository(ISessionFactory)
+  nameWithType: ErreserbaRepository.ErreserbaRepository(ISessionFactory)
+  fullName: _1Erronka_API.Repositorioak.ErreserbaRepository.ErreserbaRepository(NHibernate.ISessionFactory)
+  type: Constructor
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: .ctor
+    path: ../2Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
+    startLine: 13
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.Repositorioak
+  syntax:
+    content: public ErreserbaRepository(ISessionFactory sessionFactory)
+    parameters:
+    - id: sessionFactory
+      type: NHibernate.ISessionFactory
+    content.vb: Public Sub New(sessionFactory As ISessionFactory)
+  overload: _1Erronka_API.Repositorioak.ErreserbaRepository.#ctor*
+  nameWithType.vb: ErreserbaRepository.New(ISessionFactory)
+  fullName.vb: _1Erronka_API.Repositorioak.ErreserbaRepository.New(NHibernate.ISessionFactory)
+  name.vb: New(ISessionFactory)
+- uid: _1Erronka_API.Repositorioak.ErreserbaRepository.GetAll
+  commentId: M:_1Erronka_API.Repositorioak.ErreserbaRepository.GetAll
+  id: GetAll
+  parent: _1Erronka_API.Repositorioak.ErreserbaRepository
+  langs:
+  - csharp
+  - vb
+  name: GetAll()
+  nameWithType: ErreserbaRepository.GetAll()
+  fullName: _1Erronka_API.Repositorioak.ErreserbaRepository.GetAll()
+  type: Method
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: GetAll
+    path: ../2Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
+    startLine: 18
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.Repositorioak
+  syntax:
+    content: public IList<Erreserba> GetAll()
+    return:
+      type: System.Collections.Generic.IList{_1Erronka_API.Modeloak.Erreserba}
+    content.vb: Public Function GetAll() As IList(Of Erreserba)
+  overload: _1Erronka_API.Repositorioak.ErreserbaRepository.GetAll*
+- uid: _1Erronka_API.Repositorioak.ErreserbaRepository.Get(System.Int32)
+  commentId: M:_1Erronka_API.Repositorioak.ErreserbaRepository.Get(System.Int32)
+  id: Get(System.Int32)
+  parent: _1Erronka_API.Repositorioak.ErreserbaRepository
+  langs:
+  - csharp
+  - vb
+  name: Get(int)
+  nameWithType: ErreserbaRepository.Get(int)
+  fullName: _1Erronka_API.Repositorioak.ErreserbaRepository.Get(int)
+  type: Method
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: Get
+    path: ../2Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
+    startLine: 26
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.Repositorioak
+  syntax:
+    content: public Erreserba? Get(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: _1Erronka_API.Modeloak.Erreserba
+    content.vb: Public Function [Get](id As Integer) As Erreserba
+  overload: _1Erronka_API.Repositorioak.ErreserbaRepository.Get*
+  nameWithType.vb: ErreserbaRepository.Get(Integer)
+  fullName.vb: _1Erronka_API.Repositorioak.ErreserbaRepository.Get(Integer)
+  name.vb: Get(Integer)
+- uid: _1Erronka_API.Repositorioak.ErreserbaRepository.Add(_1Erronka_API.Modeloak.Erreserba)
+  commentId: M:_1Erronka_API.Repositorioak.ErreserbaRepository.Add(_1Erronka_API.Modeloak.Erreserba)
+  id: Add(_1Erronka_API.Modeloak.Erreserba)
+  parent: _1Erronka_API.Repositorioak.ErreserbaRepository
+  langs:
+  - csharp
+  - vb
+  name: Add(Erreserba)
+  nameWithType: ErreserbaRepository.Add(Erreserba)
+  fullName: _1Erronka_API.Repositorioak.ErreserbaRepository.Add(_1Erronka_API.Modeloak.Erreserba)
+  type: Method
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: Add
+    path: ../2Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
+    startLine: 31
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.Repositorioak
+  syntax:
+    content: public void Add(Erreserba erreserba)
+    parameters:
+    - id: erreserba
+      type: _1Erronka_API.Modeloak.Erreserba
+    content.vb: Public Sub Add(erreserba As Erreserba)
+  overload: _1Erronka_API.Repositorioak.ErreserbaRepository.Add*
+- uid: _1Erronka_API.Repositorioak.ErreserbaRepository.Update(_1Erronka_API.Modeloak.Erreserba)
+  commentId: M:_1Erronka_API.Repositorioak.ErreserbaRepository.Update(_1Erronka_API.Modeloak.Erreserba)
+  id: Update(_1Erronka_API.Modeloak.Erreserba)
+  parent: _1Erronka_API.Repositorioak.ErreserbaRepository
+  langs:
+  - csharp
+  - vb
+  name: Update(Erreserba)
+  nameWithType: ErreserbaRepository.Update(Erreserba)
+  fullName: _1Erronka_API.Repositorioak.ErreserbaRepository.Update(_1Erronka_API.Modeloak.Erreserba)
+  type: Method
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: Update
+    path: ../2Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
+    startLine: 45
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.Repositorioak
+  syntax:
+    content: public void Update(Erreserba erreserba)
+    parameters:
+    - id: erreserba
+      type: _1Erronka_API.Modeloak.Erreserba
+    content.vb: Public Sub Update(erreserba As Erreserba)
+  overload: _1Erronka_API.Repositorioak.ErreserbaRepository.Update*
+- uid: _1Erronka_API.Repositorioak.ErreserbaRepository.Delete(_1Erronka_API.Modeloak.Erreserba)
+  commentId: M:_1Erronka_API.Repositorioak.ErreserbaRepository.Delete(_1Erronka_API.Modeloak.Erreserba)
+  id: Delete(_1Erronka_API.Modeloak.Erreserba)
+  parent: _1Erronka_API.Repositorioak.ErreserbaRepository
+  langs:
+  - csharp
+  - vb
+  name: Delete(Erreserba)
+  nameWithType: ErreserbaRepository.Delete(Erreserba)
+  fullName: _1Erronka_API.Repositorioak.ErreserbaRepository.Delete(_1Erronka_API.Modeloak.Erreserba)
+  type: Method
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: Delete
+    path: ../2Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
+    startLine: 59
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.Repositorioak
+  syntax:
+    content: public void Delete(Erreserba erreserba)
+    parameters:
+    - id: erreserba
+      type: _1Erronka_API.Modeloak.Erreserba
+    content.vb: Public Sub Delete(erreserba As Erreserba)
+  overload: _1Erronka_API.Repositorioak.ErreserbaRepository.Delete*
+- uid: _1Erronka_API.Repositorioak.ErreserbaRepository.LortuProduktuakErreserbarako(System.Int32)
+  commentId: M:_1Erronka_API.Repositorioak.ErreserbaRepository.LortuProduktuakErreserbarako(System.Int32)
+  id: LortuProduktuakErreserbarako(System.Int32)
+  parent: _1Erronka_API.Repositorioak.ErreserbaRepository
+  langs:
+  - csharp
+  - vb
+  name: LortuProduktuakErreserbarako(int)
+  nameWithType: ErreserbaRepository.LortuProduktuakErreserbarako(int)
+  fullName: _1Erronka_API.Repositorioak.ErreserbaRepository.LortuProduktuakErreserbarako(int)
+  type: Method
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: LortuProduktuakErreserbarako
+    path: ../2Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
+    startLine: 73
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.Repositorioak
+  syntax:
+    content: public List<EskariaProduktuaDto> LortuProduktuakErreserbarako(int erreserbaId)
+    parameters:
+    - id: erreserbaId
+      type: System.Int32
+    return:
+      type: System.Collections.Generic.List{_1Erronka_API.DTOak.EskariaProduktuaDto}
+    content.vb: Public Function LortuProduktuakErreserbarako(erreserbaId As Integer) As List(Of EskariaProduktuaDto)
+  overload: _1Erronka_API.Repositorioak.ErreserbaRepository.LortuProduktuakErreserbarako*
+  nameWithType.vb: ErreserbaRepository.LortuProduktuakErreserbarako(Integer)
+  fullName.vb: _1Erronka_API.Repositorioak.ErreserbaRepository.LortuProduktuakErreserbarako(Integer)
+  name.vb: LortuProduktuakErreserbarako(Integer)
+- uid: _1Erronka_API.Repositorioak.ErreserbaRepository.OpenSession
+  commentId: M:_1Erronka_API.Repositorioak.ErreserbaRepository.OpenSession
+  id: OpenSession
+  parent: _1Erronka_API.Repositorioak.ErreserbaRepository
+  langs:
+  - csharp
+  - vb
+  name: OpenSession()
+  nameWithType: ErreserbaRepository.OpenSession()
+  fullName: _1Erronka_API.Repositorioak.ErreserbaRepository.OpenSession()
+  type: Method
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: OpenSession
+    path: ../2Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
+    startLine: 92
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.Repositorioak
+  syntax:
+    content: public ISession OpenSession()
+    return:
+      type: NHibernate.ISession
+    content.vb: Public Function OpenSession() As ISession
+  overload: _1Erronka_API.Repositorioak.ErreserbaRepository.OpenSession*
+- uid: _1Erronka_API.Repositorioak.ErreserbaRepository.ExecuteSerializableTransaction(System.Action)
+  commentId: M:_1Erronka_API.Repositorioak.ErreserbaRepository.ExecuteSerializableTransaction(System.Action)
+  id: ExecuteSerializableTransaction(System.Action)
+  parent: _1Erronka_API.Repositorioak.ErreserbaRepository
+  langs:
+  - csharp
+  - vb
+  name: ExecuteSerializableTransaction(Action)
+  nameWithType: ErreserbaRepository.ExecuteSerializableTransaction(Action)
+  fullName: _1Erronka_API.Repositorioak.ErreserbaRepository.ExecuteSerializableTransaction(System.Action)
+  type: Method
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: ExecuteSerializableTransaction
+    path: ../2Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
+    startLine: 97
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.Repositorioak
+  syntax:
+    content: public void ExecuteSerializableTransaction(Action action)
+    parameters:
+    - id: action
+      type: System.Action
+    content.vb: Public Sub ExecuteSerializableTransaction(action As Action)
+  overload: _1Erronka_API.Repositorioak.ErreserbaRepository.ExecuteSerializableTransaction*
+references:
+- uid: _1Erronka_API.Repositorioak
+  commentId: N:_1Erronka_API.Repositorioak
+  href: _1Erronka_API.html
+  name: _1Erronka_API.Repositorioak
+  nameWithType: _1Erronka_API.Repositorioak
+  fullName: _1Erronka_API.Repositorioak
+  spec.csharp:
+  - uid: _1Erronka_API
+    name: _1Erronka_API
+    href: _1Erronka_API.html
+  - name: .
+  - uid: _1Erronka_API.Repositorioak
+    name: Repositorioak
+    href: _1Erronka_API.Repositorioak.html
+  spec.vb:
+  - uid: _1Erronka_API
+    name: _1Erronka_API
+    href: _1Erronka_API.html
+  - name: .
+  - uid: _1Erronka_API.Repositorioak
+    name: Repositorioak
+    href: _1Erronka_API.Repositorioak.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: _1Erronka_API.Repositorioak.ErreserbaRepository.#ctor*
+  commentId: Overload:_1Erronka_API.Repositorioak.ErreserbaRepository.#ctor
+  href: _1Erronka_API.Repositorioak.ErreserbaRepository.html#_1Erronka_API_Repositorioak_ErreserbaRepository__ctor_NHibernate_ISessionFactory_
+  name: ErreserbaRepository
+  nameWithType: ErreserbaRepository.ErreserbaRepository
+  fullName: _1Erronka_API.Repositorioak.ErreserbaRepository.ErreserbaRepository
+  nameWithType.vb: ErreserbaRepository.New
+  fullName.vb: _1Erronka_API.Repositorioak.ErreserbaRepository.New
+  name.vb: New
+- uid: NHibernate.ISessionFactory
+  commentId: T:NHibernate.ISessionFactory
+  parent: NHibernate
+  isExternal: true
+  name: ISessionFactory
+  nameWithType: ISessionFactory
+  fullName: NHibernate.ISessionFactory
+- uid: NHibernate
+  commentId: N:NHibernate
+  isExternal: true
+  name: NHibernate
+  nameWithType: NHibernate
+  fullName: NHibernate
+- uid: _1Erronka_API.Repositorioak.ErreserbaRepository.GetAll*
+  commentId: Overload:_1Erronka_API.Repositorioak.ErreserbaRepository.GetAll
+  href: _1Erronka_API.Repositorioak.ErreserbaRepository.html#_1Erronka_API_Repositorioak_ErreserbaRepository_GetAll
+  name: GetAll
+  nameWithType: ErreserbaRepository.GetAll
+  fullName: _1Erronka_API.Repositorioak.ErreserbaRepository.GetAll
+- uid: System.Collections.Generic.IList{_1Erronka_API.Modeloak.Erreserba}
+  commentId: T:System.Collections.Generic.IList{_1Erronka_API.Modeloak.Erreserba}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<Erreserba>
+  nameWithType: IList<Erreserba>
+  fullName: System.Collections.Generic.IList<_1Erronka_API.Modeloak.Erreserba>
+  nameWithType.vb: IList(Of Erreserba)
+  fullName.vb: System.Collections.Generic.IList(Of _1Erronka_API.Modeloak.Erreserba)
+  name.vb: IList(Of Erreserba)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: _1Erronka_API.Modeloak.Erreserba
+    name: Erreserba
+    href: _1Erronka_API.Modeloak.Erreserba.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: _1Erronka_API.Modeloak.Erreserba
+    name: Erreserba
+    href: _1Erronka_API.Modeloak.Erreserba.html
+  - name: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: _1Erronka_API.Repositorioak.ErreserbaRepository.Get*
+  commentId: Overload:_1Erronka_API.Repositorioak.ErreserbaRepository.Get
+  href: _1Erronka_API.Repositorioak.ErreserbaRepository.html#_1Erronka_API_Repositorioak_ErreserbaRepository_Get_System_Int32_
+  name: Get
+  nameWithType: ErreserbaRepository.Get
+  fullName: _1Erronka_API.Repositorioak.ErreserbaRepository.Get
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: _1Erronka_API.Modeloak.Erreserba
+  commentId: T:_1Erronka_API.Modeloak.Erreserba
+  parent: _1Erronka_API.Modeloak
+  href: _1Erronka_API.Modeloak.Erreserba.html
+  name: Erreserba
+  nameWithType: Erreserba
+  fullName: _1Erronka_API.Modeloak.Erreserba
+- uid: _1Erronka_API.Modeloak
+  commentId: N:_1Erronka_API.Modeloak
+  href: _1Erronka_API.html
+  name: _1Erronka_API.Modeloak
+  nameWithType: _1Erronka_API.Modeloak
+  fullName: _1Erronka_API.Modeloak
+  spec.csharp:
+  - uid: _1Erronka_API
+    name: _1Erronka_API
+    href: _1Erronka_API.html
+  - name: .
+  - uid: _1Erronka_API.Modeloak
+    name: Modeloak
+    href: _1Erronka_API.Modeloak.html
+  spec.vb:
+  - uid: _1Erronka_API
+    name: _1Erronka_API
+    href: _1Erronka_API.html
+  - name: .
+  - uid: _1Erronka_API.Modeloak
+    name: Modeloak
+    href: _1Erronka_API.Modeloak.html
+- uid: _1Erronka_API.Repositorioak.ErreserbaRepository.Add*
+  commentId: Overload:_1Erronka_API.Repositorioak.ErreserbaRepository.Add
+  href: _1Erronka_API.Repositorioak.ErreserbaRepository.html#_1Erronka_API_Repositorioak_ErreserbaRepository_Add__1Erronka_API_Modeloak_Erreserba_
+  name: Add
+  nameWithType: ErreserbaRepository.Add
+  fullName: _1Erronka_API.Repositorioak.ErreserbaRepository.Add
+- uid: _1Erronka_API.Repositorioak.ErreserbaRepository.Update*
+  commentId: Overload:_1Erronka_API.Repositorioak.ErreserbaRepository.Update
+  href: _1Erronka_API.Repositorioak.ErreserbaRepository.html#_1Erronka_API_Repositorioak_ErreserbaRepository_Update__1Erronka_API_Modeloak_Erreserba_
+  name: Update
+  nameWithType: ErreserbaRepository.Update
+  fullName: _1Erronka_API.Repositorioak.ErreserbaRepository.Update
+- uid: _1Erronka_API.Repositorioak.ErreserbaRepository.Delete*
+  commentId: Overload:_1Erronka_API.Repositorioak.ErreserbaRepository.Delete
+  href: _1Erronka_API.Repositorioak.ErreserbaRepository.html#_1Erronka_API_Repositorioak_ErreserbaRepository_Delete__1Erronka_API_Modeloak_Erreserba_
+  name: Delete
+  nameWithType: ErreserbaRepository.Delete
+  fullName: _1Erronka_API.Repositorioak.ErreserbaRepository.Delete
+- uid: _1Erronka_API.Repositorioak.ErreserbaRepository.LortuProduktuakErreserbarako*
+  commentId: Overload:_1Erronka_API.Repositorioak.ErreserbaRepository.LortuProduktuakErreserbarako
+  href: _1Erronka_API.Repositorioak.ErreserbaRepository.html#_1Erronka_API_Repositorioak_ErreserbaRepository_LortuProduktuakErreserbarako_System_Int32_
+  name: LortuProduktuakErreserbarako
+  nameWithType: ErreserbaRepository.LortuProduktuakErreserbarako
+  fullName: _1Erronka_API.Repositorioak.ErreserbaRepository.LortuProduktuakErreserbarako
+- uid: System.Collections.Generic.List{_1Erronka_API.DTOak.EskariaProduktuaDto}
+  commentId: T:System.Collections.Generic.List{_1Erronka_API.DTOak.EskariaProduktuaDto}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<EskariaProduktuaDto>
+  nameWithType: List<EskariaProduktuaDto>
+  fullName: System.Collections.Generic.List<_1Erronka_API.DTOak.EskariaProduktuaDto>
+  nameWithType.vb: List(Of EskariaProduktuaDto)
+  fullName.vb: System.Collections.Generic.List(Of _1Erronka_API.DTOak.EskariaProduktuaDto)
+  name.vb: List(Of EskariaProduktuaDto)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: _1Erronka_API.DTOak.EskariaProduktuaDto
+    name: EskariaProduktuaDto
+    href: _1Erronka_API.DTOak.EskariaProduktuaDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: _1Erronka_API.DTOak.EskariaProduktuaDto
+    name: EskariaProduktuaDto
+    href: _1Erronka_API.DTOak.EskariaProduktuaDto.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: _1Erronka_API.Repositorioak.ErreserbaRepository.OpenSession*
+  commentId: Overload:_1Erronka_API.Repositorioak.ErreserbaRepository.OpenSession
+  href: _1Erronka_API.Repositorioak.ErreserbaRepository.html#_1Erronka_API_Repositorioak_ErreserbaRepository_OpenSession
+  name: OpenSession
+  nameWithType: ErreserbaRepository.OpenSession
+  fullName: _1Erronka_API.Repositorioak.ErreserbaRepository.OpenSession
+- uid: NHibernate.ISession
+  commentId: T:NHibernate.ISession
+  parent: NHibernate
+  isExternal: true
+  name: ISession
+  nameWithType: ISession
+  fullName: NHibernate.ISession
+- uid: _1Erronka_API.Repositorioak.ErreserbaRepository.ExecuteSerializableTransaction*
+  commentId: Overload:_1Erronka_API.Repositorioak.ErreserbaRepository.ExecuteSerializableTransaction
+  href: _1Erronka_API.Repositorioak.ErreserbaRepository.html#_1Erronka_API_Repositorioak_ErreserbaRepository_ExecuteSerializableTransaction_System_Action_
+  name: ExecuteSerializableTransaction
+  nameWithType: ErreserbaRepository.ExecuteSerializableTransaction
+  fullName: _1Erronka_API.Repositorioak.ErreserbaRepository.ExecuteSerializableTransaction
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action
+  name: Action
+  nameWithType: Action
+  fullName: System.Action

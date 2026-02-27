@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: _1Erronka_API.Mapeoak
+  commentId: N:_1Erronka_API.Mapeoak
+  id: _1Erronka_API.Mapeoak
+  children:
+  - _1Erronka_API.Mapeoak.ErreserbaMap
+  - _1Erronka_API.Mapeoak.EskariaMap
+  - _1Erronka_API.Mapeoak.LangileaMap
+  - _1Erronka_API.Mapeoak.MahaiaMap
+  - _1Erronka_API.Mapeoak.OsagaiaMap
+  - _1Erronka_API.Mapeoak.ProduktuaMap
+  - _1Erronka_API.Mapeoak.ProduktuaOsagaiaMap
+  langs:
+  - csharp
+  - vb
+  name: _1Erronka_API.Mapeoak
+  nameWithType: _1Erronka_API.Mapeoak
+  fullName: _1Erronka_API.Mapeoak
+  type: Namespace
+  assemblies:
+  - Erronka2Api
+references:
+- uid: _1Erronka_API.Mapeoak.ErreserbaMap
+  commentId: T:_1Erronka_API.Mapeoak.ErreserbaMap
+  href: _1Erronka_API.Mapeoak.ErreserbaMap.html
+  name: ErreserbaMap
+  nameWithType: ErreserbaMap
+  fullName: _1Erronka_API.Mapeoak.ErreserbaMap
+- uid: _1Erronka_API.Mapeoak.EskariaMap
+  commentId: T:_1Erronka_API.Mapeoak.EskariaMap
+  href: _1Erronka_API.Mapeoak.EskariaMap.html
+  name: EskariaMap
+  nameWithType: EskariaMap
+  fullName: _1Erronka_API.Mapeoak.EskariaMap
+- uid: _1Erronka_API.Mapeoak.LangileaMap
+  commentId: T:_1Erronka_API.Mapeoak.LangileaMap
+  href: _1Erronka_API.Mapeoak.LangileaMap.html
+  name: LangileaMap
+  nameWithType: LangileaMap
+  fullName: _1Erronka_API.Mapeoak.LangileaMap
+- uid: _1Erronka_API.Mapeoak.MahaiaMap
+  commentId: T:_1Erronka_API.Mapeoak.MahaiaMap
+  href: _1Erronka_API.Mapeoak.MahaiaMap.html
+  name: MahaiaMap
+  nameWithType: MahaiaMap
+  fullName: _1Erronka_API.Mapeoak.MahaiaMap
+- uid: _1Erronka_API.Mapeoak.OsagaiaMap
+  commentId: T:_1Erronka_API.Mapeoak.OsagaiaMap
+  href: _1Erronka_API.Mapeoak.OsagaiaMap.html
+  name: OsagaiaMap
+  nameWithType: OsagaiaMap
+  fullName: _1Erronka_API.Mapeoak.OsagaiaMap
+- uid: _1Erronka_API.Mapeoak.ProduktuaMap
+  commentId: T:_1Erronka_API.Mapeoak.ProduktuaMap
+  href: _1Erronka_API.Mapeoak.ProduktuaMap.html
+  name: ProduktuaMap
+  nameWithType: ProduktuaMap
+  fullName: _1Erronka_API.Mapeoak.ProduktuaMap
+- uid: _1Erronka_API.Mapeoak.ProduktuaOsagaiaMap
+  commentId: T:_1Erronka_API.Mapeoak.ProduktuaOsagaiaMap
+  href: _1Erronka_API.Mapeoak.ProduktuaOsagaiaMap.html
+  name: ProduktuaOsagaiaMap
+  nameWithType: ProduktuaOsagaiaMap
+  fullName: _1Erronka_API.Mapeoak.ProduktuaOsagaiaMap

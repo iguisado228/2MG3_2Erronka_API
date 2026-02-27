@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: _1Erronka_API
+  commentId: N:_1Erronka_API
+  id: _1Erronka_API
+  children:
+  - _1Erronka_API.NHibernateHelper
+  langs:
+  - csharp
+  - vb
+  name: _1Erronka_API
+  nameWithType: _1Erronka_API
+  fullName: _1Erronka_API
+  type: Namespace
+  assemblies:
+  - Erronka2Api
+references:
+- uid: _1Erronka_API.NHibernateHelper
+  commentId: T:_1Erronka_API.NHibernateHelper
+  href: _1Erronka_API.NHibernateHelper.html
+  name: NHibernateHelper
+  nameWithType: NHibernateHelper
+  fullName: _1Erronka_API.NHibernateHelper

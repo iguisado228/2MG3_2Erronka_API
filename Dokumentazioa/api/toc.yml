@@ -1,0 +1,157 @@
+### YamlMime:TableOfContent
+items:
+- uid: _1Erronka_API
+  name: _1Erronka_API
+  type: Namespace
+  items:
+  - uid: _1Erronka_API.NHibernateHelper
+    name: NHibernateHelper
+    type: Class
+- uid: _1Erronka_API.Controllers
+  name: _1Erronka_API.Controllers
+  type: Namespace
+  items:
+  - uid: _1Erronka_API.Controllers.ErreserbakController
+    name: ErreserbakController
+    type: Class
+  - uid: _1Erronka_API.Controllers.EskariakController
+    name: EskariakController
+    type: Class
+  - uid: _1Erronka_API.Controllers.LoginController
+    name: LoginController
+    type: Class
+  - uid: _1Erronka_API.Controllers.MahaiakController
+    name: MahaiakController
+    type: Class
+  - uid: _1Erronka_API.Controllers.OsagaiakController
+    name: OsagaiakController
+    type: Class
+  - uid: _1Erronka_API.Controllers.ProduktuakController
+    name: ProduktuakController
+    type: Class
+- uid: _1Erronka_API.DTOak
+  name: _1Erronka_API.DTOak
+  type: Namespace
+  items:
+  - uid: _1Erronka_API.DTOak.ErreserbaDto
+    name: ErreserbaDto
+    type: Class
+  - uid: _1Erronka_API.DTOak.ErreserbaOrdainduDto
+    name: ErreserbaOrdainduDto
+    type: Class
+  - uid: _1Erronka_API.DTOak.ErreserbaSortuDto
+    name: ErreserbaSortuDto
+    type: Class
+  - uid: _1Erronka_API.DTOak.EskariaDto
+    name: EskariaDto
+    type: Class
+  - uid: _1Erronka_API.DTOak.EskariaProduktuaDto
+    name: EskariaProduktuaDto
+    type: Class
+  - uid: _1Erronka_API.DTOak.EskariaProduktuaSortuDto
+    name: EskariaProduktuaSortuDto
+    type: Class
+  - uid: _1Erronka_API.DTOak.EskariaSortuDto
+    name: EskariaSortuDto
+    type: Class
+  - uid: _1Erronka_API.DTOak.LangileaDto
+    name: LangileaDto
+    type: Class
+  - uid: _1Erronka_API.DTOak.LoginErantzuna
+    name: LoginErantzuna
+    type: Class
+  - uid: _1Erronka_API.DTOak.LoginRequest
+    name: LoginRequest
+    type: Class
+  - uid: _1Erronka_API.DTOak.MahaiaDto
+    name: MahaiaDto
+    type: Class
+  - uid: _1Erronka_API.DTOak.OsagaiaDto
+    name: OsagaiaDto
+    type: Class
+  - uid: _1Erronka_API.DTOak.ProduktuaDto
+    name: ProduktuaDto
+    type: Class
+- uid: _1Erronka_API.Domain
+  name: _1Erronka_API.Domain
+  type: Namespace
+  items:
+  - uid: _1Erronka_API.Domain.Langilea
+    name: Langilea
+    type: Class
+- uid: _1Erronka_API.Mapeoak
+  name: _1Erronka_API.Mapeoak
+  type: Namespace
+  items:
+  - uid: _1Erronka_API.Mapeoak.ErreserbaMap
+    name: ErreserbaMap
+    type: Class
+  - uid: _1Erronka_API.Mapeoak.EskariaMap
+    name: EskariaMap
+    type: Class
+  - uid: _1Erronka_API.Mapeoak.LangileaMap
+    name: LangileaMap
+    type: Class
+  - uid: _1Erronka_API.Mapeoak.MahaiaMap
+    name: MahaiaMap
+    type: Class
+  - uid: _1Erronka_API.Mapeoak.OsagaiaMap
+    name: OsagaiaMap
+    type: Class
+  - uid: _1Erronka_API.Mapeoak.ProduktuaMap
+    name: ProduktuaMap
+    type: Class
+  - uid: _1Erronka_API.Mapeoak.ProduktuaOsagaiaMap
+    name: ProduktuaOsagaiaMap
+    type: Class
+- uid: _1Erronka_API.Modeloak
+  name: _1Erronka_API.Modeloak
+  type: Namespace
+  items:
+  - uid: _1Erronka_API.Modeloak.Erreserba
+    name: Erreserba
+    type: Class
+  - uid: _1Erronka_API.Modeloak.Eskaria
+    name: Eskaria
+    type: Class
+  - uid: _1Erronka_API.Modeloak.EskariaProduktua
+    name: EskariaProduktua
+    type: Class
+  - uid: _1Erronka_API.Modeloak.Mahaia
+    name: Mahaia
+    type: Class
+  - uid: _1Erronka_API.Modeloak.Osagaia
+    name: Osagaia
+    type: Class
+  - uid: _1Erronka_API.Modeloak.Produktua
+    name: Produktua
+    type: Class
+  - uid: _1Erronka_API.Modeloak.ProduktuaOsagaia
+    name: ProduktuaOsagaia
+    type: Class
+- uid: _1Erronka_API.Repositorioak
+  name: _1Erronka_API.Repositorioak
+  type: Namespace
+  items:
+  - uid: _1Erronka_API.Repositorioak.ErreserbaRepository
+    name: ErreserbaRepository
+    type: Class
+  - uid: _1Erronka_API.Repositorioak.EskariaRepository
+    name: EskariaRepository
+    type: Class
+  - uid: _1Erronka_API.Repositorioak.LangileaRepository
+    name: LangileaRepository
+    type: Class
+  - uid: _1Erronka_API.Repositorioak.MahaiaRepository
+    name: MahaiaRepository
+    type: Class
+  - uid: _1Erronka_API.Repositorioak.OsagaiaRepository
+    name: OsagaiaRepository
+    type: Class
+  - uid: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository
+    name: ProduktuaOsagaiaRepository
+    type: Class
+  - uid: _1Erronka_API.Repositorioak.ProduktuaRepository
+    name: ProduktuaRepository
+    type: Class
+memberLayout: SamePage

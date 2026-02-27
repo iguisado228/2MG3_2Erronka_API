@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: _1Erronka_API.Domain
+  commentId: N:_1Erronka_API.Domain
+  id: _1Erronka_API.Domain
+  children:
+  - _1Erronka_API.Domain.Langilea
+  langs:
+  - csharp
+  - vb
+  name: _1Erronka_API.Domain
+  nameWithType: _1Erronka_API.Domain
+  fullName: _1Erronka_API.Domain
+  type: Namespace
+  assemblies:
+  - Erronka2Api
+references:
+- uid: _1Erronka_API.Domain.Langilea
+  commentId: T:_1Erronka_API.Domain.Langilea
+  parent: _1Erronka_API.Domain
+  href: _1Erronka_API.Domain.Langilea.html
+  name: Langilea
+  nameWithType: Langilea
+  fullName: _1Erronka_API.Domain.Langilea
+- uid: _1Erronka_API.Domain
+  commentId: N:_1Erronka_API.Domain
+  href: _1Erronka_API.html
+  name: _1Erronka_API.Domain
+  nameWithType: _1Erronka_API.Domain
+  fullName: _1Erronka_API.Domain
+  spec.csharp:
+  - uid: _1Erronka_API
+    name: _1Erronka_API
+    href: _1Erronka_API.html
+  - name: .
+  - uid: _1Erronka_API.Domain
+    name: Domain
+    href: _1Erronka_API.Domain.html
+  spec.vb:
+  - uid: _1Erronka_API
+    name: _1Erronka_API
+    href: _1Erronka_API.html
+  - name: .
+  - uid: _1Erronka_API.Domain
+    name: Domain
+    href: _1Erronka_API.Domain.html

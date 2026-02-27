@@ -1,0 +1,93 @@
+### YamlMime:ManagedReference
+items:
+- uid: _1Erronka_API.Repositorioak
+  commentId: N:_1Erronka_API.Repositorioak
+  id: _1Erronka_API.Repositorioak
+  children:
+  - _1Erronka_API.Repositorioak.ErreserbaRepository
+  - _1Erronka_API.Repositorioak.EskariaRepository
+  - _1Erronka_API.Repositorioak.LangileaRepository
+  - _1Erronka_API.Repositorioak.MahaiaRepository
+  - _1Erronka_API.Repositorioak.OsagaiaRepository
+  - _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository
+  - _1Erronka_API.Repositorioak.ProduktuaRepository
+  langs:
+  - csharp
+  - vb
+  name: _1Erronka_API.Repositorioak
+  nameWithType: _1Erronka_API.Repositorioak
+  fullName: _1Erronka_API.Repositorioak
+  type: Namespace
+  assemblies:
+  - Erronka2Api
+references:
+- uid: _1Erronka_API.Repositorioak.ErreserbaRepository
+  commentId: T:_1Erronka_API.Repositorioak.ErreserbaRepository
+  parent: _1Erronka_API.Repositorioak
+  href: _1Erronka_API.Repositorioak.ErreserbaRepository.html
+  name: ErreserbaRepository
+  nameWithType: ErreserbaRepository
+  fullName: _1Erronka_API.Repositorioak.ErreserbaRepository
+- uid: _1Erronka_API.Repositorioak.EskariaRepository
+  commentId: T:_1Erronka_API.Repositorioak.EskariaRepository
+  parent: _1Erronka_API.Repositorioak
+  href: _1Erronka_API.Repositorioak.EskariaRepository.html
+  name: EskariaRepository
+  nameWithType: EskariaRepository
+  fullName: _1Erronka_API.Repositorioak.EskariaRepository
+- uid: _1Erronka_API.Repositorioak.LangileaRepository
+  commentId: T:_1Erronka_API.Repositorioak.LangileaRepository
+  href: _1Erronka_API.Repositorioak.LangileaRepository.html
+  name: LangileaRepository
+  nameWithType: LangileaRepository
+  fullName: _1Erronka_API.Repositorioak.LangileaRepository
+- uid: _1Erronka_API.Repositorioak.MahaiaRepository
+  commentId: T:_1Erronka_API.Repositorioak.MahaiaRepository
+  parent: _1Erronka_API.Repositorioak
+  href: _1Erronka_API.Repositorioak.MahaiaRepository.html
+  name: MahaiaRepository
+  nameWithType: MahaiaRepository
+  fullName: _1Erronka_API.Repositorioak.MahaiaRepository
+- uid: _1Erronka_API.Repositorioak.OsagaiaRepository
+  commentId: T:_1Erronka_API.Repositorioak.OsagaiaRepository
+  parent: _1Erronka_API.Repositorioak
+  href: _1Erronka_API.Repositorioak.OsagaiaRepository.html
+  name: OsagaiaRepository
+  nameWithType: OsagaiaRepository
+  fullName: _1Erronka_API.Repositorioak.OsagaiaRepository
+- uid: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository
+  commentId: T:_1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository
+  parent: _1Erronka_API.Repositorioak
+  href: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.html
+  name: ProduktuaOsagaiaRepository
+  nameWithType: ProduktuaOsagaiaRepository
+  fullName: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository
+- uid: _1Erronka_API.Repositorioak.ProduktuaRepository
+  commentId: T:_1Erronka_API.Repositorioak.ProduktuaRepository
+  parent: _1Erronka_API.Repositorioak
+  href: _1Erronka_API.Repositorioak.ProduktuaRepository.html
+  name: ProduktuaRepository
+  nameWithType: ProduktuaRepository
+  fullName: _1Erronka_API.Repositorioak.ProduktuaRepository
+- uid: _1Erronka_API.Repositorioak
+  commentId: N:_1Erronka_API.Repositorioak
+  href: _1Erronka_API.html
+  name: _1Erronka_API.Repositorioak
+  nameWithType: _1Erronka_API.Repositorioak
+  fullName: _1Erronka_API.Repositorioak
+  spec.csharp:
+  - uid: _1Erronka_API
+    name: _1Erronka_API
+    href: _1Erronka_API.html
+  - name: .
+  - uid: _1Erronka_API.Repositorioak
+    name: Repositorioak
+    href: _1Erronka_API.Repositorioak.html
+  spec.vb:
+  - uid: _1Erronka_API
+    name: _1Erronka_API
+    href: _1Erronka_API.html
+  - name: .
+  - uid: _1Erronka_API.Repositorioak
+    name: Repositorioak
+    href: _1Erronka_API.Repositorioak.html

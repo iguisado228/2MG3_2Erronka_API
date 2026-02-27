@@ -1,0 +1,599 @@
+### YamlMime:ManagedReference
+items:
+- uid: _1Erronka_API.DTOak.LangileaDto
+  commentId: T:_1Erronka_API.DTOak.LangileaDto
+  id: LangileaDto
+  parent: _1Erronka_API.DTOak
+  children:
+  - _1Erronka_API.DTOak.LangileaDto.Erabiltzaile_izena
+  - _1Erronka_API.DTOak.LangileaDto.Gerentea
+  - _1Erronka_API.DTOak.LangileaDto.Id
+  - _1Erronka_API.DTOak.LangileaDto.Izena
+  - _1Erronka_API.DTOak.LangileaDto.Langile_kodea
+  - _1Erronka_API.DTOak.LangileaDto.Pasahitza
+  - _1Erronka_API.DTOak.LangileaDto.TpvSarrera
+  langs:
+  - csharp
+  - vb
+  name: LangileaDto
+  nameWithType: LangileaDto
+  fullName: _1Erronka_API.DTOak.LangileaDto
+  type: Class
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: LangileaDto
+    path: ../2Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
+    startLine: 5
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.DTOak
+  summary: Langile baten datu-laburpena, login eta bestelako erantzunetan erabiltzeko.
+  example: []
+  syntax:
+    content: public class LangileaDto
+    content.vb: Public Class LangileaDto
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: _1Erronka_API.DTOak.LangileaDto.Id
+  commentId: P:_1Erronka_API.DTOak.LangileaDto.Id
+  id: Id
+  parent: _1Erronka_API.DTOak.LangileaDto
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: LangileaDto.Id
+  fullName: _1Erronka_API.DTOak.LangileaDto.Id
+  type: Property
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: Id
+    path: ../2Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
+    startLine: 8
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.DTOak
+  summary: Langilearen identifikatzailea.
+  example: []
+  syntax:
+    content: public virtual int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Id As Integer
+  overload: _1Erronka_API.DTOak.LangileaDto.Id*
+- uid: _1Erronka_API.DTOak.LangileaDto.Izena
+  commentId: P:_1Erronka_API.DTOak.LangileaDto.Izena
+  id: Izena
+  parent: _1Erronka_API.DTOak.LangileaDto
+  langs:
+  - csharp
+  - vb
+  name: Izena
+  nameWithType: LangileaDto.Izena
+  fullName: _1Erronka_API.DTOak.LangileaDto.Izena
+  type: Property
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: Izena
+    path: ../2Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
+    startLine: 10
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.DTOak
+  summary: Langilearen izena.
+  example: []
+  syntax:
+    content: public virtual string Izena { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Izena As String
+  overload: _1Erronka_API.DTOak.LangileaDto.Izena*
+- uid: _1Erronka_API.DTOak.LangileaDto.Erabiltzaile_izena
+  commentId: P:_1Erronka_API.DTOak.LangileaDto.Erabiltzaile_izena
+  id: Erabiltzaile_izena
+  parent: _1Erronka_API.DTOak.LangileaDto
+  langs:
+  - csharp
+  - vb
+  name: Erabiltzaile_izena
+  nameWithType: LangileaDto.Erabiltzaile_izena
+  fullName: _1Erronka_API.DTOak.LangileaDto.Erabiltzaile_izena
+  type: Property
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: Erabiltzaile_izena
+    path: ../2Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
+    startLine: 12
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.DTOak
+  summary: Langilearen erabiltzaile-izena.
+  example: []
+  syntax:
+    content: public virtual string Erabiltzaile_izena { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Erabiltzaile_izena As String
+  overload: _1Erronka_API.DTOak.LangileaDto.Erabiltzaile_izena*
+- uid: _1Erronka_API.DTOak.LangileaDto.Langile_kodea
+  commentId: P:_1Erronka_API.DTOak.LangileaDto.Langile_kodea
+  id: Langile_kodea
+  parent: _1Erronka_API.DTOak.LangileaDto
+  langs:
+  - csharp
+  - vb
+  name: Langile_kodea
+  nameWithType: LangileaDto.Langile_kodea
+  fullName: _1Erronka_API.DTOak.LangileaDto.Langile_kodea
+  type: Property
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: Langile_kodea
+    path: ../2Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
+    startLine: 14
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.DTOak
+  summary: Langilearen kodea.
+  example: []
+  syntax:
+    content: public int Langile_kodea { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Langile_kodea As Integer
+  overload: _1Erronka_API.DTOak.LangileaDto.Langile_kodea*
+- uid: _1Erronka_API.DTOak.LangileaDto.Pasahitza
+  commentId: P:_1Erronka_API.DTOak.LangileaDto.Pasahitza
+  id: Pasahitza
+  parent: _1Erronka_API.DTOak.LangileaDto
+  langs:
+  - csharp
+  - vb
+  name: Pasahitza
+  nameWithType: LangileaDto.Pasahitza
+  fullName: _1Erronka_API.DTOak.LangileaDto.Pasahitza
+  type: Property
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: Pasahitza
+    path: ../2Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
+    startLine: 16
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.DTOak
+  summary: Langilearen pasahitza (APIan ez da beti bidaltzen).
+  example: []
+  syntax:
+    content: public virtual string Pasahitza { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Pasahitza As String
+  overload: _1Erronka_API.DTOak.LangileaDto.Pasahitza*
+- uid: _1Erronka_API.DTOak.LangileaDto.Gerentea
+  commentId: P:_1Erronka_API.DTOak.LangileaDto.Gerentea
+  id: Gerentea
+  parent: _1Erronka_API.DTOak.LangileaDto
+  langs:
+  - csharp
+  - vb
+  name: Gerentea
+  nameWithType: LangileaDto.Gerentea
+  fullName: _1Erronka_API.DTOak.LangileaDto.Gerentea
+  type: Property
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: Gerentea
+    path: ../2Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
+    startLine: 18
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.DTOak
+  summary: Gerentea den adierazlea.
+  example: []
+  syntax:
+    content: public virtual bool Gerentea { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Gerentea As Boolean
+  overload: _1Erronka_API.DTOak.LangileaDto.Gerentea*
+- uid: _1Erronka_API.DTOak.LangileaDto.TpvSarrera
+  commentId: P:_1Erronka_API.DTOak.LangileaDto.TpvSarrera
+  id: TpvSarrera
+  parent: _1Erronka_API.DTOak.LangileaDto
+  langs:
+  - csharp
+  - vb
+  name: TpvSarrera
+  nameWithType: LangileaDto.TpvSarrera
+  fullName: _1Erronka_API.DTOak.LangileaDto.TpvSarrera
+  type: Property
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: TpvSarrera
+    path: ../2Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
+    startLine: 20
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.DTOak
+  summary: TPV-ra sartzeko baimena duen adierazlea.
+  example: []
+  syntax:
+    content: public virtual bool TpvSarrera { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property TpvSarrera As Boolean
+  overload: _1Erronka_API.DTOak.LangileaDto.TpvSarrera*
+references:
+- uid: _1Erronka_API.DTOak
+  commentId: N:_1Erronka_API.DTOak
+  href: _1Erronka_API.html
+  name: _1Erronka_API.DTOak
+  nameWithType: _1Erronka_API.DTOak
+  fullName: _1Erronka_API.DTOak
+  spec.csharp:
+  - uid: _1Erronka_API
+    name: _1Erronka_API
+    href: _1Erronka_API.html
+  - name: .
+  - uid: _1Erronka_API.DTOak
+    name: DTOak
+    href: _1Erronka_API.DTOak.html
+  spec.vb:
+  - uid: _1Erronka_API
+    name: _1Erronka_API
+    href: _1Erronka_API.html
+  - name: .
+  - uid: _1Erronka_API.DTOak
+    name: DTOak
+    href: _1Erronka_API.DTOak.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: _1Erronka_API.DTOak.LangileaDto.Id*
+  commentId: Overload:_1Erronka_API.DTOak.LangileaDto.Id
+  href: _1Erronka_API.DTOak.LangileaDto.html#_1Erronka_API_DTOak_LangileaDto_Id
+  name: Id
+  nameWithType: LangileaDto.Id
+  fullName: _1Erronka_API.DTOak.LangileaDto.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: _1Erronka_API.DTOak.LangileaDto.Izena*
+  commentId: Overload:_1Erronka_API.DTOak.LangileaDto.Izena
+  href: _1Erronka_API.DTOak.LangileaDto.html#_1Erronka_API_DTOak_LangileaDto_Izena
+  name: Izena
+  nameWithType: LangileaDto.Izena
+  fullName: _1Erronka_API.DTOak.LangileaDto.Izena
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: _1Erronka_API.DTOak.LangileaDto.Erabiltzaile_izena*
+  commentId: Overload:_1Erronka_API.DTOak.LangileaDto.Erabiltzaile_izena
+  href: _1Erronka_API.DTOak.LangileaDto.html#_1Erronka_API_DTOak_LangileaDto_Erabiltzaile_izena
+  name: Erabiltzaile_izena
+  nameWithType: LangileaDto.Erabiltzaile_izena
+  fullName: _1Erronka_API.DTOak.LangileaDto.Erabiltzaile_izena
+- uid: _1Erronka_API.DTOak.LangileaDto.Langile_kodea*
+  commentId: Overload:_1Erronka_API.DTOak.LangileaDto.Langile_kodea
+  href: _1Erronka_API.DTOak.LangileaDto.html#_1Erronka_API_DTOak_LangileaDto_Langile_kodea
+  name: Langile_kodea
+  nameWithType: LangileaDto.Langile_kodea
+  fullName: _1Erronka_API.DTOak.LangileaDto.Langile_kodea
+- uid: _1Erronka_API.DTOak.LangileaDto.Pasahitza*
+  commentId: Overload:_1Erronka_API.DTOak.LangileaDto.Pasahitza
+  href: _1Erronka_API.DTOak.LangileaDto.html#_1Erronka_API_DTOak_LangileaDto_Pasahitza
+  name: Pasahitza
+  nameWithType: LangileaDto.Pasahitza
+  fullName: _1Erronka_API.DTOak.LangileaDto.Pasahitza
+- uid: _1Erronka_API.DTOak.LangileaDto.Gerentea*
+  commentId: Overload:_1Erronka_API.DTOak.LangileaDto.Gerentea
+  href: _1Erronka_API.DTOak.LangileaDto.html#_1Erronka_API_DTOak_LangileaDto_Gerentea
+  name: Gerentea
+  nameWithType: LangileaDto.Gerentea
+  fullName: _1Erronka_API.DTOak.LangileaDto.Gerentea
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: _1Erronka_API.DTOak.LangileaDto.TpvSarrera*
+  commentId: Overload:_1Erronka_API.DTOak.LangileaDto.TpvSarrera
+  href: _1Erronka_API.DTOak.LangileaDto.html#_1Erronka_API_DTOak_LangileaDto_TpvSarrera
+  name: TpvSarrera
+  nameWithType: LangileaDto.TpvSarrera
+  fullName: _1Erronka_API.DTOak.LangileaDto.TpvSarrera

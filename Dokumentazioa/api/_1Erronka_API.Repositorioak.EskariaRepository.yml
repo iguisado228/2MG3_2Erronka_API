@@ -1,0 +1,719 @@
+### YamlMime:ManagedReference
+items:
+- uid: _1Erronka_API.Repositorioak.EskariaRepository
+  commentId: T:_1Erronka_API.Repositorioak.EskariaRepository
+  id: EskariaRepository
+  parent: _1Erronka_API.Repositorioak
+  children:
+  - _1Erronka_API.Repositorioak.EskariaRepository.#ctor(NHibernate.ISessionFactory)
+  - _1Erronka_API.Repositorioak.EskariaRepository.Add(_1Erronka_API.Modeloak.Eskaria)
+  - _1Erronka_API.Repositorioak.EskariaRepository.Delete(_1Erronka_API.Modeloak.Eskaria)
+  - _1Erronka_API.Repositorioak.EskariaRepository.ExecuteSerializableTransaction(System.Action)
+  - _1Erronka_API.Repositorioak.EskariaRepository.Get(System.Int32)
+  - _1Erronka_API.Repositorioak.EskariaRepository.GetAll
+  - _1Erronka_API.Repositorioak.EskariaRepository.Update(_1Erronka_API.Modeloak.Eskaria)
+  langs:
+  - csharp
+  - vb
+  name: EskariaRepository
+  nameWithType: EskariaRepository
+  fullName: _1Erronka_API.Repositorioak.EskariaRepository
+  type: Class
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/Repositorioak/EskariaRepository.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: EskariaRepository
+    path: ../2Erronka_API/1Erronka_API/Repositorioak/EskariaRepository.cs
+    startLine: 5
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.Repositorioak
+  syntax:
+    content: public class EskariaRepository
+    content.vb: Public Class EskariaRepository
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: _1Erronka_API.Repositorioak.EskariaRepository.#ctor(NHibernate.ISessionFactory)
+  commentId: M:_1Erronka_API.Repositorioak.EskariaRepository.#ctor(NHibernate.ISessionFactory)
+  id: '#ctor(NHibernate.ISessionFactory)'
+  parent: _1Erronka_API.Repositorioak.EskariaRepository
+  langs:
+  - csharp
+  - vb
+  name: EskariaRepository(ISessionFactory)
+  nameWithType: EskariaRepository.EskariaRepository(ISessionFactory)
+  fullName: _1Erronka_API.Repositorioak.EskariaRepository.EskariaRepository(NHibernate.ISessionFactory)
+  type: Constructor
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/Repositorioak/EskariaRepository.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: .ctor
+    path: ../2Erronka_API/1Erronka_API/Repositorioak/EskariaRepository.cs
+    startLine: 9
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.Repositorioak
+  syntax:
+    content: public EskariaRepository(ISessionFactory sessionFactory)
+    parameters:
+    - id: sessionFactory
+      type: NHibernate.ISessionFactory
+    content.vb: Public Sub New(sessionFactory As ISessionFactory)
+  overload: _1Erronka_API.Repositorioak.EskariaRepository.#ctor*
+  nameWithType.vb: EskariaRepository.New(ISessionFactory)
+  fullName.vb: _1Erronka_API.Repositorioak.EskariaRepository.New(NHibernate.ISessionFactory)
+  name.vb: New(ISessionFactory)
+- uid: _1Erronka_API.Repositorioak.EskariaRepository.GetAll
+  commentId: M:_1Erronka_API.Repositorioak.EskariaRepository.GetAll
+  id: GetAll
+  parent: _1Erronka_API.Repositorioak.EskariaRepository
+  langs:
+  - csharp
+  - vb
+  name: GetAll()
+  nameWithType: EskariaRepository.GetAll()
+  fullName: _1Erronka_API.Repositorioak.EskariaRepository.GetAll()
+  type: Method
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/Repositorioak/EskariaRepository.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: GetAll
+    path: ../2Erronka_API/1Erronka_API/Repositorioak/EskariaRepository.cs
+    startLine: 15
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.Repositorioak
+  syntax:
+    content: public IList<Eskaria> GetAll()
+    return:
+      type: System.Collections.Generic.IList{_1Erronka_API.Modeloak.Eskaria}
+    content.vb: Public Function GetAll() As IList(Of Eskaria)
+  overload: _1Erronka_API.Repositorioak.EskariaRepository.GetAll*
+- uid: _1Erronka_API.Repositorioak.EskariaRepository.Get(System.Int32)
+  commentId: M:_1Erronka_API.Repositorioak.EskariaRepository.Get(System.Int32)
+  id: Get(System.Int32)
+  parent: _1Erronka_API.Repositorioak.EskariaRepository
+  langs:
+  - csharp
+  - vb
+  name: Get(int)
+  nameWithType: EskariaRepository.Get(int)
+  fullName: _1Erronka_API.Repositorioak.EskariaRepository.Get(int)
+  type: Method
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/Repositorioak/EskariaRepository.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: Get
+    path: ../2Erronka_API/1Erronka_API/Repositorioak/EskariaRepository.cs
+    startLine: 17
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.Repositorioak
+  syntax:
+    content: public Eskaria? Get(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: _1Erronka_API.Modeloak.Eskaria
+    content.vb: Public Function [Get](id As Integer) As Eskaria
+  overload: _1Erronka_API.Repositorioak.EskariaRepository.Get*
+  nameWithType.vb: EskariaRepository.Get(Integer)
+  fullName.vb: _1Erronka_API.Repositorioak.EskariaRepository.Get(Integer)
+  name.vb: Get(Integer)
+- uid: _1Erronka_API.Repositorioak.EskariaRepository.Add(_1Erronka_API.Modeloak.Eskaria)
+  commentId: M:_1Erronka_API.Repositorioak.EskariaRepository.Add(_1Erronka_API.Modeloak.Eskaria)
+  id: Add(_1Erronka_API.Modeloak.Eskaria)
+  parent: _1Erronka_API.Repositorioak.EskariaRepository
+  langs:
+  - csharp
+  - vb
+  name: Add(Eskaria)
+  nameWithType: EskariaRepository.Add(Eskaria)
+  fullName: _1Erronka_API.Repositorioak.EskariaRepository.Add(_1Erronka_API.Modeloak.Eskaria)
+  type: Method
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/Repositorioak/EskariaRepository.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: Add
+    path: ../2Erronka_API/1Erronka_API/Repositorioak/EskariaRepository.cs
+    startLine: 20
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.Repositorioak
+  syntax:
+    content: public void Add(Eskaria eskaria)
+    parameters:
+    - id: eskaria
+      type: _1Erronka_API.Modeloak.Eskaria
+    content.vb: Public Sub Add(eskaria As Eskaria)
+  overload: _1Erronka_API.Repositorioak.EskariaRepository.Add*
+- uid: _1Erronka_API.Repositorioak.EskariaRepository.Update(_1Erronka_API.Modeloak.Eskaria)
+  commentId: M:_1Erronka_API.Repositorioak.EskariaRepository.Update(_1Erronka_API.Modeloak.Eskaria)
+  id: Update(_1Erronka_API.Modeloak.Eskaria)
+  parent: _1Erronka_API.Repositorioak.EskariaRepository
+  langs:
+  - csharp
+  - vb
+  name: Update(Eskaria)
+  nameWithType: EskariaRepository.Update(Eskaria)
+  fullName: _1Erronka_API.Repositorioak.EskariaRepository.Update(_1Erronka_API.Modeloak.Eskaria)
+  type: Method
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/Repositorioak/EskariaRepository.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: Update
+    path: ../2Erronka_API/1Erronka_API/Repositorioak/EskariaRepository.cs
+    startLine: 34
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.Repositorioak
+  syntax:
+    content: public void Update(Eskaria eskaria)
+    parameters:
+    - id: eskaria
+      type: _1Erronka_API.Modeloak.Eskaria
+    content.vb: Public Sub Update(eskaria As Eskaria)
+  overload: _1Erronka_API.Repositorioak.EskariaRepository.Update*
+- uid: _1Erronka_API.Repositorioak.EskariaRepository.Delete(_1Erronka_API.Modeloak.Eskaria)
+  commentId: M:_1Erronka_API.Repositorioak.EskariaRepository.Delete(_1Erronka_API.Modeloak.Eskaria)
+  id: Delete(_1Erronka_API.Modeloak.Eskaria)
+  parent: _1Erronka_API.Repositorioak.EskariaRepository
+  langs:
+  - csharp
+  - vb
+  name: Delete(Eskaria)
+  nameWithType: EskariaRepository.Delete(Eskaria)
+  fullName: _1Erronka_API.Repositorioak.EskariaRepository.Delete(_1Erronka_API.Modeloak.Eskaria)
+  type: Method
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/Repositorioak/EskariaRepository.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: Delete
+    path: ../2Erronka_API/1Erronka_API/Repositorioak/EskariaRepository.cs
+    startLine: 48
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.Repositorioak
+  syntax:
+    content: public void Delete(Eskaria eskaria)
+    parameters:
+    - id: eskaria
+      type: _1Erronka_API.Modeloak.Eskaria
+    content.vb: Public Sub Delete(eskaria As Eskaria)
+  overload: _1Erronka_API.Repositorioak.EskariaRepository.Delete*
+- uid: _1Erronka_API.Repositorioak.EskariaRepository.ExecuteSerializableTransaction(System.Action)
+  commentId: M:_1Erronka_API.Repositorioak.EskariaRepository.ExecuteSerializableTransaction(System.Action)
+  id: ExecuteSerializableTransaction(System.Action)
+  parent: _1Erronka_API.Repositorioak.EskariaRepository
+  langs:
+  - csharp
+  - vb
+  name: ExecuteSerializableTransaction(Action)
+  nameWithType: EskariaRepository.ExecuteSerializableTransaction(Action)
+  fullName: _1Erronka_API.Repositorioak.EskariaRepository.ExecuteSerializableTransaction(System.Action)
+  type: Method
+  source:
+    remote:
+      path: 2Erronka_API/1Erronka_API/Repositorioak/EskariaRepository.cs
+      branch: master
+      repo: https://github.com/iguisado228/2MG3_2Erronka_API.git
+    id: ExecuteSerializableTransaction
+    path: ../2Erronka_API/1Erronka_API/Repositorioak/EskariaRepository.cs
+    startLine: 62
+  assemblies:
+  - Erronka2Api
+  namespace: _1Erronka_API.Repositorioak
+  syntax:
+    content: public void ExecuteSerializableTransaction(Action action)
+    parameters:
+    - id: action
+      type: System.Action
+    content.vb: Public Sub ExecuteSerializableTransaction(action As Action)
+  overload: _1Erronka_API.Repositorioak.EskariaRepository.ExecuteSerializableTransaction*
+references:
+- uid: _1Erronka_API.Repositorioak
+  commentId: N:_1Erronka_API.Repositorioak
+  href: _1Erronka_API.html
+  name: _1Erronka_API.Repositorioak
+  nameWithType: _1Erronka_API.Repositorioak
+  fullName: _1Erronka_API.Repositorioak
+  spec.csharp:
+  - uid: _1Erronka_API
+    name: _1Erronka_API
+    href: _1Erronka_API.html
+  - name: .
+  - uid: _1Erronka_API.Repositorioak
+    name: Repositorioak
+    href: _1Erronka_API.Repositorioak.html
+  spec.vb:
+  - uid: _1Erronka_API
+    name: _1Erronka_API
+    href: _1Erronka_API.html
+  - name: .
+  - uid: _1Erronka_API.Repositorioak
+    name: Repositorioak
+    href: _1Erronka_API.Repositorioak.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: _1Erronka_API.Repositorioak.EskariaRepository.#ctor*
+  commentId: Overload:_1Erronka_API.Repositorioak.EskariaRepository.#ctor
+  href: _1Erronka_API.Repositorioak.EskariaRepository.html#_1Erronka_API_Repositorioak_EskariaRepository__ctor_NHibernate_ISessionFactory_
+  name: EskariaRepository
+  nameWithType: EskariaRepository.EskariaRepository
+  fullName: _1Erronka_API.Repositorioak.EskariaRepository.EskariaRepository
+  nameWithType.vb: EskariaRepository.New
+  fullName.vb: _1Erronka_API.Repositorioak.EskariaRepository.New
+  name.vb: New
+- uid: NHibernate.ISessionFactory
+  commentId: T:NHibernate.ISessionFactory
+  parent: NHibernate
+  isExternal: true
+  name: ISessionFactory
+  nameWithType: ISessionFactory
+  fullName: NHibernate.ISessionFactory
+- uid: NHibernate
+  commentId: N:NHibernate
+  isExternal: true
+  name: NHibernate
+  nameWithType: NHibernate
+  fullName: NHibernate
+- uid: _1Erronka_API.Repositorioak.EskariaRepository.GetAll*
+  commentId: Overload:_1Erronka_API.Repositorioak.EskariaRepository.GetAll
+  href: _1Erronka_API.Repositorioak.EskariaRepository.html#_1Erronka_API_Repositorioak_EskariaRepository_GetAll
+  name: GetAll
+  nameWithType: EskariaRepository.GetAll
+  fullName: _1Erronka_API.Repositorioak.EskariaRepository.GetAll
+- uid: System.Collections.Generic.IList{_1Erronka_API.Modeloak.Eskaria}
+  commentId: T:System.Collections.Generic.IList{_1Erronka_API.Modeloak.Eskaria}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<Eskaria>
+  nameWithType: IList<Eskaria>
+  fullName: System.Collections.Generic.IList<_1Erronka_API.Modeloak.Eskaria>
+  nameWithType.vb: IList(Of Eskaria)
+  fullName.vb: System.Collections.Generic.IList(Of _1Erronka_API.Modeloak.Eskaria)
+  name.vb: IList(Of Eskaria)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: _1Erronka_API.Modeloak.Eskaria
+    name: Eskaria
+    href: _1Erronka_API.Modeloak.Eskaria.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: _1Erronka_API.Modeloak.Eskaria
+    name: Eskaria
+    href: _1Erronka_API.Modeloak.Eskaria.html
+  - name: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: _1Erronka_API.Repositorioak.EskariaRepository.Get*
+  commentId: Overload:_1Erronka_API.Repositorioak.EskariaRepository.Get
+  href: _1Erronka_API.Repositorioak.EskariaRepository.html#_1Erronka_API_Repositorioak_EskariaRepository_Get_System_Int32_
+  name: Get
+  nameWithType: EskariaRepository.Get
+  fullName: _1Erronka_API.Repositorioak.EskariaRepository.Get
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: _1Erronka_API.Modeloak.Eskaria
+  commentId: T:_1Erronka_API.Modeloak.Eskaria
+  parent: _1Erronka_API.Modeloak
+  href: _1Erronka_API.Modeloak.Eskaria.html
+  name: Eskaria
+  nameWithType: Eskaria
+  fullName: _1Erronka_API.Modeloak.Eskaria
+- uid: _1Erronka_API.Modeloak
+  commentId: N:_1Erronka_API.Modeloak
+  href: _1Erronka_API.html
+  name: _1Erronka_API.Modeloak
+  nameWithType: _1Erronka_API.Modeloak
+  fullName: _1Erronka_API.Modeloak
+  spec.csharp:
+  - uid: _1Erronka_API
+    name: _1Erronka_API
+    href: _1Erronka_API.html
+  - name: .
+  - uid: _1Erronka_API.Modeloak
+    name: Modeloak
+    href: _1Erronka_API.Modeloak.html
+  spec.vb:
+  - uid: _1Erronka_API
+    name: _1Erronka_API
+    href: _1Erronka_API.html
+  - name: .
+  - uid: _1Erronka_API.Modeloak
+    name: Modeloak
+    href: _1Erronka_API.Modeloak.html
+- uid: _1Erronka_API.Repositorioak.EskariaRepository.Add*
+  commentId: Overload:_1Erronka_API.Repositorioak.EskariaRepository.Add
+  href: _1Erronka_API.Repositorioak.EskariaRepository.html#_1Erronka_API_Repositorioak_EskariaRepository_Add__1Erronka_API_Modeloak_Eskaria_
+  name: Add
+  nameWithType: EskariaRepository.Add
+  fullName: _1Erronka_API.Repositorioak.EskariaRepository.Add
+- uid: _1Erronka_API.Repositorioak.EskariaRepository.Update*
+  commentId: Overload:_1Erronka_API.Repositorioak.EskariaRepository.Update
+  href: _1Erronka_API.Repositorioak.EskariaRepository.html#_1Erronka_API_Repositorioak_EskariaRepository_Update__1Erronka_API_Modeloak_Eskaria_
+  name: Update
+  nameWithType: EskariaRepository.Update
+  fullName: _1Erronka_API.Repositorioak.EskariaRepository.Update
+- uid: _1Erronka_API.Repositorioak.EskariaRepository.Delete*
+  commentId: Overload:_1Erronka_API.Repositorioak.EskariaRepository.Delete
+  href: _1Erronka_API.Repositorioak.EskariaRepository.html#_1Erronka_API_Repositorioak_EskariaRepository_Delete__1Erronka_API_Modeloak_Eskaria_
+  name: Delete
+  nameWithType: EskariaRepository.Delete
+  fullName: _1Erronka_API.Repositorioak.EskariaRepository.Delete
+- uid: _1Erronka_API.Repositorioak.EskariaRepository.ExecuteSerializableTransaction*
+  commentId: Overload:_1Erronka_API.Repositorioak.EskariaRepository.ExecuteSerializableTransaction
+  href: _1Erronka_API.Repositorioak.EskariaRepository.html#_1Erronka_API_Repositorioak_EskariaRepository_ExecuteSerializableTransaction_System_Action_
+  name: ExecuteSerializableTransaction
+  nameWithType: EskariaRepository.ExecuteSerializableTransaction
+  fullName: _1Erronka_API.Repositorioak.EskariaRepository.ExecuteSerializableTransaction
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action
+  name: Action
+  nameWithType: Action
+  fullName: System.Action

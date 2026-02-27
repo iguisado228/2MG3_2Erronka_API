@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Hasteko Gida | 2Erronka_API </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Hasteko Gida | 2Erronka_API ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/iguisado228/2MG3_2Erronka_API/blob/master/Dokumentazioa/docs/getting-started.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="2Erronka_API">
+            2Erronka_API
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="hasteko-gida">Hasteko Gida</h1>
+
+<p>Gida honek gure APIa erabiltzen hasteko beharrezkoak diren pausoak azaltzen ditu. Jarraitu argibideak zure aplikazioa gure zerbitzuekin konektatzeko.</p>
+<h2 id="1-autentifikazioa">1. Autentifikazioa</h2>
+<p>APIaren baliabide gehienak babestuta daude eta autentifikazioa behar dute. Autentifikatzeko, <code>/api/Login</code> amaierako puntua erabili behar duzu zure langile-kodea eta pasahitza bidaliz.</p>
+<p>Adibidez, <code>LoginRequest</code> bat bidaliko duzu:</p>
+<pre><code class="lang-json">{
+    &quot;Langile_kodea&quot;: 12345,
+    &quot;Pasahitza&quot;: &quot;zurePasahitza&quot;
+}
+</code></pre>
+<p>Erantzun gisa, <code>LoginErantzuna</code> bat jasoko duzu, saioa hasi den ala ez adierazten duena. Saioa zuzena bada, <code>LangileaDto</code> bat ere jasoko duzu erabiltzailearen datuekin.</p>
+<pre><code class="lang-json">{
+    &quot;Ok&quot;: true,
+    &quot;Code&quot;: &quot;ok&quot;,
+    &quot;Message&quot;: &quot;Login zuzena&quot;,
+    &quot;Data&quot;: {
+        &quot;Id&quot;: 1,
+        &quot;Izena&quot;: &quot;Jon&quot;,
+        &quot;Erabiltzaile_izena&quot;: &quot;jon.doe&quot;,
+        &quot;Langile_kodea&quot;: 12345,
+        &quot;Gerentea&quot;: false,
+        &quot;TpvSarrera&quot;: true
+    }
+}
+</code></pre>
+<blockquote>
+<p><strong>Garrantzitsua:</strong> Gorde segurtasunez jasotako autentifikazio-datuak eta erabili hurrengo eskaeretan.</p>
+</blockquote>
+<h2 id="2-api-deiak-egiten">2. API Deiak Egiten</h2>
+<p>Autentifikatu ondoren, APIaren beste amaierako puntuak erabil ditzakezu. Adibidez, erreserbak lortzeko:</p>
+<pre><code>GET /api/Erreserbak
+</code></pre>
+<p>Eskariak sortzeko:</p>
+<pre><code>POST /api/Eskariak
+</code></pre>
+<p>Kontsultatu dagokion kontrolatzailearen dokumentazioa amaierako puntu bakoitzaren xehetasunak ikusteko.</p>
+<h2 id="3-erroreak-kudeatzen">3. Erroreak Kudeatzen</h2>
+<p>APIak errore-egoerak itzul ditzake. Erantzun bakoitzaren <code>Ok</code>, <code>Code</code> eta <code>Message</code> propietateak egiaztatu behar dituzu erroreak kudeatzeko.</p>
+<ul>
+<li><code>Ok: false</code>: Errore bat gertatu da.</li>
+<li><code>Code</code>: Errore mota adierazten duen kodea (adibidez, &quot;not_found&quot;, &quot;bad_password&quot;, &quot;forbidden&quot;).</li>
+<li><code>Message</code>: Erabiltzaileari erakusteko errore-mezu deskriptiboa.</li>
+</ul>
+<blockquote>
+<p><strong>Aholkua:</strong> Erabili HTTP bezero bat (adibidez, Postman, Insomnia edo zure programazio-lengoaiaren liburutegi bat) API deiak probatzeko.</p>
+</blockquote>
+<h2 id="hurrengo-pausoak">Hurrengo Pausoak</h2>
+<p>Orain oinarrizko funtzionamendua ulertzen duzula, hurrengo ataletara jo dezakezu APIaren funtzionalitate espezifikoak sakontzeko.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/iguisado228/2MG3_2Erronka_API/blob/master/Dokumentazioa/docs/getting-started.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
