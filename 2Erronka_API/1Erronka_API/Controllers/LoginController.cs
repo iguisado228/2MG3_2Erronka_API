@@ -1,4 +1,4 @@
-﻿using _1Erronka_API;
+using _1Erronka_API;
 using _1Erronka_API.Domain;
 using _1Erronka_API.DTOak;
 using Microsoft.AspNetCore.Mvc;
@@ -50,13 +50,17 @@ namespace _1Erronka_API.Controllers
                     });
                 }
 
-                if (!langilea.TpvSarrera)
+                // Lanpostuaren izenaren arabera baimenak egiaztatu
+                // Adibidez: "Administratzailea" edo "Zerbitzaria" baimena dute
+                var baimendutakoLanpostuak = new[] { "Administratzailea", "Zerbitzaria", "Gerentea" };
+                
+                if (!baimendutakoLanpostuak.Contains(langilea.Lanpostua.Lanpostu_izena))
                 {
                     return Ok(new LoginErantzuna
                     {
                         Ok = false,
                         Code = "forbidden",
-                        Message = "Ez daukazu TPV-ra sartzeko baimenik"
+                        Message = "Zure lanpostuak ez dauka TPV-ra sartzeko baimenik"
                     });
                 }
 
@@ -69,10 +73,16 @@ namespace _1Erronka_API.Controllers
                     {
                         Id = langilea.Id,
                         Izena = langilea.Izena,
+                        Abizena = langilea.Abizena,
+                        NAN = langilea.NAN,
                         Erabiltzaile_izena = langilea.Erabiltzaile_izena,
                         Langile_kodea = langilea.Langile_kodea,
-                        Gerentea = langilea.Gerentea,
-                        TpvSarrera = langilea.TpvSarrera
+                        Helbidea = langilea.Helbidea,
+                        Lanpostua = new LanpostuaDto
+                        {
+                            Id = langilea.Lanpostua.Id,
+                            Lanpostu_izena = langilea.Lanpostua.Lanpostu_izena
+                        }
                     }
                 });
             }
