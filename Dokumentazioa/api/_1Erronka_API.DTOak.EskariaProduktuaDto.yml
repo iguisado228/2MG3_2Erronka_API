@@ -1,20 +1,20 @@
 ### YamlMime:ManagedReference
 items:
-- uid: _1Erronka_API.DTOak.EskariaProduktuaDto
-  commentId: T:_1Erronka_API.DTOak.EskariaProduktuaDto
+- uid: _2Erronka_API.DTOak.EskariaProduktuaDto
+  commentId: T:_2Erronka_API.DTOak.EskariaProduktuaDto
   id: EskariaProduktuaDto
-  parent: _1Erronka_API.DTOak
+  parent: _2Erronka_API.DTOak
   children:
-  - _1Erronka_API.DTOak.EskariaProduktuaDto.Kantitatea
-  - _1Erronka_API.DTOak.EskariaProduktuaDto.Prezioa
-  - _1Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaId
-  - _1Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaIzena
+  - _2Erronka_API.DTOak.EskariaProduktuaDto.Kantitatea
+  - _2Erronka_API.DTOak.EskariaProduktuaDto.Prezioa
+  - _2Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaId
+  - _2Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaIzena
   langs:
   - csharp
   - vb
   name: EskariaProduktuaDto
   nameWithType: EskariaProduktuaDto
-  fullName: _1Erronka_API.DTOak.EskariaProduktuaDto
+  fullName: _2Erronka_API.DTOak.EskariaProduktuaDto
   type: Class
   source:
     remote:
@@ -26,7 +26,7 @@ items:
     startLine: 39
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Eskari bateko produktu baten erantzun-eredua.
   example: []
   syntax:
@@ -42,16 +42,16 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: _1Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaId
-  commentId: P:_1Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaId
+- uid: _2Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaId
+  commentId: P:_2Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaId
   id: ProduktuaId
-  parent: _1Erronka_API.DTOak.EskariaProduktuaDto
+  parent: _2Erronka_API.DTOak.EskariaProduktuaDto
   langs:
   - csharp
   - vb
   name: ProduktuaId
   nameWithType: EskariaProduktuaDto.ProduktuaId
-  fullName: _1Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaId
+  fullName: _2Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaId
   type: Property
   source:
     remote:
@@ -63,7 +63,7 @@ items:
     startLine: 42
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Produktuaren identifikatzailea.
   example: []
   syntax:
@@ -72,17 +72,17 @@ items:
     return:
       type: System.Int32
     content.vb: Public Property ProduktuaId As Integer
-  overload: _1Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaId*
-- uid: _1Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaIzena
-  commentId: P:_1Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaIzena
+  overload: _2Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaId*
+- uid: _2Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaIzena
+  commentId: P:_2Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaIzena
   id: ProduktuaIzena
-  parent: _1Erronka_API.DTOak.EskariaProduktuaDto
+  parent: _2Erronka_API.DTOak.EskariaProduktuaDto
   langs:
   - csharp
   - vb
   name: ProduktuaIzena
   nameWithType: EskariaProduktuaDto.ProduktuaIzena
-  fullName: _1Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaIzena
+  fullName: _2Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaIzena
   type: Property
   source:
     remote:
@@ -94,7 +94,7 @@ items:
     startLine: 44
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Produktuaren izena.
   example: []
   syntax:
@@ -103,17 +103,17 @@ items:
     return:
       type: System.String
     content.vb: Public Property ProduktuaIzena As String
-  overload: _1Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaIzena*
-- uid: _1Erronka_API.DTOak.EskariaProduktuaDto.Kantitatea
-  commentId: P:_1Erronka_API.DTOak.EskariaProduktuaDto.Kantitatea
+  overload: _2Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaIzena*
+- uid: _2Erronka_API.DTOak.EskariaProduktuaDto.Kantitatea
+  commentId: P:_2Erronka_API.DTOak.EskariaProduktuaDto.Kantitatea
   id: Kantitatea
-  parent: _1Erronka_API.DTOak.EskariaProduktuaDto
+  parent: _2Erronka_API.DTOak.EskariaProduktuaDto
   langs:
   - csharp
   - vb
   name: Kantitatea
   nameWithType: EskariaProduktuaDto.Kantitatea
-  fullName: _1Erronka_API.DTOak.EskariaProduktuaDto.Kantitatea
+  fullName: _2Erronka_API.DTOak.EskariaProduktuaDto.Kantitatea
   type: Property
   source:
     remote:
@@ -125,7 +125,7 @@ items:
     startLine: 46
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Eskarian eskatutako kantitatea.
   example: []
   syntax:
@@ -134,17 +134,17 @@ items:
     return:
       type: System.Int32
     content.vb: Public Property Kantitatea As Integer
-  overload: _1Erronka_API.DTOak.EskariaProduktuaDto.Kantitatea*
-- uid: _1Erronka_API.DTOak.EskariaProduktuaDto.Prezioa
-  commentId: P:_1Erronka_API.DTOak.EskariaProduktuaDto.Prezioa
+  overload: _2Erronka_API.DTOak.EskariaProduktuaDto.Kantitatea*
+- uid: _2Erronka_API.DTOak.EskariaProduktuaDto.Prezioa
+  commentId: P:_2Erronka_API.DTOak.EskariaProduktuaDto.Prezioa
   id: Prezioa
-  parent: _1Erronka_API.DTOak.EskariaProduktuaDto
+  parent: _2Erronka_API.DTOak.EskariaProduktuaDto
   langs:
   - csharp
   - vb
   name: Prezioa
   nameWithType: EskariaProduktuaDto.Prezioa
-  fullName: _1Erronka_API.DTOak.EskariaProduktuaDto.Prezioa
+  fullName: _2Erronka_API.DTOak.EskariaProduktuaDto.Prezioa
   type: Property
   source:
     remote:
@@ -156,7 +156,7 @@ items:
     startLine: 48
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Produktuaren unitateko prezioa.
   example: []
   syntax:
@@ -165,30 +165,30 @@ items:
     return:
       type: System.Double
     content.vb: Public Property Prezioa As Double
-  overload: _1Erronka_API.DTOak.EskariaProduktuaDto.Prezioa*
+  overload: _2Erronka_API.DTOak.EskariaProduktuaDto.Prezioa*
 references:
-- uid: _1Erronka_API.DTOak
-  commentId: N:_1Erronka_API.DTOak
-  href: _1Erronka_API.html
-  name: _1Erronka_API.DTOak
-  nameWithType: _1Erronka_API.DTOak
-  fullName: _1Erronka_API.DTOak
+- uid: _2Erronka_API.DTOak
+  commentId: N:_2Erronka_API.DTOak
+  href: _2Erronka_API.html
+  name: _2Erronka_API.DTOak
+  nameWithType: _2Erronka_API.DTOak
+  fullName: _2Erronka_API.DTOak
   spec.csharp:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.DTOak
+  - uid: _2Erronka_API.DTOak
     name: DTOak
-    href: _1Erronka_API.DTOak.html
+    href: _2Erronka_API.DTOak.html
   spec.vb:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.DTOak
+  - uid: _2Erronka_API.DTOak
     name: DTOak
-    href: _1Erronka_API.DTOak.html
+    href: _2Erronka_API.DTOak.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -426,12 +426,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: _1Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaId*
-  commentId: Overload:_1Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaId
-  href: _1Erronka_API.DTOak.EskariaProduktuaDto.html#_1Erronka_API_DTOak_EskariaProduktuaDto_ProduktuaId
+- uid: _2Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaId*
+  commentId: Overload:_2Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaId
+  href: _2Erronka_API.DTOak.EskariaProduktuaDto.html#_2Erronka_API_DTOak_EskariaProduktuaDto_ProduktuaId
   name: ProduktuaId
   nameWithType: EskariaProduktuaDto.ProduktuaId
-  fullName: _1Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaId
+  fullName: _2Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaId
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -443,12 +443,12 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: _1Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaIzena*
-  commentId: Overload:_1Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaIzena
-  href: _1Erronka_API.DTOak.EskariaProduktuaDto.html#_1Erronka_API_DTOak_EskariaProduktuaDto_ProduktuaIzena
+- uid: _2Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaIzena*
+  commentId: Overload:_2Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaIzena
+  href: _2Erronka_API.DTOak.EskariaProduktuaDto.html#_2Erronka_API_DTOak_EskariaProduktuaDto_ProduktuaIzena
   name: ProduktuaIzena
   nameWithType: EskariaProduktuaDto.ProduktuaIzena
-  fullName: _1Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaIzena
+  fullName: _2Erronka_API.DTOak.EskariaProduktuaDto.ProduktuaIzena
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -460,18 +460,18 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: _1Erronka_API.DTOak.EskariaProduktuaDto.Kantitatea*
-  commentId: Overload:_1Erronka_API.DTOak.EskariaProduktuaDto.Kantitatea
-  href: _1Erronka_API.DTOak.EskariaProduktuaDto.html#_1Erronka_API_DTOak_EskariaProduktuaDto_Kantitatea
+- uid: _2Erronka_API.DTOak.EskariaProduktuaDto.Kantitatea*
+  commentId: Overload:_2Erronka_API.DTOak.EskariaProduktuaDto.Kantitatea
+  href: _2Erronka_API.DTOak.EskariaProduktuaDto.html#_2Erronka_API_DTOak_EskariaProduktuaDto_Kantitatea
   name: Kantitatea
   nameWithType: EskariaProduktuaDto.Kantitatea
-  fullName: _1Erronka_API.DTOak.EskariaProduktuaDto.Kantitatea
-- uid: _1Erronka_API.DTOak.EskariaProduktuaDto.Prezioa*
-  commentId: Overload:_1Erronka_API.DTOak.EskariaProduktuaDto.Prezioa
-  href: _1Erronka_API.DTOak.EskariaProduktuaDto.html#_1Erronka_API_DTOak_EskariaProduktuaDto_Prezioa
+  fullName: _2Erronka_API.DTOak.EskariaProduktuaDto.Kantitatea
+- uid: _2Erronka_API.DTOak.EskariaProduktuaDto.Prezioa*
+  commentId: Overload:_2Erronka_API.DTOak.EskariaProduktuaDto.Prezioa
+  href: _2Erronka_API.DTOak.EskariaProduktuaDto.html#_2Erronka_API_DTOak_EskariaProduktuaDto_Prezioa
   name: Prezioa
   nameWithType: EskariaProduktuaDto.Prezioa
-  fullName: _1Erronka_API.DTOak.EskariaProduktuaDto.Prezioa
+  fullName: _2Erronka_API.DTOak.EskariaProduktuaDto.Prezioa
 - uid: System.Double
   commentId: T:System.Double
   parent: System

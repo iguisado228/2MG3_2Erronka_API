@@ -1,24 +1,24 @@
 ### YamlMime:ManagedReference
 items:
-- uid: _1Erronka_API.Controllers.EskariakController
-  commentId: T:_1Erronka_API.Controllers.EskariakController
+- uid: _2Erronka_API.Controllers.EskariakController
+  commentId: T:_2Erronka_API.Controllers.EskariakController
   id: EskariakController
-  parent: _1Erronka_API.Controllers
+  parent: _2Erronka_API.Controllers
   children:
-  - _1Erronka_API.Controllers.EskariakController.#ctor(_1Erronka_API.Repositorioak.EskariaRepository,_1Erronka_API.Repositorioak.ProduktuaRepository,_1Erronka_API.Repositorioak.ErreserbaRepository,_1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository,_1Erronka_API.Repositorioak.OsagaiaRepository)
-  - _1Erronka_API.Controllers.EskariakController.Eguneratu(System.Int32,_1Erronka_API.DTOak.EskariaSortuDto)
-  - _1Erronka_API.Controllers.EskariakController.Ezabatu(System.Int32)
-  - _1Erronka_API.Controllers.EskariakController.GetEskaria(System.Int32)
-  - _1Erronka_API.Controllers.EskariakController.GetEskariak
-  - _1Erronka_API.Controllers.EskariakController.GetEskariakByEgoera(System.String)
-  - _1Erronka_API.Controllers.EskariakController.GetEskariakByErreserba(System.Int32)
-  - _1Erronka_API.Controllers.EskariakController.Sortu(_1Erronka_API.DTOak.EskariaSortuDto)
+  - _2Erronka_API.Controllers.EskariakController.#ctor(_2Erronka_API.Repositorioak.EskariaRepository,_2Erronka_API.Repositorioak.ProduktuaRepository,_2Erronka_API.Repositorioak.ErreserbaRepository,_2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository,_2Erronka_API.Repositorioak.OsagaiaRepository)
+  - _2Erronka_API.Controllers.EskariakController.Eguneratu(System.Int32,_2Erronka_API.DTOak.EskariaSortuDto)
+  - _2Erronka_API.Controllers.EskariakController.Ezabatu(System.Int32)
+  - _2Erronka_API.Controllers.EskariakController.GetEskaria(System.Int32)
+  - _2Erronka_API.Controllers.EskariakController.GetEskariak
+  - _2Erronka_API.Controllers.EskariakController.GetEskariakByEgoera(System.String)
+  - _2Erronka_API.Controllers.EskariakController.GetEskariakByErreserba(System.Int32)
+  - _2Erronka_API.Controllers.EskariakController.Sortu(_2Erronka_API.DTOak.EskariaSortuDto)
   langs:
   - csharp
   - vb
   name: EskariakController
   nameWithType: EskariakController
-  fullName: _1Erronka_API.Controllers.EskariakController
+  fullName: _2Erronka_API.Controllers.EskariakController
   type: Class
   source:
     remote:
@@ -30,7 +30,7 @@ items:
     startLine: 10
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Controllers
+  namespace: _2Erronka_API.Controllers
   summary: Eskaeren (eskariak) kudeaketarako API amaierako puntuak.
   example: []
   syntax:
@@ -241,16 +241,16 @@ items:
     arguments:
     - type: System.String
       value: api/[controller]
-- uid: _1Erronka_API.Controllers.EskariakController.#ctor(_1Erronka_API.Repositorioak.EskariaRepository,_1Erronka_API.Repositorioak.ProduktuaRepository,_1Erronka_API.Repositorioak.ErreserbaRepository,_1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository,_1Erronka_API.Repositorioak.OsagaiaRepository)
-  commentId: M:_1Erronka_API.Controllers.EskariakController.#ctor(_1Erronka_API.Repositorioak.EskariaRepository,_1Erronka_API.Repositorioak.ProduktuaRepository,_1Erronka_API.Repositorioak.ErreserbaRepository,_1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository,_1Erronka_API.Repositorioak.OsagaiaRepository)
-  id: '#ctor(_1Erronka_API.Repositorioak.EskariaRepository,_1Erronka_API.Repositorioak.ProduktuaRepository,_1Erronka_API.Repositorioak.ErreserbaRepository,_1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository,_1Erronka_API.Repositorioak.OsagaiaRepository)'
-  parent: _1Erronka_API.Controllers.EskariakController
+- uid: _2Erronka_API.Controllers.EskariakController.#ctor(_2Erronka_API.Repositorioak.EskariaRepository,_2Erronka_API.Repositorioak.ProduktuaRepository,_2Erronka_API.Repositorioak.ErreserbaRepository,_2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository,_2Erronka_API.Repositorioak.OsagaiaRepository)
+  commentId: M:_2Erronka_API.Controllers.EskariakController.#ctor(_2Erronka_API.Repositorioak.EskariaRepository,_2Erronka_API.Repositorioak.ProduktuaRepository,_2Erronka_API.Repositorioak.ErreserbaRepository,_2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository,_2Erronka_API.Repositorioak.OsagaiaRepository)
+  id: '#ctor(_2Erronka_API.Repositorioak.EskariaRepository,_2Erronka_API.Repositorioak.ProduktuaRepository,_2Erronka_API.Repositorioak.ErreserbaRepository,_2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository,_2Erronka_API.Repositorioak.OsagaiaRepository)'
+  parent: _2Erronka_API.Controllers.EskariakController
   langs:
   - csharp
   - vb
   name: EskariakController(EskariaRepository, ProduktuaRepository, ErreserbaRepository, ProduktuaOsagaiaRepository, OsagaiaRepository)
   nameWithType: EskariakController.EskariakController(EskariaRepository, ProduktuaRepository, ErreserbaRepository, ProduktuaOsagaiaRepository, OsagaiaRepository)
-  fullName: _1Erronka_API.Controllers.EskariakController.EskariakController(_1Erronka_API.Repositorioak.EskariaRepository, _1Erronka_API.Repositorioak.ProduktuaRepository, _1Erronka_API.Repositorioak.ErreserbaRepository, _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository, _1Erronka_API.Repositorioak.OsagaiaRepository)
+  fullName: _2Erronka_API.Controllers.EskariakController.EskariakController(_2Erronka_API.Repositorioak.EskariaRepository, _2Erronka_API.Repositorioak.ProduktuaRepository, _2Erronka_API.Repositorioak.ErreserbaRepository, _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository, _2Erronka_API.Repositorioak.OsagaiaRepository)
   type: Constructor
   source:
     remote:
@@ -262,35 +262,35 @@ items:
     startLine: 21
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Controllers
+  namespace: _2Erronka_API.Controllers
   syntax:
     content: public EskariakController(EskariaRepository repo, ProduktuaRepository produktuaRepo, ErreserbaRepository erreserbaRepo, ProduktuaOsagaiaRepository produktuOsagaiaRepo, OsagaiaRepository osagaiaRepo)
     parameters:
     - id: repo
-      type: _1Erronka_API.Repositorioak.EskariaRepository
+      type: _2Erronka_API.Repositorioak.EskariaRepository
     - id: produktuaRepo
-      type: _1Erronka_API.Repositorioak.ProduktuaRepository
+      type: _2Erronka_API.Repositorioak.ProduktuaRepository
     - id: erreserbaRepo
-      type: _1Erronka_API.Repositorioak.ErreserbaRepository
+      type: _2Erronka_API.Repositorioak.ErreserbaRepository
     - id: produktuOsagaiaRepo
-      type: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository
+      type: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository
     - id: osagaiaRepo
-      type: _1Erronka_API.Repositorioak.OsagaiaRepository
+      type: _2Erronka_API.Repositorioak.OsagaiaRepository
     content.vb: Public Sub New(repo As EskariaRepository, produktuaRepo As ProduktuaRepository, erreserbaRepo As ErreserbaRepository, produktuOsagaiaRepo As ProduktuaOsagaiaRepository, osagaiaRepo As OsagaiaRepository)
-  overload: _1Erronka_API.Controllers.EskariakController.#ctor*
+  overload: _2Erronka_API.Controllers.EskariakController.#ctor*
   nameWithType.vb: EskariakController.New(EskariaRepository, ProduktuaRepository, ErreserbaRepository, ProduktuaOsagaiaRepository, OsagaiaRepository)
-  fullName.vb: _1Erronka_API.Controllers.EskariakController.New(_1Erronka_API.Repositorioak.EskariaRepository, _1Erronka_API.Repositorioak.ProduktuaRepository, _1Erronka_API.Repositorioak.ErreserbaRepository, _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository, _1Erronka_API.Repositorioak.OsagaiaRepository)
+  fullName.vb: _2Erronka_API.Controllers.EskariakController.New(_2Erronka_API.Repositorioak.EskariaRepository, _2Erronka_API.Repositorioak.ProduktuaRepository, _2Erronka_API.Repositorioak.ErreserbaRepository, _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository, _2Erronka_API.Repositorioak.OsagaiaRepository)
   name.vb: New(EskariaRepository, ProduktuaRepository, ErreserbaRepository, ProduktuaOsagaiaRepository, OsagaiaRepository)
-- uid: _1Erronka_API.Controllers.EskariakController.Sortu(_1Erronka_API.DTOak.EskariaSortuDto)
-  commentId: M:_1Erronka_API.Controllers.EskariakController.Sortu(_1Erronka_API.DTOak.EskariaSortuDto)
-  id: Sortu(_1Erronka_API.DTOak.EskariaSortuDto)
-  parent: _1Erronka_API.Controllers.EskariakController
+- uid: _2Erronka_API.Controllers.EskariakController.Sortu(_2Erronka_API.DTOak.EskariaSortuDto)
+  commentId: M:_2Erronka_API.Controllers.EskariakController.Sortu(_2Erronka_API.DTOak.EskariaSortuDto)
+  id: Sortu(_2Erronka_API.DTOak.EskariaSortuDto)
+  parent: _2Erronka_API.Controllers.EskariakController
   langs:
   - csharp
   - vb
   name: Sortu(EskariaSortuDto)
   nameWithType: EskariakController.Sortu(EskariaSortuDto)
-  fullName: _1Erronka_API.Controllers.EskariakController.Sortu(_1Erronka_API.DTOak.EskariaSortuDto)
+  fullName: _2Erronka_API.Controllers.EskariakController.Sortu(_2Erronka_API.DTOak.EskariaSortuDto)
   type: Method
   source:
     remote:
@@ -302,7 +302,7 @@ items:
     startLine: 35
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Controllers
+  namespace: _2Erronka_API.Controllers
   summary: Eskari berria sortzen du erreserba bati lotuta, eta stockak eguneratzen ditu.
   example: []
   syntax:
@@ -312,7 +312,7 @@ items:
       public IActionResult Sortu(EskariaSortuDto dto)
     parameters:
     - id: dto
-      type: _1Erronka_API.DTOak.EskariaSortuDto
+      type: _2Erronka_API.DTOak.EskariaSortuDto
       description: Eskaria sortzeko datuak.
       attributes:
       - type: Microsoft.AspNetCore.Mvc.FromBodyAttribute
@@ -325,21 +325,21 @@ items:
       <HttpPost>
 
       Public Function Sortu(dto As EskariaSortuDto) As IActionResult
-  overload: _1Erronka_API.Controllers.EskariakController.Sortu*
+  overload: _2Erronka_API.Controllers.EskariakController.Sortu*
   attributes:
   - type: Microsoft.AspNetCore.Mvc.HttpPostAttribute
     ctor: Microsoft.AspNetCore.Mvc.HttpPostAttribute.#ctor
     arguments: []
-- uid: _1Erronka_API.Controllers.EskariakController.Eguneratu(System.Int32,_1Erronka_API.DTOak.EskariaSortuDto)
-  commentId: M:_1Erronka_API.Controllers.EskariakController.Eguneratu(System.Int32,_1Erronka_API.DTOak.EskariaSortuDto)
-  id: Eguneratu(System.Int32,_1Erronka_API.DTOak.EskariaSortuDto)
-  parent: _1Erronka_API.Controllers.EskariakController
+- uid: _2Erronka_API.Controllers.EskariakController.Eguneratu(System.Int32,_2Erronka_API.DTOak.EskariaSortuDto)
+  commentId: M:_2Erronka_API.Controllers.EskariakController.Eguneratu(System.Int32,_2Erronka_API.DTOak.EskariaSortuDto)
+  id: Eguneratu(System.Int32,_2Erronka_API.DTOak.EskariaSortuDto)
+  parent: _2Erronka_API.Controllers.EskariakController
   langs:
   - csharp
   - vb
   name: Eguneratu(int, EskariaSortuDto)
   nameWithType: EskariakController.Eguneratu(int, EskariaSortuDto)
-  fullName: _1Erronka_API.Controllers.EskariakController.Eguneratu(int, _1Erronka_API.DTOak.EskariaSortuDto)
+  fullName: _2Erronka_API.Controllers.EskariakController.Eguneratu(int, _2Erronka_API.DTOak.EskariaSortuDto)
   type: Method
   source:
     remote:
@@ -351,7 +351,7 @@ items:
     startLine: 136
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Controllers
+  namespace: _2Erronka_API.Controllers
   summary: Eskari baten produktuak eta egoera eguneratzen ditu, eta stockak doitzen ditu.
   example: []
   syntax:
@@ -364,7 +364,7 @@ items:
       type: System.Int32
       description: Eskariaren identifikatzailea.
     - id: dto
-      type: _1Erronka_API.DTOak.EskariaSortuDto
+      type: _2Erronka_API.DTOak.EskariaSortuDto
       description: Eguneratzeko eskariaren datuak.
       attributes:
       - type: Microsoft.AspNetCore.Mvc.FromBodyAttribute
@@ -377,7 +377,7 @@ items:
       <HttpPut("{id}")>
 
       Public Function Eguneratu(id As Integer, dto As EskariaSortuDto) As IActionResult
-  overload: _1Erronka_API.Controllers.EskariakController.Eguneratu*
+  overload: _2Erronka_API.Controllers.EskariakController.Eguneratu*
   attributes:
   - type: Microsoft.AspNetCore.Mvc.HttpPutAttribute
     ctor: Microsoft.AspNetCore.Mvc.HttpPutAttribute.#ctor(System.String)
@@ -385,18 +385,18 @@ items:
     - type: System.String
       value: '{id}'
   nameWithType.vb: EskariakController.Eguneratu(Integer, EskariaSortuDto)
-  fullName.vb: _1Erronka_API.Controllers.EskariakController.Eguneratu(Integer, _1Erronka_API.DTOak.EskariaSortuDto)
+  fullName.vb: _2Erronka_API.Controllers.EskariakController.Eguneratu(Integer, _2Erronka_API.DTOak.EskariaSortuDto)
   name.vb: Eguneratu(Integer, EskariaSortuDto)
-- uid: _1Erronka_API.Controllers.EskariakController.Ezabatu(System.Int32)
-  commentId: M:_1Erronka_API.Controllers.EskariakController.Ezabatu(System.Int32)
+- uid: _2Erronka_API.Controllers.EskariakController.Ezabatu(System.Int32)
+  commentId: M:_2Erronka_API.Controllers.EskariakController.Ezabatu(System.Int32)
   id: Ezabatu(System.Int32)
-  parent: _1Erronka_API.Controllers.EskariakController
+  parent: _2Erronka_API.Controllers.EskariakController
   langs:
   - csharp
   - vb
   name: Ezabatu(int)
   nameWithType: EskariakController.Ezabatu(int)
-  fullName: _1Erronka_API.Controllers.EskariakController.Ezabatu(int)
+  fullName: _2Erronka_API.Controllers.EskariakController.Ezabatu(int)
   type: Method
   source:
     remote:
@@ -408,7 +408,7 @@ items:
     startLine: 247
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Controllers
+  namespace: _2Erronka_API.Controllers
   summary: Eskari bat ezabatzen du eta stockak leheneratzen ditu.
   example: []
   syntax:
@@ -427,7 +427,7 @@ items:
       <HttpDelete("{id}")>
 
       Public Function Ezabatu(id As Integer) As IActionResult
-  overload: _1Erronka_API.Controllers.EskariakController.Ezabatu*
+  overload: _2Erronka_API.Controllers.EskariakController.Ezabatu*
   attributes:
   - type: Microsoft.AspNetCore.Mvc.HttpDeleteAttribute
     ctor: Microsoft.AspNetCore.Mvc.HttpDeleteAttribute.#ctor(System.String)
@@ -435,18 +435,18 @@ items:
     - type: System.String
       value: '{id}'
   nameWithType.vb: EskariakController.Ezabatu(Integer)
-  fullName.vb: _1Erronka_API.Controllers.EskariakController.Ezabatu(Integer)
+  fullName.vb: _2Erronka_API.Controllers.EskariakController.Ezabatu(Integer)
   name.vb: Ezabatu(Integer)
-- uid: _1Erronka_API.Controllers.EskariakController.GetEskaria(System.Int32)
-  commentId: M:_1Erronka_API.Controllers.EskariakController.GetEskaria(System.Int32)
+- uid: _2Erronka_API.Controllers.EskariakController.GetEskaria(System.Int32)
+  commentId: M:_2Erronka_API.Controllers.EskariakController.GetEskaria(System.Int32)
   id: GetEskaria(System.Int32)
-  parent: _1Erronka_API.Controllers.EskariakController
+  parent: _2Erronka_API.Controllers.EskariakController
   langs:
   - csharp
   - vb
   name: GetEskaria(int)
   nameWithType: EskariakController.GetEskaria(int)
-  fullName: _1Erronka_API.Controllers.EskariakController.GetEskaria(int)
+  fullName: _2Erronka_API.Controllers.EskariakController.GetEskaria(int)
   type: Method
   source:
     remote:
@@ -458,7 +458,7 @@ items:
     startLine: 290
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Controllers
+  namespace: _2Erronka_API.Controllers
   summary: IDaren arabera eskari bat eskuratzen du.
   example: []
   syntax:
@@ -477,7 +477,7 @@ items:
       <HttpGet("{id}")>
 
       Public Function GetEskaria(id As Integer) As IActionResult
-  overload: _1Erronka_API.Controllers.EskariakController.GetEskaria*
+  overload: _2Erronka_API.Controllers.EskariakController.GetEskaria*
   attributes:
   - type: Microsoft.AspNetCore.Mvc.HttpGetAttribute
     ctor: Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor(System.String)
@@ -485,18 +485,18 @@ items:
     - type: System.String
       value: '{id}'
   nameWithType.vb: EskariakController.GetEskaria(Integer)
-  fullName.vb: _1Erronka_API.Controllers.EskariakController.GetEskaria(Integer)
+  fullName.vb: _2Erronka_API.Controllers.EskariakController.GetEskaria(Integer)
   name.vb: GetEskaria(Integer)
-- uid: _1Erronka_API.Controllers.EskariakController.GetEskariakByErreserba(System.Int32)
-  commentId: M:_1Erronka_API.Controllers.EskariakController.GetEskariakByErreserba(System.Int32)
+- uid: _2Erronka_API.Controllers.EskariakController.GetEskariakByErreserba(System.Int32)
+  commentId: M:_2Erronka_API.Controllers.EskariakController.GetEskariakByErreserba(System.Int32)
   id: GetEskariakByErreserba(System.Int32)
-  parent: _1Erronka_API.Controllers.EskariakController
+  parent: _2Erronka_API.Controllers.EskariakController
   langs:
   - csharp
   - vb
   name: GetEskariakByErreserba(int)
   nameWithType: EskariakController.GetEskariakByErreserba(int)
-  fullName: _1Erronka_API.Controllers.EskariakController.GetEskariakByErreserba(int)
+  fullName: _2Erronka_API.Controllers.EskariakController.GetEskariakByErreserba(int)
   type: Method
   source:
     remote:
@@ -508,7 +508,7 @@ items:
     startLine: 319
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Controllers
+  namespace: _2Erronka_API.Controllers
   summary: Erreserba baten IDaren arabera eskari guztiak eskuratzen ditu.
   example: []
   syntax:
@@ -527,7 +527,7 @@ items:
       <HttpGet("erreserba/{erreserbaId}")>
 
       Public Function GetEskariakByErreserba(erreserbaId As Integer) As IActionResult
-  overload: _1Erronka_API.Controllers.EskariakController.GetEskariakByErreserba*
+  overload: _2Erronka_API.Controllers.EskariakController.GetEskariakByErreserba*
   attributes:
   - type: Microsoft.AspNetCore.Mvc.HttpGetAttribute
     ctor: Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor(System.String)
@@ -535,18 +535,18 @@ items:
     - type: System.String
       value: erreserba/{erreserbaId}
   nameWithType.vb: EskariakController.GetEskariakByErreserba(Integer)
-  fullName.vb: _1Erronka_API.Controllers.EskariakController.GetEskariakByErreserba(Integer)
+  fullName.vb: _2Erronka_API.Controllers.EskariakController.GetEskariakByErreserba(Integer)
   name.vb: GetEskariakByErreserba(Integer)
-- uid: _1Erronka_API.Controllers.EskariakController.GetEskariak
-  commentId: M:_1Erronka_API.Controllers.EskariakController.GetEskariak
+- uid: _2Erronka_API.Controllers.EskariakController.GetEskariak
+  commentId: M:_2Erronka_API.Controllers.EskariakController.GetEskariak
   id: GetEskariak
-  parent: _1Erronka_API.Controllers.EskariakController
+  parent: _2Erronka_API.Controllers.EskariakController
   langs:
   - csharp
   - vb
   name: GetEskariak()
   nameWithType: EskariakController.GetEskariak()
-  fullName: _1Erronka_API.Controllers.EskariakController.GetEskariak()
+  fullName: _2Erronka_API.Controllers.EskariakController.GetEskariak()
   type: Method
   source:
     remote:
@@ -558,7 +558,7 @@ items:
     startLine: 347
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Controllers
+  namespace: _2Erronka_API.Controllers
   summary: Eskari guztiak eskuratzen ditu.
   example: []
   syntax:
@@ -573,21 +573,21 @@ items:
       <HttpGet>
 
       Public Function GetEskariak() As IActionResult
-  overload: _1Erronka_API.Controllers.EskariakController.GetEskariak*
+  overload: _2Erronka_API.Controllers.EskariakController.GetEskariak*
   attributes:
   - type: Microsoft.AspNetCore.Mvc.HttpGetAttribute
     ctor: Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor
     arguments: []
-- uid: _1Erronka_API.Controllers.EskariakController.GetEskariakByEgoera(System.String)
-  commentId: M:_1Erronka_API.Controllers.EskariakController.GetEskariakByEgoera(System.String)
+- uid: _2Erronka_API.Controllers.EskariakController.GetEskariakByEgoera(System.String)
+  commentId: M:_2Erronka_API.Controllers.EskariakController.GetEskariakByEgoera(System.String)
   id: GetEskariakByEgoera(System.String)
-  parent: _1Erronka_API.Controllers.EskariakController
+  parent: _2Erronka_API.Controllers.EskariakController
   langs:
   - csharp
   - vb
   name: GetEskariakByEgoera(string)
   nameWithType: EskariakController.GetEskariakByEgoera(string)
-  fullName: _1Erronka_API.Controllers.EskariakController.GetEskariakByEgoera(string)
+  fullName: _2Erronka_API.Controllers.EskariakController.GetEskariakByEgoera(string)
   type: Method
   source:
     remote:
@@ -599,7 +599,7 @@ items:
     startLine: 380
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Controllers
+  namespace: _2Erronka_API.Controllers
   summary: Egoeraren arabera eskariak eskuratzen ditu.
   example: []
   syntax:
@@ -618,7 +618,7 @@ items:
       <HttpGet("egoera/{egoera}")>
 
       Public Function GetEskariakByEgoera(egoera As String) As IActionResult
-  overload: _1Erronka_API.Controllers.EskariakController.GetEskariakByEgoera*
+  overload: _2Erronka_API.Controllers.EskariakController.GetEskariakByEgoera*
   attributes:
   - type: Microsoft.AspNetCore.Mvc.HttpGetAttribute
     ctor: Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor(System.String)
@@ -626,31 +626,31 @@ items:
     - type: System.String
       value: egoera/{egoera}
   nameWithType.vb: EskariakController.GetEskariakByEgoera(String)
-  fullName.vb: _1Erronka_API.Controllers.EskariakController.GetEskariakByEgoera(String)
+  fullName.vb: _2Erronka_API.Controllers.EskariakController.GetEskariakByEgoera(String)
   name.vb: GetEskariakByEgoera(String)
 references:
-- uid: _1Erronka_API.Controllers
-  commentId: N:_1Erronka_API.Controllers
-  href: _1Erronka_API.html
-  name: _1Erronka_API.Controllers
-  nameWithType: _1Erronka_API.Controllers
-  fullName: _1Erronka_API.Controllers
+- uid: _2Erronka_API.Controllers
+  commentId: N:_2Erronka_API.Controllers
+  href: _2Erronka_API.html
+  name: _2Erronka_API.Controllers
+  nameWithType: _2Erronka_API.Controllers
+  fullName: _2Erronka_API.Controllers
   spec.csharp:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.Controllers
+  - uid: _2Erronka_API.Controllers
     name: Controllers
-    href: _1Erronka_API.Controllers.html
+    href: _2Erronka_API.Controllers.html
   spec.vb:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.Controllers
+  - uid: _2Erronka_API.Controllers
     name: Controllers
-    href: _1Erronka_API.Controllers.html
+    href: _2Erronka_API.Controllers.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -9870,85 +9870,85 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
   - name: )
-- uid: _1Erronka_API.Controllers.EskariakController.#ctor*
-  commentId: Overload:_1Erronka_API.Controllers.EskariakController.#ctor
-  href: _1Erronka_API.Controllers.EskariakController.html#_1Erronka_API_Controllers_EskariakController__ctor__1Erronka_API_Repositorioak_EskariaRepository__1Erronka_API_Repositorioak_ProduktuaRepository__1Erronka_API_Repositorioak_ErreserbaRepository__1Erronka_API_Repositorioak_ProduktuaOsagaiaRepository__1Erronka_API_Repositorioak_OsagaiaRepository_
+- uid: _2Erronka_API.Controllers.EskariakController.#ctor*
+  commentId: Overload:_2Erronka_API.Controllers.EskariakController.#ctor
+  href: _2Erronka_API.Controllers.EskariakController.html#_2Erronka_API_Controllers_EskariakController__ctor__2Erronka_API_Repositorioak_EskariaRepository__2Erronka_API_Repositorioak_ProduktuaRepository__2Erronka_API_Repositorioak_ErreserbaRepository__2Erronka_API_Repositorioak_ProduktuaOsagaiaRepository__2Erronka_API_Repositorioak_OsagaiaRepository_
   name: EskariakController
   nameWithType: EskariakController.EskariakController
-  fullName: _1Erronka_API.Controllers.EskariakController.EskariakController
+  fullName: _2Erronka_API.Controllers.EskariakController.EskariakController
   nameWithType.vb: EskariakController.New
-  fullName.vb: _1Erronka_API.Controllers.EskariakController.New
+  fullName.vb: _2Erronka_API.Controllers.EskariakController.New
   name.vb: New
-- uid: _1Erronka_API.Repositorioak.EskariaRepository
-  commentId: T:_1Erronka_API.Repositorioak.EskariaRepository
-  parent: _1Erronka_API.Repositorioak
-  href: _1Erronka_API.Repositorioak.EskariaRepository.html
+- uid: _2Erronka_API.Repositorioak.EskariaRepository
+  commentId: T:_2Erronka_API.Repositorioak.EskariaRepository
+  parent: _2Erronka_API.Repositorioak
+  href: _2Erronka_API.Repositorioak.EskariaRepository.html
   name: EskariaRepository
   nameWithType: EskariaRepository
-  fullName: _1Erronka_API.Repositorioak.EskariaRepository
-- uid: _1Erronka_API.Repositorioak.ProduktuaRepository
-  commentId: T:_1Erronka_API.Repositorioak.ProduktuaRepository
-  parent: _1Erronka_API.Repositorioak
-  href: _1Erronka_API.Repositorioak.ProduktuaRepository.html
+  fullName: _2Erronka_API.Repositorioak.EskariaRepository
+- uid: _2Erronka_API.Repositorioak.ProduktuaRepository
+  commentId: T:_2Erronka_API.Repositorioak.ProduktuaRepository
+  parent: _2Erronka_API.Repositorioak
+  href: _2Erronka_API.Repositorioak.ProduktuaRepository.html
   name: ProduktuaRepository
   nameWithType: ProduktuaRepository
-  fullName: _1Erronka_API.Repositorioak.ProduktuaRepository
-- uid: _1Erronka_API.Repositorioak.ErreserbaRepository
-  commentId: T:_1Erronka_API.Repositorioak.ErreserbaRepository
-  parent: _1Erronka_API.Repositorioak
-  href: _1Erronka_API.Repositorioak.ErreserbaRepository.html
+  fullName: _2Erronka_API.Repositorioak.ProduktuaRepository
+- uid: _2Erronka_API.Repositorioak.ErreserbaRepository
+  commentId: T:_2Erronka_API.Repositorioak.ErreserbaRepository
+  parent: _2Erronka_API.Repositorioak
+  href: _2Erronka_API.Repositorioak.ErreserbaRepository.html
   name: ErreserbaRepository
   nameWithType: ErreserbaRepository
-  fullName: _1Erronka_API.Repositorioak.ErreserbaRepository
-- uid: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository
-  commentId: T:_1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository
-  parent: _1Erronka_API.Repositorioak
-  href: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.html
+  fullName: _2Erronka_API.Repositorioak.ErreserbaRepository
+- uid: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository
+  commentId: T:_2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository
+  parent: _2Erronka_API.Repositorioak
+  href: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.html
   name: ProduktuaOsagaiaRepository
   nameWithType: ProduktuaOsagaiaRepository
-  fullName: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository
-- uid: _1Erronka_API.Repositorioak.OsagaiaRepository
-  commentId: T:_1Erronka_API.Repositorioak.OsagaiaRepository
-  parent: _1Erronka_API.Repositorioak
-  href: _1Erronka_API.Repositorioak.OsagaiaRepository.html
+  fullName: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository
+- uid: _2Erronka_API.Repositorioak.OsagaiaRepository
+  commentId: T:_2Erronka_API.Repositorioak.OsagaiaRepository
+  parent: _2Erronka_API.Repositorioak
+  href: _2Erronka_API.Repositorioak.OsagaiaRepository.html
   name: OsagaiaRepository
   nameWithType: OsagaiaRepository
-  fullName: _1Erronka_API.Repositorioak.OsagaiaRepository
-- uid: _1Erronka_API.Repositorioak
-  commentId: N:_1Erronka_API.Repositorioak
-  href: _1Erronka_API.html
-  name: _1Erronka_API.Repositorioak
-  nameWithType: _1Erronka_API.Repositorioak
-  fullName: _1Erronka_API.Repositorioak
+  fullName: _2Erronka_API.Repositorioak.OsagaiaRepository
+- uid: _2Erronka_API.Repositorioak
+  commentId: N:_2Erronka_API.Repositorioak
+  href: _2Erronka_API.html
+  name: _2Erronka_API.Repositorioak
+  nameWithType: _2Erronka_API.Repositorioak
+  fullName: _2Erronka_API.Repositorioak
   spec.csharp:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.Repositorioak
+  - uid: _2Erronka_API.Repositorioak
     name: Repositorioak
-    href: _1Erronka_API.Repositorioak.html
+    href: _2Erronka_API.Repositorioak.html
   spec.vb:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.Repositorioak
+  - uid: _2Erronka_API.Repositorioak
     name: Repositorioak
-    href: _1Erronka_API.Repositorioak.html
-- uid: _1Erronka_API.Controllers.EskariakController.Sortu*
-  commentId: Overload:_1Erronka_API.Controllers.EskariakController.Sortu
-  href: _1Erronka_API.Controllers.EskariakController.html#_1Erronka_API_Controllers_EskariakController_Sortu__1Erronka_API_DTOak_EskariaSortuDto_
+    href: _2Erronka_API.Repositorioak.html
+- uid: _2Erronka_API.Controllers.EskariakController.Sortu*
+  commentId: Overload:_2Erronka_API.Controllers.EskariakController.Sortu
+  href: _2Erronka_API.Controllers.EskariakController.html#_2Erronka_API_Controllers_EskariakController_Sortu__2Erronka_API_DTOak_EskariaSortuDto_
   name: Sortu
   nameWithType: EskariakController.Sortu
-  fullName: _1Erronka_API.Controllers.EskariakController.Sortu
-- uid: _1Erronka_API.DTOak.EskariaSortuDto
-  commentId: T:_1Erronka_API.DTOak.EskariaSortuDto
-  parent: _1Erronka_API.DTOak
-  href: _1Erronka_API.DTOak.EskariaSortuDto.html
+  fullName: _2Erronka_API.Controllers.EskariakController.Sortu
+- uid: _2Erronka_API.DTOak.EskariaSortuDto
+  commentId: T:_2Erronka_API.DTOak.EskariaSortuDto
+  parent: _2Erronka_API.DTOak
+  href: _2Erronka_API.DTOak.EskariaSortuDto.html
   name: EskariaSortuDto
   nameWithType: EskariaSortuDto
-  fullName: _1Erronka_API.DTOak.EskariaSortuDto
+  fullName: _2Erronka_API.DTOak.EskariaSortuDto
 - uid: Microsoft.AspNetCore.Mvc.IActionResult
   commentId: T:Microsoft.AspNetCore.Mvc.IActionResult
   parent: Microsoft.AspNetCore.Mvc
@@ -9957,34 +9957,34 @@ references:
   name: IActionResult
   nameWithType: IActionResult
   fullName: Microsoft.AspNetCore.Mvc.IActionResult
-- uid: _1Erronka_API.DTOak
-  commentId: N:_1Erronka_API.DTOak
-  href: _1Erronka_API.html
-  name: _1Erronka_API.DTOak
-  nameWithType: _1Erronka_API.DTOak
-  fullName: _1Erronka_API.DTOak
+- uid: _2Erronka_API.DTOak
+  commentId: N:_2Erronka_API.DTOak
+  href: _2Erronka_API.html
+  name: _2Erronka_API.DTOak
+  nameWithType: _2Erronka_API.DTOak
+  fullName: _2Erronka_API.DTOak
   spec.csharp:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.DTOak
+  - uid: _2Erronka_API.DTOak
     name: DTOak
-    href: _1Erronka_API.DTOak.html
+    href: _2Erronka_API.DTOak.html
   spec.vb:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.DTOak
+  - uid: _2Erronka_API.DTOak
     name: DTOak
-    href: _1Erronka_API.DTOak.html
-- uid: _1Erronka_API.Controllers.EskariakController.Eguneratu*
-  commentId: Overload:_1Erronka_API.Controllers.EskariakController.Eguneratu
-  href: _1Erronka_API.Controllers.EskariakController.html#_1Erronka_API_Controllers_EskariakController_Eguneratu_System_Int32__1Erronka_API_DTOak_EskariaSortuDto_
+    href: _2Erronka_API.DTOak.html
+- uid: _2Erronka_API.Controllers.EskariakController.Eguneratu*
+  commentId: Overload:_2Erronka_API.Controllers.EskariakController.Eguneratu
+  href: _2Erronka_API.Controllers.EskariakController.html#_2Erronka_API_Controllers_EskariakController_Eguneratu_System_Int32__2Erronka_API_DTOak_EskariaSortuDto_
   name: Eguneratu
   nameWithType: EskariakController.Eguneratu
-  fullName: _1Erronka_API.Controllers.EskariakController.Eguneratu
+  fullName: _2Erronka_API.Controllers.EskariakController.Eguneratu
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -9996,36 +9996,36 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: _1Erronka_API.Controllers.EskariakController.Ezabatu*
-  commentId: Overload:_1Erronka_API.Controllers.EskariakController.Ezabatu
-  href: _1Erronka_API.Controllers.EskariakController.html#_1Erronka_API_Controllers_EskariakController_Ezabatu_System_Int32_
+- uid: _2Erronka_API.Controllers.EskariakController.Ezabatu*
+  commentId: Overload:_2Erronka_API.Controllers.EskariakController.Ezabatu
+  href: _2Erronka_API.Controllers.EskariakController.html#_2Erronka_API_Controllers_EskariakController_Ezabatu_System_Int32_
   name: Ezabatu
   nameWithType: EskariakController.Ezabatu
-  fullName: _1Erronka_API.Controllers.EskariakController.Ezabatu
-- uid: _1Erronka_API.Controllers.EskariakController.GetEskaria*
-  commentId: Overload:_1Erronka_API.Controllers.EskariakController.GetEskaria
-  href: _1Erronka_API.Controllers.EskariakController.html#_1Erronka_API_Controllers_EskariakController_GetEskaria_System_Int32_
+  fullName: _2Erronka_API.Controllers.EskariakController.Ezabatu
+- uid: _2Erronka_API.Controllers.EskariakController.GetEskaria*
+  commentId: Overload:_2Erronka_API.Controllers.EskariakController.GetEskaria
+  href: _2Erronka_API.Controllers.EskariakController.html#_2Erronka_API_Controllers_EskariakController_GetEskaria_System_Int32_
   name: GetEskaria
   nameWithType: EskariakController.GetEskaria
-  fullName: _1Erronka_API.Controllers.EskariakController.GetEskaria
-- uid: _1Erronka_API.Controllers.EskariakController.GetEskariakByErreserba*
-  commentId: Overload:_1Erronka_API.Controllers.EskariakController.GetEskariakByErreserba
-  href: _1Erronka_API.Controllers.EskariakController.html#_1Erronka_API_Controllers_EskariakController_GetEskariakByErreserba_System_Int32_
+  fullName: _2Erronka_API.Controllers.EskariakController.GetEskaria
+- uid: _2Erronka_API.Controllers.EskariakController.GetEskariakByErreserba*
+  commentId: Overload:_2Erronka_API.Controllers.EskariakController.GetEskariakByErreserba
+  href: _2Erronka_API.Controllers.EskariakController.html#_2Erronka_API_Controllers_EskariakController_GetEskariakByErreserba_System_Int32_
   name: GetEskariakByErreserba
   nameWithType: EskariakController.GetEskariakByErreserba
-  fullName: _1Erronka_API.Controllers.EskariakController.GetEskariakByErreserba
-- uid: _1Erronka_API.Controllers.EskariakController.GetEskariak*
-  commentId: Overload:_1Erronka_API.Controllers.EskariakController.GetEskariak
-  href: _1Erronka_API.Controllers.EskariakController.html#_1Erronka_API_Controllers_EskariakController_GetEskariak
+  fullName: _2Erronka_API.Controllers.EskariakController.GetEskariakByErreserba
+- uid: _2Erronka_API.Controllers.EskariakController.GetEskariak*
+  commentId: Overload:_2Erronka_API.Controllers.EskariakController.GetEskariak
+  href: _2Erronka_API.Controllers.EskariakController.html#_2Erronka_API_Controllers_EskariakController_GetEskariak
   name: GetEskariak
   nameWithType: EskariakController.GetEskariak
-  fullName: _1Erronka_API.Controllers.EskariakController.GetEskariak
-- uid: _1Erronka_API.Controllers.EskariakController.GetEskariakByEgoera*
-  commentId: Overload:_1Erronka_API.Controllers.EskariakController.GetEskariakByEgoera
-  href: _1Erronka_API.Controllers.EskariakController.html#_1Erronka_API_Controllers_EskariakController_GetEskariakByEgoera_System_String_
+  fullName: _2Erronka_API.Controllers.EskariakController.GetEskariak
+- uid: _2Erronka_API.Controllers.EskariakController.GetEskariakByEgoera*
+  commentId: Overload:_2Erronka_API.Controllers.EskariakController.GetEskariakByEgoera
+  href: _2Erronka_API.Controllers.EskariakController.html#_2Erronka_API_Controllers_EskariakController_GetEskariakByEgoera_System_String_
   name: GetEskariakByEgoera
   nameWithType: EskariakController.GetEskariakByEgoera
-  fullName: _1Erronka_API.Controllers.EskariakController.GetEskariakByEgoera
+  fullName: _2Erronka_API.Controllers.EskariakController.GetEskariakByEgoera
 - uid: System.String
   commentId: T:System.String
   parent: System

@@ -1,20 +1,20 @@
 ### YamlMime:ManagedReference
 items:
-- uid: _1Erronka_API.DTOak.EskariaSortuDto
-  commentId: T:_1Erronka_API.DTOak.EskariaSortuDto
+- uid: _2Erronka_API.DTOak.EskariaSortuDto
+  commentId: T:_2Erronka_API.DTOak.EskariaSortuDto
   id: EskariaSortuDto
-  parent: _1Erronka_API.DTOak
+  parent: _2Erronka_API.DTOak
   children:
-  - _1Erronka_API.DTOak.EskariaSortuDto.Egoera
-  - _1Erronka_API.DTOak.EskariaSortuDto.ErreserbaId
-  - _1Erronka_API.DTOak.EskariaSortuDto.Prezioa
-  - _1Erronka_API.DTOak.EskariaSortuDto.Produktuak
+  - _2Erronka_API.DTOak.EskariaSortuDto.Egoera
+  - _2Erronka_API.DTOak.EskariaSortuDto.ErreserbaId
+  - _2Erronka_API.DTOak.EskariaSortuDto.Prezioa
+  - _2Erronka_API.DTOak.EskariaSortuDto.Produktuak
   langs:
   - csharp
   - vb
   name: EskariaSortuDto
   nameWithType: EskariaSortuDto
-  fullName: _1Erronka_API.DTOak.EskariaSortuDto
+  fullName: _2Erronka_API.DTOak.EskariaSortuDto
   type: Class
   source:
     remote:
@@ -26,7 +26,7 @@ items:
     startLine: 24
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Eskari berria sortu edo eguneratzeko erabiltzen den sarrera-DTOa.
   example: []
   syntax:
@@ -42,16 +42,16 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: _1Erronka_API.DTOak.EskariaSortuDto.ErreserbaId
-  commentId: P:_1Erronka_API.DTOak.EskariaSortuDto.ErreserbaId
+- uid: _2Erronka_API.DTOak.EskariaSortuDto.ErreserbaId
+  commentId: P:_2Erronka_API.DTOak.EskariaSortuDto.ErreserbaId
   id: ErreserbaId
-  parent: _1Erronka_API.DTOak.EskariaSortuDto
+  parent: _2Erronka_API.DTOak.EskariaSortuDto
   langs:
   - csharp
   - vb
   name: ErreserbaId
   nameWithType: EskariaSortuDto.ErreserbaId
-  fullName: _1Erronka_API.DTOak.EskariaSortuDto.ErreserbaId
+  fullName: _2Erronka_API.DTOak.EskariaSortuDto.ErreserbaId
   type: Property
   source:
     remote:
@@ -63,7 +63,7 @@ items:
     startLine: 27
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Lotutako erreserbaren identifikatzailea.
   example: []
   syntax:
@@ -72,17 +72,17 @@ items:
     return:
       type: System.Int32
     content.vb: Public Property ErreserbaId As Integer
-  overload: _1Erronka_API.DTOak.EskariaSortuDto.ErreserbaId*
-- uid: _1Erronka_API.DTOak.EskariaSortuDto.Prezioa
-  commentId: P:_1Erronka_API.DTOak.EskariaSortuDto.Prezioa
+  overload: _2Erronka_API.DTOak.EskariaSortuDto.ErreserbaId*
+- uid: _2Erronka_API.DTOak.EskariaSortuDto.Prezioa
+  commentId: P:_2Erronka_API.DTOak.EskariaSortuDto.Prezioa
   id: Prezioa
-  parent: _1Erronka_API.DTOak.EskariaSortuDto
+  parent: _2Erronka_API.DTOak.EskariaSortuDto
   langs:
   - csharp
   - vb
   name: Prezioa
   nameWithType: EskariaSortuDto.Prezioa
-  fullName: _1Erronka_API.DTOak.EskariaSortuDto.Prezioa
+  fullName: _2Erronka_API.DTOak.EskariaSortuDto.Prezioa
   type: Property
   source:
     remote:
@@ -94,7 +94,7 @@ items:
     startLine: 29
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Eskariaren prezioa (zerbitzuak kalkulatu dezake).
   example: []
   syntax:
@@ -103,17 +103,17 @@ items:
     return:
       type: System.Double
     content.vb: Public Property Prezioa As Double
-  overload: _1Erronka_API.DTOak.EskariaSortuDto.Prezioa*
-- uid: _1Erronka_API.DTOak.EskariaSortuDto.Egoera
-  commentId: P:_1Erronka_API.DTOak.EskariaSortuDto.Egoera
+  overload: _2Erronka_API.DTOak.EskariaSortuDto.Prezioa*
+- uid: _2Erronka_API.DTOak.EskariaSortuDto.Egoera
+  commentId: P:_2Erronka_API.DTOak.EskariaSortuDto.Egoera
   id: Egoera
-  parent: _1Erronka_API.DTOak.EskariaSortuDto
+  parent: _2Erronka_API.DTOak.EskariaSortuDto
   langs:
   - csharp
   - vb
   name: Egoera
   nameWithType: EskariaSortuDto.Egoera
-  fullName: _1Erronka_API.DTOak.EskariaSortuDto.Egoera
+  fullName: _2Erronka_API.DTOak.EskariaSortuDto.Egoera
   type: Property
   source:
     remote:
@@ -125,7 +125,7 @@ items:
     startLine: 31
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Eskariaren egoera.
   example: []
   syntax:
@@ -134,17 +134,17 @@ items:
     return:
       type: System.String
     content.vb: Public Property Egoera As String
-  overload: _1Erronka_API.DTOak.EskariaSortuDto.Egoera*
-- uid: _1Erronka_API.DTOak.EskariaSortuDto.Produktuak
-  commentId: P:_1Erronka_API.DTOak.EskariaSortuDto.Produktuak
+  overload: _2Erronka_API.DTOak.EskariaSortuDto.Egoera*
+- uid: _2Erronka_API.DTOak.EskariaSortuDto.Produktuak
+  commentId: P:_2Erronka_API.DTOak.EskariaSortuDto.Produktuak
   id: Produktuak
-  parent: _1Erronka_API.DTOak.EskariaSortuDto
+  parent: _2Erronka_API.DTOak.EskariaSortuDto
   langs:
   - csharp
   - vb
   name: Produktuak
   nameWithType: EskariaSortuDto.Produktuak
-  fullName: _1Erronka_API.DTOak.EskariaSortuDto.Produktuak
+  fullName: _2Erronka_API.DTOak.EskariaSortuDto.Produktuak
   type: Property
   source:
     remote:
@@ -156,39 +156,39 @@ items:
     startLine: 33
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Eskarian sartutako produktuen zerrenda.
   example: []
   syntax:
     content: public List<EskariaProduktuaSortuDto> Produktuak { get; set; }
     parameters: []
     return:
-      type: System.Collections.Generic.List{_1Erronka_API.DTOak.EskariaProduktuaSortuDto}
+      type: System.Collections.Generic.List{_2Erronka_API.DTOak.EskariaProduktuaSortuDto}
     content.vb: Public Property Produktuak As List(Of EskariaProduktuaSortuDto)
-  overload: _1Erronka_API.DTOak.EskariaSortuDto.Produktuak*
+  overload: _2Erronka_API.DTOak.EskariaSortuDto.Produktuak*
 references:
-- uid: _1Erronka_API.DTOak
-  commentId: N:_1Erronka_API.DTOak
-  href: _1Erronka_API.html
-  name: _1Erronka_API.DTOak
-  nameWithType: _1Erronka_API.DTOak
-  fullName: _1Erronka_API.DTOak
+- uid: _2Erronka_API.DTOak
+  commentId: N:_2Erronka_API.DTOak
+  href: _2Erronka_API.html
+  name: _2Erronka_API.DTOak
+  nameWithType: _2Erronka_API.DTOak
+  fullName: _2Erronka_API.DTOak
   spec.csharp:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.DTOak
+  - uid: _2Erronka_API.DTOak
     name: DTOak
-    href: _1Erronka_API.DTOak.html
+    href: _2Erronka_API.DTOak.html
   spec.vb:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.DTOak
+  - uid: _2Erronka_API.DTOak
     name: DTOak
-    href: _1Erronka_API.DTOak.html
+    href: _2Erronka_API.DTOak.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -426,12 +426,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: _1Erronka_API.DTOak.EskariaSortuDto.ErreserbaId*
-  commentId: Overload:_1Erronka_API.DTOak.EskariaSortuDto.ErreserbaId
-  href: _1Erronka_API.DTOak.EskariaSortuDto.html#_1Erronka_API_DTOak_EskariaSortuDto_ErreserbaId
+- uid: _2Erronka_API.DTOak.EskariaSortuDto.ErreserbaId*
+  commentId: Overload:_2Erronka_API.DTOak.EskariaSortuDto.ErreserbaId
+  href: _2Erronka_API.DTOak.EskariaSortuDto.html#_2Erronka_API_DTOak_EskariaSortuDto_ErreserbaId
   name: ErreserbaId
   nameWithType: EskariaSortuDto.ErreserbaId
-  fullName: _1Erronka_API.DTOak.EskariaSortuDto.ErreserbaId
+  fullName: _2Erronka_API.DTOak.EskariaSortuDto.ErreserbaId
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -443,12 +443,12 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: _1Erronka_API.DTOak.EskariaSortuDto.Prezioa*
-  commentId: Overload:_1Erronka_API.DTOak.EskariaSortuDto.Prezioa
-  href: _1Erronka_API.DTOak.EskariaSortuDto.html#_1Erronka_API_DTOak_EskariaSortuDto_Prezioa
+- uid: _2Erronka_API.DTOak.EskariaSortuDto.Prezioa*
+  commentId: Overload:_2Erronka_API.DTOak.EskariaSortuDto.Prezioa
+  href: _2Erronka_API.DTOak.EskariaSortuDto.html#_2Erronka_API_DTOak_EskariaSortuDto_Prezioa
   name: Prezioa
   nameWithType: EskariaSortuDto.Prezioa
-  fullName: _1Erronka_API.DTOak.EskariaSortuDto.Prezioa
+  fullName: _2Erronka_API.DTOak.EskariaSortuDto.Prezioa
 - uid: System.Double
   commentId: T:System.Double
   parent: System
@@ -460,12 +460,12 @@ references:
   nameWithType.vb: Double
   fullName.vb: Double
   name.vb: Double
-- uid: _1Erronka_API.DTOak.EskariaSortuDto.Egoera*
-  commentId: Overload:_1Erronka_API.DTOak.EskariaSortuDto.Egoera
-  href: _1Erronka_API.DTOak.EskariaSortuDto.html#_1Erronka_API_DTOak_EskariaSortuDto_Egoera
+- uid: _2Erronka_API.DTOak.EskariaSortuDto.Egoera*
+  commentId: Overload:_2Erronka_API.DTOak.EskariaSortuDto.Egoera
+  href: _2Erronka_API.DTOak.EskariaSortuDto.html#_2Erronka_API_DTOak_EskariaSortuDto_Egoera
   name: Egoera
   nameWithType: EskariaSortuDto.Egoera
-  fullName: _1Erronka_API.DTOak.EskariaSortuDto.Egoera
+  fullName: _2Erronka_API.DTOak.EskariaSortuDto.Egoera
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -477,22 +477,22 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: _1Erronka_API.DTOak.EskariaSortuDto.Produktuak*
-  commentId: Overload:_1Erronka_API.DTOak.EskariaSortuDto.Produktuak
-  href: _1Erronka_API.DTOak.EskariaSortuDto.html#_1Erronka_API_DTOak_EskariaSortuDto_Produktuak
+- uid: _2Erronka_API.DTOak.EskariaSortuDto.Produktuak*
+  commentId: Overload:_2Erronka_API.DTOak.EskariaSortuDto.Produktuak
+  href: _2Erronka_API.DTOak.EskariaSortuDto.html#_2Erronka_API_DTOak_EskariaSortuDto_Produktuak
   name: Produktuak
   nameWithType: EskariaSortuDto.Produktuak
-  fullName: _1Erronka_API.DTOak.EskariaSortuDto.Produktuak
-- uid: System.Collections.Generic.List{_1Erronka_API.DTOak.EskariaProduktuaSortuDto}
-  commentId: T:System.Collections.Generic.List{_1Erronka_API.DTOak.EskariaProduktuaSortuDto}
+  fullName: _2Erronka_API.DTOak.EskariaSortuDto.Produktuak
+- uid: System.Collections.Generic.List{_2Erronka_API.DTOak.EskariaProduktuaSortuDto}
+  commentId: T:System.Collections.Generic.List{_2Erronka_API.DTOak.EskariaProduktuaSortuDto}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.List`1
   href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<EskariaProduktuaSortuDto>
   nameWithType: List<EskariaProduktuaSortuDto>
-  fullName: System.Collections.Generic.List<_1Erronka_API.DTOak.EskariaProduktuaSortuDto>
+  fullName: System.Collections.Generic.List<_2Erronka_API.DTOak.EskariaProduktuaSortuDto>
   nameWithType.vb: List(Of EskariaProduktuaSortuDto)
-  fullName.vb: System.Collections.Generic.List(Of _1Erronka_API.DTOak.EskariaProduktuaSortuDto)
+  fullName.vb: System.Collections.Generic.List(Of _2Erronka_API.DTOak.EskariaProduktuaSortuDto)
   name.vb: List(Of EskariaProduktuaSortuDto)
   spec.csharp:
   - uid: System.Collections.Generic.List`1
@@ -500,9 +500,9 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-  - uid: _1Erronka_API.DTOak.EskariaProduktuaSortuDto
+  - uid: _2Erronka_API.DTOak.EskariaProduktuaSortuDto
     name: EskariaProduktuaSortuDto
-    href: _1Erronka_API.DTOak.EskariaProduktuaSortuDto.html
+    href: _2Erronka_API.DTOak.EskariaProduktuaSortuDto.html
   - name: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
@@ -512,9 +512,9 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: _1Erronka_API.DTOak.EskariaProduktuaSortuDto
+  - uid: _2Erronka_API.DTOak.EskariaProduktuaSortuDto
     name: EskariaProduktuaSortuDto
-    href: _1Erronka_API.DTOak.EskariaProduktuaSortuDto.html
+    href: _2Erronka_API.DTOak.EskariaProduktuaSortuDto.html
   - name: )
 - uid: System.Collections.Generic.List`1
   commentId: T:System.Collections.Generic.List`1

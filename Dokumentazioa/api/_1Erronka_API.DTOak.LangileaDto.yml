@@ -1,23 +1,23 @@
 ### YamlMime:ManagedReference
 items:
-- uid: _1Erronka_API.DTOak.LangileaDto
-  commentId: T:_1Erronka_API.DTOak.LangileaDto
+- uid: _2Erronka_API.DTOak.LangileaDto
+  commentId: T:_2Erronka_API.DTOak.LangileaDto
   id: LangileaDto
-  parent: _1Erronka_API.DTOak
+  parent: _2Erronka_API.DTOak
   children:
-  - _1Erronka_API.DTOak.LangileaDto.Erabiltzaile_izena
-  - _1Erronka_API.DTOak.LangileaDto.Gerentea
-  - _1Erronka_API.DTOak.LangileaDto.Id
-  - _1Erronka_API.DTOak.LangileaDto.Izena
-  - _1Erronka_API.DTOak.LangileaDto.Langile_kodea
-  - _1Erronka_API.DTOak.LangileaDto.Pasahitza
-  - _1Erronka_API.DTOak.LangileaDto.TpvSarrera
+  - _2Erronka_API.DTOak.LangileaDto.Erabiltzaile_izena
+  - _2Erronka_API.DTOak.LangileaDto.Gerentea
+  - _2Erronka_API.DTOak.LangileaDto.Id
+  - _2Erronka_API.DTOak.LangileaDto.Izena
+  - _2Erronka_API.DTOak.LangileaDto.Langile_kodea
+  - _2Erronka_API.DTOak.LangileaDto.Pasahitza
+  - _2Erronka_API.DTOak.LangileaDto.TpvSarrera
   langs:
   - csharp
   - vb
   name: LangileaDto
   nameWithType: LangileaDto
-  fullName: _1Erronka_API.DTOak.LangileaDto
+  fullName: _2Erronka_API.DTOak.LangileaDto
   type: Class
   source:
     remote:
@@ -29,7 +29,7 @@ items:
     startLine: 5
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Langile baten datu-laburpena, login eta bestelako erantzunetan erabiltzeko.
   example: []
   syntax:
@@ -45,16 +45,16 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: _1Erronka_API.DTOak.LangileaDto.Id
-  commentId: P:_1Erronka_API.DTOak.LangileaDto.Id
+- uid: _2Erronka_API.DTOak.LangileaDto.Id
+  commentId: P:_2Erronka_API.DTOak.LangileaDto.Id
   id: Id
-  parent: _1Erronka_API.DTOak.LangileaDto
+  parent: _2Erronka_API.DTOak.LangileaDto
   langs:
   - csharp
   - vb
   name: Id
   nameWithType: LangileaDto.Id
-  fullName: _1Erronka_API.DTOak.LangileaDto.Id
+  fullName: _2Erronka_API.DTOak.LangileaDto.Id
   type: Property
   source:
     remote:
@@ -66,7 +66,7 @@ items:
     startLine: 8
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Langilearen identifikatzailea.
   example: []
   syntax:
@@ -75,17 +75,17 @@ items:
     return:
       type: System.Int32
     content.vb: Public Overridable Property Id As Integer
-  overload: _1Erronka_API.DTOak.LangileaDto.Id*
-- uid: _1Erronka_API.DTOak.LangileaDto.Izena
-  commentId: P:_1Erronka_API.DTOak.LangileaDto.Izena
+  overload: _2Erronka_API.DTOak.LangileaDto.Id*
+- uid: _2Erronka_API.DTOak.LangileaDto.Izena
+  commentId: P:_2Erronka_API.DTOak.LangileaDto.Izena
   id: Izena
-  parent: _1Erronka_API.DTOak.LangileaDto
+  parent: _2Erronka_API.DTOak.LangileaDto
   langs:
   - csharp
   - vb
   name: Izena
   nameWithType: LangileaDto.Izena
-  fullName: _1Erronka_API.DTOak.LangileaDto.Izena
+  fullName: _2Erronka_API.DTOak.LangileaDto.Izena
   type: Property
   source:
     remote:
@@ -97,7 +97,7 @@ items:
     startLine: 10
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Langilearen izena.
   example: []
   syntax:
@@ -106,17 +106,17 @@ items:
     return:
       type: System.String
     content.vb: Public Overridable Property Izena As String
-  overload: _1Erronka_API.DTOak.LangileaDto.Izena*
-- uid: _1Erronka_API.DTOak.LangileaDto.Erabiltzaile_izena
-  commentId: P:_1Erronka_API.DTOak.LangileaDto.Erabiltzaile_izena
+  overload: _2Erronka_API.DTOak.LangileaDto.Izena*
+- uid: _2Erronka_API.DTOak.LangileaDto.Erabiltzaile_izena
+  commentId: P:_2Erronka_API.DTOak.LangileaDto.Erabiltzaile_izena
   id: Erabiltzaile_izena
-  parent: _1Erronka_API.DTOak.LangileaDto
+  parent: _2Erronka_API.DTOak.LangileaDto
   langs:
   - csharp
   - vb
   name: Erabiltzaile_izena
   nameWithType: LangileaDto.Erabiltzaile_izena
-  fullName: _1Erronka_API.DTOak.LangileaDto.Erabiltzaile_izena
+  fullName: _2Erronka_API.DTOak.LangileaDto.Erabiltzaile_izena
   type: Property
   source:
     remote:
@@ -128,7 +128,7 @@ items:
     startLine: 12
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Langilearen erabiltzaile-izena.
   example: []
   syntax:
@@ -137,17 +137,17 @@ items:
     return:
       type: System.String
     content.vb: Public Overridable Property Erabiltzaile_izena As String
-  overload: _1Erronka_API.DTOak.LangileaDto.Erabiltzaile_izena*
-- uid: _1Erronka_API.DTOak.LangileaDto.Langile_kodea
-  commentId: P:_1Erronka_API.DTOak.LangileaDto.Langile_kodea
+  overload: _2Erronka_API.DTOak.LangileaDto.Erabiltzaile_izena*
+- uid: _2Erronka_API.DTOak.LangileaDto.Langile_kodea
+  commentId: P:_2Erronka_API.DTOak.LangileaDto.Langile_kodea
   id: Langile_kodea
-  parent: _1Erronka_API.DTOak.LangileaDto
+  parent: _2Erronka_API.DTOak.LangileaDto
   langs:
   - csharp
   - vb
   name: Langile_kodea
   nameWithType: LangileaDto.Langile_kodea
-  fullName: _1Erronka_API.DTOak.LangileaDto.Langile_kodea
+  fullName: _2Erronka_API.DTOak.LangileaDto.Langile_kodea
   type: Property
   source:
     remote:
@@ -159,7 +159,7 @@ items:
     startLine: 14
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Langilearen kodea.
   example: []
   syntax:
@@ -168,17 +168,17 @@ items:
     return:
       type: System.Int32
     content.vb: Public Property Langile_kodea As Integer
-  overload: _1Erronka_API.DTOak.LangileaDto.Langile_kodea*
-- uid: _1Erronka_API.DTOak.LangileaDto.Pasahitza
-  commentId: P:_1Erronka_API.DTOak.LangileaDto.Pasahitza
+  overload: _2Erronka_API.DTOak.LangileaDto.Langile_kodea*
+- uid: _2Erronka_API.DTOak.LangileaDto.Pasahitza
+  commentId: P:_2Erronka_API.DTOak.LangileaDto.Pasahitza
   id: Pasahitza
-  parent: _1Erronka_API.DTOak.LangileaDto
+  parent: _2Erronka_API.DTOak.LangileaDto
   langs:
   - csharp
   - vb
   name: Pasahitza
   nameWithType: LangileaDto.Pasahitza
-  fullName: _1Erronka_API.DTOak.LangileaDto.Pasahitza
+  fullName: _2Erronka_API.DTOak.LangileaDto.Pasahitza
   type: Property
   source:
     remote:
@@ -190,7 +190,7 @@ items:
     startLine: 16
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Langilearen pasahitza (APIan ez da beti bidaltzen).
   example: []
   syntax:
@@ -199,17 +199,17 @@ items:
     return:
       type: System.String
     content.vb: Public Overridable Property Pasahitza As String
-  overload: _1Erronka_API.DTOak.LangileaDto.Pasahitza*
-- uid: _1Erronka_API.DTOak.LangileaDto.Gerentea
-  commentId: P:_1Erronka_API.DTOak.LangileaDto.Gerentea
+  overload: _2Erronka_API.DTOak.LangileaDto.Pasahitza*
+- uid: _2Erronka_API.DTOak.LangileaDto.Gerentea
+  commentId: P:_2Erronka_API.DTOak.LangileaDto.Gerentea
   id: Gerentea
-  parent: _1Erronka_API.DTOak.LangileaDto
+  parent: _2Erronka_API.DTOak.LangileaDto
   langs:
   - csharp
   - vb
   name: Gerentea
   nameWithType: LangileaDto.Gerentea
-  fullName: _1Erronka_API.DTOak.LangileaDto.Gerentea
+  fullName: _2Erronka_API.DTOak.LangileaDto.Gerentea
   type: Property
   source:
     remote:
@@ -221,7 +221,7 @@ items:
     startLine: 18
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Gerentea den adierazlea.
   example: []
   syntax:
@@ -230,17 +230,17 @@ items:
     return:
       type: System.Boolean
     content.vb: Public Overridable Property Gerentea As Boolean
-  overload: _1Erronka_API.DTOak.LangileaDto.Gerentea*
-- uid: _1Erronka_API.DTOak.LangileaDto.TpvSarrera
-  commentId: P:_1Erronka_API.DTOak.LangileaDto.TpvSarrera
+  overload: _2Erronka_API.DTOak.LangileaDto.Gerentea*
+- uid: _2Erronka_API.DTOak.LangileaDto.TpvSarrera
+  commentId: P:_2Erronka_API.DTOak.LangileaDto.TpvSarrera
   id: TpvSarrera
-  parent: _1Erronka_API.DTOak.LangileaDto
+  parent: _2Erronka_API.DTOak.LangileaDto
   langs:
   - csharp
   - vb
   name: TpvSarrera
   nameWithType: LangileaDto.TpvSarrera
-  fullName: _1Erronka_API.DTOak.LangileaDto.TpvSarrera
+  fullName: _2Erronka_API.DTOak.LangileaDto.TpvSarrera
   type: Property
   source:
     remote:
@@ -252,7 +252,7 @@ items:
     startLine: 20
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: TPV-ra sartzeko baimena duen adierazlea.
   example: []
   syntax:
@@ -261,30 +261,30 @@ items:
     return:
       type: System.Boolean
     content.vb: Public Overridable Property TpvSarrera As Boolean
-  overload: _1Erronka_API.DTOak.LangileaDto.TpvSarrera*
+  overload: _2Erronka_API.DTOak.LangileaDto.TpvSarrera*
 references:
-- uid: _1Erronka_API.DTOak
-  commentId: N:_1Erronka_API.DTOak
-  href: _1Erronka_API.html
-  name: _1Erronka_API.DTOak
-  nameWithType: _1Erronka_API.DTOak
-  fullName: _1Erronka_API.DTOak
+- uid: _2Erronka_API.DTOak
+  commentId: N:_2Erronka_API.DTOak
+  href: _2Erronka_API.html
+  name: _2Erronka_API.DTOak
+  nameWithType: _2Erronka_API.DTOak
+  fullName: _2Erronka_API.DTOak
   spec.csharp:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.DTOak
+  - uid: _2Erronka_API.DTOak
     name: DTOak
-    href: _1Erronka_API.DTOak.html
+    href: _2Erronka_API.DTOak.html
   spec.vb:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.DTOak
+  - uid: _2Erronka_API.DTOak
     name: DTOak
-    href: _1Erronka_API.DTOak.html
+    href: _2Erronka_API.DTOak.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -522,12 +522,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: _1Erronka_API.DTOak.LangileaDto.Id*
-  commentId: Overload:_1Erronka_API.DTOak.LangileaDto.Id
-  href: _1Erronka_API.DTOak.LangileaDto.html#_1Erronka_API_DTOak_LangileaDto_Id
+- uid: _2Erronka_API.DTOak.LangileaDto.Id*
+  commentId: Overload:_2Erronka_API.DTOak.LangileaDto.Id
+  href: _2Erronka_API.DTOak.LangileaDto.html#_2Erronka_API_DTOak_LangileaDto_Id
   name: Id
   nameWithType: LangileaDto.Id
-  fullName: _1Erronka_API.DTOak.LangileaDto.Id
+  fullName: _2Erronka_API.DTOak.LangileaDto.Id
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -539,12 +539,12 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: _1Erronka_API.DTOak.LangileaDto.Izena*
-  commentId: Overload:_1Erronka_API.DTOak.LangileaDto.Izena
-  href: _1Erronka_API.DTOak.LangileaDto.html#_1Erronka_API_DTOak_LangileaDto_Izena
+- uid: _2Erronka_API.DTOak.LangileaDto.Izena*
+  commentId: Overload:_2Erronka_API.DTOak.LangileaDto.Izena
+  href: _2Erronka_API.DTOak.LangileaDto.html#_2Erronka_API_DTOak_LangileaDto_Izena
   name: Izena
   nameWithType: LangileaDto.Izena
-  fullName: _1Erronka_API.DTOak.LangileaDto.Izena
+  fullName: _2Erronka_API.DTOak.LangileaDto.Izena
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -556,30 +556,30 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: _1Erronka_API.DTOak.LangileaDto.Erabiltzaile_izena*
-  commentId: Overload:_1Erronka_API.DTOak.LangileaDto.Erabiltzaile_izena
-  href: _1Erronka_API.DTOak.LangileaDto.html#_1Erronka_API_DTOak_LangileaDto_Erabiltzaile_izena
+- uid: _2Erronka_API.DTOak.LangileaDto.Erabiltzaile_izena*
+  commentId: Overload:_2Erronka_API.DTOak.LangileaDto.Erabiltzaile_izena
+  href: _2Erronka_API.DTOak.LangileaDto.html#_2Erronka_API_DTOak_LangileaDto_Erabiltzaile_izena
   name: Erabiltzaile_izena
   nameWithType: LangileaDto.Erabiltzaile_izena
-  fullName: _1Erronka_API.DTOak.LangileaDto.Erabiltzaile_izena
-- uid: _1Erronka_API.DTOak.LangileaDto.Langile_kodea*
-  commentId: Overload:_1Erronka_API.DTOak.LangileaDto.Langile_kodea
-  href: _1Erronka_API.DTOak.LangileaDto.html#_1Erronka_API_DTOak_LangileaDto_Langile_kodea
+  fullName: _2Erronka_API.DTOak.LangileaDto.Erabiltzaile_izena
+- uid: _2Erronka_API.DTOak.LangileaDto.Langile_kodea*
+  commentId: Overload:_2Erronka_API.DTOak.LangileaDto.Langile_kodea
+  href: _2Erronka_API.DTOak.LangileaDto.html#_2Erronka_API_DTOak_LangileaDto_Langile_kodea
   name: Langile_kodea
   nameWithType: LangileaDto.Langile_kodea
-  fullName: _1Erronka_API.DTOak.LangileaDto.Langile_kodea
-- uid: _1Erronka_API.DTOak.LangileaDto.Pasahitza*
-  commentId: Overload:_1Erronka_API.DTOak.LangileaDto.Pasahitza
-  href: _1Erronka_API.DTOak.LangileaDto.html#_1Erronka_API_DTOak_LangileaDto_Pasahitza
+  fullName: _2Erronka_API.DTOak.LangileaDto.Langile_kodea
+- uid: _2Erronka_API.DTOak.LangileaDto.Pasahitza*
+  commentId: Overload:_2Erronka_API.DTOak.LangileaDto.Pasahitza
+  href: _2Erronka_API.DTOak.LangileaDto.html#_2Erronka_API_DTOak_LangileaDto_Pasahitza
   name: Pasahitza
   nameWithType: LangileaDto.Pasahitza
-  fullName: _1Erronka_API.DTOak.LangileaDto.Pasahitza
-- uid: _1Erronka_API.DTOak.LangileaDto.Gerentea*
-  commentId: Overload:_1Erronka_API.DTOak.LangileaDto.Gerentea
-  href: _1Erronka_API.DTOak.LangileaDto.html#_1Erronka_API_DTOak_LangileaDto_Gerentea
+  fullName: _2Erronka_API.DTOak.LangileaDto.Pasahitza
+- uid: _2Erronka_API.DTOak.LangileaDto.Gerentea*
+  commentId: Overload:_2Erronka_API.DTOak.LangileaDto.Gerentea
+  href: _2Erronka_API.DTOak.LangileaDto.html#_2Erronka_API_DTOak_LangileaDto_Gerentea
   name: Gerentea
   nameWithType: LangileaDto.Gerentea
-  fullName: _1Erronka_API.DTOak.LangileaDto.Gerentea
+  fullName: _2Erronka_API.DTOak.LangileaDto.Gerentea
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -591,9 +591,9 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
-- uid: _1Erronka_API.DTOak.LangileaDto.TpvSarrera*
-  commentId: Overload:_1Erronka_API.DTOak.LangileaDto.TpvSarrera
-  href: _1Erronka_API.DTOak.LangileaDto.html#_1Erronka_API_DTOak_LangileaDto_TpvSarrera
+- uid: _2Erronka_API.DTOak.LangileaDto.TpvSarrera*
+  commentId: Overload:_2Erronka_API.DTOak.LangileaDto.TpvSarrera
+  href: _2Erronka_API.DTOak.LangileaDto.html#_2Erronka_API_DTOak_LangileaDto_TpvSarrera
   name: TpvSarrera
   nameWithType: LangileaDto.TpvSarrera
-  fullName: _1Erronka_API.DTOak.LangileaDto.TpvSarrera
+  fullName: _2Erronka_API.DTOak.LangileaDto.TpvSarrera

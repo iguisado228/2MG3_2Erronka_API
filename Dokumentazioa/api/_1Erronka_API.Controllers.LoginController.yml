@@ -1,17 +1,17 @@
 ### YamlMime:ManagedReference
 items:
-- uid: _1Erronka_API.Controllers.LoginController
-  commentId: T:_1Erronka_API.Controllers.LoginController
+- uid: _2Erronka_API.Controllers.LoginController
+  commentId: T:_2Erronka_API.Controllers.LoginController
   id: LoginController
-  parent: _1Erronka_API.Controllers
+  parent: _2Erronka_API.Controllers
   children:
-  - _1Erronka_API.Controllers.LoginController.Login(_1Erronka_API.DTOak.LoginRequest)
+  - _2Erronka_API.Controllers.LoginController.Login(_2Erronka_API.DTOak.LoginRequest)
   langs:
   - csharp
   - vb
   name: LoginController
   nameWithType: LoginController
-  fullName: _1Erronka_API.Controllers.LoginController
+  fullName: _2Erronka_API.Controllers.LoginController
   type: Class
   source:
     remote:
@@ -23,7 +23,7 @@ items:
     startLine: 13
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Controllers
+  namespace: _2Erronka_API.Controllers
   summary: Autentifikazioaren (login) API amaierako puntuak.
   example: []
   syntax:
@@ -234,16 +234,16 @@ items:
     arguments:
     - type: System.String
       value: api/[controller]
-- uid: _1Erronka_API.Controllers.LoginController.Login(_1Erronka_API.DTOak.LoginRequest)
-  commentId: M:_1Erronka_API.Controllers.LoginController.Login(_1Erronka_API.DTOak.LoginRequest)
-  id: Login(_1Erronka_API.DTOak.LoginRequest)
-  parent: _1Erronka_API.Controllers.LoginController
+- uid: _2Erronka_API.Controllers.LoginController.Login(_2Erronka_API.DTOak.LoginRequest)
+  commentId: M:_2Erronka_API.Controllers.LoginController.Login(_2Erronka_API.DTOak.LoginRequest)
+  id: Login(_2Erronka_API.DTOak.LoginRequest)
+  parent: _2Erronka_API.Controllers.LoginController
   langs:
   - csharp
   - vb
   name: Login(LoginRequest)
   nameWithType: LoginController.Login(LoginRequest)
-  fullName: _1Erronka_API.Controllers.LoginController.Login(_1Erronka_API.DTOak.LoginRequest)
+  fullName: _2Erronka_API.Controllers.LoginController.Login(_2Erronka_API.DTOak.LoginRequest)
   type: Method
   source:
     remote:
@@ -255,7 +255,7 @@ items:
     startLine: 22
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Controllers
+  namespace: _2Erronka_API.Controllers
   summary: Langile baten kredentzialak balioztatzen ditu eta loginaren emaitza itzultzen du.
   example: []
   syntax:
@@ -265,7 +265,7 @@ items:
       public IActionResult Login(LoginRequest request)
     parameters:
     - id: request
-      type: _1Erronka_API.DTOak.LoginRequest
+      type: _2Erronka_API.DTOak.LoginRequest
       description: Langile-kodea eta pasahitza dituen eskaera.
       attributes:
       - type: Microsoft.AspNetCore.Mvc.FromBodyAttribute
@@ -278,34 +278,34 @@ items:
       <HttpPost>
 
       Public Function Login(request As LoginRequest) As IActionResult
-  overload: _1Erronka_API.Controllers.LoginController.Login*
+  overload: _2Erronka_API.Controllers.LoginController.Login*
   attributes:
   - type: Microsoft.AspNetCore.Mvc.HttpPostAttribute
     ctor: Microsoft.AspNetCore.Mvc.HttpPostAttribute.#ctor
     arguments: []
 references:
-- uid: _1Erronka_API.Controllers
-  commentId: N:_1Erronka_API.Controllers
-  href: _1Erronka_API.html
-  name: _1Erronka_API.Controllers
-  nameWithType: _1Erronka_API.Controllers
-  fullName: _1Erronka_API.Controllers
+- uid: _2Erronka_API.Controllers
+  commentId: N:_2Erronka_API.Controllers
+  href: _2Erronka_API.html
+  name: _2Erronka_API.Controllers
+  nameWithType: _2Erronka_API.Controllers
+  fullName: _2Erronka_API.Controllers
   spec.csharp:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.Controllers
+  - uid: _2Erronka_API.Controllers
     name: Controllers
-    href: _1Erronka_API.Controllers.html
+    href: _2Erronka_API.Controllers.html
   spec.vb:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.Controllers
+  - uid: _2Erronka_API.Controllers
     name: Controllers
-    href: _1Erronka_API.Controllers.html
+    href: _2Erronka_API.Controllers.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -9525,19 +9525,19 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
   - name: )
-- uid: _1Erronka_API.Controllers.LoginController.Login*
-  commentId: Overload:_1Erronka_API.Controllers.LoginController.Login
-  href: _1Erronka_API.Controllers.LoginController.html#_1Erronka_API_Controllers_LoginController_Login__1Erronka_API_DTOak_LoginRequest_
+- uid: _2Erronka_API.Controllers.LoginController.Login*
+  commentId: Overload:_2Erronka_API.Controllers.LoginController.Login
+  href: _2Erronka_API.Controllers.LoginController.html#_2Erronka_API_Controllers_LoginController_Login__2Erronka_API_DTOak_LoginRequest_
   name: Login
   nameWithType: LoginController.Login
-  fullName: _1Erronka_API.Controllers.LoginController.Login
-- uid: _1Erronka_API.DTOak.LoginRequest
-  commentId: T:_1Erronka_API.DTOak.LoginRequest
-  parent: _1Erronka_API.DTOak
-  href: _1Erronka_API.DTOak.LoginRequest.html
+  fullName: _2Erronka_API.Controllers.LoginController.Login
+- uid: _2Erronka_API.DTOak.LoginRequest
+  commentId: T:_2Erronka_API.DTOak.LoginRequest
+  parent: _2Erronka_API.DTOak
+  href: _2Erronka_API.DTOak.LoginRequest.html
   name: LoginRequest
   nameWithType: LoginRequest
-  fullName: _1Erronka_API.DTOak.LoginRequest
+  fullName: _2Erronka_API.DTOak.LoginRequest
 - uid: Microsoft.AspNetCore.Mvc.IActionResult
   commentId: T:Microsoft.AspNetCore.Mvc.IActionResult
   parent: Microsoft.AspNetCore.Mvc
@@ -9546,25 +9546,25 @@ references:
   name: IActionResult
   nameWithType: IActionResult
   fullName: Microsoft.AspNetCore.Mvc.IActionResult
-- uid: _1Erronka_API.DTOak
-  commentId: N:_1Erronka_API.DTOak
-  href: _1Erronka_API.html
-  name: _1Erronka_API.DTOak
-  nameWithType: _1Erronka_API.DTOak
-  fullName: _1Erronka_API.DTOak
+- uid: _2Erronka_API.DTOak
+  commentId: N:_2Erronka_API.DTOak
+  href: _2Erronka_API.html
+  name: _2Erronka_API.DTOak
+  nameWithType: _2Erronka_API.DTOak
+  fullName: _2Erronka_API.DTOak
   spec.csharp:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.DTOak
+  - uid: _2Erronka_API.DTOak
     name: DTOak
-    href: _1Erronka_API.DTOak.html
+    href: _2Erronka_API.DTOak.html
   spec.vb:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.DTOak
+  - uid: _2Erronka_API.DTOak
     name: DTOak
-    href: _1Erronka_API.DTOak.html
+    href: _2Erronka_API.DTOak.html

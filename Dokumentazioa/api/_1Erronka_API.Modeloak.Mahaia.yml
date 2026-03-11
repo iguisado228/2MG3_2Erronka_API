@@ -1,20 +1,20 @@
 ### YamlMime:ManagedReference
 items:
-- uid: _1Erronka_API.Modeloak.Mahaia
-  commentId: T:_1Erronka_API.Modeloak.Mahaia
+- uid: _2Erronka_API.Modeloak.Mahaia
+  commentId: T:_2Erronka_API.Modeloak.Mahaia
   id: Mahaia
-  parent: _1Erronka_API.Modeloak
+  parent: _2Erronka_API.Modeloak
   children:
-  - _1Erronka_API.Modeloak.Mahaia.Id
-  - _1Erronka_API.Modeloak.Mahaia.Kokapena
-  - _1Erronka_API.Modeloak.Mahaia.PertsonaKopurua
-  - _1Erronka_API.Modeloak.Mahaia.Zenbakia
+  - _2Erronka_API.Modeloak.Mahaia.Id
+  - _2Erronka_API.Modeloak.Mahaia.Kokapena
+  - _2Erronka_API.Modeloak.Mahaia.PertsonaKopurua
+  - _2Erronka_API.Modeloak.Mahaia.Zenbakia
   langs:
   - csharp
   - vb
   name: Mahaia
   nameWithType: Mahaia
-  fullName: _1Erronka_API.Modeloak.Mahaia
+  fullName: _2Erronka_API.Modeloak.Mahaia
   type: Class
   source:
     remote:
@@ -26,7 +26,7 @@ items:
     startLine: 2
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public class Mahaia
     content.vb: Public Class Mahaia
@@ -40,16 +40,16 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: _1Erronka_API.Modeloak.Mahaia.Id
-  commentId: P:_1Erronka_API.Modeloak.Mahaia.Id
+- uid: _2Erronka_API.Modeloak.Mahaia.Id
+  commentId: P:_2Erronka_API.Modeloak.Mahaia.Id
   id: Id
-  parent: _1Erronka_API.Modeloak.Mahaia
+  parent: _2Erronka_API.Modeloak.Mahaia
   langs:
   - csharp
   - vb
   name: Id
   nameWithType: Mahaia.Id
-  fullName: _1Erronka_API.Modeloak.Mahaia.Id
+  fullName: _2Erronka_API.Modeloak.Mahaia.Id
   type: Property
   source:
     remote:
@@ -61,24 +61,24 @@ items:
     startLine: 4
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public virtual int Id { get; set; }
     parameters: []
     return:
       type: System.Int32
     content.vb: Public Overridable Property Id As Integer
-  overload: _1Erronka_API.Modeloak.Mahaia.Id*
-- uid: _1Erronka_API.Modeloak.Mahaia.Zenbakia
-  commentId: P:_1Erronka_API.Modeloak.Mahaia.Zenbakia
+  overload: _2Erronka_API.Modeloak.Mahaia.Id*
+- uid: _2Erronka_API.Modeloak.Mahaia.Zenbakia
+  commentId: P:_2Erronka_API.Modeloak.Mahaia.Zenbakia
   id: Zenbakia
-  parent: _1Erronka_API.Modeloak.Mahaia
+  parent: _2Erronka_API.Modeloak.Mahaia
   langs:
   - csharp
   - vb
   name: Zenbakia
   nameWithType: Mahaia.Zenbakia
-  fullName: _1Erronka_API.Modeloak.Mahaia.Zenbakia
+  fullName: _2Erronka_API.Modeloak.Mahaia.Zenbakia
   type: Property
   source:
     remote:
@@ -90,24 +90,24 @@ items:
     startLine: 5
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public virtual int Zenbakia { get; set; }
     parameters: []
     return:
       type: System.Int32
     content.vb: Public Overridable Property Zenbakia As Integer
-  overload: _1Erronka_API.Modeloak.Mahaia.Zenbakia*
-- uid: _1Erronka_API.Modeloak.Mahaia.PertsonaKopurua
-  commentId: P:_1Erronka_API.Modeloak.Mahaia.PertsonaKopurua
+  overload: _2Erronka_API.Modeloak.Mahaia.Zenbakia*
+- uid: _2Erronka_API.Modeloak.Mahaia.PertsonaKopurua
+  commentId: P:_2Erronka_API.Modeloak.Mahaia.PertsonaKopurua
   id: PertsonaKopurua
-  parent: _1Erronka_API.Modeloak.Mahaia
+  parent: _2Erronka_API.Modeloak.Mahaia
   langs:
   - csharp
   - vb
   name: PertsonaKopurua
   nameWithType: Mahaia.PertsonaKopurua
-  fullName: _1Erronka_API.Modeloak.Mahaia.PertsonaKopurua
+  fullName: _2Erronka_API.Modeloak.Mahaia.PertsonaKopurua
   type: Property
   source:
     remote:
@@ -119,24 +119,24 @@ items:
     startLine: 6
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public virtual int PertsonaKopurua { get; set; }
     parameters: []
     return:
       type: System.Int32
     content.vb: Public Overridable Property PertsonaKopurua As Integer
-  overload: _1Erronka_API.Modeloak.Mahaia.PertsonaKopurua*
-- uid: _1Erronka_API.Modeloak.Mahaia.Kokapena
-  commentId: P:_1Erronka_API.Modeloak.Mahaia.Kokapena
+  overload: _2Erronka_API.Modeloak.Mahaia.PertsonaKopurua*
+- uid: _2Erronka_API.Modeloak.Mahaia.Kokapena
+  commentId: P:_2Erronka_API.Modeloak.Mahaia.Kokapena
   id: Kokapena
-  parent: _1Erronka_API.Modeloak.Mahaia
+  parent: _2Erronka_API.Modeloak.Mahaia
   langs:
   - csharp
   - vb
   name: Kokapena
   nameWithType: Mahaia.Kokapena
-  fullName: _1Erronka_API.Modeloak.Mahaia.Kokapena
+  fullName: _2Erronka_API.Modeloak.Mahaia.Kokapena
   type: Property
   source:
     remote:
@@ -148,37 +148,37 @@ items:
     startLine: 7
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public virtual string Kokapena { get; set; }
     parameters: []
     return:
       type: System.String
     content.vb: Public Overridable Property Kokapena As String
-  overload: _1Erronka_API.Modeloak.Mahaia.Kokapena*
+  overload: _2Erronka_API.Modeloak.Mahaia.Kokapena*
 references:
-- uid: _1Erronka_API.Modeloak
-  commentId: N:_1Erronka_API.Modeloak
-  href: _1Erronka_API.html
-  name: _1Erronka_API.Modeloak
-  nameWithType: _1Erronka_API.Modeloak
-  fullName: _1Erronka_API.Modeloak
+- uid: _2Erronka_API.Modeloak
+  commentId: N:_2Erronka_API.Modeloak
+  href: _2Erronka_API.html
+  name: _2Erronka_API.Modeloak
+  nameWithType: _2Erronka_API.Modeloak
+  fullName: _2Erronka_API.Modeloak
   spec.csharp:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.Modeloak
+  - uid: _2Erronka_API.Modeloak
     name: Modeloak
-    href: _1Erronka_API.Modeloak.html
+    href: _2Erronka_API.Modeloak.html
   spec.vb:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.Modeloak
+  - uid: _2Erronka_API.Modeloak
     name: Modeloak
-    href: _1Erronka_API.Modeloak.html
+    href: _2Erronka_API.Modeloak.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -416,12 +416,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: _1Erronka_API.Modeloak.Mahaia.Id*
-  commentId: Overload:_1Erronka_API.Modeloak.Mahaia.Id
-  href: _1Erronka_API.Modeloak.Mahaia.html#_1Erronka_API_Modeloak_Mahaia_Id
+- uid: _2Erronka_API.Modeloak.Mahaia.Id*
+  commentId: Overload:_2Erronka_API.Modeloak.Mahaia.Id
+  href: _2Erronka_API.Modeloak.Mahaia.html#_2Erronka_API_Modeloak_Mahaia_Id
   name: Id
   nameWithType: Mahaia.Id
-  fullName: _1Erronka_API.Modeloak.Mahaia.Id
+  fullName: _2Erronka_API.Modeloak.Mahaia.Id
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -433,24 +433,24 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: _1Erronka_API.Modeloak.Mahaia.Zenbakia*
-  commentId: Overload:_1Erronka_API.Modeloak.Mahaia.Zenbakia
-  href: _1Erronka_API.Modeloak.Mahaia.html#_1Erronka_API_Modeloak_Mahaia_Zenbakia
+- uid: _2Erronka_API.Modeloak.Mahaia.Zenbakia*
+  commentId: Overload:_2Erronka_API.Modeloak.Mahaia.Zenbakia
+  href: _2Erronka_API.Modeloak.Mahaia.html#_2Erronka_API_Modeloak_Mahaia_Zenbakia
   name: Zenbakia
   nameWithType: Mahaia.Zenbakia
-  fullName: _1Erronka_API.Modeloak.Mahaia.Zenbakia
-- uid: _1Erronka_API.Modeloak.Mahaia.PertsonaKopurua*
-  commentId: Overload:_1Erronka_API.Modeloak.Mahaia.PertsonaKopurua
-  href: _1Erronka_API.Modeloak.Mahaia.html#_1Erronka_API_Modeloak_Mahaia_PertsonaKopurua
+  fullName: _2Erronka_API.Modeloak.Mahaia.Zenbakia
+- uid: _2Erronka_API.Modeloak.Mahaia.PertsonaKopurua*
+  commentId: Overload:_2Erronka_API.Modeloak.Mahaia.PertsonaKopurua
+  href: _2Erronka_API.Modeloak.Mahaia.html#_2Erronka_API_Modeloak_Mahaia_PertsonaKopurua
   name: PertsonaKopurua
   nameWithType: Mahaia.PertsonaKopurua
-  fullName: _1Erronka_API.Modeloak.Mahaia.PertsonaKopurua
-- uid: _1Erronka_API.Modeloak.Mahaia.Kokapena*
-  commentId: Overload:_1Erronka_API.Modeloak.Mahaia.Kokapena
-  href: _1Erronka_API.Modeloak.Mahaia.html#_1Erronka_API_Modeloak_Mahaia_Kokapena
+  fullName: _2Erronka_API.Modeloak.Mahaia.PertsonaKopurua
+- uid: _2Erronka_API.Modeloak.Mahaia.Kokapena*
+  commentId: Overload:_2Erronka_API.Modeloak.Mahaia.Kokapena
+  href: _2Erronka_API.Modeloak.Mahaia.html#_2Erronka_API_Modeloak_Mahaia_Kokapena
   name: Kokapena
   nameWithType: Mahaia.Kokapena
-  fullName: _1Erronka_API.Modeloak.Mahaia.Kokapena
+  fullName: _2Erronka_API.Modeloak.Mahaia.Kokapena
 - uid: System.String
   commentId: T:System.String
   parent: System

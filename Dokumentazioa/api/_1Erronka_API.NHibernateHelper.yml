@@ -1,19 +1,19 @@
 ### YamlMime:ManagedReference
 items:
-- uid: _1Erronka_API.NHibernateHelper
-  commentId: T:_1Erronka_API.NHibernateHelper
+- uid: _2Erronka_API.NHibernateHelper
+  commentId: T:_2Erronka_API.NHibernateHelper
   id: NHibernateHelper
-  parent: _1Erronka_API
+  parent: _2Erronka_API
   children:
-  - _1Erronka_API.NHibernateHelper.OpenSession
-  - _1Erronka_API.NHibernateHelper.SessionFactory
-  - _1Erronka_API.NHibernateHelper.dbEguneratu(NHibernate.Cfg.Configuration)
+  - _2Erronka_API.NHibernateHelper.OpenSession
+  - _2Erronka_API.NHibernateHelper.SessionFactory
+  - _2Erronka_API.NHibernateHelper.dbEguneratu(NHibernate.Cfg.Configuration)
   langs:
   - csharp
   - vb
   name: NHibernateHelper
   nameWithType: NHibernateHelper
-  fullName: _1Erronka_API.NHibernateHelper
+  fullName: _2Erronka_API.NHibernateHelper
   type: Class
   source:
     remote:
@@ -25,7 +25,7 @@ items:
     startLine: 10
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API
+  namespace: _2Erronka_API
   syntax:
     content: public class NHibernateHelper
     content.vb: Public Class NHibernateHelper
@@ -39,16 +39,16 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: _1Erronka_API.NHibernateHelper.OpenSession
-  commentId: M:_1Erronka_API.NHibernateHelper.OpenSession
+- uid: _2Erronka_API.NHibernateHelper.OpenSession
+  commentId: M:_2Erronka_API.NHibernateHelper.OpenSession
   id: OpenSession
-  parent: _1Erronka_API.NHibernateHelper
+  parent: _2Erronka_API.NHibernateHelper
   langs:
   - csharp
   - vb
   name: OpenSession()
   nameWithType: NHibernateHelper.OpenSession()
-  fullName: _1Erronka_API.NHibernateHelper.OpenSession()
+  fullName: _2Erronka_API.NHibernateHelper.OpenSession()
   type: Method
   source:
     remote:
@@ -60,23 +60,23 @@ items:
     startLine: 14
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API
+  namespace: _2Erronka_API
   syntax:
     content: public static ISession OpenSession()
     return:
       type: NHibernate.ISession
     content.vb: Public Shared Function OpenSession() As ISession
-  overload: _1Erronka_API.NHibernateHelper.OpenSession*
-- uid: _1Erronka_API.NHibernateHelper.SessionFactory
-  commentId: P:_1Erronka_API.NHibernateHelper.SessionFactory
+  overload: _2Erronka_API.NHibernateHelper.OpenSession*
+- uid: _2Erronka_API.NHibernateHelper.SessionFactory
+  commentId: P:_2Erronka_API.NHibernateHelper.SessionFactory
   id: SessionFactory
-  parent: _1Erronka_API.NHibernateHelper
+  parent: _2Erronka_API.NHibernateHelper
   langs:
   - csharp
   - vb
   name: SessionFactory
   nameWithType: NHibernateHelper.SessionFactory
-  fullName: _1Erronka_API.NHibernateHelper.SessionFactory
+  fullName: _2Erronka_API.NHibernateHelper.SessionFactory
   type: Property
   source:
     remote:
@@ -88,24 +88,24 @@ items:
     startLine: 19
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API
+  namespace: _2Erronka_API
   syntax:
     content: public static ISessionFactory SessionFactory { get; }
     parameters: []
     return:
       type: NHibernate.ISessionFactory
     content.vb: Public Shared ReadOnly Property SessionFactory As ISessionFactory
-  overload: _1Erronka_API.NHibernateHelper.SessionFactory*
-- uid: _1Erronka_API.NHibernateHelper.dbEguneratu(NHibernate.Cfg.Configuration)
-  commentId: M:_1Erronka_API.NHibernateHelper.dbEguneratu(NHibernate.Cfg.Configuration)
+  overload: _2Erronka_API.NHibernateHelper.SessionFactory*
+- uid: _2Erronka_API.NHibernateHelper.dbEguneratu(NHibernate.Cfg.Configuration)
+  commentId: M:_2Erronka_API.NHibernateHelper.dbEguneratu(NHibernate.Cfg.Configuration)
   id: dbEguneratu(NHibernate.Cfg.Configuration)
-  parent: _1Erronka_API.NHibernateHelper
+  parent: _2Erronka_API.NHibernateHelper
   langs:
   - csharp
   - vb
   name: dbEguneratu(Configuration)
   nameWithType: NHibernateHelper.dbEguneratu(Configuration)
-  fullName: _1Erronka_API.NHibernateHelper.dbEguneratu(NHibernate.Cfg.Configuration)
+  fullName: _2Erronka_API.NHibernateHelper.dbEguneratu(NHibernate.Cfg.Configuration)
   type: Method
   source:
     remote:
@@ -117,21 +117,21 @@ items:
     startLine: 43
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API
+  namespace: _2Erronka_API
   syntax:
     content: public static void dbEguneratu(Configuration config)
     parameters:
     - id: config
       type: NHibernate.Cfg.Configuration
     content.vb: Public Shared Sub dbEguneratu(config As Configuration)
-  overload: _1Erronka_API.NHibernateHelper.dbEguneratu*
+  overload: _2Erronka_API.NHibernateHelper.dbEguneratu*
 references:
-- uid: _1Erronka_API
-  commentId: N:_1Erronka_API
-  href: _1Erronka_API.html
-  name: _1Erronka_API
-  nameWithType: _1Erronka_API
-  fullName: _1Erronka_API
+- uid: _2Erronka_API
+  commentId: N:_2Erronka_API
+  href: _2Erronka_API.html
+  name: _2Erronka_API
+  nameWithType: _2Erronka_API
+  fullName: _2Erronka_API
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -369,12 +369,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: _1Erronka_API.NHibernateHelper.OpenSession*
-  commentId: Overload:_1Erronka_API.NHibernateHelper.OpenSession
-  href: _1Erronka_API.NHibernateHelper.html#_1Erronka_API_NHibernateHelper_OpenSession
+- uid: _2Erronka_API.NHibernateHelper.OpenSession*
+  commentId: Overload:_2Erronka_API.NHibernateHelper.OpenSession
+  href: _2Erronka_API.NHibernateHelper.html#_2Erronka_API_NHibernateHelper_OpenSession
   name: OpenSession
   nameWithType: NHibernateHelper.OpenSession
-  fullName: _1Erronka_API.NHibernateHelper.OpenSession
+  fullName: _2Erronka_API.NHibernateHelper.OpenSession
 - uid: NHibernate.ISession
   commentId: T:NHibernate.ISession
   parent: NHibernate
@@ -388,12 +388,12 @@ references:
   name: NHibernate
   nameWithType: NHibernate
   fullName: NHibernate
-- uid: _1Erronka_API.NHibernateHelper.SessionFactory*
-  commentId: Overload:_1Erronka_API.NHibernateHelper.SessionFactory
-  href: _1Erronka_API.NHibernateHelper.html#_1Erronka_API_NHibernateHelper_SessionFactory
+- uid: _2Erronka_API.NHibernateHelper.SessionFactory*
+  commentId: Overload:_2Erronka_API.NHibernateHelper.SessionFactory
+  href: _2Erronka_API.NHibernateHelper.html#_2Erronka_API_NHibernateHelper_SessionFactory
   name: SessionFactory
   nameWithType: NHibernateHelper.SessionFactory
-  fullName: _1Erronka_API.NHibernateHelper.SessionFactory
+  fullName: _2Erronka_API.NHibernateHelper.SessionFactory
 - uid: NHibernate.ISessionFactory
   commentId: T:NHibernate.ISessionFactory
   parent: NHibernate
@@ -401,12 +401,12 @@ references:
   name: ISessionFactory
   nameWithType: ISessionFactory
   fullName: NHibernate.ISessionFactory
-- uid: _1Erronka_API.NHibernateHelper.dbEguneratu*
-  commentId: Overload:_1Erronka_API.NHibernateHelper.dbEguneratu
-  href: _1Erronka_API.NHibernateHelper.html#_1Erronka_API_NHibernateHelper_dbEguneratu_NHibernate_Cfg_Configuration_
+- uid: _2Erronka_API.NHibernateHelper.dbEguneratu*
+  commentId: Overload:_2Erronka_API.NHibernateHelper.dbEguneratu
+  href: _2Erronka_API.NHibernateHelper.html#_2Erronka_API_NHibernateHelper_dbEguneratu_NHibernate_Cfg_Configuration_
   name: dbEguneratu
   nameWithType: NHibernateHelper.dbEguneratu
-  fullName: _1Erronka_API.NHibernateHelper.dbEguneratu
+  fullName: _2Erronka_API.NHibernateHelper.dbEguneratu
 - uid: NHibernate.Cfg.Configuration
   commentId: T:NHibernate.Cfg.Configuration
   parent: NHibernate.Cfg

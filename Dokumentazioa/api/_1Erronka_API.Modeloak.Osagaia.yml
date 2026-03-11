@@ -1,21 +1,21 @@
 ### YamlMime:ManagedReference
 items:
-- uid: _1Erronka_API.Modeloak.Osagaia
-  commentId: T:_1Erronka_API.Modeloak.Osagaia
+- uid: _2Erronka_API.Modeloak.Osagaia
+  commentId: T:_2Erronka_API.Modeloak.Osagaia
   id: Osagaia
-  parent: _1Erronka_API.Modeloak
+  parent: _2Erronka_API.Modeloak
   children:
-  - _1Erronka_API.Modeloak.Osagaia.HornitzaileakId
-  - _1Erronka_API.Modeloak.Osagaia.Id
-  - _1Erronka_API.Modeloak.Osagaia.Izena
-  - _1Erronka_API.Modeloak.Osagaia.Prezioa
-  - _1Erronka_API.Modeloak.Osagaia.Stock
+  - _2Erronka_API.Modeloak.Osagaia.HornitzaileakId
+  - _2Erronka_API.Modeloak.Osagaia.Id
+  - _2Erronka_API.Modeloak.Osagaia.Izena
+  - _2Erronka_API.Modeloak.Osagaia.Prezioa
+  - _2Erronka_API.Modeloak.Osagaia.Stock
   langs:
   - csharp
   - vb
   name: Osagaia
   nameWithType: Osagaia
-  fullName: _1Erronka_API.Modeloak.Osagaia
+  fullName: _2Erronka_API.Modeloak.Osagaia
   type: Class
   source:
     remote:
@@ -27,7 +27,7 @@ items:
     startLine: 2
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public class Osagaia
     content.vb: Public Class Osagaia
@@ -41,16 +41,16 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: _1Erronka_API.Modeloak.Osagaia.Id
-  commentId: P:_1Erronka_API.Modeloak.Osagaia.Id
+- uid: _2Erronka_API.Modeloak.Osagaia.Id
+  commentId: P:_2Erronka_API.Modeloak.Osagaia.Id
   id: Id
-  parent: _1Erronka_API.Modeloak.Osagaia
+  parent: _2Erronka_API.Modeloak.Osagaia
   langs:
   - csharp
   - vb
   name: Id
   nameWithType: Osagaia.Id
-  fullName: _1Erronka_API.Modeloak.Osagaia.Id
+  fullName: _2Erronka_API.Modeloak.Osagaia.Id
   type: Property
   source:
     remote:
@@ -62,24 +62,24 @@ items:
     startLine: 4
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public virtual int Id { get; set; }
     parameters: []
     return:
       type: System.Int32
     content.vb: Public Overridable Property Id As Integer
-  overload: _1Erronka_API.Modeloak.Osagaia.Id*
-- uid: _1Erronka_API.Modeloak.Osagaia.Izena
-  commentId: P:_1Erronka_API.Modeloak.Osagaia.Izena
+  overload: _2Erronka_API.Modeloak.Osagaia.Id*
+- uid: _2Erronka_API.Modeloak.Osagaia.Izena
+  commentId: P:_2Erronka_API.Modeloak.Osagaia.Izena
   id: Izena
-  parent: _1Erronka_API.Modeloak.Osagaia
+  parent: _2Erronka_API.Modeloak.Osagaia
   langs:
   - csharp
   - vb
   name: Izena
   nameWithType: Osagaia.Izena
-  fullName: _1Erronka_API.Modeloak.Osagaia.Izena
+  fullName: _2Erronka_API.Modeloak.Osagaia.Izena
   type: Property
   source:
     remote:
@@ -91,24 +91,24 @@ items:
     startLine: 5
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public virtual string Izena { get; set; }
     parameters: []
     return:
       type: System.String
     content.vb: Public Overridable Property Izena As String
-  overload: _1Erronka_API.Modeloak.Osagaia.Izena*
-- uid: _1Erronka_API.Modeloak.Osagaia.Prezioa
-  commentId: P:_1Erronka_API.Modeloak.Osagaia.Prezioa
+  overload: _2Erronka_API.Modeloak.Osagaia.Izena*
+- uid: _2Erronka_API.Modeloak.Osagaia.Prezioa
+  commentId: P:_2Erronka_API.Modeloak.Osagaia.Prezioa
   id: Prezioa
-  parent: _1Erronka_API.Modeloak.Osagaia
+  parent: _2Erronka_API.Modeloak.Osagaia
   langs:
   - csharp
   - vb
   name: Prezioa
   nameWithType: Osagaia.Prezioa
-  fullName: _1Erronka_API.Modeloak.Osagaia.Prezioa
+  fullName: _2Erronka_API.Modeloak.Osagaia.Prezioa
   type: Property
   source:
     remote:
@@ -120,24 +120,24 @@ items:
     startLine: 6
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public virtual double Prezioa { get; set; }
     parameters: []
     return:
       type: System.Double
     content.vb: Public Overridable Property Prezioa As Double
-  overload: _1Erronka_API.Modeloak.Osagaia.Prezioa*
-- uid: _1Erronka_API.Modeloak.Osagaia.Stock
-  commentId: P:_1Erronka_API.Modeloak.Osagaia.Stock
+  overload: _2Erronka_API.Modeloak.Osagaia.Prezioa*
+- uid: _2Erronka_API.Modeloak.Osagaia.Stock
+  commentId: P:_2Erronka_API.Modeloak.Osagaia.Stock
   id: Stock
-  parent: _1Erronka_API.Modeloak.Osagaia
+  parent: _2Erronka_API.Modeloak.Osagaia
   langs:
   - csharp
   - vb
   name: Stock
   nameWithType: Osagaia.Stock
-  fullName: _1Erronka_API.Modeloak.Osagaia.Stock
+  fullName: _2Erronka_API.Modeloak.Osagaia.Stock
   type: Property
   source:
     remote:
@@ -149,24 +149,24 @@ items:
     startLine: 7
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public virtual int Stock { get; set; }
     parameters: []
     return:
       type: System.Int32
     content.vb: Public Overridable Property Stock As Integer
-  overload: _1Erronka_API.Modeloak.Osagaia.Stock*
-- uid: _1Erronka_API.Modeloak.Osagaia.HornitzaileakId
-  commentId: P:_1Erronka_API.Modeloak.Osagaia.HornitzaileakId
+  overload: _2Erronka_API.Modeloak.Osagaia.Stock*
+- uid: _2Erronka_API.Modeloak.Osagaia.HornitzaileakId
+  commentId: P:_2Erronka_API.Modeloak.Osagaia.HornitzaileakId
   id: HornitzaileakId
-  parent: _1Erronka_API.Modeloak.Osagaia
+  parent: _2Erronka_API.Modeloak.Osagaia
   langs:
   - csharp
   - vb
   name: HornitzaileakId
   nameWithType: Osagaia.HornitzaileakId
-  fullName: _1Erronka_API.Modeloak.Osagaia.HornitzaileakId
+  fullName: _2Erronka_API.Modeloak.Osagaia.HornitzaileakId
   type: Property
   source:
     remote:
@@ -178,37 +178,37 @@ items:
     startLine: 8
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public virtual int HornitzaileakId { get; set; }
     parameters: []
     return:
       type: System.Int32
     content.vb: Public Overridable Property HornitzaileakId As Integer
-  overload: _1Erronka_API.Modeloak.Osagaia.HornitzaileakId*
+  overload: _2Erronka_API.Modeloak.Osagaia.HornitzaileakId*
 references:
-- uid: _1Erronka_API.Modeloak
-  commentId: N:_1Erronka_API.Modeloak
-  href: _1Erronka_API.html
-  name: _1Erronka_API.Modeloak
-  nameWithType: _1Erronka_API.Modeloak
-  fullName: _1Erronka_API.Modeloak
+- uid: _2Erronka_API.Modeloak
+  commentId: N:_2Erronka_API.Modeloak
+  href: _2Erronka_API.html
+  name: _2Erronka_API.Modeloak
+  nameWithType: _2Erronka_API.Modeloak
+  fullName: _2Erronka_API.Modeloak
   spec.csharp:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.Modeloak
+  - uid: _2Erronka_API.Modeloak
     name: Modeloak
-    href: _1Erronka_API.Modeloak.html
+    href: _2Erronka_API.Modeloak.html
   spec.vb:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.Modeloak
+  - uid: _2Erronka_API.Modeloak
     name: Modeloak
-    href: _1Erronka_API.Modeloak.html
+    href: _2Erronka_API.Modeloak.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -446,12 +446,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: _1Erronka_API.Modeloak.Osagaia.Id*
-  commentId: Overload:_1Erronka_API.Modeloak.Osagaia.Id
-  href: _1Erronka_API.Modeloak.Osagaia.html#_1Erronka_API_Modeloak_Osagaia_Id
+- uid: _2Erronka_API.Modeloak.Osagaia.Id*
+  commentId: Overload:_2Erronka_API.Modeloak.Osagaia.Id
+  href: _2Erronka_API.Modeloak.Osagaia.html#_2Erronka_API_Modeloak_Osagaia_Id
   name: Id
   nameWithType: Osagaia.Id
-  fullName: _1Erronka_API.Modeloak.Osagaia.Id
+  fullName: _2Erronka_API.Modeloak.Osagaia.Id
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -463,12 +463,12 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: _1Erronka_API.Modeloak.Osagaia.Izena*
-  commentId: Overload:_1Erronka_API.Modeloak.Osagaia.Izena
-  href: _1Erronka_API.Modeloak.Osagaia.html#_1Erronka_API_Modeloak_Osagaia_Izena
+- uid: _2Erronka_API.Modeloak.Osagaia.Izena*
+  commentId: Overload:_2Erronka_API.Modeloak.Osagaia.Izena
+  href: _2Erronka_API.Modeloak.Osagaia.html#_2Erronka_API_Modeloak_Osagaia_Izena
   name: Izena
   nameWithType: Osagaia.Izena
-  fullName: _1Erronka_API.Modeloak.Osagaia.Izena
+  fullName: _2Erronka_API.Modeloak.Osagaia.Izena
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -480,12 +480,12 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: _1Erronka_API.Modeloak.Osagaia.Prezioa*
-  commentId: Overload:_1Erronka_API.Modeloak.Osagaia.Prezioa
-  href: _1Erronka_API.Modeloak.Osagaia.html#_1Erronka_API_Modeloak_Osagaia_Prezioa
+- uid: _2Erronka_API.Modeloak.Osagaia.Prezioa*
+  commentId: Overload:_2Erronka_API.Modeloak.Osagaia.Prezioa
+  href: _2Erronka_API.Modeloak.Osagaia.html#_2Erronka_API_Modeloak_Osagaia_Prezioa
   name: Prezioa
   nameWithType: Osagaia.Prezioa
-  fullName: _1Erronka_API.Modeloak.Osagaia.Prezioa
+  fullName: _2Erronka_API.Modeloak.Osagaia.Prezioa
 - uid: System.Double
   commentId: T:System.Double
   parent: System
@@ -497,15 +497,15 @@ references:
   nameWithType.vb: Double
   fullName.vb: Double
   name.vb: Double
-- uid: _1Erronka_API.Modeloak.Osagaia.Stock*
-  commentId: Overload:_1Erronka_API.Modeloak.Osagaia.Stock
-  href: _1Erronka_API.Modeloak.Osagaia.html#_1Erronka_API_Modeloak_Osagaia_Stock
+- uid: _2Erronka_API.Modeloak.Osagaia.Stock*
+  commentId: Overload:_2Erronka_API.Modeloak.Osagaia.Stock
+  href: _2Erronka_API.Modeloak.Osagaia.html#_2Erronka_API_Modeloak_Osagaia_Stock
   name: Stock
   nameWithType: Osagaia.Stock
-  fullName: _1Erronka_API.Modeloak.Osagaia.Stock
-- uid: _1Erronka_API.Modeloak.Osagaia.HornitzaileakId*
-  commentId: Overload:_1Erronka_API.Modeloak.Osagaia.HornitzaileakId
-  href: _1Erronka_API.Modeloak.Osagaia.html#_1Erronka_API_Modeloak_Osagaia_HornitzaileakId
+  fullName: _2Erronka_API.Modeloak.Osagaia.Stock
+- uid: _2Erronka_API.Modeloak.Osagaia.HornitzaileakId*
+  commentId: Overload:_2Erronka_API.Modeloak.Osagaia.HornitzaileakId
+  href: _2Erronka_API.Modeloak.Osagaia.html#_2Erronka_API_Modeloak_Osagaia_HornitzaileakId
   name: HornitzaileakId
   nameWithType: Osagaia.HornitzaileakId
-  fullName: _1Erronka_API.Modeloak.Osagaia.HornitzaileakId
+  fullName: _2Erronka_API.Modeloak.Osagaia.HornitzaileakId

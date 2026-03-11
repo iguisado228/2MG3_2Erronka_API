@@ -1,22 +1,22 @@
 ### YamlMime:ManagedReference
 items:
-- uid: _1Erronka_API.DTOak.ErreserbaOrdainduDto
-  commentId: T:_1Erronka_API.DTOak.ErreserbaOrdainduDto
+- uid: _2Erronka_API.DTOak.ErreserbaOrdainduDto
+  commentId: T:_2Erronka_API.DTOak.ErreserbaOrdainduDto
   id: ErreserbaOrdainduDto
-  parent: _1Erronka_API.DTOak
+  parent: _2Erronka_API.DTOak
   children:
-  - _1Erronka_API.DTOak.ErreserbaOrdainduDto.ErreserbaId
-  - _1Erronka_API.DTOak.ErreserbaOrdainduDto.Guztira
-  - _1Erronka_API.DTOak.ErreserbaOrdainduDto.Itzulia
-  - _1Erronka_API.DTOak.ErreserbaOrdainduDto.Jasotakoa
-  - _1Erronka_API.DTOak.ErreserbaOrdainduDto.LangileaId
-  - _1Erronka_API.DTOak.ErreserbaOrdainduDto.OrdainketaModua
+  - _2Erronka_API.DTOak.ErreserbaOrdainduDto.ErreserbaId
+  - _2Erronka_API.DTOak.ErreserbaOrdainduDto.Guztira
+  - _2Erronka_API.DTOak.ErreserbaOrdainduDto.Itzulia
+  - _2Erronka_API.DTOak.ErreserbaOrdainduDto.Jasotakoa
+  - _2Erronka_API.DTOak.ErreserbaOrdainduDto.LangileaId
+  - _2Erronka_API.DTOak.ErreserbaOrdainduDto.OrdainketaModua
   langs:
   - csharp
   - vb
   name: ErreserbaOrdainduDto
   nameWithType: ErreserbaOrdainduDto
-  fullName: _1Erronka_API.DTOak.ErreserbaOrdainduDto
+  fullName: _2Erronka_API.DTOak.ErreserbaOrdainduDto
   type: Class
   source:
     remote:
@@ -28,7 +28,7 @@ items:
     startLine: 5
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Erreserba baten ordainketa erregistratzeko datuak.
   example: []
   syntax:
@@ -44,16 +44,16 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: _1Erronka_API.DTOak.ErreserbaOrdainduDto.ErreserbaId
-  commentId: P:_1Erronka_API.DTOak.ErreserbaOrdainduDto.ErreserbaId
+- uid: _2Erronka_API.DTOak.ErreserbaOrdainduDto.ErreserbaId
+  commentId: P:_2Erronka_API.DTOak.ErreserbaOrdainduDto.ErreserbaId
   id: ErreserbaId
-  parent: _1Erronka_API.DTOak.ErreserbaOrdainduDto
+  parent: _2Erronka_API.DTOak.ErreserbaOrdainduDto
   langs:
   - csharp
   - vb
   name: ErreserbaId
   nameWithType: ErreserbaOrdainduDto.ErreserbaId
-  fullName: _1Erronka_API.DTOak.ErreserbaOrdainduDto.ErreserbaId
+  fullName: _2Erronka_API.DTOak.ErreserbaOrdainduDto.ErreserbaId
   type: Property
   source:
     remote:
@@ -65,7 +65,7 @@ items:
     startLine: 8
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Erreserbaren identifikatzailea.
   example: []
   syntax:
@@ -74,17 +74,17 @@ items:
     return:
       type: System.Int32
     content.vb: Public Property ErreserbaId As Integer
-  overload: _1Erronka_API.DTOak.ErreserbaOrdainduDto.ErreserbaId*
-- uid: _1Erronka_API.DTOak.ErreserbaOrdainduDto.Guztira
-  commentId: P:_1Erronka_API.DTOak.ErreserbaOrdainduDto.Guztira
+  overload: _2Erronka_API.DTOak.ErreserbaOrdainduDto.ErreserbaId*
+- uid: _2Erronka_API.DTOak.ErreserbaOrdainduDto.Guztira
+  commentId: P:_2Erronka_API.DTOak.ErreserbaOrdainduDto.Guztira
   id: Guztira
-  parent: _1Erronka_API.DTOak.ErreserbaOrdainduDto
+  parent: _2Erronka_API.DTOak.ErreserbaOrdainduDto
   langs:
   - csharp
   - vb
   name: Guztira
   nameWithType: ErreserbaOrdainduDto.Guztira
-  fullName: _1Erronka_API.DTOak.ErreserbaOrdainduDto.Guztira
+  fullName: _2Erronka_API.DTOak.ErreserbaOrdainduDto.Guztira
   type: Property
   source:
     remote:
@@ -96,7 +96,7 @@ items:
     startLine: 10
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Ordaindu beharreko guztizko zenbatekoa.
   example: []
   syntax:
@@ -105,17 +105,17 @@ items:
     return:
       type: System.Double
     content.vb: Public Property Guztira As Double
-  overload: _1Erronka_API.DTOak.ErreserbaOrdainduDto.Guztira*
-- uid: _1Erronka_API.DTOak.ErreserbaOrdainduDto.Jasotakoa
-  commentId: P:_1Erronka_API.DTOak.ErreserbaOrdainduDto.Jasotakoa
+  overload: _2Erronka_API.DTOak.ErreserbaOrdainduDto.Guztira*
+- uid: _2Erronka_API.DTOak.ErreserbaOrdainduDto.Jasotakoa
+  commentId: P:_2Erronka_API.DTOak.ErreserbaOrdainduDto.Jasotakoa
   id: Jasotakoa
-  parent: _1Erronka_API.DTOak.ErreserbaOrdainduDto
+  parent: _2Erronka_API.DTOak.ErreserbaOrdainduDto
   langs:
   - csharp
   - vb
   name: Jasotakoa
   nameWithType: ErreserbaOrdainduDto.Jasotakoa
-  fullName: _1Erronka_API.DTOak.ErreserbaOrdainduDto.Jasotakoa
+  fullName: _2Erronka_API.DTOak.ErreserbaOrdainduDto.Jasotakoa
   type: Property
   source:
     remote:
@@ -127,7 +127,7 @@ items:
     startLine: 12
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Bezeroak emandako zenbatekoa.
   example: []
   syntax:
@@ -136,17 +136,17 @@ items:
     return:
       type: System.Double
     content.vb: Public Property Jasotakoa As Double
-  overload: _1Erronka_API.DTOak.ErreserbaOrdainduDto.Jasotakoa*
-- uid: _1Erronka_API.DTOak.ErreserbaOrdainduDto.Itzulia
-  commentId: P:_1Erronka_API.DTOak.ErreserbaOrdainduDto.Itzulia
+  overload: _2Erronka_API.DTOak.ErreserbaOrdainduDto.Jasotakoa*
+- uid: _2Erronka_API.DTOak.ErreserbaOrdainduDto.Itzulia
+  commentId: P:_2Erronka_API.DTOak.ErreserbaOrdainduDto.Itzulia
   id: Itzulia
-  parent: _1Erronka_API.DTOak.ErreserbaOrdainduDto
+  parent: _2Erronka_API.DTOak.ErreserbaOrdainduDto
   langs:
   - csharp
   - vb
   name: Itzulia
   nameWithType: ErreserbaOrdainduDto.Itzulia
-  fullName: _1Erronka_API.DTOak.ErreserbaOrdainduDto.Itzulia
+  fullName: _2Erronka_API.DTOak.ErreserbaOrdainduDto.Itzulia
   type: Property
   source:
     remote:
@@ -158,7 +158,7 @@ items:
     startLine: 14
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Bezeroari itzultzeko zenbatekoa.
   example: []
   syntax:
@@ -167,17 +167,17 @@ items:
     return:
       type: System.Double
     content.vb: Public Property Itzulia As Double
-  overload: _1Erronka_API.DTOak.ErreserbaOrdainduDto.Itzulia*
-- uid: _1Erronka_API.DTOak.ErreserbaOrdainduDto.LangileaId
-  commentId: P:_1Erronka_API.DTOak.ErreserbaOrdainduDto.LangileaId
+  overload: _2Erronka_API.DTOak.ErreserbaOrdainduDto.Itzulia*
+- uid: _2Erronka_API.DTOak.ErreserbaOrdainduDto.LangileaId
+  commentId: P:_2Erronka_API.DTOak.ErreserbaOrdainduDto.LangileaId
   id: LangileaId
-  parent: _1Erronka_API.DTOak.ErreserbaOrdainduDto
+  parent: _2Erronka_API.DTOak.ErreserbaOrdainduDto
   langs:
   - csharp
   - vb
   name: LangileaId
   nameWithType: ErreserbaOrdainduDto.LangileaId
-  fullName: _1Erronka_API.DTOak.ErreserbaOrdainduDto.LangileaId
+  fullName: _2Erronka_API.DTOak.ErreserbaOrdainduDto.LangileaId
   type: Property
   source:
     remote:
@@ -189,7 +189,7 @@ items:
     startLine: 16
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Ordainketa kudeatzen duen langilearen identifikatzailea.
   example: []
   syntax:
@@ -198,17 +198,17 @@ items:
     return:
       type: System.Int32
     content.vb: Public Property LangileaId As Integer
-  overload: _1Erronka_API.DTOak.ErreserbaOrdainduDto.LangileaId*
-- uid: _1Erronka_API.DTOak.ErreserbaOrdainduDto.OrdainketaModua
-  commentId: P:_1Erronka_API.DTOak.ErreserbaOrdainduDto.OrdainketaModua
+  overload: _2Erronka_API.DTOak.ErreserbaOrdainduDto.LangileaId*
+- uid: _2Erronka_API.DTOak.ErreserbaOrdainduDto.OrdainketaModua
+  commentId: P:_2Erronka_API.DTOak.ErreserbaOrdainduDto.OrdainketaModua
   id: OrdainketaModua
-  parent: _1Erronka_API.DTOak.ErreserbaOrdainduDto
+  parent: _2Erronka_API.DTOak.ErreserbaOrdainduDto
   langs:
   - csharp
   - vb
   name: OrdainketaModua
   nameWithType: ErreserbaOrdainduDto.OrdainketaModua
-  fullName: _1Erronka_API.DTOak.ErreserbaOrdainduDto.OrdainketaModua
+  fullName: _2Erronka_API.DTOak.ErreserbaOrdainduDto.OrdainketaModua
   type: Property
   source:
     remote:
@@ -220,7 +220,7 @@ items:
     startLine: 18
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Ordainketa modua (adib. "Eskudirua", "Txartela").
   example: []
   syntax:
@@ -229,30 +229,30 @@ items:
     return:
       type: System.String
     content.vb: Public Property OrdainketaModua As String
-  overload: _1Erronka_API.DTOak.ErreserbaOrdainduDto.OrdainketaModua*
+  overload: _2Erronka_API.DTOak.ErreserbaOrdainduDto.OrdainketaModua*
 references:
-- uid: _1Erronka_API.DTOak
-  commentId: N:_1Erronka_API.DTOak
-  href: _1Erronka_API.html
-  name: _1Erronka_API.DTOak
-  nameWithType: _1Erronka_API.DTOak
-  fullName: _1Erronka_API.DTOak
+- uid: _2Erronka_API.DTOak
+  commentId: N:_2Erronka_API.DTOak
+  href: _2Erronka_API.html
+  name: _2Erronka_API.DTOak
+  nameWithType: _2Erronka_API.DTOak
+  fullName: _2Erronka_API.DTOak
   spec.csharp:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.DTOak
+  - uid: _2Erronka_API.DTOak
     name: DTOak
-    href: _1Erronka_API.DTOak.html
+    href: _2Erronka_API.DTOak.html
   spec.vb:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.DTOak
+  - uid: _2Erronka_API.DTOak
     name: DTOak
-    href: _1Erronka_API.DTOak.html
+    href: _2Erronka_API.DTOak.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -490,12 +490,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: _1Erronka_API.DTOak.ErreserbaOrdainduDto.ErreserbaId*
-  commentId: Overload:_1Erronka_API.DTOak.ErreserbaOrdainduDto.ErreserbaId
-  href: _1Erronka_API.DTOak.ErreserbaOrdainduDto.html#_1Erronka_API_DTOak_ErreserbaOrdainduDto_ErreserbaId
+- uid: _2Erronka_API.DTOak.ErreserbaOrdainduDto.ErreserbaId*
+  commentId: Overload:_2Erronka_API.DTOak.ErreserbaOrdainduDto.ErreserbaId
+  href: _2Erronka_API.DTOak.ErreserbaOrdainduDto.html#_2Erronka_API_DTOak_ErreserbaOrdainduDto_ErreserbaId
   name: ErreserbaId
   nameWithType: ErreserbaOrdainduDto.ErreserbaId
-  fullName: _1Erronka_API.DTOak.ErreserbaOrdainduDto.ErreserbaId
+  fullName: _2Erronka_API.DTOak.ErreserbaOrdainduDto.ErreserbaId
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -507,12 +507,12 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: _1Erronka_API.DTOak.ErreserbaOrdainduDto.Guztira*
-  commentId: Overload:_1Erronka_API.DTOak.ErreserbaOrdainduDto.Guztira
-  href: _1Erronka_API.DTOak.ErreserbaOrdainduDto.html#_1Erronka_API_DTOak_ErreserbaOrdainduDto_Guztira
+- uid: _2Erronka_API.DTOak.ErreserbaOrdainduDto.Guztira*
+  commentId: Overload:_2Erronka_API.DTOak.ErreserbaOrdainduDto.Guztira
+  href: _2Erronka_API.DTOak.ErreserbaOrdainduDto.html#_2Erronka_API_DTOak_ErreserbaOrdainduDto_Guztira
   name: Guztira
   nameWithType: ErreserbaOrdainduDto.Guztira
-  fullName: _1Erronka_API.DTOak.ErreserbaOrdainduDto.Guztira
+  fullName: _2Erronka_API.DTOak.ErreserbaOrdainduDto.Guztira
 - uid: System.Double
   commentId: T:System.Double
   parent: System
@@ -524,30 +524,30 @@ references:
   nameWithType.vb: Double
   fullName.vb: Double
   name.vb: Double
-- uid: _1Erronka_API.DTOak.ErreserbaOrdainduDto.Jasotakoa*
-  commentId: Overload:_1Erronka_API.DTOak.ErreserbaOrdainduDto.Jasotakoa
-  href: _1Erronka_API.DTOak.ErreserbaOrdainduDto.html#_1Erronka_API_DTOak_ErreserbaOrdainduDto_Jasotakoa
+- uid: _2Erronka_API.DTOak.ErreserbaOrdainduDto.Jasotakoa*
+  commentId: Overload:_2Erronka_API.DTOak.ErreserbaOrdainduDto.Jasotakoa
+  href: _2Erronka_API.DTOak.ErreserbaOrdainduDto.html#_2Erronka_API_DTOak_ErreserbaOrdainduDto_Jasotakoa
   name: Jasotakoa
   nameWithType: ErreserbaOrdainduDto.Jasotakoa
-  fullName: _1Erronka_API.DTOak.ErreserbaOrdainduDto.Jasotakoa
-- uid: _1Erronka_API.DTOak.ErreserbaOrdainduDto.Itzulia*
-  commentId: Overload:_1Erronka_API.DTOak.ErreserbaOrdainduDto.Itzulia
-  href: _1Erronka_API.DTOak.ErreserbaOrdainduDto.html#_1Erronka_API_DTOak_ErreserbaOrdainduDto_Itzulia
+  fullName: _2Erronka_API.DTOak.ErreserbaOrdainduDto.Jasotakoa
+- uid: _2Erronka_API.DTOak.ErreserbaOrdainduDto.Itzulia*
+  commentId: Overload:_2Erronka_API.DTOak.ErreserbaOrdainduDto.Itzulia
+  href: _2Erronka_API.DTOak.ErreserbaOrdainduDto.html#_2Erronka_API_DTOak_ErreserbaOrdainduDto_Itzulia
   name: Itzulia
   nameWithType: ErreserbaOrdainduDto.Itzulia
-  fullName: _1Erronka_API.DTOak.ErreserbaOrdainduDto.Itzulia
-- uid: _1Erronka_API.DTOak.ErreserbaOrdainduDto.LangileaId*
-  commentId: Overload:_1Erronka_API.DTOak.ErreserbaOrdainduDto.LangileaId
-  href: _1Erronka_API.DTOak.ErreserbaOrdainduDto.html#_1Erronka_API_DTOak_ErreserbaOrdainduDto_LangileaId
+  fullName: _2Erronka_API.DTOak.ErreserbaOrdainduDto.Itzulia
+- uid: _2Erronka_API.DTOak.ErreserbaOrdainduDto.LangileaId*
+  commentId: Overload:_2Erronka_API.DTOak.ErreserbaOrdainduDto.LangileaId
+  href: _2Erronka_API.DTOak.ErreserbaOrdainduDto.html#_2Erronka_API_DTOak_ErreserbaOrdainduDto_LangileaId
   name: LangileaId
   nameWithType: ErreserbaOrdainduDto.LangileaId
-  fullName: _1Erronka_API.DTOak.ErreserbaOrdainduDto.LangileaId
-- uid: _1Erronka_API.DTOak.ErreserbaOrdainduDto.OrdainketaModua*
-  commentId: Overload:_1Erronka_API.DTOak.ErreserbaOrdainduDto.OrdainketaModua
-  href: _1Erronka_API.DTOak.ErreserbaOrdainduDto.html#_1Erronka_API_DTOak_ErreserbaOrdainduDto_OrdainketaModua
+  fullName: _2Erronka_API.DTOak.ErreserbaOrdainduDto.LangileaId
+- uid: _2Erronka_API.DTOak.ErreserbaOrdainduDto.OrdainketaModua*
+  commentId: Overload:_2Erronka_API.DTOak.ErreserbaOrdainduDto.OrdainketaModua
+  href: _2Erronka_API.DTOak.ErreserbaOrdainduDto.html#_2Erronka_API_DTOak_ErreserbaOrdainduDto_OrdainketaModua
   name: OrdainketaModua
   nameWithType: ErreserbaOrdainduDto.OrdainketaModua
-  fullName: _1Erronka_API.DTOak.ErreserbaOrdainduDto.OrdainketaModua
+  fullName: _2Erronka_API.DTOak.ErreserbaOrdainduDto.OrdainketaModua
 - uid: System.String
   commentId: T:System.String
   parent: System

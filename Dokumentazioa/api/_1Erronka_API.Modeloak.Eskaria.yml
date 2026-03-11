@@ -1,23 +1,23 @@
 ### YamlMime:ManagedReference
 items:
-- uid: _1Erronka_API.Modeloak.Eskaria
-  commentId: T:_1Erronka_API.Modeloak.Eskaria
+- uid: _2Erronka_API.Modeloak.Eskaria
+  commentId: T:_2Erronka_API.Modeloak.Eskaria
   id: Eskaria
-  parent: _1Erronka_API.Modeloak
+  parent: _2Erronka_API.Modeloak
   children:
-  - _1Erronka_API.Modeloak.Eskaria.Egoera
-  - _1Erronka_API.Modeloak.Eskaria.Erreserba
-  - _1Erronka_API.Modeloak.Eskaria.Id
-  - _1Erronka_API.Modeloak.Eskaria.Langilea
-  - _1Erronka_API.Modeloak.Eskaria.Mahaia
-  - _1Erronka_API.Modeloak.Eskaria.Prezioa
-  - _1Erronka_API.Modeloak.Eskaria.Produktuak
+  - _2Erronka_API.Modeloak.Eskaria.Egoera
+  - _2Erronka_API.Modeloak.Eskaria.Erreserba
+  - _2Erronka_API.Modeloak.Eskaria.Id
+  - _2Erronka_API.Modeloak.Eskaria.Langilea
+  - _2Erronka_API.Modeloak.Eskaria.Mahaia
+  - _2Erronka_API.Modeloak.Eskaria.Prezioa
+  - _2Erronka_API.Modeloak.Eskaria.Produktuak
   langs:
   - csharp
   - vb
   name: Eskaria
   nameWithType: Eskaria
-  fullName: _1Erronka_API.Modeloak.Eskaria
+  fullName: _2Erronka_API.Modeloak.Eskaria
   type: Class
   source:
     remote:
@@ -29,7 +29,7 @@ items:
     startLine: 4
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public class Eskaria
     content.vb: Public Class Eskaria
@@ -43,16 +43,16 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: _1Erronka_API.Modeloak.Eskaria.Id
-  commentId: P:_1Erronka_API.Modeloak.Eskaria.Id
+- uid: _2Erronka_API.Modeloak.Eskaria.Id
+  commentId: P:_2Erronka_API.Modeloak.Eskaria.Id
   id: Id
-  parent: _1Erronka_API.Modeloak.Eskaria
+  parent: _2Erronka_API.Modeloak.Eskaria
   langs:
   - csharp
   - vb
   name: Id
   nameWithType: Eskaria.Id
-  fullName: _1Erronka_API.Modeloak.Eskaria.Id
+  fullName: _2Erronka_API.Modeloak.Eskaria.Id
   type: Property
   source:
     remote:
@@ -64,24 +64,24 @@ items:
     startLine: 6
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public virtual int Id { get; set; }
     parameters: []
     return:
       type: System.Int32
     content.vb: Public Overridable Property Id As Integer
-  overload: _1Erronka_API.Modeloak.Eskaria.Id*
-- uid: _1Erronka_API.Modeloak.Eskaria.Prezioa
-  commentId: P:_1Erronka_API.Modeloak.Eskaria.Prezioa
+  overload: _2Erronka_API.Modeloak.Eskaria.Id*
+- uid: _2Erronka_API.Modeloak.Eskaria.Prezioa
+  commentId: P:_2Erronka_API.Modeloak.Eskaria.Prezioa
   id: Prezioa
-  parent: _1Erronka_API.Modeloak.Eskaria
+  parent: _2Erronka_API.Modeloak.Eskaria
   langs:
   - csharp
   - vb
   name: Prezioa
   nameWithType: Eskaria.Prezioa
-  fullName: _1Erronka_API.Modeloak.Eskaria.Prezioa
+  fullName: _2Erronka_API.Modeloak.Eskaria.Prezioa
   type: Property
   source:
     remote:
@@ -93,24 +93,24 @@ items:
     startLine: 7
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public virtual double Prezioa { get; set; }
     parameters: []
     return:
       type: System.Double
     content.vb: Public Overridable Property Prezioa As Double
-  overload: _1Erronka_API.Modeloak.Eskaria.Prezioa*
-- uid: _1Erronka_API.Modeloak.Eskaria.Egoera
-  commentId: P:_1Erronka_API.Modeloak.Eskaria.Egoera
+  overload: _2Erronka_API.Modeloak.Eskaria.Prezioa*
+- uid: _2Erronka_API.Modeloak.Eskaria.Egoera
+  commentId: P:_2Erronka_API.Modeloak.Eskaria.Egoera
   id: Egoera
-  parent: _1Erronka_API.Modeloak.Eskaria
+  parent: _2Erronka_API.Modeloak.Eskaria
   langs:
   - csharp
   - vb
   name: Egoera
   nameWithType: Eskaria.Egoera
-  fullName: _1Erronka_API.Modeloak.Eskaria.Egoera
+  fullName: _2Erronka_API.Modeloak.Eskaria.Egoera
   type: Property
   source:
     remote:
@@ -122,24 +122,24 @@ items:
     startLine: 8
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public virtual string Egoera { get; set; }
     parameters: []
     return:
       type: System.String
     content.vb: Public Overridable Property Egoera As String
-  overload: _1Erronka_API.Modeloak.Eskaria.Egoera*
-- uid: _1Erronka_API.Modeloak.Eskaria.Erreserba
-  commentId: P:_1Erronka_API.Modeloak.Eskaria.Erreserba
+  overload: _2Erronka_API.Modeloak.Eskaria.Egoera*
+- uid: _2Erronka_API.Modeloak.Eskaria.Erreserba
+  commentId: P:_2Erronka_API.Modeloak.Eskaria.Erreserba
   id: Erreserba
-  parent: _1Erronka_API.Modeloak.Eskaria
+  parent: _2Erronka_API.Modeloak.Eskaria
   langs:
   - csharp
   - vb
   name: Erreserba
   nameWithType: Eskaria.Erreserba
-  fullName: _1Erronka_API.Modeloak.Eskaria.Erreserba
+  fullName: _2Erronka_API.Modeloak.Eskaria.Erreserba
   type: Property
   source:
     remote:
@@ -151,24 +151,24 @@ items:
     startLine: 9
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public virtual Erreserba Erreserba { get; set; }
     parameters: []
     return:
-      type: _1Erronka_API.Modeloak.Erreserba
+      type: _2Erronka_API.Modeloak.Erreserba
     content.vb: Public Overridable Property Erreserba As Erreserba
-  overload: _1Erronka_API.Modeloak.Eskaria.Erreserba*
-- uid: _1Erronka_API.Modeloak.Eskaria.Langilea
-  commentId: P:_1Erronka_API.Modeloak.Eskaria.Langilea
+  overload: _2Erronka_API.Modeloak.Eskaria.Erreserba*
+- uid: _2Erronka_API.Modeloak.Eskaria.Langilea
+  commentId: P:_2Erronka_API.Modeloak.Eskaria.Langilea
   id: Langilea
-  parent: _1Erronka_API.Modeloak.Eskaria
+  parent: _2Erronka_API.Modeloak.Eskaria
   langs:
   - csharp
   - vb
   name: Langilea
   nameWithType: Eskaria.Langilea
-  fullName: _1Erronka_API.Modeloak.Eskaria.Langilea
+  fullName: _2Erronka_API.Modeloak.Eskaria.Langilea
   type: Property
   source:
     remote:
@@ -180,24 +180,24 @@ items:
     startLine: 10
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public virtual Langilea Langilea { get; set; }
     parameters: []
     return:
-      type: _1Erronka_API.Domain.Langilea
+      type: _2Erronka_API.Domain.Langilea
     content.vb: Public Overridable Property Langilea As Langilea
-  overload: _1Erronka_API.Modeloak.Eskaria.Langilea*
-- uid: _1Erronka_API.Modeloak.Eskaria.Mahaia
-  commentId: P:_1Erronka_API.Modeloak.Eskaria.Mahaia
+  overload: _2Erronka_API.Modeloak.Eskaria.Langilea*
+- uid: _2Erronka_API.Modeloak.Eskaria.Mahaia
+  commentId: P:_2Erronka_API.Modeloak.Eskaria.Mahaia
   id: Mahaia
-  parent: _1Erronka_API.Modeloak.Eskaria
+  parent: _2Erronka_API.Modeloak.Eskaria
   langs:
   - csharp
   - vb
   name: Mahaia
   nameWithType: Eskaria.Mahaia
-  fullName: _1Erronka_API.Modeloak.Eskaria.Mahaia
+  fullName: _2Erronka_API.Modeloak.Eskaria.Mahaia
   type: Property
   source:
     remote:
@@ -209,24 +209,24 @@ items:
     startLine: 11
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public virtual Mahaia Mahaia { get; set; }
     parameters: []
     return:
-      type: _1Erronka_API.Modeloak.Mahaia
+      type: _2Erronka_API.Modeloak.Mahaia
     content.vb: Public Overridable Property Mahaia As Mahaia
-  overload: _1Erronka_API.Modeloak.Eskaria.Mahaia*
-- uid: _1Erronka_API.Modeloak.Eskaria.Produktuak
-  commentId: P:_1Erronka_API.Modeloak.Eskaria.Produktuak
+  overload: _2Erronka_API.Modeloak.Eskaria.Mahaia*
+- uid: _2Erronka_API.Modeloak.Eskaria.Produktuak
+  commentId: P:_2Erronka_API.Modeloak.Eskaria.Produktuak
   id: Produktuak
-  parent: _1Erronka_API.Modeloak.Eskaria
+  parent: _2Erronka_API.Modeloak.Eskaria
   langs:
   - csharp
   - vb
   name: Produktuak
   nameWithType: Eskaria.Produktuak
-  fullName: _1Erronka_API.Modeloak.Eskaria.Produktuak
+  fullName: _2Erronka_API.Modeloak.Eskaria.Produktuak
   type: Property
   source:
     remote:
@@ -238,37 +238,37 @@ items:
     startLine: 12
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public virtual IList<EskariaProduktua> Produktuak { get; set; }
     parameters: []
     return:
-      type: System.Collections.Generic.IList{_1Erronka_API.Modeloak.EskariaProduktua}
+      type: System.Collections.Generic.IList{_2Erronka_API.Modeloak.EskariaProduktua}
     content.vb: Public Overridable Property Produktuak As IList(Of EskariaProduktua)
-  overload: _1Erronka_API.Modeloak.Eskaria.Produktuak*
+  overload: _2Erronka_API.Modeloak.Eskaria.Produktuak*
 references:
-- uid: _1Erronka_API.Modeloak
-  commentId: N:_1Erronka_API.Modeloak
-  href: _1Erronka_API.html
-  name: _1Erronka_API.Modeloak
-  nameWithType: _1Erronka_API.Modeloak
-  fullName: _1Erronka_API.Modeloak
+- uid: _2Erronka_API.Modeloak
+  commentId: N:_2Erronka_API.Modeloak
+  href: _2Erronka_API.html
+  name: _2Erronka_API.Modeloak
+  nameWithType: _2Erronka_API.Modeloak
+  fullName: _2Erronka_API.Modeloak
   spec.csharp:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.Modeloak
+  - uid: _2Erronka_API.Modeloak
     name: Modeloak
-    href: _1Erronka_API.Modeloak.html
+    href: _2Erronka_API.Modeloak.html
   spec.vb:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.Modeloak
+  - uid: _2Erronka_API.Modeloak
     name: Modeloak
-    href: _1Erronka_API.Modeloak.html
+    href: _2Erronka_API.Modeloak.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -506,12 +506,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: _1Erronka_API.Modeloak.Eskaria.Id*
-  commentId: Overload:_1Erronka_API.Modeloak.Eskaria.Id
-  href: _1Erronka_API.Modeloak.Eskaria.html#_1Erronka_API_Modeloak_Eskaria_Id
+- uid: _2Erronka_API.Modeloak.Eskaria.Id*
+  commentId: Overload:_2Erronka_API.Modeloak.Eskaria.Id
+  href: _2Erronka_API.Modeloak.Eskaria.html#_2Erronka_API_Modeloak_Eskaria_Id
   name: Id
   nameWithType: Eskaria.Id
-  fullName: _1Erronka_API.Modeloak.Eskaria.Id
+  fullName: _2Erronka_API.Modeloak.Eskaria.Id
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -523,12 +523,12 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: _1Erronka_API.Modeloak.Eskaria.Prezioa*
-  commentId: Overload:_1Erronka_API.Modeloak.Eskaria.Prezioa
-  href: _1Erronka_API.Modeloak.Eskaria.html#_1Erronka_API_Modeloak_Eskaria_Prezioa
+- uid: _2Erronka_API.Modeloak.Eskaria.Prezioa*
+  commentId: Overload:_2Erronka_API.Modeloak.Eskaria.Prezioa
+  href: _2Erronka_API.Modeloak.Eskaria.html#_2Erronka_API_Modeloak_Eskaria_Prezioa
   name: Prezioa
   nameWithType: Eskaria.Prezioa
-  fullName: _1Erronka_API.Modeloak.Eskaria.Prezioa
+  fullName: _2Erronka_API.Modeloak.Eskaria.Prezioa
 - uid: System.Double
   commentId: T:System.Double
   parent: System
@@ -540,12 +540,12 @@ references:
   nameWithType.vb: Double
   fullName.vb: Double
   name.vb: Double
-- uid: _1Erronka_API.Modeloak.Eskaria.Egoera*
-  commentId: Overload:_1Erronka_API.Modeloak.Eskaria.Egoera
-  href: _1Erronka_API.Modeloak.Eskaria.html#_1Erronka_API_Modeloak_Eskaria_Egoera
+- uid: _2Erronka_API.Modeloak.Eskaria.Egoera*
+  commentId: Overload:_2Erronka_API.Modeloak.Eskaria.Egoera
+  href: _2Erronka_API.Modeloak.Eskaria.html#_2Erronka_API_Modeloak_Eskaria_Egoera
   name: Egoera
   nameWithType: Eskaria.Egoera
-  fullName: _1Erronka_API.Modeloak.Eskaria.Egoera
+  fullName: _2Erronka_API.Modeloak.Eskaria.Egoera
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -557,83 +557,83 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: _1Erronka_API.Modeloak.Eskaria.Erreserba*
-  commentId: Overload:_1Erronka_API.Modeloak.Eskaria.Erreserba
-  href: _1Erronka_API.Modeloak.Eskaria.html#_1Erronka_API_Modeloak_Eskaria_Erreserba
+- uid: _2Erronka_API.Modeloak.Eskaria.Erreserba*
+  commentId: Overload:_2Erronka_API.Modeloak.Eskaria.Erreserba
+  href: _2Erronka_API.Modeloak.Eskaria.html#_2Erronka_API_Modeloak_Eskaria_Erreserba
   name: Erreserba
   nameWithType: Eskaria.Erreserba
-  fullName: _1Erronka_API.Modeloak.Eskaria.Erreserba
-- uid: _1Erronka_API.Modeloak.Erreserba
-  commentId: T:_1Erronka_API.Modeloak.Erreserba
-  parent: _1Erronka_API.Modeloak
-  href: _1Erronka_API.Modeloak.Erreserba.html
+  fullName: _2Erronka_API.Modeloak.Eskaria.Erreserba
+- uid: _2Erronka_API.Modeloak.Erreserba
+  commentId: T:_2Erronka_API.Modeloak.Erreserba
+  parent: _2Erronka_API.Modeloak
+  href: _2Erronka_API.Modeloak.Erreserba.html
   name: Erreserba
   nameWithType: Erreserba
-  fullName: _1Erronka_API.Modeloak.Erreserba
-- uid: _1Erronka_API.Modeloak.Eskaria.Langilea*
-  commentId: Overload:_1Erronka_API.Modeloak.Eskaria.Langilea
-  href: _1Erronka_API.Modeloak.Eskaria.html#_1Erronka_API_Modeloak_Eskaria_Langilea
+  fullName: _2Erronka_API.Modeloak.Erreserba
+- uid: _2Erronka_API.Modeloak.Eskaria.Langilea*
+  commentId: Overload:_2Erronka_API.Modeloak.Eskaria.Langilea
+  href: _2Erronka_API.Modeloak.Eskaria.html#_2Erronka_API_Modeloak_Eskaria_Langilea
   name: Langilea
   nameWithType: Eskaria.Langilea
-  fullName: _1Erronka_API.Modeloak.Eskaria.Langilea
-- uid: _1Erronka_API.Domain.Langilea
-  commentId: T:_1Erronka_API.Domain.Langilea
-  parent: _1Erronka_API.Domain
-  href: _1Erronka_API.Domain.Langilea.html
+  fullName: _2Erronka_API.Modeloak.Eskaria.Langilea
+- uid: _2Erronka_API.Domain.Langilea
+  commentId: T:_2Erronka_API.Domain.Langilea
+  parent: _2Erronka_API.Domain
+  href: _2Erronka_API.Domain.Langilea.html
   name: Langilea
   nameWithType: Langilea
-  fullName: _1Erronka_API.Domain.Langilea
-- uid: _1Erronka_API.Domain
-  commentId: N:_1Erronka_API.Domain
-  href: _1Erronka_API.html
-  name: _1Erronka_API.Domain
-  nameWithType: _1Erronka_API.Domain
-  fullName: _1Erronka_API.Domain
+  fullName: _2Erronka_API.Domain.Langilea
+- uid: _2Erronka_API.Domain
+  commentId: N:_2Erronka_API.Domain
+  href: _2Erronka_API.html
+  name: _2Erronka_API.Domain
+  nameWithType: _2Erronka_API.Domain
+  fullName: _2Erronka_API.Domain
   spec.csharp:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.Domain
+  - uid: _2Erronka_API.Domain
     name: Domain
-    href: _1Erronka_API.Domain.html
+    href: _2Erronka_API.Domain.html
   spec.vb:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.Domain
+  - uid: _2Erronka_API.Domain
     name: Domain
-    href: _1Erronka_API.Domain.html
-- uid: _1Erronka_API.Modeloak.Eskaria.Mahaia*
-  commentId: Overload:_1Erronka_API.Modeloak.Eskaria.Mahaia
-  href: _1Erronka_API.Modeloak.Eskaria.html#_1Erronka_API_Modeloak_Eskaria_Mahaia
+    href: _2Erronka_API.Domain.html
+- uid: _2Erronka_API.Modeloak.Eskaria.Mahaia*
+  commentId: Overload:_2Erronka_API.Modeloak.Eskaria.Mahaia
+  href: _2Erronka_API.Modeloak.Eskaria.html#_2Erronka_API_Modeloak_Eskaria_Mahaia
   name: Mahaia
   nameWithType: Eskaria.Mahaia
-  fullName: _1Erronka_API.Modeloak.Eskaria.Mahaia
-- uid: _1Erronka_API.Modeloak.Mahaia
-  commentId: T:_1Erronka_API.Modeloak.Mahaia
-  parent: _1Erronka_API.Modeloak
-  href: _1Erronka_API.Modeloak.Mahaia.html
+  fullName: _2Erronka_API.Modeloak.Eskaria.Mahaia
+- uid: _2Erronka_API.Modeloak.Mahaia
+  commentId: T:_2Erronka_API.Modeloak.Mahaia
+  parent: _2Erronka_API.Modeloak
+  href: _2Erronka_API.Modeloak.Mahaia.html
   name: Mahaia
   nameWithType: Mahaia
-  fullName: _1Erronka_API.Modeloak.Mahaia
-- uid: _1Erronka_API.Modeloak.Eskaria.Produktuak*
-  commentId: Overload:_1Erronka_API.Modeloak.Eskaria.Produktuak
-  href: _1Erronka_API.Modeloak.Eskaria.html#_1Erronka_API_Modeloak_Eskaria_Produktuak
+  fullName: _2Erronka_API.Modeloak.Mahaia
+- uid: _2Erronka_API.Modeloak.Eskaria.Produktuak*
+  commentId: Overload:_2Erronka_API.Modeloak.Eskaria.Produktuak
+  href: _2Erronka_API.Modeloak.Eskaria.html#_2Erronka_API_Modeloak_Eskaria_Produktuak
   name: Produktuak
   nameWithType: Eskaria.Produktuak
-  fullName: _1Erronka_API.Modeloak.Eskaria.Produktuak
-- uid: System.Collections.Generic.IList{_1Erronka_API.Modeloak.EskariaProduktua}
-  commentId: T:System.Collections.Generic.IList{_1Erronka_API.Modeloak.EskariaProduktua}
+  fullName: _2Erronka_API.Modeloak.Eskaria.Produktuak
+- uid: System.Collections.Generic.IList{_2Erronka_API.Modeloak.EskariaProduktua}
+  commentId: T:System.Collections.Generic.IList{_2Erronka_API.Modeloak.EskariaProduktua}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IList`1
   href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
   name: IList<EskariaProduktua>
   nameWithType: IList<EskariaProduktua>
-  fullName: System.Collections.Generic.IList<_1Erronka_API.Modeloak.EskariaProduktua>
+  fullName: System.Collections.Generic.IList<_2Erronka_API.Modeloak.EskariaProduktua>
   nameWithType.vb: IList(Of EskariaProduktua)
-  fullName.vb: System.Collections.Generic.IList(Of _1Erronka_API.Modeloak.EskariaProduktua)
+  fullName.vb: System.Collections.Generic.IList(Of _2Erronka_API.Modeloak.EskariaProduktua)
   name.vb: IList(Of EskariaProduktua)
   spec.csharp:
   - uid: System.Collections.Generic.IList`1
@@ -641,9 +641,9 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
   - name: <
-  - uid: _1Erronka_API.Modeloak.EskariaProduktua
+  - uid: _2Erronka_API.Modeloak.EskariaProduktua
     name: EskariaProduktua
-    href: _1Erronka_API.Modeloak.EskariaProduktua.html
+    href: _2Erronka_API.Modeloak.EskariaProduktua.html
   - name: '>'
   spec.vb:
   - uid: System.Collections.Generic.IList`1
@@ -653,9 +653,9 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: _1Erronka_API.Modeloak.EskariaProduktua
+  - uid: _2Erronka_API.Modeloak.EskariaProduktua
     name: EskariaProduktua
-    href: _1Erronka_API.Modeloak.EskariaProduktua.html
+    href: _2Erronka_API.Modeloak.EskariaProduktua.html
   - name: )
 - uid: System.Collections.Generic.IList`1
   commentId: T:System.Collections.Generic.IList`1

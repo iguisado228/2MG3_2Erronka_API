@@ -1,20 +1,20 @@
 ### YamlMime:ManagedReference
 items:
-- uid: _1Erronka_API.DTOak.MahaiaDto
-  commentId: T:_1Erronka_API.DTOak.MahaiaDto
+- uid: _2Erronka_API.DTOak.MahaiaDto
+  commentId: T:_2Erronka_API.DTOak.MahaiaDto
   id: MahaiaDto
-  parent: _1Erronka_API.DTOak
+  parent: _2Erronka_API.DTOak
   children:
-  - _1Erronka_API.DTOak.MahaiaDto.Id
-  - _1Erronka_API.DTOak.MahaiaDto.Kokapena
-  - _1Erronka_API.DTOak.MahaiaDto.PertsonaKopurua
-  - _1Erronka_API.DTOak.MahaiaDto.Zenbakia
+  - _2Erronka_API.DTOak.MahaiaDto.Id
+  - _2Erronka_API.DTOak.MahaiaDto.Kokapena
+  - _2Erronka_API.DTOak.MahaiaDto.PertsonaKopurua
+  - _2Erronka_API.DTOak.MahaiaDto.Zenbakia
   langs:
   - csharp
   - vb
   name: MahaiaDto
   nameWithType: MahaiaDto
-  fullName: _1Erronka_API.DTOak.MahaiaDto
+  fullName: _2Erronka_API.DTOak.MahaiaDto
   type: Class
   source:
     remote:
@@ -26,7 +26,7 @@ items:
     startLine: 5
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Mahai baten datu-laburpena, API erantzunetan eta sarreretan erabiltzeko.
   example: []
   syntax:
@@ -42,16 +42,16 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: _1Erronka_API.DTOak.MahaiaDto.Id
-  commentId: P:_1Erronka_API.DTOak.MahaiaDto.Id
+- uid: _2Erronka_API.DTOak.MahaiaDto.Id
+  commentId: P:_2Erronka_API.DTOak.MahaiaDto.Id
   id: Id
-  parent: _1Erronka_API.DTOak.MahaiaDto
+  parent: _2Erronka_API.DTOak.MahaiaDto
   langs:
   - csharp
   - vb
   name: Id
   nameWithType: MahaiaDto.Id
-  fullName: _1Erronka_API.DTOak.MahaiaDto.Id
+  fullName: _2Erronka_API.DTOak.MahaiaDto.Id
   type: Property
   source:
     remote:
@@ -63,7 +63,7 @@ items:
     startLine: 8
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Mahaiaren identifikatzailea.
   example: []
   syntax:
@@ -72,17 +72,17 @@ items:
     return:
       type: System.Int32
     content.vb: Public Property Id As Integer
-  overload: _1Erronka_API.DTOak.MahaiaDto.Id*
-- uid: _1Erronka_API.DTOak.MahaiaDto.Zenbakia
-  commentId: P:_1Erronka_API.DTOak.MahaiaDto.Zenbakia
+  overload: _2Erronka_API.DTOak.MahaiaDto.Id*
+- uid: _2Erronka_API.DTOak.MahaiaDto.Zenbakia
+  commentId: P:_2Erronka_API.DTOak.MahaiaDto.Zenbakia
   id: Zenbakia
-  parent: _1Erronka_API.DTOak.MahaiaDto
+  parent: _2Erronka_API.DTOak.MahaiaDto
   langs:
   - csharp
   - vb
   name: Zenbakia
   nameWithType: MahaiaDto.Zenbakia
-  fullName: _1Erronka_API.DTOak.MahaiaDto.Zenbakia
+  fullName: _2Erronka_API.DTOak.MahaiaDto.Zenbakia
   type: Property
   source:
     remote:
@@ -94,7 +94,7 @@ items:
     startLine: 10
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Mahaiaren zenbakia.
   example: []
   syntax:
@@ -103,17 +103,17 @@ items:
     return:
       type: System.Int32
     content.vb: Public Property Zenbakia As Integer
-  overload: _1Erronka_API.DTOak.MahaiaDto.Zenbakia*
-- uid: _1Erronka_API.DTOak.MahaiaDto.PertsonaKopurua
-  commentId: P:_1Erronka_API.DTOak.MahaiaDto.PertsonaKopurua
+  overload: _2Erronka_API.DTOak.MahaiaDto.Zenbakia*
+- uid: _2Erronka_API.DTOak.MahaiaDto.PertsonaKopurua
+  commentId: P:_2Erronka_API.DTOak.MahaiaDto.PertsonaKopurua
   id: PertsonaKopurua
-  parent: _1Erronka_API.DTOak.MahaiaDto
+  parent: _2Erronka_API.DTOak.MahaiaDto
   langs:
   - csharp
   - vb
   name: PertsonaKopurua
   nameWithType: MahaiaDto.PertsonaKopurua
-  fullName: _1Erronka_API.DTOak.MahaiaDto.PertsonaKopurua
+  fullName: _2Erronka_API.DTOak.MahaiaDto.PertsonaKopurua
   type: Property
   source:
     remote:
@@ -125,7 +125,7 @@ items:
     startLine: 12
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Mahaiak onartzen duen pertsona kopurua.
   example: []
   syntax:
@@ -134,17 +134,17 @@ items:
     return:
       type: System.Int32
     content.vb: Public Property PertsonaKopurua As Integer
-  overload: _1Erronka_API.DTOak.MahaiaDto.PertsonaKopurua*
-- uid: _1Erronka_API.DTOak.MahaiaDto.Kokapena
-  commentId: P:_1Erronka_API.DTOak.MahaiaDto.Kokapena
+  overload: _2Erronka_API.DTOak.MahaiaDto.PertsonaKopurua*
+- uid: _2Erronka_API.DTOak.MahaiaDto.Kokapena
+  commentId: P:_2Erronka_API.DTOak.MahaiaDto.Kokapena
   id: Kokapena
-  parent: _1Erronka_API.DTOak.MahaiaDto
+  parent: _2Erronka_API.DTOak.MahaiaDto
   langs:
   - csharp
   - vb
   name: Kokapena
   nameWithType: MahaiaDto.Kokapena
-  fullName: _1Erronka_API.DTOak.MahaiaDto.Kokapena
+  fullName: _2Erronka_API.DTOak.MahaiaDto.Kokapena
   type: Property
   source:
     remote:
@@ -156,7 +156,7 @@ items:
     startLine: 14
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Mahaiaren kokapena (adib. barruan, terrazan...).
   example: []
   syntax:
@@ -165,30 +165,30 @@ items:
     return:
       type: System.String
     content.vb: Public Property Kokapena As String
-  overload: _1Erronka_API.DTOak.MahaiaDto.Kokapena*
+  overload: _2Erronka_API.DTOak.MahaiaDto.Kokapena*
 references:
-- uid: _1Erronka_API.DTOak
-  commentId: N:_1Erronka_API.DTOak
-  href: _1Erronka_API.html
-  name: _1Erronka_API.DTOak
-  nameWithType: _1Erronka_API.DTOak
-  fullName: _1Erronka_API.DTOak
+- uid: _2Erronka_API.DTOak
+  commentId: N:_2Erronka_API.DTOak
+  href: _2Erronka_API.html
+  name: _2Erronka_API.DTOak
+  nameWithType: _2Erronka_API.DTOak
+  fullName: _2Erronka_API.DTOak
   spec.csharp:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.DTOak
+  - uid: _2Erronka_API.DTOak
     name: DTOak
-    href: _1Erronka_API.DTOak.html
+    href: _2Erronka_API.DTOak.html
   spec.vb:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.DTOak
+  - uid: _2Erronka_API.DTOak
     name: DTOak
-    href: _1Erronka_API.DTOak.html
+    href: _2Erronka_API.DTOak.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -426,12 +426,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: _1Erronka_API.DTOak.MahaiaDto.Id*
-  commentId: Overload:_1Erronka_API.DTOak.MahaiaDto.Id
-  href: _1Erronka_API.DTOak.MahaiaDto.html#_1Erronka_API_DTOak_MahaiaDto_Id
+- uid: _2Erronka_API.DTOak.MahaiaDto.Id*
+  commentId: Overload:_2Erronka_API.DTOak.MahaiaDto.Id
+  href: _2Erronka_API.DTOak.MahaiaDto.html#_2Erronka_API_DTOak_MahaiaDto_Id
   name: Id
   nameWithType: MahaiaDto.Id
-  fullName: _1Erronka_API.DTOak.MahaiaDto.Id
+  fullName: _2Erronka_API.DTOak.MahaiaDto.Id
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -443,24 +443,24 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: _1Erronka_API.DTOak.MahaiaDto.Zenbakia*
-  commentId: Overload:_1Erronka_API.DTOak.MahaiaDto.Zenbakia
-  href: _1Erronka_API.DTOak.MahaiaDto.html#_1Erronka_API_DTOak_MahaiaDto_Zenbakia
+- uid: _2Erronka_API.DTOak.MahaiaDto.Zenbakia*
+  commentId: Overload:_2Erronka_API.DTOak.MahaiaDto.Zenbakia
+  href: _2Erronka_API.DTOak.MahaiaDto.html#_2Erronka_API_DTOak_MahaiaDto_Zenbakia
   name: Zenbakia
   nameWithType: MahaiaDto.Zenbakia
-  fullName: _1Erronka_API.DTOak.MahaiaDto.Zenbakia
-- uid: _1Erronka_API.DTOak.MahaiaDto.PertsonaKopurua*
-  commentId: Overload:_1Erronka_API.DTOak.MahaiaDto.PertsonaKopurua
-  href: _1Erronka_API.DTOak.MahaiaDto.html#_1Erronka_API_DTOak_MahaiaDto_PertsonaKopurua
+  fullName: _2Erronka_API.DTOak.MahaiaDto.Zenbakia
+- uid: _2Erronka_API.DTOak.MahaiaDto.PertsonaKopurua*
+  commentId: Overload:_2Erronka_API.DTOak.MahaiaDto.PertsonaKopurua
+  href: _2Erronka_API.DTOak.MahaiaDto.html#_2Erronka_API_DTOak_MahaiaDto_PertsonaKopurua
   name: PertsonaKopurua
   nameWithType: MahaiaDto.PertsonaKopurua
-  fullName: _1Erronka_API.DTOak.MahaiaDto.PertsonaKopurua
-- uid: _1Erronka_API.DTOak.MahaiaDto.Kokapena*
-  commentId: Overload:_1Erronka_API.DTOak.MahaiaDto.Kokapena
-  href: _1Erronka_API.DTOak.MahaiaDto.html#_1Erronka_API_DTOak_MahaiaDto_Kokapena
+  fullName: _2Erronka_API.DTOak.MahaiaDto.PertsonaKopurua
+- uid: _2Erronka_API.DTOak.MahaiaDto.Kokapena*
+  commentId: Overload:_2Erronka_API.DTOak.MahaiaDto.Kokapena
+  href: _2Erronka_API.DTOak.MahaiaDto.html#_2Erronka_API_DTOak_MahaiaDto_Kokapena
   name: Kokapena
   nameWithType: MahaiaDto.Kokapena
-  fullName: _1Erronka_API.DTOak.MahaiaDto.Kokapena
+  fullName: _2Erronka_API.DTOak.MahaiaDto.Kokapena
 - uid: System.String
   commentId: T:System.String
   parent: System

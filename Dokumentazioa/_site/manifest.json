@@ -12,688 +12,688 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Controllers.ErreserbakController.yml",
+      "source_relative_path": "api/_2Erronka_API.Controllers.ErreserbakController.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Controllers.ErreserbakController.html"
+          "relative_path": "api/_2Erronka_API.Controllers.ErreserbakController.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Controllers.ErreserbakController",
-      "Summary": "<p sourcefile=\"api/_1Erronka_API.Controllers.ErreserbakController.yml\" sourcestartlinenumber=\"1\">Erreserben kudeaketarako API amaierako puntuak.</p>\n"
+      "Title": "_2Erronka_API.Controllers.ErreserbakController",
+      "Summary": "<p sourcefile=\"api/_2Erronka_API.Controllers.ErreserbakController.yml\" sourcestartlinenumber=\"1\">Erreserben kudeaketarako API amaierako puntuak.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Controllers.EskariakController.yml",
+      "source_relative_path": "api/_2Erronka_API.Controllers.EskariakController.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Controllers.EskariakController.html"
+          "relative_path": "api/_2Erronka_API.Controllers.EskariakController.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Controllers.EskariakController",
-      "Summary": "<p sourcefile=\"api/_1Erronka_API.Controllers.EskariakController.yml\" sourcestartlinenumber=\"1\">Eskaeren (eskariak) kudeaketarako API amaierako puntuak.</p>\n"
+      "Title": "_2Erronka_API.Controllers.EskariakController",
+      "Summary": "<p sourcefile=\"api/_2Erronka_API.Controllers.EskariakController.yml\" sourcestartlinenumber=\"1\">Eskaeren (eskariak) kudeaketarako API amaierako puntuak.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Controllers.LoginController.yml",
+      "source_relative_path": "api/_2Erronka_API.Controllers.LoginController.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Controllers.LoginController.html"
+          "relative_path": "api/_2Erronka_API.Controllers.LoginController.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Controllers.LoginController",
-      "Summary": "<p sourcefile=\"api/_1Erronka_API.Controllers.LoginController.yml\" sourcestartlinenumber=\"1\">Autentifikazioaren (login) API amaierako puntuak.</p>\n"
+      "Title": "_2Erronka_API.Controllers.LoginController",
+      "Summary": "<p sourcefile=\"api/_2Erronka_API.Controllers.LoginController.yml\" sourcestartlinenumber=\"1\">Autentifikazioaren (login) API amaierako puntuak.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Controllers.MahaiakController.yml",
+      "source_relative_path": "api/_2Erronka_API.Controllers.MahaiakController.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Controllers.MahaiakController.html"
+          "relative_path": "api/_2Erronka_API.Controllers.MahaiakController.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Controllers.MahaiakController",
-      "Summary": "<p sourcefile=\"api/_1Erronka_API.Controllers.MahaiakController.yml\" sourcestartlinenumber=\"1\">Mahaien kudeaketarako API amaierako puntuak.</p>\n"
+      "Title": "_2Erronka_API.Controllers.MahaiakController",
+      "Summary": "<p sourcefile=\"api/_2Erronka_API.Controllers.MahaiakController.yml\" sourcestartlinenumber=\"1\">Mahaien kudeaketarako API amaierako puntuak.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Controllers.OsagaiakController.yml",
+      "source_relative_path": "api/_2Erronka_API.Controllers.OsagaiakController.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Controllers.OsagaiakController.html"
+          "relative_path": "api/_2Erronka_API.Controllers.OsagaiakController.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Controllers.OsagaiakController",
-      "Summary": "<p sourcefile=\"api/_1Erronka_API.Controllers.OsagaiakController.yml\" sourcestartlinenumber=\"1\">Osagaien kontsultarako API amaierako puntuak.</p>\n"
+      "Title": "_2Erronka_API.Controllers.OsagaiakController",
+      "Summary": "<p sourcefile=\"api/_2Erronka_API.Controllers.OsagaiakController.yml\" sourcestartlinenumber=\"1\">Osagaien kontsultarako API amaierako puntuak.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Controllers.ProduktuakController.yml",
+      "source_relative_path": "api/_2Erronka_API.Controllers.ProduktuakController.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Controllers.ProduktuakController.html"
+          "relative_path": "api/_2Erronka_API.Controllers.ProduktuakController.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Controllers.ProduktuakController",
-      "Summary": "<p sourcefile=\"api/_1Erronka_API.Controllers.ProduktuakController.yml\" sourcestartlinenumber=\"1\">Produktuen kontsultarako API amaierako puntuak.</p>\n"
+      "Title": "_2Erronka_API.Controllers.ProduktuakController",
+      "Summary": "<p sourcefile=\"api/_2Erronka_API.Controllers.ProduktuakController.yml\" sourcestartlinenumber=\"1\">Produktuen kontsultarako API amaierako puntuak.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Controllers.yml",
+      "source_relative_path": "api/_2Erronka_API.Controllers.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Controllers.html"
+          "relative_path": "api/_2Erronka_API.Controllers.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Controllers",
+      "Title": "_2Erronka_API.Controllers",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.DTOak.ErreserbaDto.yml",
+      "source_relative_path": "api/_2Erronka_API.DTOak.ErreserbaDto.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.DTOak.ErreserbaDto.html"
+          "relative_path": "api/_2Erronka_API.DTOak.ErreserbaDto.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.DTOak.ErreserbaDto",
-      "Summary": "<p sourcefile=\"api/_1Erronka_API.DTOak.ErreserbaDto.yml\" sourcestartlinenumber=\"1\">Erreserba baten datu-laburpena, API erantzunetan erabiltzeko.</p>\n"
+      "Title": "_2Erronka_API.DTOak.ErreserbaDto",
+      "Summary": "<p sourcefile=\"api/_2Erronka_API.DTOak.ErreserbaDto.yml\" sourcestartlinenumber=\"1\">Erreserba baten datu-laburpena, API erantzunetan erabiltzeko.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.DTOak.ErreserbaOrdainduDto.yml",
+      "source_relative_path": "api/_2Erronka_API.DTOak.ErreserbaOrdainduDto.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.DTOak.ErreserbaOrdainduDto.html"
+          "relative_path": "api/_2Erronka_API.DTOak.ErreserbaOrdainduDto.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.DTOak.ErreserbaOrdainduDto",
-      "Summary": "<p sourcefile=\"api/_1Erronka_API.DTOak.ErreserbaOrdainduDto.yml\" sourcestartlinenumber=\"1\">Erreserba baten ordainketa erregistratzeko datuak.</p>\n"
+      "Title": "_2Erronka_API.DTOak.ErreserbaOrdainduDto",
+      "Summary": "<p sourcefile=\"api/_2Erronka_API.DTOak.ErreserbaOrdainduDto.yml\" sourcestartlinenumber=\"1\">Erreserba baten ordainketa erregistratzeko datuak.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.DTOak.ErreserbaSortuDto.yml",
+      "source_relative_path": "api/_2Erronka_API.DTOak.ErreserbaSortuDto.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.DTOak.ErreserbaSortuDto.html"
+          "relative_path": "api/_2Erronka_API.DTOak.ErreserbaSortuDto.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.DTOak.ErreserbaSortuDto",
-      "Summary": "<p sourcefile=\"api/_1Erronka_API.DTOak.ErreserbaSortuDto.yml\" sourcestartlinenumber=\"1\">Erreserba berria sortu edo eguneratzeko erabiltzen den sarrera-DTOa.</p>\n"
+      "Title": "_2Erronka_API.DTOak.ErreserbaSortuDto",
+      "Summary": "<p sourcefile=\"api/_2Erronka_API.DTOak.ErreserbaSortuDto.yml\" sourcestartlinenumber=\"1\">Erreserba berria sortu edo eguneratzeko erabiltzen den sarrera-DTOa.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.DTOak.EskariaDto.yml",
+      "source_relative_path": "api/_2Erronka_API.DTOak.EskariaDto.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.DTOak.EskariaDto.html"
+          "relative_path": "api/_2Erronka_API.DTOak.EskariaDto.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.DTOak.EskariaDto",
-      "Summary": "<p sourcefile=\"api/_1Erronka_API.DTOak.EskariaDto.yml\" sourcestartlinenumber=\"1\">Eskari baten datu-laburpena, API erantzunetan erabiltzeko.</p>\n"
+      "Title": "_2Erronka_API.DTOak.EskariaDto",
+      "Summary": "<p sourcefile=\"api/_2Erronka_API.DTOak.EskariaDto.yml\" sourcestartlinenumber=\"1\">Eskari baten datu-laburpena, API erantzunetan erabiltzeko.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.DTOak.EskariaProduktuaDto.yml",
+      "source_relative_path": "api/_2Erronka_API.DTOak.EskariaProduktuaDto.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.DTOak.EskariaProduktuaDto.html"
+          "relative_path": "api/_2Erronka_API.DTOak.EskariaProduktuaDto.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.DTOak.EskariaProduktuaDto",
-      "Summary": "<p sourcefile=\"api/_1Erronka_API.DTOak.EskariaProduktuaDto.yml\" sourcestartlinenumber=\"1\">Eskari bateko produktu baten erantzun-eredua.</p>\n"
+      "Title": "_2Erronka_API.DTOak.EskariaProduktuaDto",
+      "Summary": "<p sourcefile=\"api/_2Erronka_API.DTOak.EskariaProduktuaDto.yml\" sourcestartlinenumber=\"1\">Eskari bateko produktu baten erantzun-eredua.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.DTOak.EskariaProduktuaSortuDto.yml",
+      "source_relative_path": "api/_2Erronka_API.DTOak.EskariaProduktuaSortuDto.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.DTOak.EskariaProduktuaSortuDto.html"
+          "relative_path": "api/_2Erronka_API.DTOak.EskariaProduktuaSortuDto.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.DTOak.EskariaProduktuaSortuDto",
-      "Summary": "<p sourcefile=\"api/_1Erronka_API.DTOak.EskariaProduktuaSortuDto.yml\" sourcestartlinenumber=\"1\">Eskari batean produktu bat gehitzeko erabiltzen den sarrera-eredua.</p>\n"
+      "Title": "_2Erronka_API.DTOak.EskariaProduktuaSortuDto",
+      "Summary": "<p sourcefile=\"api/_2Erronka_API.DTOak.EskariaProduktuaSortuDto.yml\" sourcestartlinenumber=\"1\">Eskari batean produktu bat gehitzeko erabiltzen den sarrera-eredua.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.DTOak.EskariaSortuDto.yml",
+      "source_relative_path": "api/_2Erronka_API.DTOak.EskariaSortuDto.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.DTOak.EskariaSortuDto.html"
+          "relative_path": "api/_2Erronka_API.DTOak.EskariaSortuDto.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.DTOak.EskariaSortuDto",
-      "Summary": "<p sourcefile=\"api/_1Erronka_API.DTOak.EskariaSortuDto.yml\" sourcestartlinenumber=\"1\">Eskari berria sortu edo eguneratzeko erabiltzen den sarrera-DTOa.</p>\n"
+      "Title": "_2Erronka_API.DTOak.EskariaSortuDto",
+      "Summary": "<p sourcefile=\"api/_2Erronka_API.DTOak.EskariaSortuDto.yml\" sourcestartlinenumber=\"1\">Eskari berria sortu edo eguneratzeko erabiltzen den sarrera-DTOa.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.DTOak.LangileaDto.yml",
+      "source_relative_path": "api/_2Erronka_API.DTOak.LangileaDto.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.DTOak.LangileaDto.html"
+          "relative_path": "api/_2Erronka_API.DTOak.LangileaDto.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.DTOak.LangileaDto",
-      "Summary": "<p sourcefile=\"api/_1Erronka_API.DTOak.LangileaDto.yml\" sourcestartlinenumber=\"1\">Langile baten datu-laburpena, login eta bestelako erantzunetan erabiltzeko.</p>\n"
+      "Title": "_2Erronka_API.DTOak.LangileaDto",
+      "Summary": "<p sourcefile=\"api/_2Erronka_API.DTOak.LangileaDto.yml\" sourcestartlinenumber=\"1\">Langile baten datu-laburpena, login eta bestelako erantzunetan erabiltzeko.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.DTOak.LoginErantzuna.yml",
+      "source_relative_path": "api/_2Erronka_API.DTOak.LoginErantzuna.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.DTOak.LoginErantzuna.html"
+          "relative_path": "api/_2Erronka_API.DTOak.LoginErantzuna.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.DTOak.LoginErantzuna",
-      "Summary": "<p sourcefile=\"api/_1Erronka_API.DTOak.LoginErantzuna.yml\" sourcestartlinenumber=\"1\">Loginaren erantzun estandarra.</p>\n"
+      "Title": "_2Erronka_API.DTOak.LoginErantzuna",
+      "Summary": "<p sourcefile=\"api/_2Erronka_API.DTOak.LoginErantzuna.yml\" sourcestartlinenumber=\"1\">Loginaren erantzun estandarra.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.DTOak.LoginRequest.yml",
+      "source_relative_path": "api/_2Erronka_API.DTOak.LoginRequest.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.DTOak.LoginRequest.html"
+          "relative_path": "api/_2Erronka_API.DTOak.LoginRequest.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.DTOak.LoginRequest",
-      "Summary": "<p sourcefile=\"api/_1Erronka_API.DTOak.LoginRequest.yml\" sourcestartlinenumber=\"1\">Login egiteko behar diren datuak.</p>\n"
+      "Title": "_2Erronka_API.DTOak.LoginRequest",
+      "Summary": "<p sourcefile=\"api/_2Erronka_API.DTOak.LoginRequest.yml\" sourcestartlinenumber=\"1\">Login egiteko behar diren datuak.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.DTOak.MahaiaDto.yml",
+      "source_relative_path": "api/_2Erronka_API.DTOak.MahaiaDto.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.DTOak.MahaiaDto.html"
+          "relative_path": "api/_2Erronka_API.DTOak.MahaiaDto.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.DTOak.MahaiaDto",
-      "Summary": "<p sourcefile=\"api/_1Erronka_API.DTOak.MahaiaDto.yml\" sourcestartlinenumber=\"1\">Mahai baten datu-laburpena, API erantzunetan eta sarreretan erabiltzeko.</p>\n"
+      "Title": "_2Erronka_API.DTOak.MahaiaDto",
+      "Summary": "<p sourcefile=\"api/_2Erronka_API.DTOak.MahaiaDto.yml\" sourcestartlinenumber=\"1\">Mahai baten datu-laburpena, API erantzunetan eta sarreretan erabiltzeko.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.DTOak.OsagaiaDto.yml",
+      "source_relative_path": "api/_2Erronka_API.DTOak.OsagaiaDto.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.DTOak.OsagaiaDto.html"
+          "relative_path": "api/_2Erronka_API.DTOak.OsagaiaDto.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.DTOak.OsagaiaDto",
-      "Summary": "<p sourcefile=\"api/_1Erronka_API.DTOak.OsagaiaDto.yml\" sourcestartlinenumber=\"1\">Osagai baten datu-laburpena, API erantzunetan erabiltzeko.</p>\n"
+      "Title": "_2Erronka_API.DTOak.OsagaiaDto",
+      "Summary": "<p sourcefile=\"api/_2Erronka_API.DTOak.OsagaiaDto.yml\" sourcestartlinenumber=\"1\">Osagai baten datu-laburpena, API erantzunetan erabiltzeko.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.DTOak.ProduktuaDto.yml",
+      "source_relative_path": "api/_2Erronka_API.DTOak.ProduktuaDto.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.DTOak.ProduktuaDto.html"
+          "relative_path": "api/_2Erronka_API.DTOak.ProduktuaDto.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.DTOak.ProduktuaDto",
-      "Summary": "<p sourcefile=\"api/_1Erronka_API.DTOak.ProduktuaDto.yml\" sourcestartlinenumber=\"1\">Produktu baten datu-laburpena, API erantzunetan erabiltzeko.</p>\n"
+      "Title": "_2Erronka_API.DTOak.ProduktuaDto",
+      "Summary": "<p sourcefile=\"api/_2Erronka_API.DTOak.ProduktuaDto.yml\" sourcestartlinenumber=\"1\">Produktu baten datu-laburpena, API erantzunetan erabiltzeko.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.DTOak.yml",
+      "source_relative_path": "api/_2Erronka_API.DTOak.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.DTOak.html"
+          "relative_path": "api/_2Erronka_API.DTOak.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.DTOak",
+      "Title": "_2Erronka_API.DTOak",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Domain.Langilea.yml",
+      "source_relative_path": "api/_2Erronka_API.Domain.Langilea.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Domain.Langilea.html"
+          "relative_path": "api/_2Erronka_API.Domain.Langilea.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Domain.Langilea",
+      "Title": "_2Erronka_API.Domain.Langilea",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Domain.yml",
+      "source_relative_path": "api/_2Erronka_API.Domain.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Domain.html"
+          "relative_path": "api/_2Erronka_API.Domain.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Domain",
+      "Title": "_2Erronka_API.Domain",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Mapeoak.ErreserbaMap.yml",
+      "source_relative_path": "api/_2Erronka_API.Mapeoak.ErreserbaMap.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Mapeoak.ErreserbaMap.html"
+          "relative_path": "api/_2Erronka_API.Mapeoak.ErreserbaMap.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Mapeoak.ErreserbaMap",
+      "Title": "_2Erronka_API.Mapeoak.ErreserbaMap",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Mapeoak.EskariaMap.yml",
+      "source_relative_path": "api/_2Erronka_API.Mapeoak.EskariaMap.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Mapeoak.EskariaMap.html"
+          "relative_path": "api/_2Erronka_API.Mapeoak.EskariaMap.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Mapeoak.EskariaMap",
+      "Title": "_2Erronka_API.Mapeoak.EskariaMap",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Mapeoak.LangileaMap.yml",
+      "source_relative_path": "api/_2Erronka_API.Mapeoak.LangileaMap.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Mapeoak.LangileaMap.html"
+          "relative_path": "api/_2Erronka_API.Mapeoak.LangileaMap.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Mapeoak.LangileaMap",
+      "Title": "_2Erronka_API.Mapeoak.LangileaMap",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Mapeoak.MahaiaMap.yml",
+      "source_relative_path": "api/_2Erronka_API.Mapeoak.MahaiaMap.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Mapeoak.MahaiaMap.html"
+          "relative_path": "api/_2Erronka_API.Mapeoak.MahaiaMap.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Mapeoak.MahaiaMap",
+      "Title": "_2Erronka_API.Mapeoak.MahaiaMap",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Mapeoak.OsagaiaMap.yml",
+      "source_relative_path": "api/_2Erronka_API.Mapeoak.OsagaiaMap.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Mapeoak.OsagaiaMap.html"
+          "relative_path": "api/_2Erronka_API.Mapeoak.OsagaiaMap.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Mapeoak.OsagaiaMap",
+      "Title": "_2Erronka_API.Mapeoak.OsagaiaMap",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Mapeoak.ProduktuaMap.yml",
+      "source_relative_path": "api/_2Erronka_API.Mapeoak.ProduktuaMap.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Mapeoak.ProduktuaMap.html"
+          "relative_path": "api/_2Erronka_API.Mapeoak.ProduktuaMap.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Mapeoak.ProduktuaMap",
+      "Title": "_2Erronka_API.Mapeoak.ProduktuaMap",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Mapeoak.ProduktuaOsagaiaMap.yml",
+      "source_relative_path": "api/_2Erronka_API.Mapeoak.ProduktuaOsagaiaMap.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Mapeoak.ProduktuaOsagaiaMap.html"
+          "relative_path": "api/_2Erronka_API.Mapeoak.ProduktuaOsagaiaMap.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Mapeoak.ProduktuaOsagaiaMap",
+      "Title": "_2Erronka_API.Mapeoak.ProduktuaOsagaiaMap",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Mapeoak.yml",
+      "source_relative_path": "api/_2Erronka_API.Mapeoak.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Mapeoak.html"
+          "relative_path": "api/_2Erronka_API.Mapeoak.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Mapeoak",
+      "Title": "_2Erronka_API.Mapeoak",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Modeloak.Erreserba.yml",
+      "source_relative_path": "api/_2Erronka_API.Modeloak.Erreserba.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Modeloak.Erreserba.html"
+          "relative_path": "api/_2Erronka_API.Modeloak.Erreserba.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Modeloak.Erreserba",
+      "Title": "_2Erronka_API.Modeloak.Erreserba",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Modeloak.Eskaria.yml",
+      "source_relative_path": "api/_2Erronka_API.Modeloak.Eskaria.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Modeloak.Eskaria.html"
+          "relative_path": "api/_2Erronka_API.Modeloak.Eskaria.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Modeloak.Eskaria",
+      "Title": "_2Erronka_API.Modeloak.Eskaria",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Modeloak.EskariaProduktua.yml",
+      "source_relative_path": "api/_2Erronka_API.Modeloak.EskariaProduktua.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Modeloak.EskariaProduktua.html"
+          "relative_path": "api/_2Erronka_API.Modeloak.EskariaProduktua.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Modeloak.EskariaProduktua",
+      "Title": "_2Erronka_API.Modeloak.EskariaProduktua",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Modeloak.Mahaia.yml",
+      "source_relative_path": "api/_2Erronka_API.Modeloak.Mahaia.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Modeloak.Mahaia.html"
+          "relative_path": "api/_2Erronka_API.Modeloak.Mahaia.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Modeloak.Mahaia",
+      "Title": "_2Erronka_API.Modeloak.Mahaia",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Modeloak.Osagaia.yml",
+      "source_relative_path": "api/_2Erronka_API.Modeloak.Osagaia.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Modeloak.Osagaia.html"
+          "relative_path": "api/_2Erronka_API.Modeloak.Osagaia.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Modeloak.Osagaia",
+      "Title": "_2Erronka_API.Modeloak.Osagaia",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Modeloak.Produktua.yml",
+      "source_relative_path": "api/_2Erronka_API.Modeloak.Produktua.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Modeloak.Produktua.html"
+          "relative_path": "api/_2Erronka_API.Modeloak.Produktua.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Modeloak.Produktua",
+      "Title": "_2Erronka_API.Modeloak.Produktua",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Modeloak.ProduktuaOsagaia.yml",
+      "source_relative_path": "api/_2Erronka_API.Modeloak.ProduktuaOsagaia.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Modeloak.ProduktuaOsagaia.html"
+          "relative_path": "api/_2Erronka_API.Modeloak.ProduktuaOsagaia.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Modeloak.ProduktuaOsagaia",
+      "Title": "_2Erronka_API.Modeloak.ProduktuaOsagaia",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Modeloak.yml",
+      "source_relative_path": "api/_2Erronka_API.Modeloak.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Modeloak.html"
+          "relative_path": "api/_2Erronka_API.Modeloak.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Modeloak",
+      "Title": "_2Erronka_API.Modeloak",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.NHibernateHelper.yml",
+      "source_relative_path": "api/_2Erronka_API.NHibernateHelper.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.NHibernateHelper.html"
+          "relative_path": "api/_2Erronka_API.NHibernateHelper.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.NHibernateHelper",
+      "Title": "_2Erronka_API.NHibernateHelper",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Repositorioak.ErreserbaRepository.yml",
+      "source_relative_path": "api/_2Erronka_API.Repositorioak.ErreserbaRepository.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Repositorioak.ErreserbaRepository.html"
+          "relative_path": "api/_2Erronka_API.Repositorioak.ErreserbaRepository.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Repositorioak.ErreserbaRepository",
+      "Title": "_2Erronka_API.Repositorioak.ErreserbaRepository",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Repositorioak.EskariaRepository.yml",
+      "source_relative_path": "api/_2Erronka_API.Repositorioak.EskariaRepository.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Repositorioak.EskariaRepository.html"
+          "relative_path": "api/_2Erronka_API.Repositorioak.EskariaRepository.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Repositorioak.EskariaRepository",
+      "Title": "_2Erronka_API.Repositorioak.EskariaRepository",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Repositorioak.LangileaRepository.yml",
+      "source_relative_path": "api/_2Erronka_API.Repositorioak.LangileaRepository.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Repositorioak.LangileaRepository.html"
+          "relative_path": "api/_2Erronka_API.Repositorioak.LangileaRepository.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Repositorioak.LangileaRepository",
+      "Title": "_2Erronka_API.Repositorioak.LangileaRepository",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Repositorioak.MahaiaRepository.yml",
+      "source_relative_path": "api/_2Erronka_API.Repositorioak.MahaiaRepository.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Repositorioak.MahaiaRepository.html"
+          "relative_path": "api/_2Erronka_API.Repositorioak.MahaiaRepository.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Repositorioak.MahaiaRepository",
+      "Title": "_2Erronka_API.Repositorioak.MahaiaRepository",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Repositorioak.OsagaiaRepository.yml",
+      "source_relative_path": "api/_2Erronka_API.Repositorioak.OsagaiaRepository.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Repositorioak.OsagaiaRepository.html"
+          "relative_path": "api/_2Erronka_API.Repositorioak.OsagaiaRepository.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Repositorioak.OsagaiaRepository",
+      "Title": "_2Erronka_API.Repositorioak.OsagaiaRepository",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.yml",
+      "source_relative_path": "api/_2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.html"
+          "relative_path": "api/_2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository",
+      "Title": "_2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Repositorioak.ProduktuaRepository.yml",
+      "source_relative_path": "api/_2Erronka_API.Repositorioak.ProduktuaRepository.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Repositorioak.ProduktuaRepository.html"
+          "relative_path": "api/_2Erronka_API.Repositorioak.ProduktuaRepository.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Repositorioak.ProduktuaRepository",
+      "Title": "_2Erronka_API.Repositorioak.ProduktuaRepository",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.Repositorioak.yml",
+      "source_relative_path": "api/_2Erronka_API.Repositorioak.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.Repositorioak.html"
+          "relative_path": "api/_2Erronka_API.Repositorioak.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API.Repositorioak",
+      "Title": "_2Erronka_API.Repositorioak",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_1Erronka_API.yml",
+      "source_relative_path": "api/_2Erronka_API.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_1Erronka_API.html"
+          "relative_path": "api/_2Erronka_API.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "_1Erronka_API",
+      "Title": "_2Erronka_API",
       "Summary": null
     },
     {

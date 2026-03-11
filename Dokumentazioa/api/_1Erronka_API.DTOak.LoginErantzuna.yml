@@ -1,20 +1,20 @@
 ### YamlMime:ManagedReference
 items:
-- uid: _1Erronka_API.DTOak.LoginErantzuna
-  commentId: T:_1Erronka_API.DTOak.LoginErantzuna
+- uid: _2Erronka_API.DTOak.LoginErantzuna
+  commentId: T:_2Erronka_API.DTOak.LoginErantzuna
   id: LoginErantzuna
-  parent: _1Erronka_API.DTOak
+  parent: _2Erronka_API.DTOak
   children:
-  - _1Erronka_API.DTOak.LoginErantzuna.Code
-  - _1Erronka_API.DTOak.LoginErantzuna.Data
-  - _1Erronka_API.DTOak.LoginErantzuna.Message
-  - _1Erronka_API.DTOak.LoginErantzuna.Ok
+  - _2Erronka_API.DTOak.LoginErantzuna.Code
+  - _2Erronka_API.DTOak.LoginErantzuna.Data
+  - _2Erronka_API.DTOak.LoginErantzuna.Message
+  - _2Erronka_API.DTOak.LoginErantzuna.Ok
   langs:
   - csharp
   - vb
   name: LoginErantzuna
   nameWithType: LoginErantzuna
-  fullName: _1Erronka_API.DTOak.LoginErantzuna
+  fullName: _2Erronka_API.DTOak.LoginErantzuna
   type: Class
   source:
     remote:
@@ -26,7 +26,7 @@ items:
     startLine: 7
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Loginaren erantzun estandarra.
   example: []
   syntax:
@@ -42,16 +42,16 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: _1Erronka_API.DTOak.LoginErantzuna.Ok
-  commentId: P:_1Erronka_API.DTOak.LoginErantzuna.Ok
+- uid: _2Erronka_API.DTOak.LoginErantzuna.Ok
+  commentId: P:_2Erronka_API.DTOak.LoginErantzuna.Ok
   id: Ok
-  parent: _1Erronka_API.DTOak.LoginErantzuna
+  parent: _2Erronka_API.DTOak.LoginErantzuna
   langs:
   - csharp
   - vb
   name: Ok
   nameWithType: LoginErantzuna.Ok
-  fullName: _1Erronka_API.DTOak.LoginErantzuna.Ok
+  fullName: _2Erronka_API.DTOak.LoginErantzuna.Ok
   type: Property
   source:
     remote:
@@ -63,7 +63,7 @@ items:
     startLine: 10
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Operazioa ongi joan den adierazlea.
   example: []
   syntax:
@@ -72,17 +72,17 @@ items:
     return:
       type: System.Boolean
     content.vb: Public Property Ok As Boolean
-  overload: _1Erronka_API.DTOak.LoginErantzuna.Ok*
-- uid: _1Erronka_API.DTOak.LoginErantzuna.Code
-  commentId: P:_1Erronka_API.DTOak.LoginErantzuna.Code
+  overload: _2Erronka_API.DTOak.LoginErantzuna.Ok*
+- uid: _2Erronka_API.DTOak.LoginErantzuna.Code
+  commentId: P:_2Erronka_API.DTOak.LoginErantzuna.Code
   id: Code
-  parent: _1Erronka_API.DTOak.LoginErantzuna
+  parent: _2Erronka_API.DTOak.LoginErantzuna
   langs:
   - csharp
   - vb
   name: Code
   nameWithType: LoginErantzuna.Code
-  fullName: _1Erronka_API.DTOak.LoginErantzuna.Code
+  fullName: _2Erronka_API.DTOak.LoginErantzuna.Code
   type: Property
   source:
     remote:
@@ -94,7 +94,7 @@ items:
     startLine: 12
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Errore- edo egoera-kode laburra.
   example: []
   syntax:
@@ -103,17 +103,17 @@ items:
     return:
       type: System.String
     content.vb: Public Property Code As String
-  overload: _1Erronka_API.DTOak.LoginErantzuna.Code*
-- uid: _1Erronka_API.DTOak.LoginErantzuna.Message
-  commentId: P:_1Erronka_API.DTOak.LoginErantzuna.Message
+  overload: _2Erronka_API.DTOak.LoginErantzuna.Code*
+- uid: _2Erronka_API.DTOak.LoginErantzuna.Message
+  commentId: P:_2Erronka_API.DTOak.LoginErantzuna.Message
   id: Message
-  parent: _1Erronka_API.DTOak.LoginErantzuna
+  parent: _2Erronka_API.DTOak.LoginErantzuna
   langs:
   - csharp
   - vb
   name: Message
   nameWithType: LoginErantzuna.Message
-  fullName: _1Erronka_API.DTOak.LoginErantzuna.Message
+  fullName: _2Erronka_API.DTOak.LoginErantzuna.Message
   type: Property
   source:
     remote:
@@ -125,7 +125,7 @@ items:
     startLine: 14
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Erabiltzaileari erakusteko mezua.
   example: []
   syntax:
@@ -134,17 +134,17 @@ items:
     return:
       type: System.String
     content.vb: Public Property Message As String
-  overload: _1Erronka_API.DTOak.LoginErantzuna.Message*
-- uid: _1Erronka_API.DTOak.LoginErantzuna.Data
-  commentId: P:_1Erronka_API.DTOak.LoginErantzuna.Data
+  overload: _2Erronka_API.DTOak.LoginErantzuna.Message*
+- uid: _2Erronka_API.DTOak.LoginErantzuna.Data
+  commentId: P:_2Erronka_API.DTOak.LoginErantzuna.Data
   id: Data
-  parent: _1Erronka_API.DTOak.LoginErantzuna
+  parent: _2Erronka_API.DTOak.LoginErantzuna
   langs:
   - csharp
   - vb
   name: Data
   nameWithType: LoginErantzuna.Data
-  fullName: _1Erronka_API.DTOak.LoginErantzuna.Data
+  fullName: _2Erronka_API.DTOak.LoginErantzuna.Data
   type: Property
   source:
     remote:
@@ -156,39 +156,39 @@ items:
     startLine: 16
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Login zuzena denean, langilearen datu laburrak.
   example: []
   syntax:
     content: public LangileaDto? Data { get; set; }
     parameters: []
     return:
-      type: _1Erronka_API.DTOak.LangileaDto
+      type: _2Erronka_API.DTOak.LangileaDto
     content.vb: Public Property Data As LangileaDto
-  overload: _1Erronka_API.DTOak.LoginErantzuna.Data*
+  overload: _2Erronka_API.DTOak.LoginErantzuna.Data*
 references:
-- uid: _1Erronka_API.DTOak
-  commentId: N:_1Erronka_API.DTOak
-  href: _1Erronka_API.html
-  name: _1Erronka_API.DTOak
-  nameWithType: _1Erronka_API.DTOak
-  fullName: _1Erronka_API.DTOak
+- uid: _2Erronka_API.DTOak
+  commentId: N:_2Erronka_API.DTOak
+  href: _2Erronka_API.html
+  name: _2Erronka_API.DTOak
+  nameWithType: _2Erronka_API.DTOak
+  fullName: _2Erronka_API.DTOak
   spec.csharp:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.DTOak
+  - uid: _2Erronka_API.DTOak
     name: DTOak
-    href: _1Erronka_API.DTOak.html
+    href: _2Erronka_API.DTOak.html
   spec.vb:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.DTOak
+  - uid: _2Erronka_API.DTOak
     name: DTOak
-    href: _1Erronka_API.DTOak.html
+    href: _2Erronka_API.DTOak.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -426,12 +426,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: _1Erronka_API.DTOak.LoginErantzuna.Ok*
-  commentId: Overload:_1Erronka_API.DTOak.LoginErantzuna.Ok
-  href: _1Erronka_API.DTOak.LoginErantzuna.html#_1Erronka_API_DTOak_LoginErantzuna_Ok
+- uid: _2Erronka_API.DTOak.LoginErantzuna.Ok*
+  commentId: Overload:_2Erronka_API.DTOak.LoginErantzuna.Ok
+  href: _2Erronka_API.DTOak.LoginErantzuna.html#_2Erronka_API_DTOak_LoginErantzuna_Ok
   name: Ok
   nameWithType: LoginErantzuna.Ok
-  fullName: _1Erronka_API.DTOak.LoginErantzuna.Ok
+  fullName: _2Erronka_API.DTOak.LoginErantzuna.Ok
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -443,12 +443,12 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
-- uid: _1Erronka_API.DTOak.LoginErantzuna.Code*
-  commentId: Overload:_1Erronka_API.DTOak.LoginErantzuna.Code
-  href: _1Erronka_API.DTOak.LoginErantzuna.html#_1Erronka_API_DTOak_LoginErantzuna_Code
+- uid: _2Erronka_API.DTOak.LoginErantzuna.Code*
+  commentId: Overload:_2Erronka_API.DTOak.LoginErantzuna.Code
+  href: _2Erronka_API.DTOak.LoginErantzuna.html#_2Erronka_API_DTOak_LoginErantzuna_Code
   name: Code
   nameWithType: LoginErantzuna.Code
-  fullName: _1Erronka_API.DTOak.LoginErantzuna.Code
+  fullName: _2Erronka_API.DTOak.LoginErantzuna.Code
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -460,22 +460,22 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: _1Erronka_API.DTOak.LoginErantzuna.Message*
-  commentId: Overload:_1Erronka_API.DTOak.LoginErantzuna.Message
-  href: _1Erronka_API.DTOak.LoginErantzuna.html#_1Erronka_API_DTOak_LoginErantzuna_Message
+- uid: _2Erronka_API.DTOak.LoginErantzuna.Message*
+  commentId: Overload:_2Erronka_API.DTOak.LoginErantzuna.Message
+  href: _2Erronka_API.DTOak.LoginErantzuna.html#_2Erronka_API_DTOak_LoginErantzuna_Message
   name: Message
   nameWithType: LoginErantzuna.Message
-  fullName: _1Erronka_API.DTOak.LoginErantzuna.Message
-- uid: _1Erronka_API.DTOak.LoginErantzuna.Data*
-  commentId: Overload:_1Erronka_API.DTOak.LoginErantzuna.Data
-  href: _1Erronka_API.DTOak.LoginErantzuna.html#_1Erronka_API_DTOak_LoginErantzuna_Data
+  fullName: _2Erronka_API.DTOak.LoginErantzuna.Message
+- uid: _2Erronka_API.DTOak.LoginErantzuna.Data*
+  commentId: Overload:_2Erronka_API.DTOak.LoginErantzuna.Data
+  href: _2Erronka_API.DTOak.LoginErantzuna.html#_2Erronka_API_DTOak_LoginErantzuna_Data
   name: Data
   nameWithType: LoginErantzuna.Data
-  fullName: _1Erronka_API.DTOak.LoginErantzuna.Data
-- uid: _1Erronka_API.DTOak.LangileaDto
-  commentId: T:_1Erronka_API.DTOak.LangileaDto
-  parent: _1Erronka_API.DTOak
-  href: _1Erronka_API.DTOak.LangileaDto.html
+  fullName: _2Erronka_API.DTOak.LoginErantzuna.Data
+- uid: _2Erronka_API.DTOak.LangileaDto
+  commentId: T:_2Erronka_API.DTOak.LangileaDto
+  parent: _2Erronka_API.DTOak
+  href: _2Erronka_API.DTOak.LangileaDto.html
   name: LangileaDto
   nameWithType: LangileaDto
-  fullName: _1Erronka_API.DTOak.LangileaDto
+  fullName: _2Erronka_API.DTOak.LangileaDto

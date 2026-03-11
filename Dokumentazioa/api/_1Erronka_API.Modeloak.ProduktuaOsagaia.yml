@@ -1,21 +1,21 @@
 ### YamlMime:ManagedReference
 items:
-- uid: _1Erronka_API.Modeloak.ProduktuaOsagaia
-  commentId: T:_1Erronka_API.Modeloak.ProduktuaOsagaia
+- uid: _2Erronka_API.Modeloak.ProduktuaOsagaia
+  commentId: T:_2Erronka_API.Modeloak.ProduktuaOsagaia
   id: ProduktuaOsagaia
-  parent: _1Erronka_API.Modeloak
+  parent: _2Erronka_API.Modeloak
   children:
-  - _1Erronka_API.Modeloak.ProduktuaOsagaia.Equals(System.Object)
-  - _1Erronka_API.Modeloak.ProduktuaOsagaia.GetHashCode
-  - _1Erronka_API.Modeloak.ProduktuaOsagaia.Kantitatea
-  - _1Erronka_API.Modeloak.ProduktuaOsagaia.Osagaia
-  - _1Erronka_API.Modeloak.ProduktuaOsagaia.Produktua
+  - _2Erronka_API.Modeloak.ProduktuaOsagaia.Equals(System.Object)
+  - _2Erronka_API.Modeloak.ProduktuaOsagaia.GetHashCode
+  - _2Erronka_API.Modeloak.ProduktuaOsagaia.Kantitatea
+  - _2Erronka_API.Modeloak.ProduktuaOsagaia.Osagaia
+  - _2Erronka_API.Modeloak.ProduktuaOsagaia.Produktua
   langs:
   - csharp
   - vb
   name: ProduktuaOsagaia
   nameWithType: ProduktuaOsagaia
-  fullName: _1Erronka_API.Modeloak.ProduktuaOsagaia
+  fullName: _2Erronka_API.Modeloak.ProduktuaOsagaia
   type: Class
   source:
     remote:
@@ -27,7 +27,7 @@ items:
     startLine: 2
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public class ProduktuaOsagaia
     content.vb: Public Class ProduktuaOsagaia
@@ -39,16 +39,16 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: _1Erronka_API.Modeloak.ProduktuaOsagaia.Produktua
-  commentId: P:_1Erronka_API.Modeloak.ProduktuaOsagaia.Produktua
+- uid: _2Erronka_API.Modeloak.ProduktuaOsagaia.Produktua
+  commentId: P:_2Erronka_API.Modeloak.ProduktuaOsagaia.Produktua
   id: Produktua
-  parent: _1Erronka_API.Modeloak.ProduktuaOsagaia
+  parent: _2Erronka_API.Modeloak.ProduktuaOsagaia
   langs:
   - csharp
   - vb
   name: Produktua
   nameWithType: ProduktuaOsagaia.Produktua
-  fullName: _1Erronka_API.Modeloak.ProduktuaOsagaia.Produktua
+  fullName: _2Erronka_API.Modeloak.ProduktuaOsagaia.Produktua
   type: Property
   source:
     remote:
@@ -60,24 +60,24 @@ items:
     startLine: 4
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public virtual Produktua Produktua { get; set; }
     parameters: []
     return:
-      type: _1Erronka_API.Modeloak.Produktua
+      type: _2Erronka_API.Modeloak.Produktua
     content.vb: Public Overridable Property Produktua As Produktua
-  overload: _1Erronka_API.Modeloak.ProduktuaOsagaia.Produktua*
-- uid: _1Erronka_API.Modeloak.ProduktuaOsagaia.Osagaia
-  commentId: P:_1Erronka_API.Modeloak.ProduktuaOsagaia.Osagaia
+  overload: _2Erronka_API.Modeloak.ProduktuaOsagaia.Produktua*
+- uid: _2Erronka_API.Modeloak.ProduktuaOsagaia.Osagaia
+  commentId: P:_2Erronka_API.Modeloak.ProduktuaOsagaia.Osagaia
   id: Osagaia
-  parent: _1Erronka_API.Modeloak.ProduktuaOsagaia
+  parent: _2Erronka_API.Modeloak.ProduktuaOsagaia
   langs:
   - csharp
   - vb
   name: Osagaia
   nameWithType: ProduktuaOsagaia.Osagaia
-  fullName: _1Erronka_API.Modeloak.ProduktuaOsagaia.Osagaia
+  fullName: _2Erronka_API.Modeloak.ProduktuaOsagaia.Osagaia
   type: Property
   source:
     remote:
@@ -89,24 +89,24 @@ items:
     startLine: 5
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public virtual Osagaia Osagaia { get; set; }
     parameters: []
     return:
-      type: _1Erronka_API.Modeloak.Osagaia
+      type: _2Erronka_API.Modeloak.Osagaia
     content.vb: Public Overridable Property Osagaia As Osagaia
-  overload: _1Erronka_API.Modeloak.ProduktuaOsagaia.Osagaia*
-- uid: _1Erronka_API.Modeloak.ProduktuaOsagaia.Kantitatea
-  commentId: P:_1Erronka_API.Modeloak.ProduktuaOsagaia.Kantitatea
+  overload: _2Erronka_API.Modeloak.ProduktuaOsagaia.Osagaia*
+- uid: _2Erronka_API.Modeloak.ProduktuaOsagaia.Kantitatea
+  commentId: P:_2Erronka_API.Modeloak.ProduktuaOsagaia.Kantitatea
   id: Kantitatea
-  parent: _1Erronka_API.Modeloak.ProduktuaOsagaia
+  parent: _2Erronka_API.Modeloak.ProduktuaOsagaia
   langs:
   - csharp
   - vb
   name: Kantitatea
   nameWithType: ProduktuaOsagaia.Kantitatea
-  fullName: _1Erronka_API.Modeloak.ProduktuaOsagaia.Kantitatea
+  fullName: _2Erronka_API.Modeloak.ProduktuaOsagaia.Kantitatea
   type: Property
   source:
     remote:
@@ -118,24 +118,24 @@ items:
     startLine: 7
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public virtual int Kantitatea { get; set; }
     parameters: []
     return:
       type: System.Int32
     content.vb: Public Overridable Property Kantitatea As Integer
-  overload: _1Erronka_API.Modeloak.ProduktuaOsagaia.Kantitatea*
-- uid: _1Erronka_API.Modeloak.ProduktuaOsagaia.Equals(System.Object)
-  commentId: M:_1Erronka_API.Modeloak.ProduktuaOsagaia.Equals(System.Object)
+  overload: _2Erronka_API.Modeloak.ProduktuaOsagaia.Kantitatea*
+- uid: _2Erronka_API.Modeloak.ProduktuaOsagaia.Equals(System.Object)
+  commentId: M:_2Erronka_API.Modeloak.ProduktuaOsagaia.Equals(System.Object)
   id: Equals(System.Object)
-  parent: _1Erronka_API.Modeloak.ProduktuaOsagaia
+  parent: _2Erronka_API.Modeloak.ProduktuaOsagaia
   langs:
   - csharp
   - vb
   name: Equals(object?)
   nameWithType: ProduktuaOsagaia.Equals(object?)
-  fullName: _1Erronka_API.Modeloak.ProduktuaOsagaia.Equals(object?)
+  fullName: _2Erronka_API.Modeloak.ProduktuaOsagaia.Equals(object?)
   type: Method
   source:
     remote:
@@ -147,7 +147,7 @@ items:
     startLine: 9
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   summary: Determines whether the specified object is equal to the current object.
   example: []
   syntax:
@@ -161,20 +161,20 @@ items:
       description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
     content.vb: Public Overrides Function Equals(obj As Object) As Boolean
   overridden: System.Object.Equals(System.Object)
-  overload: _1Erronka_API.Modeloak.ProduktuaOsagaia.Equals*
+  overload: _2Erronka_API.Modeloak.ProduktuaOsagaia.Equals*
   nameWithType.vb: ProduktuaOsagaia.Equals(Object)
-  fullName.vb: _1Erronka_API.Modeloak.ProduktuaOsagaia.Equals(Object)
+  fullName.vb: _2Erronka_API.Modeloak.ProduktuaOsagaia.Equals(Object)
   name.vb: Equals(Object)
-- uid: _1Erronka_API.Modeloak.ProduktuaOsagaia.GetHashCode
-  commentId: M:_1Erronka_API.Modeloak.ProduktuaOsagaia.GetHashCode
+- uid: _2Erronka_API.Modeloak.ProduktuaOsagaia.GetHashCode
+  commentId: M:_2Erronka_API.Modeloak.ProduktuaOsagaia.GetHashCode
   id: GetHashCode
-  parent: _1Erronka_API.Modeloak.ProduktuaOsagaia
+  parent: _2Erronka_API.Modeloak.ProduktuaOsagaia
   langs:
   - csharp
   - vb
   name: GetHashCode()
   nameWithType: ProduktuaOsagaia.GetHashCode()
-  fullName: _1Erronka_API.Modeloak.ProduktuaOsagaia.GetHashCode()
+  fullName: _2Erronka_API.Modeloak.ProduktuaOsagaia.GetHashCode()
   type: Method
   source:
     remote:
@@ -186,7 +186,7 @@ items:
     startLine: 17
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   summary: Serves as the default hash function.
   example: []
   syntax:
@@ -196,30 +196,30 @@ items:
       description: A hash code for the current object.
     content.vb: Public Overrides Function GetHashCode() As Integer
   overridden: System.Object.GetHashCode
-  overload: _1Erronka_API.Modeloak.ProduktuaOsagaia.GetHashCode*
+  overload: _2Erronka_API.Modeloak.ProduktuaOsagaia.GetHashCode*
 references:
-- uid: _1Erronka_API.Modeloak
-  commentId: N:_1Erronka_API.Modeloak
-  href: _1Erronka_API.html
-  name: _1Erronka_API.Modeloak
-  nameWithType: _1Erronka_API.Modeloak
-  fullName: _1Erronka_API.Modeloak
+- uid: _2Erronka_API.Modeloak
+  commentId: N:_2Erronka_API.Modeloak
+  href: _2Erronka_API.html
+  name: _2Erronka_API.Modeloak
+  nameWithType: _2Erronka_API.Modeloak
+  fullName: _2Erronka_API.Modeloak
   spec.csharp:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.Modeloak
+  - uid: _2Erronka_API.Modeloak
     name: Modeloak
-    href: _1Erronka_API.Modeloak.html
+    href: _2Erronka_API.Modeloak.html
   spec.vb:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.Modeloak
+  - uid: _2Erronka_API.Modeloak
     name: Modeloak
-    href: _1Erronka_API.Modeloak.html
+    href: _2Erronka_API.Modeloak.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -400,38 +400,38 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: _1Erronka_API.Modeloak.ProduktuaOsagaia.Produktua*
-  commentId: Overload:_1Erronka_API.Modeloak.ProduktuaOsagaia.Produktua
-  href: _1Erronka_API.Modeloak.ProduktuaOsagaia.html#_1Erronka_API_Modeloak_ProduktuaOsagaia_Produktua
+- uid: _2Erronka_API.Modeloak.ProduktuaOsagaia.Produktua*
+  commentId: Overload:_2Erronka_API.Modeloak.ProduktuaOsagaia.Produktua
+  href: _2Erronka_API.Modeloak.ProduktuaOsagaia.html#_2Erronka_API_Modeloak_ProduktuaOsagaia_Produktua
   name: Produktua
   nameWithType: ProduktuaOsagaia.Produktua
-  fullName: _1Erronka_API.Modeloak.ProduktuaOsagaia.Produktua
-- uid: _1Erronka_API.Modeloak.Produktua
-  commentId: T:_1Erronka_API.Modeloak.Produktua
-  parent: _1Erronka_API.Modeloak
-  href: _1Erronka_API.Modeloak.Produktua.html
+  fullName: _2Erronka_API.Modeloak.ProduktuaOsagaia.Produktua
+- uid: _2Erronka_API.Modeloak.Produktua
+  commentId: T:_2Erronka_API.Modeloak.Produktua
+  parent: _2Erronka_API.Modeloak
+  href: _2Erronka_API.Modeloak.Produktua.html
   name: Produktua
   nameWithType: Produktua
-  fullName: _1Erronka_API.Modeloak.Produktua
-- uid: _1Erronka_API.Modeloak.ProduktuaOsagaia.Osagaia*
-  commentId: Overload:_1Erronka_API.Modeloak.ProduktuaOsagaia.Osagaia
-  href: _1Erronka_API.Modeloak.ProduktuaOsagaia.html#_1Erronka_API_Modeloak_ProduktuaOsagaia_Osagaia
+  fullName: _2Erronka_API.Modeloak.Produktua
+- uid: _2Erronka_API.Modeloak.ProduktuaOsagaia.Osagaia*
+  commentId: Overload:_2Erronka_API.Modeloak.ProduktuaOsagaia.Osagaia
+  href: _2Erronka_API.Modeloak.ProduktuaOsagaia.html#_2Erronka_API_Modeloak_ProduktuaOsagaia_Osagaia
   name: Osagaia
   nameWithType: ProduktuaOsagaia.Osagaia
-  fullName: _1Erronka_API.Modeloak.ProduktuaOsagaia.Osagaia
-- uid: _1Erronka_API.Modeloak.Osagaia
-  commentId: T:_1Erronka_API.Modeloak.Osagaia
-  parent: _1Erronka_API.Modeloak
-  href: _1Erronka_API.Modeloak.Osagaia.html
+  fullName: _2Erronka_API.Modeloak.ProduktuaOsagaia.Osagaia
+- uid: _2Erronka_API.Modeloak.Osagaia
+  commentId: T:_2Erronka_API.Modeloak.Osagaia
+  parent: _2Erronka_API.Modeloak
+  href: _2Erronka_API.Modeloak.Osagaia.html
   name: Osagaia
   nameWithType: Osagaia
-  fullName: _1Erronka_API.Modeloak.Osagaia
-- uid: _1Erronka_API.Modeloak.ProduktuaOsagaia.Kantitatea*
-  commentId: Overload:_1Erronka_API.Modeloak.ProduktuaOsagaia.Kantitatea
-  href: _1Erronka_API.Modeloak.ProduktuaOsagaia.html#_1Erronka_API_Modeloak_ProduktuaOsagaia_Kantitatea
+  fullName: _2Erronka_API.Modeloak.Osagaia
+- uid: _2Erronka_API.Modeloak.ProduktuaOsagaia.Kantitatea*
+  commentId: Overload:_2Erronka_API.Modeloak.ProduktuaOsagaia.Kantitatea
+  href: _2Erronka_API.Modeloak.ProduktuaOsagaia.html#_2Erronka_API_Modeloak_ProduktuaOsagaia_Kantitatea
   name: Kantitatea
   nameWithType: ProduktuaOsagaia.Kantitatea
-  fullName: _1Erronka_API.Modeloak.ProduktuaOsagaia.Kantitatea
+  fullName: _2Erronka_API.Modeloak.ProduktuaOsagaia.Kantitatea
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -476,12 +476,12 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-- uid: _1Erronka_API.Modeloak.ProduktuaOsagaia.Equals*
-  commentId: Overload:_1Erronka_API.Modeloak.ProduktuaOsagaia.Equals
-  href: _1Erronka_API.Modeloak.ProduktuaOsagaia.html#_1Erronka_API_Modeloak_ProduktuaOsagaia_Equals_System_Object_
+- uid: _2Erronka_API.Modeloak.ProduktuaOsagaia.Equals*
+  commentId: Overload:_2Erronka_API.Modeloak.ProduktuaOsagaia.Equals
+  href: _2Erronka_API.Modeloak.ProduktuaOsagaia.html#_2Erronka_API_Modeloak_ProduktuaOsagaia_Equals_System_Object_
   name: Equals
   nameWithType: ProduktuaOsagaia.Equals
-  fullName: _1Erronka_API.Modeloak.ProduktuaOsagaia.Equals
+  fullName: _2Erronka_API.Modeloak.ProduktuaOsagaia.Equals
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -517,9 +517,9 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
   - name: )
-- uid: _1Erronka_API.Modeloak.ProduktuaOsagaia.GetHashCode*
-  commentId: Overload:_1Erronka_API.Modeloak.ProduktuaOsagaia.GetHashCode
-  href: _1Erronka_API.Modeloak.ProduktuaOsagaia.html#_1Erronka_API_Modeloak_ProduktuaOsagaia_GetHashCode
+- uid: _2Erronka_API.Modeloak.ProduktuaOsagaia.GetHashCode*
+  commentId: Overload:_2Erronka_API.Modeloak.ProduktuaOsagaia.GetHashCode
+  href: _2Erronka_API.Modeloak.ProduktuaOsagaia.html#_2Erronka_API_Modeloak_ProduktuaOsagaia_GetHashCode
   name: GetHashCode
   nameWithType: ProduktuaOsagaia.GetHashCode
-  fullName: _1Erronka_API.Modeloak.ProduktuaOsagaia.GetHashCode
+  fullName: _2Erronka_API.Modeloak.ProduktuaOsagaia.GetHashCode

@@ -1,22 +1,22 @@
 ### YamlMime:ManagedReference
 items:
-- uid: _1Erronka_API.Modeloak.Produktua
-  commentId: T:_1Erronka_API.Modeloak.Produktua
+- uid: _2Erronka_API.Modeloak.Produktua
+  commentId: T:_2Erronka_API.Modeloak.Produktua
   id: Produktua
-  parent: _1Erronka_API.Modeloak
+  parent: _2Erronka_API.Modeloak
   children:
-  - _1Erronka_API.Modeloak.Produktua.Id
-  - _1Erronka_API.Modeloak.Produktua.Izena
-  - _1Erronka_API.Modeloak.Produktua.Mota
-  - _1Erronka_API.Modeloak.Produktua.Osagaiak
-  - _1Erronka_API.Modeloak.Produktua.Prezioa
-  - _1Erronka_API.Modeloak.Produktua.Stock
+  - _2Erronka_API.Modeloak.Produktua.Id
+  - _2Erronka_API.Modeloak.Produktua.Izena
+  - _2Erronka_API.Modeloak.Produktua.Mota
+  - _2Erronka_API.Modeloak.Produktua.Osagaiak
+  - _2Erronka_API.Modeloak.Produktua.Prezioa
+  - _2Erronka_API.Modeloak.Produktua.Stock
   langs:
   - csharp
   - vb
   name: Produktua
   nameWithType: Produktua
-  fullName: _1Erronka_API.Modeloak.Produktua
+  fullName: _2Erronka_API.Modeloak.Produktua
   type: Class
   source:
     remote:
@@ -28,7 +28,7 @@ items:
     startLine: 2
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public class Produktua
     content.vb: Public Class Produktua
@@ -42,16 +42,16 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: _1Erronka_API.Modeloak.Produktua.Id
-  commentId: P:_1Erronka_API.Modeloak.Produktua.Id
+- uid: _2Erronka_API.Modeloak.Produktua.Id
+  commentId: P:_2Erronka_API.Modeloak.Produktua.Id
   id: Id
-  parent: _1Erronka_API.Modeloak.Produktua
+  parent: _2Erronka_API.Modeloak.Produktua
   langs:
   - csharp
   - vb
   name: Id
   nameWithType: Produktua.Id
-  fullName: _1Erronka_API.Modeloak.Produktua.Id
+  fullName: _2Erronka_API.Modeloak.Produktua.Id
   type: Property
   source:
     remote:
@@ -63,24 +63,24 @@ items:
     startLine: 4
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public virtual int Id { get; set; }
     parameters: []
     return:
       type: System.Int32
     content.vb: Public Overridable Property Id As Integer
-  overload: _1Erronka_API.Modeloak.Produktua.Id*
-- uid: _1Erronka_API.Modeloak.Produktua.Izena
-  commentId: P:_1Erronka_API.Modeloak.Produktua.Izena
+  overload: _2Erronka_API.Modeloak.Produktua.Id*
+- uid: _2Erronka_API.Modeloak.Produktua.Izena
+  commentId: P:_2Erronka_API.Modeloak.Produktua.Izena
   id: Izena
-  parent: _1Erronka_API.Modeloak.Produktua
+  parent: _2Erronka_API.Modeloak.Produktua
   langs:
   - csharp
   - vb
   name: Izena
   nameWithType: Produktua.Izena
-  fullName: _1Erronka_API.Modeloak.Produktua.Izena
+  fullName: _2Erronka_API.Modeloak.Produktua.Izena
   type: Property
   source:
     remote:
@@ -92,24 +92,24 @@ items:
     startLine: 5
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public virtual string Izena { get; set; }
     parameters: []
     return:
       type: System.String
     content.vb: Public Overridable Property Izena As String
-  overload: _1Erronka_API.Modeloak.Produktua.Izena*
-- uid: _1Erronka_API.Modeloak.Produktua.Prezioa
-  commentId: P:_1Erronka_API.Modeloak.Produktua.Prezioa
+  overload: _2Erronka_API.Modeloak.Produktua.Izena*
+- uid: _2Erronka_API.Modeloak.Produktua.Prezioa
+  commentId: P:_2Erronka_API.Modeloak.Produktua.Prezioa
   id: Prezioa
-  parent: _1Erronka_API.Modeloak.Produktua
+  parent: _2Erronka_API.Modeloak.Produktua
   langs:
   - csharp
   - vb
   name: Prezioa
   nameWithType: Produktua.Prezioa
-  fullName: _1Erronka_API.Modeloak.Produktua.Prezioa
+  fullName: _2Erronka_API.Modeloak.Produktua.Prezioa
   type: Property
   source:
     remote:
@@ -121,24 +121,24 @@ items:
     startLine: 6
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public virtual double Prezioa { get; set; }
     parameters: []
     return:
       type: System.Double
     content.vb: Public Overridable Property Prezioa As Double
-  overload: _1Erronka_API.Modeloak.Produktua.Prezioa*
-- uid: _1Erronka_API.Modeloak.Produktua.Mota
-  commentId: P:_1Erronka_API.Modeloak.Produktua.Mota
+  overload: _2Erronka_API.Modeloak.Produktua.Prezioa*
+- uid: _2Erronka_API.Modeloak.Produktua.Mota
+  commentId: P:_2Erronka_API.Modeloak.Produktua.Mota
   id: Mota
-  parent: _1Erronka_API.Modeloak.Produktua
+  parent: _2Erronka_API.Modeloak.Produktua
   langs:
   - csharp
   - vb
   name: Mota
   nameWithType: Produktua.Mota
-  fullName: _1Erronka_API.Modeloak.Produktua.Mota
+  fullName: _2Erronka_API.Modeloak.Produktua.Mota
   type: Property
   source:
     remote:
@@ -150,24 +150,24 @@ items:
     startLine: 7
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public virtual string Mota { get; set; }
     parameters: []
     return:
       type: System.String
     content.vb: Public Overridable Property Mota As String
-  overload: _1Erronka_API.Modeloak.Produktua.Mota*
-- uid: _1Erronka_API.Modeloak.Produktua.Stock
-  commentId: P:_1Erronka_API.Modeloak.Produktua.Stock
+  overload: _2Erronka_API.Modeloak.Produktua.Mota*
+- uid: _2Erronka_API.Modeloak.Produktua.Stock
+  commentId: P:_2Erronka_API.Modeloak.Produktua.Stock
   id: Stock
-  parent: _1Erronka_API.Modeloak.Produktua
+  parent: _2Erronka_API.Modeloak.Produktua
   langs:
   - csharp
   - vb
   name: Stock
   nameWithType: Produktua.Stock
-  fullName: _1Erronka_API.Modeloak.Produktua.Stock
+  fullName: _2Erronka_API.Modeloak.Produktua.Stock
   type: Property
   source:
     remote:
@@ -179,24 +179,24 @@ items:
     startLine: 8
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public virtual int Stock { get; set; }
     parameters: []
     return:
       type: System.Int32
     content.vb: Public Overridable Property Stock As Integer
-  overload: _1Erronka_API.Modeloak.Produktua.Stock*
-- uid: _1Erronka_API.Modeloak.Produktua.Osagaiak
-  commentId: P:_1Erronka_API.Modeloak.Produktua.Osagaiak
+  overload: _2Erronka_API.Modeloak.Produktua.Stock*
+- uid: _2Erronka_API.Modeloak.Produktua.Osagaiak
+  commentId: P:_2Erronka_API.Modeloak.Produktua.Osagaiak
   id: Osagaiak
-  parent: _1Erronka_API.Modeloak.Produktua
+  parent: _2Erronka_API.Modeloak.Produktua
   langs:
   - csharp
   - vb
   name: Osagaiak
   nameWithType: Produktua.Osagaiak
-  fullName: _1Erronka_API.Modeloak.Produktua.Osagaiak
+  fullName: _2Erronka_API.Modeloak.Produktua.Osagaiak
   type: Property
   source:
     remote:
@@ -208,37 +208,37 @@ items:
     startLine: 10
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Modeloak
+  namespace: _2Erronka_API.Modeloak
   syntax:
     content: public virtual IList<ProduktuaOsagaia> Osagaiak { get; set; }
     parameters: []
     return:
-      type: System.Collections.Generic.IList{_1Erronka_API.Modeloak.ProduktuaOsagaia}
+      type: System.Collections.Generic.IList{_2Erronka_API.Modeloak.ProduktuaOsagaia}
     content.vb: Public Overridable Property Osagaiak As IList(Of ProduktuaOsagaia)
-  overload: _1Erronka_API.Modeloak.Produktua.Osagaiak*
+  overload: _2Erronka_API.Modeloak.Produktua.Osagaiak*
 references:
-- uid: _1Erronka_API.Modeloak
-  commentId: N:_1Erronka_API.Modeloak
-  href: _1Erronka_API.html
-  name: _1Erronka_API.Modeloak
-  nameWithType: _1Erronka_API.Modeloak
-  fullName: _1Erronka_API.Modeloak
+- uid: _2Erronka_API.Modeloak
+  commentId: N:_2Erronka_API.Modeloak
+  href: _2Erronka_API.html
+  name: _2Erronka_API.Modeloak
+  nameWithType: _2Erronka_API.Modeloak
+  fullName: _2Erronka_API.Modeloak
   spec.csharp:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.Modeloak
+  - uid: _2Erronka_API.Modeloak
     name: Modeloak
-    href: _1Erronka_API.Modeloak.html
+    href: _2Erronka_API.Modeloak.html
   spec.vb:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.Modeloak
+  - uid: _2Erronka_API.Modeloak
     name: Modeloak
-    href: _1Erronka_API.Modeloak.html
+    href: _2Erronka_API.Modeloak.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -476,12 +476,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: _1Erronka_API.Modeloak.Produktua.Id*
-  commentId: Overload:_1Erronka_API.Modeloak.Produktua.Id
-  href: _1Erronka_API.Modeloak.Produktua.html#_1Erronka_API_Modeloak_Produktua_Id
+- uid: _2Erronka_API.Modeloak.Produktua.Id*
+  commentId: Overload:_2Erronka_API.Modeloak.Produktua.Id
+  href: _2Erronka_API.Modeloak.Produktua.html#_2Erronka_API_Modeloak_Produktua_Id
   name: Id
   nameWithType: Produktua.Id
-  fullName: _1Erronka_API.Modeloak.Produktua.Id
+  fullName: _2Erronka_API.Modeloak.Produktua.Id
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -493,12 +493,12 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: _1Erronka_API.Modeloak.Produktua.Izena*
-  commentId: Overload:_1Erronka_API.Modeloak.Produktua.Izena
-  href: _1Erronka_API.Modeloak.Produktua.html#_1Erronka_API_Modeloak_Produktua_Izena
+- uid: _2Erronka_API.Modeloak.Produktua.Izena*
+  commentId: Overload:_2Erronka_API.Modeloak.Produktua.Izena
+  href: _2Erronka_API.Modeloak.Produktua.html#_2Erronka_API_Modeloak_Produktua_Izena
   name: Izena
   nameWithType: Produktua.Izena
-  fullName: _1Erronka_API.Modeloak.Produktua.Izena
+  fullName: _2Erronka_API.Modeloak.Produktua.Izena
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -510,12 +510,12 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: _1Erronka_API.Modeloak.Produktua.Prezioa*
-  commentId: Overload:_1Erronka_API.Modeloak.Produktua.Prezioa
-  href: _1Erronka_API.Modeloak.Produktua.html#_1Erronka_API_Modeloak_Produktua_Prezioa
+- uid: _2Erronka_API.Modeloak.Produktua.Prezioa*
+  commentId: Overload:_2Erronka_API.Modeloak.Produktua.Prezioa
+  href: _2Erronka_API.Modeloak.Produktua.html#_2Erronka_API_Modeloak_Produktua_Prezioa
   name: Prezioa
   nameWithType: Produktua.Prezioa
-  fullName: _1Erronka_API.Modeloak.Produktua.Prezioa
+  fullName: _2Erronka_API.Modeloak.Produktua.Prezioa
 - uid: System.Double
   commentId: T:System.Double
   parent: System
@@ -527,34 +527,34 @@ references:
   nameWithType.vb: Double
   fullName.vb: Double
   name.vb: Double
-- uid: _1Erronka_API.Modeloak.Produktua.Mota*
-  commentId: Overload:_1Erronka_API.Modeloak.Produktua.Mota
-  href: _1Erronka_API.Modeloak.Produktua.html#_1Erronka_API_Modeloak_Produktua_Mota
+- uid: _2Erronka_API.Modeloak.Produktua.Mota*
+  commentId: Overload:_2Erronka_API.Modeloak.Produktua.Mota
+  href: _2Erronka_API.Modeloak.Produktua.html#_2Erronka_API_Modeloak_Produktua_Mota
   name: Mota
   nameWithType: Produktua.Mota
-  fullName: _1Erronka_API.Modeloak.Produktua.Mota
-- uid: _1Erronka_API.Modeloak.Produktua.Stock*
-  commentId: Overload:_1Erronka_API.Modeloak.Produktua.Stock
-  href: _1Erronka_API.Modeloak.Produktua.html#_1Erronka_API_Modeloak_Produktua_Stock
+  fullName: _2Erronka_API.Modeloak.Produktua.Mota
+- uid: _2Erronka_API.Modeloak.Produktua.Stock*
+  commentId: Overload:_2Erronka_API.Modeloak.Produktua.Stock
+  href: _2Erronka_API.Modeloak.Produktua.html#_2Erronka_API_Modeloak_Produktua_Stock
   name: Stock
   nameWithType: Produktua.Stock
-  fullName: _1Erronka_API.Modeloak.Produktua.Stock
-- uid: _1Erronka_API.Modeloak.Produktua.Osagaiak*
-  commentId: Overload:_1Erronka_API.Modeloak.Produktua.Osagaiak
-  href: _1Erronka_API.Modeloak.Produktua.html#_1Erronka_API_Modeloak_Produktua_Osagaiak
+  fullName: _2Erronka_API.Modeloak.Produktua.Stock
+- uid: _2Erronka_API.Modeloak.Produktua.Osagaiak*
+  commentId: Overload:_2Erronka_API.Modeloak.Produktua.Osagaiak
+  href: _2Erronka_API.Modeloak.Produktua.html#_2Erronka_API_Modeloak_Produktua_Osagaiak
   name: Osagaiak
   nameWithType: Produktua.Osagaiak
-  fullName: _1Erronka_API.Modeloak.Produktua.Osagaiak
-- uid: System.Collections.Generic.IList{_1Erronka_API.Modeloak.ProduktuaOsagaia}
-  commentId: T:System.Collections.Generic.IList{_1Erronka_API.Modeloak.ProduktuaOsagaia}
+  fullName: _2Erronka_API.Modeloak.Produktua.Osagaiak
+- uid: System.Collections.Generic.IList{_2Erronka_API.Modeloak.ProduktuaOsagaia}
+  commentId: T:System.Collections.Generic.IList{_2Erronka_API.Modeloak.ProduktuaOsagaia}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IList`1
   href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
   name: IList<ProduktuaOsagaia>
   nameWithType: IList<ProduktuaOsagaia>
-  fullName: System.Collections.Generic.IList<_1Erronka_API.Modeloak.ProduktuaOsagaia>
+  fullName: System.Collections.Generic.IList<_2Erronka_API.Modeloak.ProduktuaOsagaia>
   nameWithType.vb: IList(Of ProduktuaOsagaia)
-  fullName.vb: System.Collections.Generic.IList(Of _1Erronka_API.Modeloak.ProduktuaOsagaia)
+  fullName.vb: System.Collections.Generic.IList(Of _2Erronka_API.Modeloak.ProduktuaOsagaia)
   name.vb: IList(Of ProduktuaOsagaia)
   spec.csharp:
   - uid: System.Collections.Generic.IList`1
@@ -562,9 +562,9 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
   - name: <
-  - uid: _1Erronka_API.Modeloak.ProduktuaOsagaia
+  - uid: _2Erronka_API.Modeloak.ProduktuaOsagaia
     name: ProduktuaOsagaia
-    href: _1Erronka_API.Modeloak.ProduktuaOsagaia.html
+    href: _2Erronka_API.Modeloak.ProduktuaOsagaia.html
   - name: '>'
   spec.vb:
   - uid: System.Collections.Generic.IList`1
@@ -574,9 +574,9 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: _1Erronka_API.Modeloak.ProduktuaOsagaia
+  - uid: _2Erronka_API.Modeloak.ProduktuaOsagaia
     name: ProduktuaOsagaia
-    href: _1Erronka_API.Modeloak.ProduktuaOsagaia.html
+    href: _2Erronka_API.Modeloak.ProduktuaOsagaia.html
   - name: )
 - uid: System.Collections.Generic.IList`1
   commentId: T:System.Collections.Generic.IList`1

@@ -1,19 +1,19 @@
 ### YamlMime:ManagedReference
 items:
-- uid: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository
-  commentId: T:_1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository
+- uid: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository
+  commentId: T:_2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository
   id: ProduktuaOsagaiaRepository
-  parent: _1Erronka_API.Repositorioak
+  parent: _2Erronka_API.Repositorioak
   children:
-  - _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.#ctor(NHibernate.ISessionFactory)
-  - _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.GetByProduktuaId(System.Int32)
-  - _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.UpdateOsagaia(_1Erronka_API.Modeloak.Osagaia)
+  - _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.#ctor(NHibernate.ISessionFactory)
+  - _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.GetByProduktuaId(System.Int32)
+  - _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.UpdateOsagaia(_2Erronka_API.Modeloak.Osagaia)
   langs:
   - csharp
   - vb
   name: ProduktuaOsagaiaRepository
   nameWithType: ProduktuaOsagaiaRepository
-  fullName: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository
+  fullName: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository
   type: Class
   source:
     remote:
@@ -25,7 +25,7 @@ items:
     startLine: 5
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Repositorioak
+  namespace: _2Erronka_API.Repositorioak
   syntax:
     content: public class ProduktuaOsagaiaRepository
     content.vb: Public Class ProduktuaOsagaiaRepository
@@ -39,16 +39,16 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.#ctor(NHibernate.ISessionFactory)
-  commentId: M:_1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.#ctor(NHibernate.ISessionFactory)
+- uid: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.#ctor(NHibernate.ISessionFactory)
+  commentId: M:_2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.#ctor(NHibernate.ISessionFactory)
   id: '#ctor(NHibernate.ISessionFactory)'
-  parent: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository
+  parent: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository
   langs:
   - csharp
   - vb
   name: ProduktuaOsagaiaRepository(ISessionFactory)
   nameWithType: ProduktuaOsagaiaRepository.ProduktuaOsagaiaRepository(ISessionFactory)
-  fullName: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.ProduktuaOsagaiaRepository(NHibernate.ISessionFactory)
+  fullName: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.ProduktuaOsagaiaRepository(NHibernate.ISessionFactory)
   type: Constructor
   source:
     remote:
@@ -60,27 +60,27 @@ items:
     startLine: 9
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Repositorioak
+  namespace: _2Erronka_API.Repositorioak
   syntax:
     content: public ProduktuaOsagaiaRepository(ISessionFactory sessionFactory)
     parameters:
     - id: sessionFactory
       type: NHibernate.ISessionFactory
     content.vb: Public Sub New(sessionFactory As ISessionFactory)
-  overload: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.#ctor*
+  overload: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.#ctor*
   nameWithType.vb: ProduktuaOsagaiaRepository.New(ISessionFactory)
-  fullName.vb: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.New(NHibernate.ISessionFactory)
+  fullName.vb: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.New(NHibernate.ISessionFactory)
   name.vb: New(ISessionFactory)
-- uid: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.GetByProduktuaId(System.Int32)
-  commentId: M:_1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.GetByProduktuaId(System.Int32)
+- uid: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.GetByProduktuaId(System.Int32)
+  commentId: M:_2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.GetByProduktuaId(System.Int32)
   id: GetByProduktuaId(System.Int32)
-  parent: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository
+  parent: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository
   langs:
   - csharp
   - vb
   name: GetByProduktuaId(int)
   nameWithType: ProduktuaOsagaiaRepository.GetByProduktuaId(int)
-  fullName: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.GetByProduktuaId(int)
+  fullName: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.GetByProduktuaId(int)
   type: Method
   source:
     remote:
@@ -92,29 +92,29 @@ items:
     startLine: 14
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Repositorioak
+  namespace: _2Erronka_API.Repositorioak
   syntax:
     content: public IList<ProduktuaOsagaia> GetByProduktuaId(int produktuaId)
     parameters:
     - id: produktuaId
       type: System.Int32
     return:
-      type: System.Collections.Generic.IList{_1Erronka_API.Modeloak.ProduktuaOsagaia}
+      type: System.Collections.Generic.IList{_2Erronka_API.Modeloak.ProduktuaOsagaia}
     content.vb: Public Function GetByProduktuaId(produktuaId As Integer) As IList(Of ProduktuaOsagaia)
-  overload: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.GetByProduktuaId*
+  overload: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.GetByProduktuaId*
   nameWithType.vb: ProduktuaOsagaiaRepository.GetByProduktuaId(Integer)
-  fullName.vb: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.GetByProduktuaId(Integer)
+  fullName.vb: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.GetByProduktuaId(Integer)
   name.vb: GetByProduktuaId(Integer)
-- uid: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.UpdateOsagaia(_1Erronka_API.Modeloak.Osagaia)
-  commentId: M:_1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.UpdateOsagaia(_1Erronka_API.Modeloak.Osagaia)
-  id: UpdateOsagaia(_1Erronka_API.Modeloak.Osagaia)
-  parent: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository
+- uid: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.UpdateOsagaia(_2Erronka_API.Modeloak.Osagaia)
+  commentId: M:_2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.UpdateOsagaia(_2Erronka_API.Modeloak.Osagaia)
+  id: UpdateOsagaia(_2Erronka_API.Modeloak.Osagaia)
+  parent: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository
   langs:
   - csharp
   - vb
   name: UpdateOsagaia(Osagaia)
   nameWithType: ProduktuaOsagaiaRepository.UpdateOsagaia(Osagaia)
-  fullName: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.UpdateOsagaia(_1Erronka_API.Modeloak.Osagaia)
+  fullName: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.UpdateOsagaia(_2Erronka_API.Modeloak.Osagaia)
   type: Method
   source:
     remote:
@@ -126,37 +126,37 @@ items:
     startLine: 21
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Repositorioak
+  namespace: _2Erronka_API.Repositorioak
   syntax:
     content: public void UpdateOsagaia(Osagaia osagaia)
     parameters:
     - id: osagaia
-      type: _1Erronka_API.Modeloak.Osagaia
+      type: _2Erronka_API.Modeloak.Osagaia
     content.vb: Public Sub UpdateOsagaia(osagaia As Osagaia)
-  overload: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.UpdateOsagaia*
+  overload: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.UpdateOsagaia*
 references:
-- uid: _1Erronka_API.Repositorioak
-  commentId: N:_1Erronka_API.Repositorioak
-  href: _1Erronka_API.html
-  name: _1Erronka_API.Repositorioak
-  nameWithType: _1Erronka_API.Repositorioak
-  fullName: _1Erronka_API.Repositorioak
+- uid: _2Erronka_API.Repositorioak
+  commentId: N:_2Erronka_API.Repositorioak
+  href: _2Erronka_API.html
+  name: _2Erronka_API.Repositorioak
+  nameWithType: _2Erronka_API.Repositorioak
+  fullName: _2Erronka_API.Repositorioak
   spec.csharp:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.Repositorioak
+  - uid: _2Erronka_API.Repositorioak
     name: Repositorioak
-    href: _1Erronka_API.Repositorioak.html
+    href: _2Erronka_API.Repositorioak.html
   spec.vb:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.Repositorioak
+  - uid: _2Erronka_API.Repositorioak
     name: Repositorioak
-    href: _1Erronka_API.Repositorioak.html
+    href: _2Erronka_API.Repositorioak.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -394,14 +394,14 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.#ctor*
-  commentId: Overload:_1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.#ctor
-  href: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.html#_1Erronka_API_Repositorioak_ProduktuaOsagaiaRepository__ctor_NHibernate_ISessionFactory_
+- uid: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.#ctor*
+  commentId: Overload:_2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.#ctor
+  href: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.html#_2Erronka_API_Repositorioak_ProduktuaOsagaiaRepository__ctor_NHibernate_ISessionFactory_
   name: ProduktuaOsagaiaRepository
   nameWithType: ProduktuaOsagaiaRepository.ProduktuaOsagaiaRepository
-  fullName: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.ProduktuaOsagaiaRepository
+  fullName: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.ProduktuaOsagaiaRepository
   nameWithType.vb: ProduktuaOsagaiaRepository.New
-  fullName.vb: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.New
+  fullName.vb: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.New
   name.vb: New
 - uid: NHibernate.ISessionFactory
   commentId: T:NHibernate.ISessionFactory
@@ -416,12 +416,12 @@ references:
   name: NHibernate
   nameWithType: NHibernate
   fullName: NHibernate
-- uid: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.GetByProduktuaId*
-  commentId: Overload:_1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.GetByProduktuaId
-  href: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.html#_1Erronka_API_Repositorioak_ProduktuaOsagaiaRepository_GetByProduktuaId_System_Int32_
+- uid: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.GetByProduktuaId*
+  commentId: Overload:_2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.GetByProduktuaId
+  href: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.html#_2Erronka_API_Repositorioak_ProduktuaOsagaiaRepository_GetByProduktuaId_System_Int32_
   name: GetByProduktuaId
   nameWithType: ProduktuaOsagaiaRepository.GetByProduktuaId
-  fullName: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.GetByProduktuaId
+  fullName: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.GetByProduktuaId
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -433,16 +433,16 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: System.Collections.Generic.IList{_1Erronka_API.Modeloak.ProduktuaOsagaia}
-  commentId: T:System.Collections.Generic.IList{_1Erronka_API.Modeloak.ProduktuaOsagaia}
+- uid: System.Collections.Generic.IList{_2Erronka_API.Modeloak.ProduktuaOsagaia}
+  commentId: T:System.Collections.Generic.IList{_2Erronka_API.Modeloak.ProduktuaOsagaia}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IList`1
   href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
   name: IList<ProduktuaOsagaia>
   nameWithType: IList<ProduktuaOsagaia>
-  fullName: System.Collections.Generic.IList<_1Erronka_API.Modeloak.ProduktuaOsagaia>
+  fullName: System.Collections.Generic.IList<_2Erronka_API.Modeloak.ProduktuaOsagaia>
   nameWithType.vb: IList(Of ProduktuaOsagaia)
-  fullName.vb: System.Collections.Generic.IList(Of _1Erronka_API.Modeloak.ProduktuaOsagaia)
+  fullName.vb: System.Collections.Generic.IList(Of _2Erronka_API.Modeloak.ProduktuaOsagaia)
   name.vb: IList(Of ProduktuaOsagaia)
   spec.csharp:
   - uid: System.Collections.Generic.IList`1
@@ -450,9 +450,9 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
   - name: <
-  - uid: _1Erronka_API.Modeloak.ProduktuaOsagaia
+  - uid: _2Erronka_API.Modeloak.ProduktuaOsagaia
     name: ProduktuaOsagaia
-    href: _1Erronka_API.Modeloak.ProduktuaOsagaia.html
+    href: _2Erronka_API.Modeloak.ProduktuaOsagaia.html
   - name: '>'
   spec.vb:
   - uid: System.Collections.Generic.IList`1
@@ -462,9 +462,9 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: _1Erronka_API.Modeloak.ProduktuaOsagaia
+  - uid: _2Erronka_API.Modeloak.ProduktuaOsagaia
     name: ProduktuaOsagaia
-    href: _1Erronka_API.Modeloak.ProduktuaOsagaia.html
+    href: _2Erronka_API.Modeloak.ProduktuaOsagaia.html
   - name: )
 - uid: System.Collections.Generic.IList`1
   commentId: T:System.Collections.Generic.IList`1
@@ -531,38 +531,38 @@ references:
     name: Generic
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-- uid: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.UpdateOsagaia*
-  commentId: Overload:_1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.UpdateOsagaia
-  href: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.html#_1Erronka_API_Repositorioak_ProduktuaOsagaiaRepository_UpdateOsagaia__1Erronka_API_Modeloak_Osagaia_
+- uid: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.UpdateOsagaia*
+  commentId: Overload:_2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.UpdateOsagaia
+  href: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.html#_2Erronka_API_Repositorioak_ProduktuaOsagaiaRepository_UpdateOsagaia__2Erronka_API_Modeloak_Osagaia_
   name: UpdateOsagaia
   nameWithType: ProduktuaOsagaiaRepository.UpdateOsagaia
-  fullName: _1Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.UpdateOsagaia
-- uid: _1Erronka_API.Modeloak.Osagaia
-  commentId: T:_1Erronka_API.Modeloak.Osagaia
-  parent: _1Erronka_API.Modeloak
-  href: _1Erronka_API.Modeloak.Osagaia.html
+  fullName: _2Erronka_API.Repositorioak.ProduktuaOsagaiaRepository.UpdateOsagaia
+- uid: _2Erronka_API.Modeloak.Osagaia
+  commentId: T:_2Erronka_API.Modeloak.Osagaia
+  parent: _2Erronka_API.Modeloak
+  href: _2Erronka_API.Modeloak.Osagaia.html
   name: Osagaia
   nameWithType: Osagaia
-  fullName: _1Erronka_API.Modeloak.Osagaia
-- uid: _1Erronka_API.Modeloak
-  commentId: N:_1Erronka_API.Modeloak
-  href: _1Erronka_API.html
-  name: _1Erronka_API.Modeloak
-  nameWithType: _1Erronka_API.Modeloak
-  fullName: _1Erronka_API.Modeloak
+  fullName: _2Erronka_API.Modeloak.Osagaia
+- uid: _2Erronka_API.Modeloak
+  commentId: N:_2Erronka_API.Modeloak
+  href: _2Erronka_API.html
+  name: _2Erronka_API.Modeloak
+  nameWithType: _2Erronka_API.Modeloak
+  fullName: _2Erronka_API.Modeloak
   spec.csharp:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.Modeloak
+  - uid: _2Erronka_API.Modeloak
     name: Modeloak
-    href: _1Erronka_API.Modeloak.html
+    href: _2Erronka_API.Modeloak.html
   spec.vb:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.Modeloak
+  - uid: _2Erronka_API.Modeloak
     name: Modeloak
-    href: _1Erronka_API.Modeloak.html
+    href: _2Erronka_API.Modeloak.html

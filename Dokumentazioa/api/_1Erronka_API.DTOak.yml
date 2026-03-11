@@ -1,135 +1,135 @@
 ### YamlMime:ManagedReference
 items:
-- uid: _1Erronka_API.DTOak
-  commentId: N:_1Erronka_API.DTOak
-  id: _1Erronka_API.DTOak
+- uid: _2Erronka_API.DTOak
+  commentId: N:_2Erronka_API.DTOak
+  id: _2Erronka_API.DTOak
   children:
-  - _1Erronka_API.DTOak.ErreserbaDto
-  - _1Erronka_API.DTOak.ErreserbaOrdainduDto
-  - _1Erronka_API.DTOak.ErreserbaSortuDto
-  - _1Erronka_API.DTOak.EskariaDto
-  - _1Erronka_API.DTOak.EskariaProduktuaDto
-  - _1Erronka_API.DTOak.EskariaProduktuaSortuDto
-  - _1Erronka_API.DTOak.EskariaSortuDto
-  - _1Erronka_API.DTOak.LangileaDto
-  - _1Erronka_API.DTOak.LoginErantzuna
-  - _1Erronka_API.DTOak.LoginRequest
-  - _1Erronka_API.DTOak.MahaiaDto
-  - _1Erronka_API.DTOak.OsagaiaDto
-  - _1Erronka_API.DTOak.ProduktuaDto
+  - _2Erronka_API.DTOak.ErreserbaDto
+  - _2Erronka_API.DTOak.ErreserbaOrdainduDto
+  - _2Erronka_API.DTOak.ErreserbaSortuDto
+  - _2Erronka_API.DTOak.EskariaDto
+  - _2Erronka_API.DTOak.EskariaProduktuaDto
+  - _2Erronka_API.DTOak.EskariaProduktuaSortuDto
+  - _2Erronka_API.DTOak.EskariaSortuDto
+  - _2Erronka_API.DTOak.LangileaDto
+  - _2Erronka_API.DTOak.LoginErantzuna
+  - _2Erronka_API.DTOak.LoginRequest
+  - _2Erronka_API.DTOak.MahaiaDto
+  - _2Erronka_API.DTOak.OsagaiaDto
+  - _2Erronka_API.DTOak.ProduktuaDto
   langs:
   - csharp
   - vb
-  name: _1Erronka_API.DTOak
-  nameWithType: _1Erronka_API.DTOak
-  fullName: _1Erronka_API.DTOak
+  name: _2Erronka_API.DTOak
+  nameWithType: _2Erronka_API.DTOak
+  fullName: _2Erronka_API.DTOak
   type: Namespace
   assemblies:
   - Erronka2Api
 references:
-- uid: _1Erronka_API.DTOak.ErreserbaDto
-  commentId: T:_1Erronka_API.DTOak.ErreserbaDto
-  href: _1Erronka_API.DTOak.ErreserbaDto.html
+- uid: _2Erronka_API.DTOak.ErreserbaDto
+  commentId: T:_2Erronka_API.DTOak.ErreserbaDto
+  href: _2Erronka_API.DTOak.ErreserbaDto.html
   name: ErreserbaDto
   nameWithType: ErreserbaDto
-  fullName: _1Erronka_API.DTOak.ErreserbaDto
-- uid: _1Erronka_API.DTOak.ErreserbaSortuDto
-  commentId: T:_1Erronka_API.DTOak.ErreserbaSortuDto
-  parent: _1Erronka_API.DTOak
-  href: _1Erronka_API.DTOak.ErreserbaSortuDto.html
+  fullName: _2Erronka_API.DTOak.ErreserbaDto
+- uid: _2Erronka_API.DTOak.ErreserbaSortuDto
+  commentId: T:_2Erronka_API.DTOak.ErreserbaSortuDto
+  parent: _2Erronka_API.DTOak
+  href: _2Erronka_API.DTOak.ErreserbaSortuDto.html
   name: ErreserbaSortuDto
   nameWithType: ErreserbaSortuDto
-  fullName: _1Erronka_API.DTOak.ErreserbaSortuDto
-- uid: _1Erronka_API.DTOak.ErreserbaOrdainduDto
-  commentId: T:_1Erronka_API.DTOak.ErreserbaOrdainduDto
-  parent: _1Erronka_API.DTOak
-  href: _1Erronka_API.DTOak.ErreserbaOrdainduDto.html
+  fullName: _2Erronka_API.DTOak.ErreserbaSortuDto
+- uid: _2Erronka_API.DTOak.ErreserbaOrdainduDto
+  commentId: T:_2Erronka_API.DTOak.ErreserbaOrdainduDto
+  parent: _2Erronka_API.DTOak
+  href: _2Erronka_API.DTOak.ErreserbaOrdainduDto.html
   name: ErreserbaOrdainduDto
   nameWithType: ErreserbaOrdainduDto
-  fullName: _1Erronka_API.DTOak.ErreserbaOrdainduDto
-- uid: _1Erronka_API.DTOak.EskariaDto
-  commentId: T:_1Erronka_API.DTOak.EskariaDto
-  href: _1Erronka_API.DTOak.EskariaDto.html
+  fullName: _2Erronka_API.DTOak.ErreserbaOrdainduDto
+- uid: _2Erronka_API.DTOak.EskariaDto
+  commentId: T:_2Erronka_API.DTOak.EskariaDto
+  href: _2Erronka_API.DTOak.EskariaDto.html
   name: EskariaDto
   nameWithType: EskariaDto
-  fullName: _1Erronka_API.DTOak.EskariaDto
-- uid: _1Erronka_API.DTOak.EskariaSortuDto
-  commentId: T:_1Erronka_API.DTOak.EskariaSortuDto
-  parent: _1Erronka_API.DTOak
-  href: _1Erronka_API.DTOak.EskariaSortuDto.html
+  fullName: _2Erronka_API.DTOak.EskariaDto
+- uid: _2Erronka_API.DTOak.EskariaSortuDto
+  commentId: T:_2Erronka_API.DTOak.EskariaSortuDto
+  parent: _2Erronka_API.DTOak
+  href: _2Erronka_API.DTOak.EskariaSortuDto.html
   name: EskariaSortuDto
   nameWithType: EskariaSortuDto
-  fullName: _1Erronka_API.DTOak.EskariaSortuDto
-- uid: _1Erronka_API.DTOak.EskariaProduktuaDto
-  commentId: T:_1Erronka_API.DTOak.EskariaProduktuaDto
-  href: _1Erronka_API.DTOak.EskariaProduktuaDto.html
+  fullName: _2Erronka_API.DTOak.EskariaSortuDto
+- uid: _2Erronka_API.DTOak.EskariaProduktuaDto
+  commentId: T:_2Erronka_API.DTOak.EskariaProduktuaDto
+  href: _2Erronka_API.DTOak.EskariaProduktuaDto.html
   name: EskariaProduktuaDto
   nameWithType: EskariaProduktuaDto
-  fullName: _1Erronka_API.DTOak.EskariaProduktuaDto
-- uid: _1Erronka_API.DTOak.EskariaProduktuaSortuDto
-  commentId: T:_1Erronka_API.DTOak.EskariaProduktuaSortuDto
-  href: _1Erronka_API.DTOak.EskariaProduktuaSortuDto.html
+  fullName: _2Erronka_API.DTOak.EskariaProduktuaDto
+- uid: _2Erronka_API.DTOak.EskariaProduktuaSortuDto
+  commentId: T:_2Erronka_API.DTOak.EskariaProduktuaSortuDto
+  href: _2Erronka_API.DTOak.EskariaProduktuaSortuDto.html
   name: EskariaProduktuaSortuDto
   nameWithType: EskariaProduktuaSortuDto
-  fullName: _1Erronka_API.DTOak.EskariaProduktuaSortuDto
-- uid: _1Erronka_API.DTOak.LangileaDto
-  commentId: T:_1Erronka_API.DTOak.LangileaDto
-  parent: _1Erronka_API.DTOak
-  href: _1Erronka_API.DTOak.LangileaDto.html
+  fullName: _2Erronka_API.DTOak.EskariaProduktuaSortuDto
+- uid: _2Erronka_API.DTOak.LangileaDto
+  commentId: T:_2Erronka_API.DTOak.LangileaDto
+  parent: _2Erronka_API.DTOak
+  href: _2Erronka_API.DTOak.LangileaDto.html
   name: LangileaDto
   nameWithType: LangileaDto
-  fullName: _1Erronka_API.DTOak.LangileaDto
-- uid: _1Erronka_API.DTOak.LoginErantzuna
-  commentId: T:_1Erronka_API.DTOak.LoginErantzuna
-  href: _1Erronka_API.DTOak.LoginErantzuna.html
+  fullName: _2Erronka_API.DTOak.LangileaDto
+- uid: _2Erronka_API.DTOak.LoginErantzuna
+  commentId: T:_2Erronka_API.DTOak.LoginErantzuna
+  href: _2Erronka_API.DTOak.LoginErantzuna.html
   name: LoginErantzuna
   nameWithType: LoginErantzuna
-  fullName: _1Erronka_API.DTOak.LoginErantzuna
-- uid: _1Erronka_API.DTOak.LoginRequest
-  commentId: T:_1Erronka_API.DTOak.LoginRequest
-  parent: _1Erronka_API.DTOak
-  href: _1Erronka_API.DTOak.LoginRequest.html
+  fullName: _2Erronka_API.DTOak.LoginErantzuna
+- uid: _2Erronka_API.DTOak.LoginRequest
+  commentId: T:_2Erronka_API.DTOak.LoginRequest
+  parent: _2Erronka_API.DTOak
+  href: _2Erronka_API.DTOak.LoginRequest.html
   name: LoginRequest
   nameWithType: LoginRequest
-  fullName: _1Erronka_API.DTOak.LoginRequest
-- uid: _1Erronka_API.DTOak.MahaiaDto
-  commentId: T:_1Erronka_API.DTOak.MahaiaDto
-  parent: _1Erronka_API.DTOak
-  href: _1Erronka_API.DTOak.MahaiaDto.html
+  fullName: _2Erronka_API.DTOak.LoginRequest
+- uid: _2Erronka_API.DTOak.MahaiaDto
+  commentId: T:_2Erronka_API.DTOak.MahaiaDto
+  parent: _2Erronka_API.DTOak
+  href: _2Erronka_API.DTOak.MahaiaDto.html
   name: MahaiaDto
   nameWithType: MahaiaDto
-  fullName: _1Erronka_API.DTOak.MahaiaDto
-- uid: _1Erronka_API.DTOak.ProduktuaDto
-  commentId: T:_1Erronka_API.DTOak.ProduktuaDto
-  href: _1Erronka_API.DTOak.ProduktuaDto.html
+  fullName: _2Erronka_API.DTOak.MahaiaDto
+- uid: _2Erronka_API.DTOak.ProduktuaDto
+  commentId: T:_2Erronka_API.DTOak.ProduktuaDto
+  href: _2Erronka_API.DTOak.ProduktuaDto.html
   name: ProduktuaDto
   nameWithType: ProduktuaDto
-  fullName: _1Erronka_API.DTOak.ProduktuaDto
-- uid: _1Erronka_API.DTOak.OsagaiaDto
-  commentId: T:_1Erronka_API.DTOak.OsagaiaDto
-  href: _1Erronka_API.DTOak.OsagaiaDto.html
+  fullName: _2Erronka_API.DTOak.ProduktuaDto
+- uid: _2Erronka_API.DTOak.OsagaiaDto
+  commentId: T:_2Erronka_API.DTOak.OsagaiaDto
+  href: _2Erronka_API.DTOak.OsagaiaDto.html
   name: OsagaiaDto
   nameWithType: OsagaiaDto
-  fullName: _1Erronka_API.DTOak.OsagaiaDto
-- uid: _1Erronka_API.DTOak
-  commentId: N:_1Erronka_API.DTOak
-  href: _1Erronka_API.html
-  name: _1Erronka_API.DTOak
-  nameWithType: _1Erronka_API.DTOak
-  fullName: _1Erronka_API.DTOak
+  fullName: _2Erronka_API.DTOak.OsagaiaDto
+- uid: _2Erronka_API.DTOak
+  commentId: N:_2Erronka_API.DTOak
+  href: _2Erronka_API.html
+  name: _2Erronka_API.DTOak
+  nameWithType: _2Erronka_API.DTOak
+  fullName: _2Erronka_API.DTOak
   spec.csharp:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.DTOak
+  - uid: _2Erronka_API.DTOak
     name: DTOak
-    href: _1Erronka_API.DTOak.html
+    href: _2Erronka_API.DTOak.html
   spec.vb:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.DTOak
+  - uid: _2Erronka_API.DTOak
     name: DTOak
-    href: _1Erronka_API.DTOak.html
+    href: _2Erronka_API.DTOak.html

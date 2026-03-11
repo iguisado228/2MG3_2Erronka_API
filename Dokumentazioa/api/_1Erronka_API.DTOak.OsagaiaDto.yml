@@ -1,21 +1,21 @@
 ### YamlMime:ManagedReference
 items:
-- uid: _1Erronka_API.DTOak.OsagaiaDto
-  commentId: T:_1Erronka_API.DTOak.OsagaiaDto
+- uid: _2Erronka_API.DTOak.OsagaiaDto
+  commentId: T:_2Erronka_API.DTOak.OsagaiaDto
   id: OsagaiaDto
-  parent: _1Erronka_API.DTOak
+  parent: _2Erronka_API.DTOak
   children:
-  - _1Erronka_API.DTOak.OsagaiaDto.HornitzaileakId
-  - _1Erronka_API.DTOak.OsagaiaDto.Id
-  - _1Erronka_API.DTOak.OsagaiaDto.Izena
-  - _1Erronka_API.DTOak.OsagaiaDto.Prezioa
-  - _1Erronka_API.DTOak.OsagaiaDto.Stock
+  - _2Erronka_API.DTOak.OsagaiaDto.HornitzaileakId
+  - _2Erronka_API.DTOak.OsagaiaDto.Id
+  - _2Erronka_API.DTOak.OsagaiaDto.Izena
+  - _2Erronka_API.DTOak.OsagaiaDto.Prezioa
+  - _2Erronka_API.DTOak.OsagaiaDto.Stock
   langs:
   - csharp
   - vb
   name: OsagaiaDto
   nameWithType: OsagaiaDto
-  fullName: _1Erronka_API.DTOak.OsagaiaDto
+  fullName: _2Erronka_API.DTOak.OsagaiaDto
   type: Class
   source:
     remote:
@@ -27,7 +27,7 @@ items:
     startLine: 22
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Osagai baten datu-laburpena, API erantzunetan erabiltzeko.
   example: []
   syntax:
@@ -43,16 +43,16 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: _1Erronka_API.DTOak.OsagaiaDto.Id
-  commentId: P:_1Erronka_API.DTOak.OsagaiaDto.Id
+- uid: _2Erronka_API.DTOak.OsagaiaDto.Id
+  commentId: P:_2Erronka_API.DTOak.OsagaiaDto.Id
   id: Id
-  parent: _1Erronka_API.DTOak.OsagaiaDto
+  parent: _2Erronka_API.DTOak.OsagaiaDto
   langs:
   - csharp
   - vb
   name: Id
   nameWithType: OsagaiaDto.Id
-  fullName: _1Erronka_API.DTOak.OsagaiaDto.Id
+  fullName: _2Erronka_API.DTOak.OsagaiaDto.Id
   type: Property
   source:
     remote:
@@ -64,7 +64,7 @@ items:
     startLine: 25
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Osagaiaren identifikatzailea.
   example: []
   syntax:
@@ -73,17 +73,17 @@ items:
     return:
       type: System.Int32
     content.vb: Public Property Id As Integer
-  overload: _1Erronka_API.DTOak.OsagaiaDto.Id*
-- uid: _1Erronka_API.DTOak.OsagaiaDto.Izena
-  commentId: P:_1Erronka_API.DTOak.OsagaiaDto.Izena
+  overload: _2Erronka_API.DTOak.OsagaiaDto.Id*
+- uid: _2Erronka_API.DTOak.OsagaiaDto.Izena
+  commentId: P:_2Erronka_API.DTOak.OsagaiaDto.Izena
   id: Izena
-  parent: _1Erronka_API.DTOak.OsagaiaDto
+  parent: _2Erronka_API.DTOak.OsagaiaDto
   langs:
   - csharp
   - vb
   name: Izena
   nameWithType: OsagaiaDto.Izena
-  fullName: _1Erronka_API.DTOak.OsagaiaDto.Izena
+  fullName: _2Erronka_API.DTOak.OsagaiaDto.Izena
   type: Property
   source:
     remote:
@@ -95,7 +95,7 @@ items:
     startLine: 27
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Osagaiaren izena.
   example: []
   syntax:
@@ -104,17 +104,17 @@ items:
     return:
       type: System.String
     content.vb: Public Property Izena As String
-  overload: _1Erronka_API.DTOak.OsagaiaDto.Izena*
-- uid: _1Erronka_API.DTOak.OsagaiaDto.Prezioa
-  commentId: P:_1Erronka_API.DTOak.OsagaiaDto.Prezioa
+  overload: _2Erronka_API.DTOak.OsagaiaDto.Izena*
+- uid: _2Erronka_API.DTOak.OsagaiaDto.Prezioa
+  commentId: P:_2Erronka_API.DTOak.OsagaiaDto.Prezioa
   id: Prezioa
-  parent: _1Erronka_API.DTOak.OsagaiaDto
+  parent: _2Erronka_API.DTOak.OsagaiaDto
   langs:
   - csharp
   - vb
   name: Prezioa
   nameWithType: OsagaiaDto.Prezioa
-  fullName: _1Erronka_API.DTOak.OsagaiaDto.Prezioa
+  fullName: _2Erronka_API.DTOak.OsagaiaDto.Prezioa
   type: Property
   source:
     remote:
@@ -126,7 +126,7 @@ items:
     startLine: 29
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Osagaiaren prezioa.
   example: []
   syntax:
@@ -135,17 +135,17 @@ items:
     return:
       type: System.Double
     content.vb: Public Property Prezioa As Double
-  overload: _1Erronka_API.DTOak.OsagaiaDto.Prezioa*
-- uid: _1Erronka_API.DTOak.OsagaiaDto.Stock
-  commentId: P:_1Erronka_API.DTOak.OsagaiaDto.Stock
+  overload: _2Erronka_API.DTOak.OsagaiaDto.Prezioa*
+- uid: _2Erronka_API.DTOak.OsagaiaDto.Stock
+  commentId: P:_2Erronka_API.DTOak.OsagaiaDto.Stock
   id: Stock
-  parent: _1Erronka_API.DTOak.OsagaiaDto
+  parent: _2Erronka_API.DTOak.OsagaiaDto
   langs:
   - csharp
   - vb
   name: Stock
   nameWithType: OsagaiaDto.Stock
-  fullName: _1Erronka_API.DTOak.OsagaiaDto.Stock
+  fullName: _2Erronka_API.DTOak.OsagaiaDto.Stock
   type: Property
   source:
     remote:
@@ -157,7 +157,7 @@ items:
     startLine: 31
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Osagaiaren stock-kantitatea.
   example: []
   syntax:
@@ -166,17 +166,17 @@ items:
     return:
       type: System.Int32
     content.vb: Public Property Stock As Integer
-  overload: _1Erronka_API.DTOak.OsagaiaDto.Stock*
-- uid: _1Erronka_API.DTOak.OsagaiaDto.HornitzaileakId
-  commentId: P:_1Erronka_API.DTOak.OsagaiaDto.HornitzaileakId
+  overload: _2Erronka_API.DTOak.OsagaiaDto.Stock*
+- uid: _2Erronka_API.DTOak.OsagaiaDto.HornitzaileakId
+  commentId: P:_2Erronka_API.DTOak.OsagaiaDto.HornitzaileakId
   id: HornitzaileakId
-  parent: _1Erronka_API.DTOak.OsagaiaDto
+  parent: _2Erronka_API.DTOak.OsagaiaDto
   langs:
   - csharp
   - vb
   name: HornitzaileakId
   nameWithType: OsagaiaDto.HornitzaileakId
-  fullName: _1Erronka_API.DTOak.OsagaiaDto.HornitzaileakId
+  fullName: _2Erronka_API.DTOak.OsagaiaDto.HornitzaileakId
   type: Property
   source:
     remote:
@@ -188,7 +188,7 @@ items:
     startLine: 33
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Hornitzailearen identifikatzailea.
   example: []
   syntax:
@@ -197,30 +197,30 @@ items:
     return:
       type: System.Int32
     content.vb: Public Property HornitzaileakId As Integer
-  overload: _1Erronka_API.DTOak.OsagaiaDto.HornitzaileakId*
+  overload: _2Erronka_API.DTOak.OsagaiaDto.HornitzaileakId*
 references:
-- uid: _1Erronka_API.DTOak
-  commentId: N:_1Erronka_API.DTOak
-  href: _1Erronka_API.html
-  name: _1Erronka_API.DTOak
-  nameWithType: _1Erronka_API.DTOak
-  fullName: _1Erronka_API.DTOak
+- uid: _2Erronka_API.DTOak
+  commentId: N:_2Erronka_API.DTOak
+  href: _2Erronka_API.html
+  name: _2Erronka_API.DTOak
+  nameWithType: _2Erronka_API.DTOak
+  fullName: _2Erronka_API.DTOak
   spec.csharp:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.DTOak
+  - uid: _2Erronka_API.DTOak
     name: DTOak
-    href: _1Erronka_API.DTOak.html
+    href: _2Erronka_API.DTOak.html
   spec.vb:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.DTOak
+  - uid: _2Erronka_API.DTOak
     name: DTOak
-    href: _1Erronka_API.DTOak.html
+    href: _2Erronka_API.DTOak.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -458,12 +458,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: _1Erronka_API.DTOak.OsagaiaDto.Id*
-  commentId: Overload:_1Erronka_API.DTOak.OsagaiaDto.Id
-  href: _1Erronka_API.DTOak.OsagaiaDto.html#_1Erronka_API_DTOak_OsagaiaDto_Id
+- uid: _2Erronka_API.DTOak.OsagaiaDto.Id*
+  commentId: Overload:_2Erronka_API.DTOak.OsagaiaDto.Id
+  href: _2Erronka_API.DTOak.OsagaiaDto.html#_2Erronka_API_DTOak_OsagaiaDto_Id
   name: Id
   nameWithType: OsagaiaDto.Id
-  fullName: _1Erronka_API.DTOak.OsagaiaDto.Id
+  fullName: _2Erronka_API.DTOak.OsagaiaDto.Id
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -475,12 +475,12 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: _1Erronka_API.DTOak.OsagaiaDto.Izena*
-  commentId: Overload:_1Erronka_API.DTOak.OsagaiaDto.Izena
-  href: _1Erronka_API.DTOak.OsagaiaDto.html#_1Erronka_API_DTOak_OsagaiaDto_Izena
+- uid: _2Erronka_API.DTOak.OsagaiaDto.Izena*
+  commentId: Overload:_2Erronka_API.DTOak.OsagaiaDto.Izena
+  href: _2Erronka_API.DTOak.OsagaiaDto.html#_2Erronka_API_DTOak_OsagaiaDto_Izena
   name: Izena
   nameWithType: OsagaiaDto.Izena
-  fullName: _1Erronka_API.DTOak.OsagaiaDto.Izena
+  fullName: _2Erronka_API.DTOak.OsagaiaDto.Izena
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -492,12 +492,12 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: _1Erronka_API.DTOak.OsagaiaDto.Prezioa*
-  commentId: Overload:_1Erronka_API.DTOak.OsagaiaDto.Prezioa
-  href: _1Erronka_API.DTOak.OsagaiaDto.html#_1Erronka_API_DTOak_OsagaiaDto_Prezioa
+- uid: _2Erronka_API.DTOak.OsagaiaDto.Prezioa*
+  commentId: Overload:_2Erronka_API.DTOak.OsagaiaDto.Prezioa
+  href: _2Erronka_API.DTOak.OsagaiaDto.html#_2Erronka_API_DTOak_OsagaiaDto_Prezioa
   name: Prezioa
   nameWithType: OsagaiaDto.Prezioa
-  fullName: _1Erronka_API.DTOak.OsagaiaDto.Prezioa
+  fullName: _2Erronka_API.DTOak.OsagaiaDto.Prezioa
 - uid: System.Double
   commentId: T:System.Double
   parent: System
@@ -509,15 +509,15 @@ references:
   nameWithType.vb: Double
   fullName.vb: Double
   name.vb: Double
-- uid: _1Erronka_API.DTOak.OsagaiaDto.Stock*
-  commentId: Overload:_1Erronka_API.DTOak.OsagaiaDto.Stock
-  href: _1Erronka_API.DTOak.OsagaiaDto.html#_1Erronka_API_DTOak_OsagaiaDto_Stock
+- uid: _2Erronka_API.DTOak.OsagaiaDto.Stock*
+  commentId: Overload:_2Erronka_API.DTOak.OsagaiaDto.Stock
+  href: _2Erronka_API.DTOak.OsagaiaDto.html#_2Erronka_API_DTOak_OsagaiaDto_Stock
   name: Stock
   nameWithType: OsagaiaDto.Stock
-  fullName: _1Erronka_API.DTOak.OsagaiaDto.Stock
-- uid: _1Erronka_API.DTOak.OsagaiaDto.HornitzaileakId*
-  commentId: Overload:_1Erronka_API.DTOak.OsagaiaDto.HornitzaileakId
-  href: _1Erronka_API.DTOak.OsagaiaDto.html#_1Erronka_API_DTOak_OsagaiaDto_HornitzaileakId
+  fullName: _2Erronka_API.DTOak.OsagaiaDto.Stock
+- uid: _2Erronka_API.DTOak.OsagaiaDto.HornitzaileakId*
+  commentId: Overload:_2Erronka_API.DTOak.OsagaiaDto.HornitzaileakId
+  href: _2Erronka_API.DTOak.OsagaiaDto.html#_2Erronka_API_DTOak_OsagaiaDto_HornitzaileakId
   name: HornitzaileakId
   nameWithType: OsagaiaDto.HornitzaileakId
-  fullName: _1Erronka_API.DTOak.OsagaiaDto.HornitzaileakId
+  fullName: _2Erronka_API.DTOak.OsagaiaDto.HornitzaileakId

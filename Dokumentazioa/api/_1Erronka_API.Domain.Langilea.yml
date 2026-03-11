@@ -1,23 +1,23 @@
 ### YamlMime:ManagedReference
 items:
-- uid: _1Erronka_API.Domain.Langilea
-  commentId: T:_1Erronka_API.Domain.Langilea
+- uid: _2Erronka_API.Domain.Langilea
+  commentId: T:_2Erronka_API.Domain.Langilea
   id: Langilea
-  parent: _1Erronka_API.Domain
+  parent: _2Erronka_API.Domain
   children:
-  - _1Erronka_API.Domain.Langilea.Erabiltzaile_izena
-  - _1Erronka_API.Domain.Langilea.Gerentea
-  - _1Erronka_API.Domain.Langilea.Id
-  - _1Erronka_API.Domain.Langilea.Izena
-  - _1Erronka_API.Domain.Langilea.Langile_kodea
-  - _1Erronka_API.Domain.Langilea.Pasahitza
-  - _1Erronka_API.Domain.Langilea.TpvSarrera
+  - _2Erronka_API.Domain.Langilea.Erabiltzaile_izena
+  - _2Erronka_API.Domain.Langilea.Gerentea
+  - _2Erronka_API.Domain.Langilea.Id
+  - _2Erronka_API.Domain.Langilea.Izena
+  - _2Erronka_API.Domain.Langilea.Langile_kodea
+  - _2Erronka_API.Domain.Langilea.Pasahitza
+  - _2Erronka_API.Domain.Langilea.TpvSarrera
   langs:
   - csharp
   - vb
   name: Langilea
   nameWithType: Langilea
-  fullName: _1Erronka_API.Domain.Langilea
+  fullName: _2Erronka_API.Domain.Langilea
   type: Class
   source:
     remote:
@@ -29,7 +29,7 @@ items:
     startLine: 8
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Domain
+  namespace: _2Erronka_API.Domain
   syntax:
     content: public class Langilea
     content.vb: Public Class Langilea
@@ -43,16 +43,16 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: _1Erronka_API.Domain.Langilea.Id
-  commentId: P:_1Erronka_API.Domain.Langilea.Id
+- uid: _2Erronka_API.Domain.Langilea.Id
+  commentId: P:_2Erronka_API.Domain.Langilea.Id
   id: Id
-  parent: _1Erronka_API.Domain.Langilea
+  parent: _2Erronka_API.Domain.Langilea
   langs:
   - csharp
   - vb
   name: Id
   nameWithType: Langilea.Id
-  fullName: _1Erronka_API.Domain.Langilea.Id
+  fullName: _2Erronka_API.Domain.Langilea.Id
   type: Property
   source:
     remote:
@@ -64,24 +64,24 @@ items:
     startLine: 10
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Domain
+  namespace: _2Erronka_API.Domain
   syntax:
     content: public virtual int Id { get; set; }
     parameters: []
     return:
       type: System.Int32
     content.vb: Public Overridable Property Id As Integer
-  overload: _1Erronka_API.Domain.Langilea.Id*
-- uid: _1Erronka_API.Domain.Langilea.Izena
-  commentId: P:_1Erronka_API.Domain.Langilea.Izena
+  overload: _2Erronka_API.Domain.Langilea.Id*
+- uid: _2Erronka_API.Domain.Langilea.Izena
+  commentId: P:_2Erronka_API.Domain.Langilea.Izena
   id: Izena
-  parent: _1Erronka_API.Domain.Langilea
+  parent: _2Erronka_API.Domain.Langilea
   langs:
   - csharp
   - vb
   name: Izena
   nameWithType: Langilea.Izena
-  fullName: _1Erronka_API.Domain.Langilea.Izena
+  fullName: _2Erronka_API.Domain.Langilea.Izena
   type: Property
   source:
     remote:
@@ -93,24 +93,24 @@ items:
     startLine: 11
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Domain
+  namespace: _2Erronka_API.Domain
   syntax:
     content: public virtual string Izena { get; set; }
     parameters: []
     return:
       type: System.String
     content.vb: Public Overridable Property Izena As String
-  overload: _1Erronka_API.Domain.Langilea.Izena*
-- uid: _1Erronka_API.Domain.Langilea.Erabiltzaile_izena
-  commentId: P:_1Erronka_API.Domain.Langilea.Erabiltzaile_izena
+  overload: _2Erronka_API.Domain.Langilea.Izena*
+- uid: _2Erronka_API.Domain.Langilea.Erabiltzaile_izena
+  commentId: P:_2Erronka_API.Domain.Langilea.Erabiltzaile_izena
   id: Erabiltzaile_izena
-  parent: _1Erronka_API.Domain.Langilea
+  parent: _2Erronka_API.Domain.Langilea
   langs:
   - csharp
   - vb
   name: Erabiltzaile_izena
   nameWithType: Langilea.Erabiltzaile_izena
-  fullName: _1Erronka_API.Domain.Langilea.Erabiltzaile_izena
+  fullName: _2Erronka_API.Domain.Langilea.Erabiltzaile_izena
   type: Property
   source:
     remote:
@@ -122,24 +122,24 @@ items:
     startLine: 12
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Domain
+  namespace: _2Erronka_API.Domain
   syntax:
     content: public virtual string Erabiltzaile_izena { get; set; }
     parameters: []
     return:
       type: System.String
     content.vb: Public Overridable Property Erabiltzaile_izena As String
-  overload: _1Erronka_API.Domain.Langilea.Erabiltzaile_izena*
-- uid: _1Erronka_API.Domain.Langilea.Langile_kodea
-  commentId: P:_1Erronka_API.Domain.Langilea.Langile_kodea
+  overload: _2Erronka_API.Domain.Langilea.Erabiltzaile_izena*
+- uid: _2Erronka_API.Domain.Langilea.Langile_kodea
+  commentId: P:_2Erronka_API.Domain.Langilea.Langile_kodea
   id: Langile_kodea
-  parent: _1Erronka_API.Domain.Langilea
+  parent: _2Erronka_API.Domain.Langilea
   langs:
   - csharp
   - vb
   name: Langile_kodea
   nameWithType: Langilea.Langile_kodea
-  fullName: _1Erronka_API.Domain.Langilea.Langile_kodea
+  fullName: _2Erronka_API.Domain.Langilea.Langile_kodea
   type: Property
   source:
     remote:
@@ -151,24 +151,24 @@ items:
     startLine: 13
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Domain
+  namespace: _2Erronka_API.Domain
   syntax:
     content: public virtual int Langile_kodea { get; set; }
     parameters: []
     return:
       type: System.Int32
     content.vb: Public Overridable Property Langile_kodea As Integer
-  overload: _1Erronka_API.Domain.Langilea.Langile_kodea*
-- uid: _1Erronka_API.Domain.Langilea.Pasahitza
-  commentId: P:_1Erronka_API.Domain.Langilea.Pasahitza
+  overload: _2Erronka_API.Domain.Langilea.Langile_kodea*
+- uid: _2Erronka_API.Domain.Langilea.Pasahitza
+  commentId: P:_2Erronka_API.Domain.Langilea.Pasahitza
   id: Pasahitza
-  parent: _1Erronka_API.Domain.Langilea
+  parent: _2Erronka_API.Domain.Langilea
   langs:
   - csharp
   - vb
   name: Pasahitza
   nameWithType: Langilea.Pasahitza
-  fullName: _1Erronka_API.Domain.Langilea.Pasahitza
+  fullName: _2Erronka_API.Domain.Langilea.Pasahitza
   type: Property
   source:
     remote:
@@ -180,24 +180,24 @@ items:
     startLine: 14
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Domain
+  namespace: _2Erronka_API.Domain
   syntax:
     content: public virtual string Pasahitza { get; set; }
     parameters: []
     return:
       type: System.String
     content.vb: Public Overridable Property Pasahitza As String
-  overload: _1Erronka_API.Domain.Langilea.Pasahitza*
-- uid: _1Erronka_API.Domain.Langilea.Gerentea
-  commentId: P:_1Erronka_API.Domain.Langilea.Gerentea
+  overload: _2Erronka_API.Domain.Langilea.Pasahitza*
+- uid: _2Erronka_API.Domain.Langilea.Gerentea
+  commentId: P:_2Erronka_API.Domain.Langilea.Gerentea
   id: Gerentea
-  parent: _1Erronka_API.Domain.Langilea
+  parent: _2Erronka_API.Domain.Langilea
   langs:
   - csharp
   - vb
   name: Gerentea
   nameWithType: Langilea.Gerentea
-  fullName: _1Erronka_API.Domain.Langilea.Gerentea
+  fullName: _2Erronka_API.Domain.Langilea.Gerentea
   type: Property
   source:
     remote:
@@ -209,24 +209,24 @@ items:
     startLine: 15
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Domain
+  namespace: _2Erronka_API.Domain
   syntax:
     content: public virtual bool Gerentea { get; set; }
     parameters: []
     return:
       type: System.Boolean
     content.vb: Public Overridable Property Gerentea As Boolean
-  overload: _1Erronka_API.Domain.Langilea.Gerentea*
-- uid: _1Erronka_API.Domain.Langilea.TpvSarrera
-  commentId: P:_1Erronka_API.Domain.Langilea.TpvSarrera
+  overload: _2Erronka_API.Domain.Langilea.Gerentea*
+- uid: _2Erronka_API.Domain.Langilea.TpvSarrera
+  commentId: P:_2Erronka_API.Domain.Langilea.TpvSarrera
   id: TpvSarrera
-  parent: _1Erronka_API.Domain.Langilea
+  parent: _2Erronka_API.Domain.Langilea
   langs:
   - csharp
   - vb
   name: TpvSarrera
   nameWithType: Langilea.TpvSarrera
-  fullName: _1Erronka_API.Domain.Langilea.TpvSarrera
+  fullName: _2Erronka_API.Domain.Langilea.TpvSarrera
   type: Property
   source:
     remote:
@@ -238,37 +238,37 @@ items:
     startLine: 16
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.Domain
+  namespace: _2Erronka_API.Domain
   syntax:
     content: public virtual bool TpvSarrera { get; set; }
     parameters: []
     return:
       type: System.Boolean
     content.vb: Public Overridable Property TpvSarrera As Boolean
-  overload: _1Erronka_API.Domain.Langilea.TpvSarrera*
+  overload: _2Erronka_API.Domain.Langilea.TpvSarrera*
 references:
-- uid: _1Erronka_API.Domain
-  commentId: N:_1Erronka_API.Domain
-  href: _1Erronka_API.html
-  name: _1Erronka_API.Domain
-  nameWithType: _1Erronka_API.Domain
-  fullName: _1Erronka_API.Domain
+- uid: _2Erronka_API.Domain
+  commentId: N:_2Erronka_API.Domain
+  href: _2Erronka_API.html
+  name: _2Erronka_API.Domain
+  nameWithType: _2Erronka_API.Domain
+  fullName: _2Erronka_API.Domain
   spec.csharp:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.Domain
+  - uid: _2Erronka_API.Domain
     name: Domain
-    href: _1Erronka_API.Domain.html
+    href: _2Erronka_API.Domain.html
   spec.vb:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.Domain
+  - uid: _2Erronka_API.Domain
     name: Domain
-    href: _1Erronka_API.Domain.html
+    href: _2Erronka_API.Domain.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -506,12 +506,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: _1Erronka_API.Domain.Langilea.Id*
-  commentId: Overload:_1Erronka_API.Domain.Langilea.Id
-  href: _1Erronka_API.Domain.Langilea.html#_1Erronka_API_Domain_Langilea_Id
+- uid: _2Erronka_API.Domain.Langilea.Id*
+  commentId: Overload:_2Erronka_API.Domain.Langilea.Id
+  href: _2Erronka_API.Domain.Langilea.html#_2Erronka_API_Domain_Langilea_Id
   name: Id
   nameWithType: Langilea.Id
-  fullName: _1Erronka_API.Domain.Langilea.Id
+  fullName: _2Erronka_API.Domain.Langilea.Id
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -523,12 +523,12 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: _1Erronka_API.Domain.Langilea.Izena*
-  commentId: Overload:_1Erronka_API.Domain.Langilea.Izena
-  href: _1Erronka_API.Domain.Langilea.html#_1Erronka_API_Domain_Langilea_Izena
+- uid: _2Erronka_API.Domain.Langilea.Izena*
+  commentId: Overload:_2Erronka_API.Domain.Langilea.Izena
+  href: _2Erronka_API.Domain.Langilea.html#_2Erronka_API_Domain_Langilea_Izena
   name: Izena
   nameWithType: Langilea.Izena
-  fullName: _1Erronka_API.Domain.Langilea.Izena
+  fullName: _2Erronka_API.Domain.Langilea.Izena
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -540,30 +540,30 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: _1Erronka_API.Domain.Langilea.Erabiltzaile_izena*
-  commentId: Overload:_1Erronka_API.Domain.Langilea.Erabiltzaile_izena
-  href: _1Erronka_API.Domain.Langilea.html#_1Erronka_API_Domain_Langilea_Erabiltzaile_izena
+- uid: _2Erronka_API.Domain.Langilea.Erabiltzaile_izena*
+  commentId: Overload:_2Erronka_API.Domain.Langilea.Erabiltzaile_izena
+  href: _2Erronka_API.Domain.Langilea.html#_2Erronka_API_Domain_Langilea_Erabiltzaile_izena
   name: Erabiltzaile_izena
   nameWithType: Langilea.Erabiltzaile_izena
-  fullName: _1Erronka_API.Domain.Langilea.Erabiltzaile_izena
-- uid: _1Erronka_API.Domain.Langilea.Langile_kodea*
-  commentId: Overload:_1Erronka_API.Domain.Langilea.Langile_kodea
-  href: _1Erronka_API.Domain.Langilea.html#_1Erronka_API_Domain_Langilea_Langile_kodea
+  fullName: _2Erronka_API.Domain.Langilea.Erabiltzaile_izena
+- uid: _2Erronka_API.Domain.Langilea.Langile_kodea*
+  commentId: Overload:_2Erronka_API.Domain.Langilea.Langile_kodea
+  href: _2Erronka_API.Domain.Langilea.html#_2Erronka_API_Domain_Langilea_Langile_kodea
   name: Langile_kodea
   nameWithType: Langilea.Langile_kodea
-  fullName: _1Erronka_API.Domain.Langilea.Langile_kodea
-- uid: _1Erronka_API.Domain.Langilea.Pasahitza*
-  commentId: Overload:_1Erronka_API.Domain.Langilea.Pasahitza
-  href: _1Erronka_API.Domain.Langilea.html#_1Erronka_API_Domain_Langilea_Pasahitza
+  fullName: _2Erronka_API.Domain.Langilea.Langile_kodea
+- uid: _2Erronka_API.Domain.Langilea.Pasahitza*
+  commentId: Overload:_2Erronka_API.Domain.Langilea.Pasahitza
+  href: _2Erronka_API.Domain.Langilea.html#_2Erronka_API_Domain_Langilea_Pasahitza
   name: Pasahitza
   nameWithType: Langilea.Pasahitza
-  fullName: _1Erronka_API.Domain.Langilea.Pasahitza
-- uid: _1Erronka_API.Domain.Langilea.Gerentea*
-  commentId: Overload:_1Erronka_API.Domain.Langilea.Gerentea
-  href: _1Erronka_API.Domain.Langilea.html#_1Erronka_API_Domain_Langilea_Gerentea
+  fullName: _2Erronka_API.Domain.Langilea.Pasahitza
+- uid: _2Erronka_API.Domain.Langilea.Gerentea*
+  commentId: Overload:_2Erronka_API.Domain.Langilea.Gerentea
+  href: _2Erronka_API.Domain.Langilea.html#_2Erronka_API_Domain_Langilea_Gerentea
   name: Gerentea
   nameWithType: Langilea.Gerentea
-  fullName: _1Erronka_API.Domain.Langilea.Gerentea
+  fullName: _2Erronka_API.Domain.Langilea.Gerentea
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -575,9 +575,9 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
-- uid: _1Erronka_API.Domain.Langilea.TpvSarrera*
-  commentId: Overload:_1Erronka_API.Domain.Langilea.TpvSarrera
-  href: _1Erronka_API.Domain.Langilea.html#_1Erronka_API_Domain_Langilea_TpvSarrera
+- uid: _2Erronka_API.Domain.Langilea.TpvSarrera*
+  commentId: Overload:_2Erronka_API.Domain.Langilea.TpvSarrera
+  href: _2Erronka_API.Domain.Langilea.html#_2Erronka_API_Domain_Langilea_TpvSarrera
   name: TpvSarrera
   nameWithType: Langilea.TpvSarrera
-  fullName: _1Erronka_API.Domain.Langilea.TpvSarrera
+  fullName: _2Erronka_API.Domain.Langilea.TpvSarrera

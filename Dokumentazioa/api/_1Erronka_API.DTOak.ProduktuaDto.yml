@@ -1,21 +1,21 @@
 ### YamlMime:ManagedReference
 items:
-- uid: _1Erronka_API.DTOak.ProduktuaDto
-  commentId: T:_1Erronka_API.DTOak.ProduktuaDto
+- uid: _2Erronka_API.DTOak.ProduktuaDto
+  commentId: T:_2Erronka_API.DTOak.ProduktuaDto
   id: ProduktuaDto
-  parent: _1Erronka_API.DTOak
+  parent: _2Erronka_API.DTOak
   children:
-  - _1Erronka_API.DTOak.ProduktuaDto.Id
-  - _1Erronka_API.DTOak.ProduktuaDto.Izena
-  - _1Erronka_API.DTOak.ProduktuaDto.Mota
-  - _1Erronka_API.DTOak.ProduktuaDto.Prezioa
-  - _1Erronka_API.DTOak.ProduktuaDto.Stock
+  - _2Erronka_API.DTOak.ProduktuaDto.Id
+  - _2Erronka_API.DTOak.ProduktuaDto.Izena
+  - _2Erronka_API.DTOak.ProduktuaDto.Mota
+  - _2Erronka_API.DTOak.ProduktuaDto.Prezioa
+  - _2Erronka_API.DTOak.ProduktuaDto.Stock
   langs:
   - csharp
   - vb
   name: ProduktuaDto
   nameWithType: ProduktuaDto
-  fullName: _1Erronka_API.DTOak.ProduktuaDto
+  fullName: _2Erronka_API.DTOak.ProduktuaDto
   type: Class
   source:
     remote:
@@ -27,7 +27,7 @@ items:
     startLine: 5
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Produktu baten datu-laburpena, API erantzunetan erabiltzeko.
   example: []
   syntax:
@@ -43,16 +43,16 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: _1Erronka_API.DTOak.ProduktuaDto.Id
-  commentId: P:_1Erronka_API.DTOak.ProduktuaDto.Id
+- uid: _2Erronka_API.DTOak.ProduktuaDto.Id
+  commentId: P:_2Erronka_API.DTOak.ProduktuaDto.Id
   id: Id
-  parent: _1Erronka_API.DTOak.ProduktuaDto
+  parent: _2Erronka_API.DTOak.ProduktuaDto
   langs:
   - csharp
   - vb
   name: Id
   nameWithType: ProduktuaDto.Id
-  fullName: _1Erronka_API.DTOak.ProduktuaDto.Id
+  fullName: _2Erronka_API.DTOak.ProduktuaDto.Id
   type: Property
   source:
     remote:
@@ -64,7 +64,7 @@ items:
     startLine: 8
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Produktuaren identifikatzailea.
   example: []
   syntax:
@@ -73,17 +73,17 @@ items:
     return:
       type: System.Int32
     content.vb: Public Property Id As Integer
-  overload: _1Erronka_API.DTOak.ProduktuaDto.Id*
-- uid: _1Erronka_API.DTOak.ProduktuaDto.Izena
-  commentId: P:_1Erronka_API.DTOak.ProduktuaDto.Izena
+  overload: _2Erronka_API.DTOak.ProduktuaDto.Id*
+- uid: _2Erronka_API.DTOak.ProduktuaDto.Izena
+  commentId: P:_2Erronka_API.DTOak.ProduktuaDto.Izena
   id: Izena
-  parent: _1Erronka_API.DTOak.ProduktuaDto
+  parent: _2Erronka_API.DTOak.ProduktuaDto
   langs:
   - csharp
   - vb
   name: Izena
   nameWithType: ProduktuaDto.Izena
-  fullName: _1Erronka_API.DTOak.ProduktuaDto.Izena
+  fullName: _2Erronka_API.DTOak.ProduktuaDto.Izena
   type: Property
   source:
     remote:
@@ -95,7 +95,7 @@ items:
     startLine: 10
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Produktuaren izena.
   example: []
   syntax:
@@ -104,17 +104,17 @@ items:
     return:
       type: System.String
     content.vb: Public Property Izena As String
-  overload: _1Erronka_API.DTOak.ProduktuaDto.Izena*
-- uid: _1Erronka_API.DTOak.ProduktuaDto.Prezioa
-  commentId: P:_1Erronka_API.DTOak.ProduktuaDto.Prezioa
+  overload: _2Erronka_API.DTOak.ProduktuaDto.Izena*
+- uid: _2Erronka_API.DTOak.ProduktuaDto.Prezioa
+  commentId: P:_2Erronka_API.DTOak.ProduktuaDto.Prezioa
   id: Prezioa
-  parent: _1Erronka_API.DTOak.ProduktuaDto
+  parent: _2Erronka_API.DTOak.ProduktuaDto
   langs:
   - csharp
   - vb
   name: Prezioa
   nameWithType: ProduktuaDto.Prezioa
-  fullName: _1Erronka_API.DTOak.ProduktuaDto.Prezioa
+  fullName: _2Erronka_API.DTOak.ProduktuaDto.Prezioa
   type: Property
   source:
     remote:
@@ -126,7 +126,7 @@ items:
     startLine: 12
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Produktuaren prezioa.
   example: []
   syntax:
@@ -135,17 +135,17 @@ items:
     return:
       type: System.Double
     content.vb: Public Property Prezioa As Double
-  overload: _1Erronka_API.DTOak.ProduktuaDto.Prezioa*
-- uid: _1Erronka_API.DTOak.ProduktuaDto.Mota
-  commentId: P:_1Erronka_API.DTOak.ProduktuaDto.Mota
+  overload: _2Erronka_API.DTOak.ProduktuaDto.Prezioa*
+- uid: _2Erronka_API.DTOak.ProduktuaDto.Mota
+  commentId: P:_2Erronka_API.DTOak.ProduktuaDto.Mota
   id: Mota
-  parent: _1Erronka_API.DTOak.ProduktuaDto
+  parent: _2Erronka_API.DTOak.ProduktuaDto
   langs:
   - csharp
   - vb
   name: Mota
   nameWithType: ProduktuaDto.Mota
-  fullName: _1Erronka_API.DTOak.ProduktuaDto.Mota
+  fullName: _2Erronka_API.DTOak.ProduktuaDto.Mota
   type: Property
   source:
     remote:
@@ -157,7 +157,7 @@ items:
     startLine: 14
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Produktuaren mota edo kategoria.
   example: []
   syntax:
@@ -166,17 +166,17 @@ items:
     return:
       type: System.String
     content.vb: Public Property Mota As String
-  overload: _1Erronka_API.DTOak.ProduktuaDto.Mota*
-- uid: _1Erronka_API.DTOak.ProduktuaDto.Stock
-  commentId: P:_1Erronka_API.DTOak.ProduktuaDto.Stock
+  overload: _2Erronka_API.DTOak.ProduktuaDto.Mota*
+- uid: _2Erronka_API.DTOak.ProduktuaDto.Stock
+  commentId: P:_2Erronka_API.DTOak.ProduktuaDto.Stock
   id: Stock
-  parent: _1Erronka_API.DTOak.ProduktuaDto
+  parent: _2Erronka_API.DTOak.ProduktuaDto
   langs:
   - csharp
   - vb
   name: Stock
   nameWithType: ProduktuaDto.Stock
-  fullName: _1Erronka_API.DTOak.ProduktuaDto.Stock
+  fullName: _2Erronka_API.DTOak.ProduktuaDto.Stock
   type: Property
   source:
     remote:
@@ -188,7 +188,7 @@ items:
     startLine: 16
   assemblies:
   - Erronka2Api
-  namespace: _1Erronka_API.DTOak
+  namespace: _2Erronka_API.DTOak
   summary: Produktuaren stock-kantitatea.
   example: []
   syntax:
@@ -197,30 +197,30 @@ items:
     return:
       type: System.Int32
     content.vb: Public Property Stock As Integer
-  overload: _1Erronka_API.DTOak.ProduktuaDto.Stock*
+  overload: _2Erronka_API.DTOak.ProduktuaDto.Stock*
 references:
-- uid: _1Erronka_API.DTOak
-  commentId: N:_1Erronka_API.DTOak
-  href: _1Erronka_API.html
-  name: _1Erronka_API.DTOak
-  nameWithType: _1Erronka_API.DTOak
-  fullName: _1Erronka_API.DTOak
+- uid: _2Erronka_API.DTOak
+  commentId: N:_2Erronka_API.DTOak
+  href: _2Erronka_API.html
+  name: _2Erronka_API.DTOak
+  nameWithType: _2Erronka_API.DTOak
+  fullName: _2Erronka_API.DTOak
   spec.csharp:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.DTOak
+  - uid: _2Erronka_API.DTOak
     name: DTOak
-    href: _1Erronka_API.DTOak.html
+    href: _2Erronka_API.DTOak.html
   spec.vb:
-  - uid: _1Erronka_API
-    name: _1Erronka_API
-    href: _1Erronka_API.html
+  - uid: _2Erronka_API
+    name: _2Erronka_API
+    href: _2Erronka_API.html
   - name: .
-  - uid: _1Erronka_API.DTOak
+  - uid: _2Erronka_API.DTOak
     name: DTOak
-    href: _1Erronka_API.DTOak.html
+    href: _2Erronka_API.DTOak.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -458,12 +458,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: _1Erronka_API.DTOak.ProduktuaDto.Id*
-  commentId: Overload:_1Erronka_API.DTOak.ProduktuaDto.Id
-  href: _1Erronka_API.DTOak.ProduktuaDto.html#_1Erronka_API_DTOak_ProduktuaDto_Id
+- uid: _2Erronka_API.DTOak.ProduktuaDto.Id*
+  commentId: Overload:_2Erronka_API.DTOak.ProduktuaDto.Id
+  href: _2Erronka_API.DTOak.ProduktuaDto.html#_2Erronka_API_DTOak_ProduktuaDto_Id
   name: Id
   nameWithType: ProduktuaDto.Id
-  fullName: _1Erronka_API.DTOak.ProduktuaDto.Id
+  fullName: _2Erronka_API.DTOak.ProduktuaDto.Id
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -475,12 +475,12 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: _1Erronka_API.DTOak.ProduktuaDto.Izena*
-  commentId: Overload:_1Erronka_API.DTOak.ProduktuaDto.Izena
-  href: _1Erronka_API.DTOak.ProduktuaDto.html#_1Erronka_API_DTOak_ProduktuaDto_Izena
+- uid: _2Erronka_API.DTOak.ProduktuaDto.Izena*
+  commentId: Overload:_2Erronka_API.DTOak.ProduktuaDto.Izena
+  href: _2Erronka_API.DTOak.ProduktuaDto.html#_2Erronka_API_DTOak_ProduktuaDto_Izena
   name: Izena
   nameWithType: ProduktuaDto.Izena
-  fullName: _1Erronka_API.DTOak.ProduktuaDto.Izena
+  fullName: _2Erronka_API.DTOak.ProduktuaDto.Izena
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -492,12 +492,12 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: _1Erronka_API.DTOak.ProduktuaDto.Prezioa*
-  commentId: Overload:_1Erronka_API.DTOak.ProduktuaDto.Prezioa
-  href: _1Erronka_API.DTOak.ProduktuaDto.html#_1Erronka_API_DTOak_ProduktuaDto_Prezioa
+- uid: _2Erronka_API.DTOak.ProduktuaDto.Prezioa*
+  commentId: Overload:_2Erronka_API.DTOak.ProduktuaDto.Prezioa
+  href: _2Erronka_API.DTOak.ProduktuaDto.html#_2Erronka_API_DTOak_ProduktuaDto_Prezioa
   name: Prezioa
   nameWithType: ProduktuaDto.Prezioa
-  fullName: _1Erronka_API.DTOak.ProduktuaDto.Prezioa
+  fullName: _2Erronka_API.DTOak.ProduktuaDto.Prezioa
 - uid: System.Double
   commentId: T:System.Double
   parent: System
@@ -509,15 +509,15 @@ references:
   nameWithType.vb: Double
   fullName.vb: Double
   name.vb: Double
-- uid: _1Erronka_API.DTOak.ProduktuaDto.Mota*
-  commentId: Overload:_1Erronka_API.DTOak.ProduktuaDto.Mota
-  href: _1Erronka_API.DTOak.ProduktuaDto.html#_1Erronka_API_DTOak_ProduktuaDto_Mota
+- uid: _2Erronka_API.DTOak.ProduktuaDto.Mota*
+  commentId: Overload:_2Erronka_API.DTOak.ProduktuaDto.Mota
+  href: _2Erronka_API.DTOak.ProduktuaDto.html#_2Erronka_API_DTOak_ProduktuaDto_Mota
   name: Mota
   nameWithType: ProduktuaDto.Mota
-  fullName: _1Erronka_API.DTOak.ProduktuaDto.Mota
-- uid: _1Erronka_API.DTOak.ProduktuaDto.Stock*
-  commentId: Overload:_1Erronka_API.DTOak.ProduktuaDto.Stock
-  href: _1Erronka_API.DTOak.ProduktuaDto.html#_1Erronka_API_DTOak_ProduktuaDto_Stock
+  fullName: _2Erronka_API.DTOak.ProduktuaDto.Mota
+- uid: _2Erronka_API.DTOak.ProduktuaDto.Stock*
+  commentId: Overload:_2Erronka_API.DTOak.ProduktuaDto.Stock
+  href: _2Erronka_API.DTOak.ProduktuaDto.html#_2Erronka_API_DTOak_ProduktuaDto_Stock
   name: Stock
   nameWithType: ProduktuaDto.Stock
-  fullName: _1Erronka_API.DTOak.ProduktuaDto.Stock
+  fullName: _2Erronka_API.DTOak.ProduktuaDto.Stock
