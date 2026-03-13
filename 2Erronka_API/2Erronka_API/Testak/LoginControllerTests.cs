@@ -12,7 +12,7 @@ namespace _2Erronka_API.Testak
     public class LoginControllerTests
     {
         // "1234" pasahitzaren SHA256 hasha
-        private const string ZuzenaHash = "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4";
+        private const string PasahitzaZuzenaHash = "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4";
 
         [Fact]
         public void Post_NotFoundItzultzenDu_LangileKodeaEzDeneanExistitzen()
@@ -51,7 +51,7 @@ namespace _2Erronka_API.Testak
 
             var controller = new LoginController(mockRepo.Object);
             var request = new LoginRequest { Langile_kodea = 101, Pasahitza = "okerra" };
-            var langilea = new Langilea { Langile_kodea = 101, Pasahitza = ZuzenaHash };
+            var langilea = new Langilea { Langile_kodea = 101, Pasahitza = PasahitzaZuzenaHash };
             
             mockRepo.Setup(repo => repo.GetByKodea(request.Langile_kodea))
                      .Returns(langilea);
@@ -82,7 +82,7 @@ namespace _2Erronka_API.Testak
             var langilea = new Langilea 
             { 
                 Langile_kodea = 101, 
-                Pasahitza = ZuzenaHash,
+                Pasahitza = PasahitzaZuzenaHash,
                 Lanpostua = lanpostua
             };
             
@@ -117,7 +117,7 @@ namespace _2Erronka_API.Testak
                 Id = 1,
                 Izena = "Ane",
                 Langile_kodea = 101, 
-                Pasahitza = ZuzenaHash,
+                Pasahitza = PasahitzaZuzenaHash,
                 Lanpostua = lanpostua
             };
             
