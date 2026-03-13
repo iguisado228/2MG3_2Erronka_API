@@ -13,12 +13,12 @@ namespace _2Erronka_API.Repositorioak
         }
 
 
-        public IList<Eskaria> GetAll() => _session.Query<Eskaria>().ToList();
+        public virtual IList<Eskaria> GetAll() => _session.Query<Eskaria>().ToList();
 
-        public Eskaria? Get(int id) =>
+        public virtual Eskaria? Get(int id) =>
             _session.Query<Eskaria>().FirstOrDefault(x => x.Id == id);
 
-        public void Add(Eskaria eskaria)
+        public virtual void Add(Eskaria eskaria)
         {
             if (_session.Transaction != null && _session.Transaction.IsActive)
             {
@@ -32,7 +32,7 @@ namespace _2Erronka_API.Repositorioak
             }
         }
 
-        public void Update(Eskaria eskaria)
+        public virtual void Update(Eskaria eskaria)
         {
             if (_session.Transaction != null && _session.Transaction.IsActive)
             {
@@ -46,7 +46,7 @@ namespace _2Erronka_API.Repositorioak
             }
         }
 
-        public void Delete(Eskaria eskaria)
+        public virtual void Delete(Eskaria eskaria)
         {
             if (_session.Transaction != null && _session.Transaction.IsActive)
             {
@@ -60,7 +60,7 @@ namespace _2Erronka_API.Repositorioak
             }
         }
 
-        public void ExecuteSerializableTransaction(Action action)
+        public virtual void ExecuteSerializableTransaction(Action action)
         {
             using var tx = _session.BeginTransaction(System.Data.IsolationLevel.Serializable);
             try

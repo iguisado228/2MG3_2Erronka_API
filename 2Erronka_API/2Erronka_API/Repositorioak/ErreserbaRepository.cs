@@ -16,7 +16,7 @@ namespace _2Erronka_API.Repositorioak
             _session = sessionFactory.GetCurrentSession();
         }
 
-        public IList<Erreserba> GetAll()
+        public virtual IList<Erreserba> GetAll()
         {
             return _session.Query<Erreserba>()
                 .Fetch(x => x.Langilea)
@@ -24,12 +24,12 @@ namespace _2Erronka_API.Repositorioak
                 .ToList();
         }
 
-        public Erreserba? Get(int id)
+        public virtual Erreserba? Get(int id)
         {
             return _session.Query<Erreserba>().FirstOrDefault(x => x.Id == id);
         }
 
-        public void Add(Erreserba erreserba)
+        public virtual void Add(Erreserba erreserba)
         {
             if (_session.Transaction != null && _session.Transaction.IsActive)
             {
@@ -43,7 +43,7 @@ namespace _2Erronka_API.Repositorioak
             }
         }
 
-        public void Update(Erreserba erreserba)
+        public virtual void Update(Erreserba erreserba)
         {
             if (_session.Transaction != null && _session.Transaction.IsActive)
             {
@@ -57,7 +57,7 @@ namespace _2Erronka_API.Repositorioak
             }
         }
 
-        public void Delete(Erreserba erreserba)
+        public virtual void Delete(Erreserba erreserba)
         {
             if (_session.Transaction != null && _session.Transaction.IsActive)
             {
@@ -71,7 +71,7 @@ namespace _2Erronka_API.Repositorioak
             }
         }
 
-        public List<EskariaProduktuaDto> LortuProduktuakErreserbarako(int erreserbaId)
+        public virtual List<EskariaProduktuaDto> LortuProduktuakErreserbarako(int erreserbaId)
         {
             var eskariak = _session.Query<Eskaria>()
                 .Where(e => e.Erreserba.Id == erreserbaId)
@@ -90,12 +90,12 @@ namespace _2Erronka_API.Repositorioak
             return produktuak;
         }
 
-        public ISession OpenSession()
+        public virtual ISession OpenSession()
         {
             return _session.SessionFactory.OpenSession();
         }
 
-        public void ExecuteSerializableTransaction(Action action)
+        public virtual void ExecuteSerializableTransaction(Action action)
         {
             using var tx = _session.BeginTransaction(System.Data.IsolationLevel.Serializable);
             try
