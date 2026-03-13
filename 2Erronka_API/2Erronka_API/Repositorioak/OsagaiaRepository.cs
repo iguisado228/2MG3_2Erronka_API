@@ -1,4 +1,4 @@
-﻿using NHibernate;
+using NHibernate;
 using _2Erronka_API.Modeloak;
 
 namespace _2Erronka_API.Repositorioak
@@ -13,12 +13,12 @@ namespace _2Erronka_API.Repositorioak
         }
 
 
-        public Osagaia? Get(int id) =>
+        public virtual Osagaia? Get(int id) =>
             _session.Query<Osagaia>().FirstOrDefault(x => x.Id == id);
 
-        public IList<Osagaia> GetAll() => _session.Query<Osagaia>().ToList();
+        public virtual IList<Osagaia> GetAll() => _session.Query<Osagaia>().ToList();
 
-        public void Update(Osagaia osagaia)
+        public virtual void Update(Osagaia osagaia)
         {
             _session.Update(osagaia);
         }

@@ -12,24 +12,24 @@ namespace _2Erronka_API.Repositorioak
             _session = sessionFactory.GetCurrentSession();
         }
 
-        public IList<Mahaia> GetAll() => _session.Query<Mahaia>().ToList();
+        public virtual IList<Mahaia> GetAll() => _session.Query<Mahaia>().ToList();
 
-        public Mahaia? Get(int id) => _session.Get<Mahaia>(id);
+        public virtual Mahaia? Get(int id) => _session.Get<Mahaia>(id);
 
-        public void Add(Mahaia mahaia)
+        public virtual void Add(Mahaia mahaia)
         {
             using var tx = _session.BeginTransaction();
             _session.Save(mahaia);
             tx.Commit();
         }
 
-        public void Update(Mahaia mahaia)
+        public virtual void Update(Mahaia mahaia)
         {
             using var tx = _session.BeginTransaction();
             _session.Update(mahaia);
             tx.Commit();
         }
-        public void Delete(Mahaia mahaia)
+        public virtual void Delete(Mahaia mahaia)
         {
             using var tx = _session.BeginTransaction();
             _session.Delete(mahaia);

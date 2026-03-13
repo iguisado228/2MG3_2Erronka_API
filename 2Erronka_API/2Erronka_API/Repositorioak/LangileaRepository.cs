@@ -1,4 +1,4 @@
-﻿using NHibernate;
+using NHibernate;
 using _2Erronka_API.Modeloak;
 using FluentNHibernate.Mapping;
 using _2Erronka_API.Domain;
@@ -14,7 +14,7 @@ namespace _2Erronka_API.Repositorioak
             _session = sessionFactory.GetCurrentSession();
         }
 
-        public void Add(Langilea langilea)
+        public virtual void Add(Langilea langilea)
         {
             using var tx = _session.BeginTransaction();
 
@@ -23,7 +23,7 @@ namespace _2Erronka_API.Repositorioak
             tx.Commit();
         }
 
-        public Langilea? Get(int id, bool eager = false)
+        public virtual Langilea? Get(int id, bool eager = false)
         {
             var query = _session.Query<Langilea>()
                 .Where(x => x.Id == id);
@@ -32,13 +32,13 @@ namespace _2Erronka_API.Repositorioak
             return langilea;
         }
 
-        public Langilea? GetByKodea(int kodea)
+        public virtual Langilea? GetByKodea(int kodea)
         {
             return _session.Query<Langilea>()
                 .FirstOrDefault(u => u.Langile_kodea == kodea);
         }
 
-        public IList<Langilea> GetAll()
+        public virtual IList<Langilea> GetAll()
         {
             return _session.Query<Langilea>().ToList();
         }
