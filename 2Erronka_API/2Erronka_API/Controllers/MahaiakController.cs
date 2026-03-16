@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using _2Erronka_API.Repositorioak;
 using _2Erronka_API.DTOak;
 using _2Erronka_API.Modeloak;
@@ -56,8 +56,8 @@ namespace _2Erronka_API.Controllers
 
             _repo.Add(mahaia);
 
-            Console.WriteLine($"Zenbakia: {dto.Zenbakia}, PertsonaKopurua: {dto.PertsonaKopurua}, Kokapena: {dto.Kokapena}");
             return Ok();
+            Console.WriteLine($"Zenbakia: {dto.Zenbakia}, PertsonaKopurua: {dto.PertsonaKopurua}, Kokapena: {dto.Kokapena}");
         }
 
         /// <summary>

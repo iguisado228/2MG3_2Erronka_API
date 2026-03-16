@@ -32,7 +32,7 @@ namespace _2Erronka_API.Controllers
                 Id = p.Id,
                 Izena = p.Izena,
                 Prezioa = p.Prezioa,
-                MotaId = p.MotaId,
+                Mota = p.Mota,
                 Stock = p.Stock
             }).ToList();
 
@@ -55,7 +55,7 @@ namespace _2Erronka_API.Controllers
                 Id = produktua.Id,
                 Izena = produktua.Izena,
                 Prezioa = produktua.Prezioa,
-                MotaId = produktua.MotaId,
+                Mota = produktua.Mota,
                 Stock = produktua.Stock
             };
 

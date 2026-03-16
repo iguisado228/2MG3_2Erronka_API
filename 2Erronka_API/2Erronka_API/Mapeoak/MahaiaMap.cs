@@ -1,4 +1,4 @@
-using FluentNHibernate.Mapping;
+﻿using FluentNHibernate.Mapping;
 using _2Erronka_API.Modeloak;
 
 namespace _2Erronka_API.Mapeoak
@@ -11,7 +11,7 @@ namespace _2Erronka_API.Mapeoak
 
             Id(x => x.Id).Column("id").GeneratedBy.Identity();
             Map(x => x.Zenbakia).Column("zenbakia");
-            Map(x => x.PertsonaKopurua).Column("pertsona_kopuru");
+            Map(x => x.PertsonaKopurua).Column("pertsona_kopurua");
             Map(x => x.Kokapena).Column("kokapena");
         }
     }

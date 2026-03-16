@@ -11,8 +11,8 @@ namespace _2Erronka_API.DTOak
         public string Izena { get; set; } = string.Empty;
         /// <summary>Produktuaren prezioa.</summary>
         public double Prezioa { get; set; }
-        /// <summary>Produktuaren mota IDa.</summary>
-        public int MotaId { get; set; }
+        /// <summary>Produktuaren mota edo kategoria.</summary>
+        public string Mota { get; set; } = string.Empty;
         /// <summary>Produktuaren stock-kantitatea.</summary>
         public int Stock { get; set; }
     }

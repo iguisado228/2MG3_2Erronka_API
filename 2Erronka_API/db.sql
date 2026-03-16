@@ -193,7 +193,6 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `2mg3_2erronka`.`produktuak_has_osagaiak` (
   `produktuak_id` INT NOT NULL,
   `osagaiak_id` INT NOT NULL,
-  `kantitatea` INT NOT NULL,
   PRIMARY KEY (`produktuak_id`, `osagaiak_id`),
   INDEX `fk_produktuak_has_osagaiak_osagaiak1_idx` (`osagaiak_id` ASC) VISIBLE,
   INDEX `fk_produktuak_has_osagaiak_produktuak1_idx` (`produktuak_id` ASC) VISIBLE,
@@ -240,7 +239,6 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `2mg3_2erronka`.`produktuak_has_osagaiak1` (
   `produktuak_id` INT NOT NULL,
   `osagaiak_id` INT NOT NULL,
-  `kantitatea` INT NOT NULL,
   PRIMARY KEY (`produktuak_id`, `osagaiak_id`),
   INDEX `fk_produktuak_has_osagaiak1_osagaiak1_idx` (`osagaiak_id` ASC) VISIBLE,
   INDEX `fk_produktuak_has_osagaiak1_produktuak1_idx` (`produktuak_id` ASC) VISIBLE,
