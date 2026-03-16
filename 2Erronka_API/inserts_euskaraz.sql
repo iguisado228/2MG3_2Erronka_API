@@ -3,7 +3,7 @@ USE `2mg3_2erronka`;
 -- Kanpo gakoen egiaztapena desgaitu datuak sartu bitartean, ordena arazoak ekiditeko
 SET FOREIGN_KEY_CHECKS = 0;
 
--- Taulak garbitu (aukerakoa, baina gomendagarria datu garbiak izateko)
+-- Taulak garbitu
 TRUNCATE TABLE `eskariak_has_produktuak`;
 TRUNCATE TABLE `produktuak_has_osagaiak`;
 TRUNCATE TABLE `eskariak`;
@@ -62,7 +62,7 @@ INSERT INTO `osagaiak` (`id`, `izena`, `prezioa`, `stock`, `hornitzaileak_id`) V
 (2, 'Arrautza', 0.20, 150, 2),
 (3, 'Bakailao Freskoa', 8.00, 30, 3),
 (4, 'Gazta Krematsua', 3.50, 20, 1),
-(5, 'Coca-Cola botila', 1.00, 100, 1); -- Produktu bezala saltzen dena, baina osagai/stock bezala kudeatua
+(5, 'Coca-Cola botila', 1.00, 100, 1);
 
 -- 8. Erreserbak
 INSERT INTO `erreserbak` (`id`, `bezero_izena`, `telefonoa`, `pertsona_kopurua`, `eguna_ordua`, `prezio_totala`, `faktura_ruta`, `langileak_id`, `mahaiak_id`) VALUES 
@@ -75,11 +75,11 @@ INSERT INTO `eskariak` (`id`, `prezioa`, `egoera`, `erreserbak_id`, `erreserbak_
 (2, 12.00, 'Prestatzen', 2, 2, 2);
 
 -- 10. Produktuak eta Osagaiak harremana
-INSERT INTO `produktuak_has_osagaiak` (`produktuak_id`, `osagaiak_id`) VALUES 
-(1, 5), -- Coca-Cola (produktua) -> Coca-Cola botila (osagaia)
-(3, 1),
-(3, 2),
-(4, 3);
+INSERT INTO `produktuak_has_osagaiak` (`produktuak_id`, `osagaiak_id`, `kantitatea`) VALUES 
+(1, 5, 1), -- Coca-Cola -> Coca-Cola botila
+(3, 1, 3), -- Tortilla -> Patata (3 unitate)
+(3, 2, 2), -- Tortilla -> Arrautza (2 unitate)
+(4, 3, 1); -- Bakailaoa -> Bakailao Freskoa
 
 -- 11. Eskariak eta Produktuak harremana
 INSERT INTO `eskariak_has_produktuak` (`eskariak_id`, `produktuak_id`, `kantitatea`, `prezioa`) VALUES 

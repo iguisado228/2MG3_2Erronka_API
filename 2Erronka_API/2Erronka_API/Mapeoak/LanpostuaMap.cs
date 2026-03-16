@@ -5,9 +5,6 @@ using _2Erronka_API.Domain;
 
 namespace _2Erronka_API.Mapeoak
 {
-    /// <summary>
-    /// Lanpostuak taularen mapeoa.
-    /// </summary>
     public class LanpostuaMap : ClassMap<Lanpostua>
     {
         public LanpostuaMap()
