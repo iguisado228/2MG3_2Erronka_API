@@ -75,11 +75,11 @@ INSERT INTO `eskariak` (`id`, `prezioa`, `egoera`, `erreserbak_id`, `erreserbak_
 (2, 12.00, 'Prestatzen', 2, 2, 2);
 
 -- 10. Produktuak eta Osagaiak harremana
-INSERT INTO `produktuak_has_osagaiak` (`produktuak_id`, `osagaiak_id`) VALUES 
-(1, 5), -- Coca-Cola (produktua) -> Coca-Cola botila (osagaia)
-(3, 1),
-(3, 2),
-(4, 3);
+INSERT INTO `produktuak_has_osagaiak` (`produktuak_id`, `osagaiak_id`, `kantitatea`) VALUES 
+(1, 5, 1), -- Coca-Cola (produktua) -> Coca-Cola botila (osagaia) (1 unitate)
+(3, 1, 3), -- Tortilla -> Patata (3 unitate)
+(3, 2, 2), -- Tortilla -> Arrautza (2 unitate)
+(4, 3, 1); -- Bakailaoa -> Bakailao Freskoa (1 unitate)
 
 -- 11. Eskariak eta Produktuak harremana
 INSERT INTO `eskariak_has_produktuak` (`eskariak_id`, `produktuak_id`, `kantitatea`, `prezioa`) VALUES 

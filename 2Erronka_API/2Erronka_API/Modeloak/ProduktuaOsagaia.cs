@@ -1,11 +1,10 @@
-﻿namespace _2Erronka_API.Modeloak
+namespace _2Erronka_API.Modeloak
 {
     public class ProduktuaOsagaia
     {
         public virtual Produktua Produktua { get; set; }
         public virtual Osagaia Osagaia { get; set; }
-
-        public virtual int Kantitatea { get; set; } 
+        public virtual int Kantitatea { get; set; }
 
         public override bool Equals(object? obj)
         {
