@@ -146,7 +146,7 @@ namespace _2Erronka_API.Testak
             var langilea = new Langilea { Id = 1, Izena = "Jon", Lanpostua = new Lanpostua { Id = 1, Lanpostu_izena = "Zerbitzaria" } };
             var erreserba = CreateErreserba(1, langilea, mahaia);
 
-            var produktua = new Produktua { Id = 5, Izena = "Kafea", Prezioa = 1.2, Stock = 0, Mota = "Edaria" };
+            var produktua = new Produktua { Id = 5, Izena = "Kafea", Prezioa = 1.2, Stock = 0, MotaId = 1 };
             var dto = new EskariaSortuDto
             {
                 ErreserbaId = 1,
@@ -174,7 +174,7 @@ namespace _2Erronka_API.Testak
             var langilea = new Langilea { Id = 1, Izena = "Amaia", Lanpostua = new Lanpostua { Id = 1, Lanpostu_izena = "Zerbitzaria" } };
             var erreserba = CreateErreserba(7, langilea, mahaia);
 
-            var produktua = new Produktua { Id = 2, Izena = "Ogitartekoa", Prezioa = 4.0, Stock = 3, Mota = "Janaria" };
+            var produktua = new Produktua { Id = 2, Izena = "Ogitartekoa", Prezioa = 4.0, Stock = 3, MotaId = 1 };
             var dto = new EskariaSortuDto
             {
                 ErreserbaId = 7,
@@ -206,7 +206,7 @@ namespace _2Erronka_API.Testak
             var langilea = new Langilea { Id = 1, Izena = "Ane", Lanpostua = new Lanpostua { Id = 1, Lanpostu_izena = "Zerbitzaria" } };
             var erreserba = CreateErreserba(1, langilea, mahaia);
 
-            var produktua = new Produktua { Id = 3, Izena = "Pizza", Prezioa = 10, Stock = 10, Mota = "Janaria" };
+            var produktua = new Produktua { Id = 3, Izena = "Pizza", Prezioa = 10, Stock = 10, MotaId = 1 };
             var osagaia = new Osagaia { Id = 8, Izena = "Gazta", Stock = 5, Prezioa = 1.0, HornitzaileakId = 1 };
             var po = new ProduktuaOsagaia { Produktua = produktua, Osagaia = osagaia, Kantitatea = 2 };
 
@@ -238,7 +238,7 @@ namespace _2Erronka_API.Testak
             var langilea = new Langilea { Id = 1, Izena = "Nora", Lanpostua = new Lanpostua { Id = 1, Lanpostu_izena = "Zerbitzaria" } };
             var erreserba = CreateErreserba(4, langilea, mahaia);
 
-            var produktua = new Produktua { Id = 9, Izena = "Hamburguesa", Prezioa = 8, Stock = 10, Mota = "Janaria" };
+            var produktua = new Produktua { Id = 9, Izena = "Hamburguesa", Prezioa = 8, Stock = 10, MotaId = 1 };
             var osagaia = new Osagaia { Id = 11, Izena = "Ogia", Stock = 20, Prezioa = 0.5, HornitzaileakId = 1 };
             var po = new ProduktuaOsagaia { Produktua = produktua, Osagaia = osagaia, Kantitatea = 1 };
 
@@ -283,8 +283,8 @@ namespace _2Erronka_API.Testak
         {
             var controller = CreateController(out var eskariaRepo, out var produktuaRepo, out var erreserbaRepo, out var produktuOsagaiaRepo, out var osagaiaRepo);
 
-            var produktua1 = new Produktua { Id = 1, Izena = "P1", Prezioa = 2, Stock = 5, Mota = "M" };
-            var produktua2 = new Produktua { Id = 2, Izena = "P2", Prezioa = 3, Stock = 1, Mota = "M" };
+            var produktua1 = new Produktua { Id = 1, Izena = "P1", Prezioa = 2, Stock = 5, MotaId = 1 };
+            var produktua2 = new Produktua { Id = 2, Izena = "P2", Prezioa = 3, Stock = 1, MotaId = 1 };
             var osagaia = new Osagaia { Id = 100, Izena = "O1", Stock = 0, Prezioa = 1, HornitzaileakId = 1 };
             var po = new ProduktuaOsagaia { Produktua = produktua2, Osagaia = osagaia, Kantitatea = 2 };
 
@@ -334,7 +334,7 @@ namespace _2Erronka_API.Testak
         {
             var controller = CreateController(out var eskariaRepo, out var produktuaRepo, out var erreserbaRepo, out var produktuOsagaiaRepo, out var osagaiaRepo);
 
-            var produktua1 = new Produktua { Id = 1, Izena = "P1", Prezioa = 2, Stock = 5, Mota = "M" };
+            var produktua1 = new Produktua { Id = 1, Izena = "P1", Prezioa = 2, Stock = 5, MotaId = 1 };
             var eskaria = new Eskaria
             {
                 Id = 1,
@@ -376,7 +376,7 @@ namespace _2Erronka_API.Testak
         {
             var controller = CreateController(out var eskariaRepo, out var produktuaRepo, out var erreserbaRepo, out var produktuOsagaiaRepo, out var osagaiaRepo);
 
-            var produktua1 = new Produktua { Id = 1, Izena = "P1", Prezioa = 2, Stock = 0, Mota = "M" };
+            var produktua1 = new Produktua { Id = 1, Izena = "P1", Prezioa = 2, Stock = 0, MotaId = 1 };
             var eskaria = new Eskaria
             {
                 Id = 1,
@@ -415,7 +415,7 @@ namespace _2Erronka_API.Testak
         {
             var controller = CreateController(out var eskariaRepo, out var produktuaRepo, out var erreserbaRepo, out var produktuOsagaiaRepo, out var osagaiaRepo);
 
-            var produktua1 = new Produktua { Id = 1, Izena = "P1", Prezioa = 2, Stock = 10, Mota = "M" };
+            var produktua1 = new Produktua { Id = 1, Izena = "P1", Prezioa = 2, Stock = 10, MotaId = 1 };
             var osagaia = new Osagaia { Id = 7, Izena = "O1", Stock = 0, Prezioa = 1, HornitzaileakId = 1 };
             var po = new ProduktuaOsagaia { Produktua = produktua1, Osagaia = osagaia, Kantitatea = 1 };
 
@@ -458,7 +458,7 @@ namespace _2Erronka_API.Testak
         {
             var controller = CreateController(out var eskariaRepo, out var produktuaRepo, out var erreserbaRepo, out var produktuOsagaiaRepo, out var osagaiaRepo);
 
-            var produktua1 = new Produktua { Id = 1, Izena = "P1", Prezioa = 2, Stock = 10, Mota = "M" };
+            var produktua1 = new Produktua { Id = 1, Izena = "P1", Prezioa = 2, Stock = 10, MotaId = 1 };
             var osagaia = new Osagaia { Id = 7, Izena = "O1", Stock = 10, Prezioa = 1, HornitzaileakId = 1 };
             var po = new ProduktuaOsagaia { Produktua = produktua1, Osagaia = osagaia, Kantitatea = 2 };
 
@@ -504,7 +504,7 @@ namespace _2Erronka_API.Testak
         {
             var controller = CreateController(out var eskariaRepo, out var produktuaRepo, out var erreserbaRepo, out var produktuOsagaiaRepo, out var osagaiaRepo);
 
-            var produktua1 = new Produktua { Id = 1, Izena = "P1", Prezioa = 2, Stock = 0, Mota = "M" };
+            var produktua1 = new Produktua { Id = 1, Izena = "P1", Prezioa = 2, Stock = 0, MotaId = 1 };
             var osagaia = new Osagaia { Id = 7, Izena = "O1", Stock = 0, Prezioa = 1, HornitzaileakId = 1 };
             var po = new ProduktuaOsagaia { Produktua = produktua1, Osagaia = osagaia, Kantitatea = 2 };
 
@@ -550,7 +550,7 @@ namespace _2Erronka_API.Testak
         {
             var controller = CreateController(out var eskariaRepo, out var produktuaRepo, out var erreserbaRepo, out var produktuOsagaiaRepo, out var osagaiaRepo);
 
-            var produktua1 = new Produktua { Id = 1, Izena = "P1", Prezioa = 2, Stock = 5, Mota = "M" };
+            var produktua1 = new Produktua { Id = 1, Izena = "P1", Prezioa = 2, Stock = 5, MotaId = 1 };
             var eskaria = new Eskaria
             {
                 Id = 1,
@@ -593,7 +593,7 @@ namespace _2Erronka_API.Testak
         {
             var controller = CreateController(out var eskariaRepo, out var produktuaRepo, out var erreserbaRepo, out var produktuOsagaiaRepo, out var osagaiaRepo);
 
-            var produktua1 = new Produktua { Id = 1, Izena = "P1", Prezioa = 2, Stock = 5, Mota = "M" };
+            var produktua1 = new Produktua { Id = 1, Izena = "P1", Prezioa = 2, Stock = 5, MotaId = 1 };
             var eskaria = new Eskaria
             {
                 Id = 1,
@@ -609,7 +609,7 @@ namespace _2Erronka_API.Testak
             };
             eskaria.Produktuak[0].Eskaria = eskaria;
 
-            var produktuaBerria = new Produktua { Id = 2, Izena = "P2", Prezioa = 1, Stock = 0, Mota = "M" };
+            var produktuaBerria = new Produktua { Id = 2, Izena = "P2", Prezioa = 1, Stock = 0, MotaId = 1 };
 
             eskariaRepo.Setup(r => r.Get(1)).Returns(eskaria);
             produktuaRepo.Setup(r => r.Get(2)).Returns(produktuaBerria);
@@ -636,7 +636,7 @@ namespace _2Erronka_API.Testak
         {
             var controller = CreateController(out var eskariaRepo, out var produktuaRepo, out var erreserbaRepo, out var produktuOsagaiaRepo, out var osagaiaRepo);
 
-            var produktua1 = new Produktua { Id = 1, Izena = "P1", Prezioa = 2, Stock = 5, Mota = "M" };
+            var produktua1 = new Produktua { Id = 1, Izena = "P1", Prezioa = 2, Stock = 5, MotaId = 1 };
             var eskaria = new Eskaria
             {
                 Id = 1,
@@ -652,7 +652,7 @@ namespace _2Erronka_API.Testak
             };
             eskaria.Produktuak[0].Eskaria = eskaria;
 
-            var produktuaBerria = new Produktua { Id = 2, Izena = "P2", Prezioa = 1, Stock = 10, Mota = "M" };
+            var produktuaBerria = new Produktua { Id = 2, Izena = "P2", Prezioa = 1, Stock = 10, MotaId = 1 };
             var osagaia = new Osagaia { Id = 7, Izena = "O1", Stock = 0, Prezioa = 1, HornitzaileakId = 1 };
             var po = new ProduktuaOsagaia { Produktua = produktuaBerria, Osagaia = osagaia, Kantitatea = 1 };
 
@@ -682,7 +682,7 @@ namespace _2Erronka_API.Testak
         {
             var controller = CreateController(out var eskariaRepo, out var produktuaRepo, out var erreserbaRepo, out var produktuOsagaiaRepo, out var osagaiaRepo);
 
-            var produktua1 = new Produktua { Id = 1, Izena = "P1", Prezioa = 2, Stock = 5, Mota = "M" };
+            var produktua1 = new Produktua { Id = 1, Izena = "P1", Prezioa = 2, Stock = 5, MotaId = 1 };
             var eskaria = new Eskaria
             {
                 Id = 1,
@@ -698,7 +698,7 @@ namespace _2Erronka_API.Testak
             };
             eskaria.Produktuak[0].Eskaria = eskaria;
 
-            var produktuaBerria = new Produktua { Id = 2, Izena = "P2", Prezioa = 1, Stock = 10, Mota = "M" };
+            var produktuaBerria = new Produktua { Id = 2, Izena = "P2", Prezioa = 1, Stock = 10, MotaId = 1 };
             var osagaia = new Osagaia { Id = 7, Izena = "O1", Stock = 10, Prezioa = 1, HornitzaileakId = 1 };
             var po = new ProduktuaOsagaia { Produktua = produktuaBerria, Osagaia = osagaia, Kantitatea = 2 };
 
@@ -744,7 +744,7 @@ namespace _2Erronka_API.Testak
         {
             var controller = CreateController(out var eskariaRepo, out var produktuaRepo, out var erreserbaRepo, out var produktuOsagaiaRepo, out var osagaiaRepo);
 
-            var produktua = new Produktua { Id = 1, Izena = "P1", Prezioa = 2, Stock = 0, Mota = "M" };
+            var produktua = new Produktua { Id = 1, Izena = "P1", Prezioa = 2, Stock = 0, MotaId = 1 };
             var eskaria = new Eskaria
             {
                 Id = 1,
@@ -776,8 +776,8 @@ namespace _2Erronka_API.Testak
         {
             var controller = CreateController(out var eskariaRepo, out var produktuaRepo, out var erreserbaRepo, out var produktuOsagaiaRepo, out var osagaiaRepo);
 
-            var produktua = new Produktua { Id = 1, Izena = "P1", Prezioa = 2, Stock = 0, Mota = "M" };
-            var produktuaDb = new Produktua { Id = 1, Izena = "P1", Prezioa = 2, Stock = 0, Mota = "M" };
+            var produktua = new Produktua { Id = 1, Izena = "P1", Prezioa = 2, Stock = 0, MotaId = 1 };
+            var produktuaDb = new Produktua { Id = 1, Izena = "P1", Prezioa = 2, Stock = 0, MotaId = 1 };
             var osagaia = new Osagaia { Id = 7, Izena = "O1", Stock = 0, Prezioa = 1, HornitzaileakId = 1 };
             var po = new ProduktuaOsagaia { Produktua = produktuaDb, Osagaia = osagaia, Kantitatea = 2 };
 
@@ -825,7 +825,7 @@ namespace _2Erronka_API.Testak
         {
             var controller = CreateController(out var eskariaRepo, out var produktuaRepo, out var erreserbaRepo, out var produktuOsagaiaRepo, out var osagaiaRepo);
 
-            var produktua = new Produktua { Id = 1, Izena = "P1", Prezioa = 2, Stock = 5, Mota = "M" };
+            var produktua = new Produktua { Id = 1, Izena = "P1", Prezioa = 2, Stock = 5, MotaId = 1 };
             var erreserba = CreateErreserba(2, new Langilea { Id = 1, Izena = "L", Lanpostua = new Lanpostua { Id = 1, Lanpostu_izena = "Zerbitzaria" } }, new Mahaia { Id = 1, Zenbakia = 1, PertsonaKopurua = 4, Kokapena = "K" });
             var eskaria = new Eskaria
             {

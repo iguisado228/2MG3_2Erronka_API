@@ -91,6 +91,33 @@ namespace _2Erronka_API.Controllers
             });
         }
 
+        [HttpPost("admin")]
+        public IActionResult LoginAdmin([FromBody] LoginRequest request)
+        {
+            var langilea = _langileaRepository.GetByKodea(request.Langile_kodea);
+
+            if (langilea == null)
+            {
+                return Unauthorized(new { message = "Langilea ez da aurkitu" });
+            }
+
+            string pasahitzaHash = HashPassword(request.Pasahitza);
+
+            if (langilea.Pasahitza != pasahitzaHash)
+            {
+                return Unauthorized(new { message = "Pasahitza okerra da" });
+            }
+
+            var baimendutakoLanpostuak = new[] { "Administratzailea", "Gerentea" };
+
+            if (!baimendutakoLanpostuak.Contains(langilea.Lanpostua.Lanpostu_izena))
+            {
+                return Forbid();
+            }
+
+            return Ok(new { status = "OK" });
+        }
+
         private string HashPassword(string input)
         {
             using (SHA256 sha = SHA256.Create())

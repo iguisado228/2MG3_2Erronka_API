@@ -24,8 +24,8 @@ namespace _2Erronka_API.Testak
 
             var produktuak = new List<Produktua>
             {
-                new Produktua { Id = 1, Izena = "CocaCola", Prezioa = 2.5, Mota = "Edaria", Stock = 50 },
-                new Produktua { Id = 2, Izena = "Tortilla pintxoa", Prezioa = 1.8, Mota = "Janaria", Stock = 20 }
+                new Produktua { Id = 1, Izena = "CocaCola", Prezioa = 2.5, MotaId = 1, Stock = 50 },
+                new Produktua { Id = 2, Izena = "Tortilla pintxoa", Prezioa = 1.8, MotaId = 1, Stock = 20 }
             };
 
             mockRepo.Setup(r => r.GetAll()).Returns(produktuak);
@@ -70,7 +70,7 @@ namespace _2Erronka_API.Testak
             mockSessionFactory.Setup(sf => sf.GetCurrentSession()).Returns(mockSession.Object);
             var mockRepo = new Mock<ProduktuaRepository>(mockSessionFactory.Object);
 
-            var produktua = new Produktua { Id = 1, Izena = "CocaCola", Prezioa = 2.5, Mota = "Edaria", Stock = 50 };
+            var produktua = new Produktua { Id = 1, Izena = "CocaCola", Prezioa = 2.5, MotaId = 1, Stock = 50 };
             mockRepo.Setup(r => r.Get(1)).Returns(produktua);
             var controller = new ProduktuakController(mockRepo.Object);
 

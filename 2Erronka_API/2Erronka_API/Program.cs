@@ -36,6 +36,9 @@ builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddTransient<EskariaRepository>();
     builder.Services.AddTransient<MahaiaRepository>();
     builder.Services.AddTransient<LangileaRepository>();
+    builder.Services.AddTransient<LanpostuaRepository>();
+    builder.Services.AddTransient<HornitzaileaRepository>();
+    builder.Services.AddTransient<MotaRepository>();
     builder.Services.AddScoped<OsagaiaRepository>();
     builder.Services.AddScoped<ProduktuaOsagaiaRepository>();
 

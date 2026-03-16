@@ -43,5 +43,33 @@ namespace _2Erronka_API.Repositorioak
             return _session.Query<Langilea>().ToList();
         }
 
+        public virtual void Update(Langilea langilea)
+        {
+            if (_session.Transaction != null && _session.Transaction.IsActive)
+            {
+                _session.Update(langilea);
+            }
+            else
+            {
+                using var tx = _session.BeginTransaction();
+                _session.Update(langilea);
+                tx.Commit();
+            }
+        }
+
+        public virtual void Delete(Langilea langilea)
+        {
+            if (_session.Transaction != null && _session.Transaction.IsActive)
+            {
+                _session.Delete(langilea);
+            }
+            else
+            {
+                using var tx = _session.BeginTransaction();
+                _session.Delete(langilea);
+                tx.Commit();
+            }
+        }
+
     }
 }

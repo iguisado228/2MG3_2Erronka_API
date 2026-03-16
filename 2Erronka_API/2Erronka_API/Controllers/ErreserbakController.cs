@@ -112,9 +112,7 @@ namespace _2Erronka_API.Controllers
             _repo.Update(erreserba);
             return Ok();
         }
- 
- 
- 
+
         /// <summary>
         /// Erreserba bat ordaindutzat markatzen du, tiketa sortzen du eta lotutako eskariak garbitzen ditu.
         /// </summary>
