@@ -30,6 +30,7 @@ namespace _2Erronka_API.Controllers
                 NAN = l.NAN,
                 Erabiltzaile_izena = l.Erabiltzaile_izena,
                 Langile_kodea = l.Langile_kodea,
+                Pasahitza = l.Pasahitza,
                 Helbidea = l.Helbidea,
                 Lanpostua = new LanpostuaDto
                 {
@@ -55,6 +56,7 @@ namespace _2Erronka_API.Controllers
                 NAN = l.NAN,
                 Erabiltzaile_izena = l.Erabiltzaile_izena,
                 Langile_kodea = l.Langile_kodea,
+                Pasahitza = l.Pasahitza,
                 Helbidea = l.Helbidea,
                 Lanpostua = new LanpostuaDto
                 {
@@ -69,6 +71,10 @@ namespace _2Erronka_API.Controllers
         [HttpPost]
         public IActionResult Create([FromBody] LangileaDto dto)
         {
+            if (dto == null) return BadRequest();
+            if (dto.Lanpostua == null) return BadRequest("Lanpostua beharrezkoa da.");
+            if (string.IsNullOrWhiteSpace(dto.Pasahitza)) return BadRequest("Pasahitza beharrezkoa da.");
+
             var langilea = new Langilea
             {
                 Izena = dto.Izena,
