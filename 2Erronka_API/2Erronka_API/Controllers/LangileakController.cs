@@ -30,7 +30,6 @@ namespace _2Erronka_API.Controllers
                 NAN = l.NAN,
                 Erabiltzaile_izena = l.Erabiltzaile_izena,
                 Langile_kodea = l.Langile_kodea,
-                Pasahitza = l.Pasahitza,
                 Helbidea = l.Helbidea,
                 Lanpostua = new LanpostuaDto
                 {
@@ -56,7 +55,6 @@ namespace _2Erronka_API.Controllers
                 NAN = l.NAN,
                 Erabiltzaile_izena = l.Erabiltzaile_izena,
                 Langile_kodea = l.Langile_kodea,
-                Pasahitza = l.Pasahitza,
                 Helbidea = l.Helbidea,
                 Lanpostua = new LanpostuaDto
                 {
