@@ -17,8 +17,8 @@ namespace _2Erronka_API.DTOak
         public virtual string Erabiltzaile_izena { get; set; }
         /// <summary>Langilearen kodea.</summary>
         public int Langile_kodea { get; set; }
-        /// <summary>Langilearen pasahitza (APIan ez da beti bidaltzen).</summary>
-        public virtual string Pasahitza { get; set; }
+        /// <summary>Langilearen pasahitza (null izan daiteke eguneratzeetan).</summary>
+        public virtual string? Pasahitza { get; set; }
         /// <summary>Langilearen helbidea.</summary>
         public virtual string Helbidea { get; set; }
         /// <summary>Langilearen lanpostua.</summary>
