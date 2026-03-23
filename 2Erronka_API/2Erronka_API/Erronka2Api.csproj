@@ -5,8 +5,9 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>_2Erronka_API</RootNamespace>
-    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
     <NoWarn>$(NoWarn);1591</NoWarn>
+    <!-- <DocumentationFile>bin\Debug\net9.0\2Erronka_API.xml</DocumentationFile> -->
   </PropertyGroup>
 
   <ItemGroup>
