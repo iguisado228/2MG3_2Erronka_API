@@ -22,22 +22,52 @@ namespace _2Erronka_API.Controllers
         public IActionResult GetAll()
         {
             var langileak = _repo.GetAll();
-            var dtoList = langileak.Select(l => new LangileaDto
+            var dtoList = new List<LangileaDto>();
+            foreach (var l in langileak)
             {
-                Id = l.Id,
-                Izena = l.Izena,
-                Abizena = l.Abizena,
-                NAN = l.NAN,
-                Erabiltzaile_izena = l.Erabiltzaile_izena,
-                Langile_kodea = l.Langile_kodea,
-                Helbidea = l.Helbidea,
-                Lanpostua = new LanpostuaDto
+                dtoList.Add(new LangileaDto
                 {
-                    Id = l.Lanpostua?.Id ?? 0,
-                    Lanpostu_izena = l.Lanpostua?.Lanpostu_izena ?? ""
-                }
-            }).ToList();
+                    Id = l.Id,
+                    Izena = l.Izena,
+                    Abizena = l.Abizena,
+                    NAN = l.NAN,
+                    Erabiltzaile_izena = l.Erabiltzaile_izena,
+                    Langile_kodea = l.Langile_kodea,
+                    Helbidea = l.Helbidea,
+                    Lanpostua = new LanpostuaDto
+                    {
+                        Id = l.Lanpostua?.Id ?? 0,
+                        Lanpostu_izena = l.Lanpostua?.Lanpostu_izena ?? ""
+                    }
+                });
+            }
 
+            return Ok(dtoList);
+        }
+
+        [HttpGet("lanpostua/{lanpostuaId}")]
+        public IActionResult GetByLanpostua(int lanpostuaId)
+        {
+            var langileak = _repo.GetByLanpostuaId(lanpostuaId);
+            var dtoList = new List<LangileaDto>();
+            foreach (var l in langileak)
+            {
+                dtoList.Add(new LangileaDto
+                {
+                    Id = l.Id,
+                    Izena = l.Izena,
+                    Abizena = l.Abizena,
+                    NAN = l.NAN,
+                    Erabiltzaile_izena = l.Erabiltzaile_izena,
+                    Langile_kodea = l.Langile_kodea,
+                    Helbidea = l.Helbidea,
+                    Lanpostua = new LanpostuaDto
+                    {
+                        Id = l.Lanpostua?.Id ?? 0,
+                        Lanpostu_izena = l.Lanpostua?.Lanpostu_izena ?? ""
+                    }
+                });
+            }
             return Ok(dtoList);
         }
 

@@ -43,6 +43,13 @@ namespace _2Erronka_API.Repositorioak
             return _session.Query<Langilea>().ToList();
         }
 
+        public virtual IList<Langilea> GetByLanpostuaId(int lanpostuaId)
+        {
+            return _session.Query<Langilea>()
+                .Where(x => x.Lanpostua != null && x.Lanpostua.Id == lanpostuaId)
+                .ToList();
+        }
+
         public virtual void Update(Langilea langilea)
         {
             if (_session.Transaction != null && _session.Transaction.IsActive)
