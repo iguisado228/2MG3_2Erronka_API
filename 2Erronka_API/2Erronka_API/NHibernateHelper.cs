@@ -24,7 +24,7 @@ namespace _2Erronka_API
         {
             var config = Fluently.Configure()
                 .Database(MySQLConfiguration.Standard
-                //.ConnectionString("Server=192.168.1.112;Port=3306;Database=2mg3_2erronka;Uid=3Taldea;Pwd=2MG3_3Taldea3;"))
+                //.ConnectionString("Server=192.168.10.5;Port=3306;Database=2mg3_2erronka;Uid=root;Pwd=2Taldea2;"))
                 .ConnectionString("Server=localhost;Port=3306;Database=2mg3_2erronka;Uid=root;Pwd=1MG2024;"))
                 .Mappings(m =>
                 {
