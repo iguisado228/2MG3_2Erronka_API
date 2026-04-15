@@ -12,10 +12,18 @@ namespace _2Erronka_API.Controllers
     public class ProduktuakController : ControllerBase
     {
         private readonly ProduktuaRepository _repo;
+        private readonly ProduktuaOsagaiaRepository _produktuaOsagaiaRepo;
+        private readonly OsagaiaRepository _osagaiaRepo;
 
-        public ProduktuakController(ProduktuaRepository repo)
+        public ProduktuakController(
+            ProduktuaRepository repo,
+            ProduktuaOsagaiaRepository produktuaOsagaiaRepo,
+            OsagaiaRepository osagaiaRepo
+        )
         {
             _repo = repo;
+            _produktuaOsagaiaRepo = produktuaOsagaiaRepo;
+            _osagaiaRepo = osagaiaRepo;
         }
 
         /// <summary>
@@ -62,6 +70,25 @@ namespace _2Erronka_API.Controllers
             return Ok(dto);
         }
 
+        [HttpGet("{id}/osagaiak")]
+        public IActionResult GetOsagaiak(int id)
+        {
+            var produktua = _repo.Get(id);
+            if (produktua == null) return NotFound();
+
+            var osagaiak = _produktuaOsagaiaRepo.GetByProduktuaId(id);
+            var dtoList =
+                osagaiak.Select(po => new ProduktuaOsagaiaDto
+                {
+                    OsagaiaId = po.Osagaia.Id,
+                    Kantitatea = po.Kantitatea,
+                    Izena = po.Osagaia.Izena,
+                    Stock = po.Osagaia.Stock
+                }).ToList();
+
+            return Ok(dtoList);
+        }
+
         /// <summary>
         /// Produktu berri bat sortzen du.
         /// </summary>
@@ -93,15 +120,76 @@ namespace _2Erronka_API.Controllers
         [HttpPut("{id}")]
         public IActionResult Update(int id, [FromBody] ProduktuaDto dto)
         {
-            var produktua = _repo.Get(id);
-            if (produktua == null) return NotFound();
+            if (dto.Stock < 0) return BadRequest("Stock ezin da negatiboa izan.");
 
-            produktua.Izena = dto.Izena;
-            produktua.Prezioa = dto.Prezioa;
-            produktua.MotaId = dto.MotaId;
-            produktua.Stock = dto.Stock;
+            int? appliedStock = null;
+            int requestedStock = dto.Stock;
+            var notFound = false;
 
-            _repo.Update(produktua);
+            _repo.ExecuteSerializableTransaction(() =>
+            {
+                var produktua = _repo.Get(id);
+                if (produktua == null)
+                {
+                    notFound = true;
+                    return;
+                }
+
+                produktua.Izena = dto.Izena;
+                produktua.Prezioa = dto.Prezioa;
+                produktua.MotaId = dto.MotaId;
+
+                var currentStock = produktua.Stock;
+                var requestedDelta = requestedStock - currentStock;
+                if (requestedDelta == 0)
+                {
+                    _repo.Update(produktua);
+                    appliedStock = requestedStock;
+                    return;
+                }
+
+                var osagaiak = _produktuaOsagaiaRepo.GetByProduktuaId(produktua.Id);
+
+                int appliedDelta = requestedDelta;
+                if (requestedDelta > 0)
+                {
+                    var maxDelta = int.MaxValue;
+                    foreach (var po in osagaiak)
+                    {
+                        if (po.Kantitatea <= 0) continue;
+                        var possible = po.Osagaia.Stock / po.Kantitatea;
+                        if (possible < maxDelta) maxDelta = possible;
+                    }
+                    if (maxDelta < 0) maxDelta = 0;
+                    if (appliedDelta > maxDelta) appliedDelta = maxDelta;
+                }
+
+                if (appliedDelta != 0)
+                {
+                    foreach (var po in osagaiak)
+                    {
+                        if (po.Kantitatea <= 0) continue;
+                        var deltaIng = -appliedDelta * po.Kantitatea;
+                        po.Osagaia.Stock += deltaIng;
+                        if (po.Osagaia.Stock < 0)
+                        {
+                            throw new Exception($"Ez dago nahikoa stock '{po.Osagaia.Izena}' osagaian");
+                        }
+                        _osagaiaRepo.Update(po.Osagaia);
+                    }
+                }
+
+                produktua.Stock = currentStock + appliedDelta;
+                _repo.Update(produktua);
+                appliedStock = produktua.Stock;
+            });
+
+            if (notFound) return NotFound();
+            if (appliedStock == null) return StatusCode(500);
+            if (appliedStock.Value != requestedStock)
+            {
+                return Ok(new { requestedStock, appliedStock = appliedStock.Value });
+            }
             return NoContent();
         }
 
