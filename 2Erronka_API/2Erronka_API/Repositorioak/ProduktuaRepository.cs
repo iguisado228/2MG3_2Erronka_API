@@ -45,20 +45,5 @@ namespace _2Erronka_API.Repositorioak
             _session.Delete(produktua);
             tx.Commit();
         }
-
-        public virtual void ExecuteSerializableTransaction(Action action)
-        {
-            using var tx = _session.BeginTransaction(System.Data.IsolationLevel.Serializable);
-            try
-            {
-                action();
-                tx.Commit();
-            }
-            catch
-            {
-                tx.Rollback();
-                throw;
-            }
-        }
     }
 }

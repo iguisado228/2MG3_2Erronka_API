@@ -29,9 +29,7 @@ namespace _2Erronka_API.Testak
             };
 
             mockRepo.Setup(r => r.GetAll()).Returns(produktuak);
-            var mockPoRepo = new Mock<ProduktuaOsagaiaRepository>(mockSessionFactory.Object);
-            var mockOsagaiaRepo = new Mock<OsagaiaRepository>(mockSessionFactory.Object);
-            var controller = new ProduktuakController(mockRepo.Object, mockPoRepo.Object, mockOsagaiaRepo.Object);
+            var controller = new ProduktuakController(mockRepo.Object);
 
             // Act
             var result = controller.GetAll();
@@ -54,9 +52,7 @@ namespace _2Erronka_API.Testak
             var mockRepo = new Mock<ProduktuaRepository>(mockSessionFactory.Object);
 
             mockRepo.Setup(r => r.Get(It.IsAny<int>())).Returns((Produktua?)null);
-            var mockPoRepo = new Mock<ProduktuaOsagaiaRepository>(mockSessionFactory.Object);
-            var mockOsagaiaRepo = new Mock<OsagaiaRepository>(mockSessionFactory.Object);
-            var controller = new ProduktuakController(mockRepo.Object, mockPoRepo.Object, mockOsagaiaRepo.Object);
+            var controller = new ProduktuakController(mockRepo.Object);
 
             // Act
             var result = controller.Get(999);
@@ -76,9 +72,7 @@ namespace _2Erronka_API.Testak
 
             var produktua = new Produktua { Id = 1, Izena = "CocaCola", Prezioa = 2.5, MotaId = 1, Stock = 50 };
             mockRepo.Setup(r => r.Get(1)).Returns(produktua);
-            var mockPoRepo = new Mock<ProduktuaOsagaiaRepository>(mockSessionFactory.Object);
-            var mockOsagaiaRepo = new Mock<OsagaiaRepository>(mockSessionFactory.Object);
-            var controller = new ProduktuakController(mockRepo.Object, mockPoRepo.Object, mockOsagaiaRepo.Object);
+            var controller = new ProduktuakController(mockRepo.Object);
 
             // Act
             var result = controller.Get(1);

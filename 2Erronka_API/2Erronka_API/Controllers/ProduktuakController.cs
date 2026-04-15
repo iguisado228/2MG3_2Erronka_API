@@ -124,16 +124,11 @@ namespace _2Erronka_API.Controllers
 
             int? appliedStock = null;
             int requestedStock = dto.Stock;
-            var notFound = false;
 
             _repo.ExecuteSerializableTransaction(() =>
             {
                 var produktua = _repo.Get(id);
-                if (produktua == null)
-                {
-                    notFound = true;
-                    return;
-                }
+                if (produktua == null) throw new InvalidOperationException("NOT_FOUND");
 
                 produktua.Izena = dto.Izena;
                 produktua.Prezioa = dto.Prezioa;
@@ -184,7 +179,6 @@ namespace _2Erronka_API.Controllers
                 appliedStock = produktua.Stock;
             });
 
-            if (notFound) return NotFound();
             if (appliedStock == null) return StatusCode(500);
             if (appliedStock.Value != requestedStock)
             {

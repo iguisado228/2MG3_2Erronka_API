@@ -24,8 +24,8 @@ namespace _2Erronka_API
         {
             var config = Fluently.Configure()
                 .Database(MySQLConfiguration.Standard
-                //.ConnectionString("Server=192.168.10.5;Port=3306;Database=2mg3_2erronka;Uid=admin;Pwd=2Taldea2;"))
-                .ConnectionString("Server=localhost;Port=3306;Database=2mg3_2erronka;Uid=admin;Pwd=2Taldea2;"))
+                .ConnectionString("Server=192.168.10.5;Port=3306;Database=2mg3_2erronka;Uid=admin;Pwd=2Taldea2;"))
+                //.ConnectionString("Server=localhost;Port=3306;Database=2mg3_2erronka;Uid=admin;Pwd=2Taldea2;"))
                 .Mappings(m =>
                 {
                     m.FluentMappings.AddFromAssembly(typeof(NHibernateHelper).Assembly);
