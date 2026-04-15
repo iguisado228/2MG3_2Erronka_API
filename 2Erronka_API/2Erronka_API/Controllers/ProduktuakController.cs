@@ -187,6 +187,84 @@ namespace _2Erronka_API.Controllers
             return NoContent();
         }
 
+        [HttpPatch("{id}/stock")]
+        public IActionResult UpdateStock(int id, [FromBody] StockUpdateDto dto)
+        {
+            int? appliedStock = null;
+            int requestedDelta = dto.Kopurua;
+            int requestedStock = 0;
+            int? appliedDelta = null;
+
+            _repo.ExecuteSerializableTransaction(() =>
+            {
+                var produktua = _repo.Get(id);
+                if (produktua == null) throw new InvalidOperationException("NOT_FOUND");
+
+                var currentStock = produktua.Stock;
+                requestedStock = currentStock + requestedDelta;
+                if (requestedStock < 0) requestedStock = 0;
+
+                var delta = requestedStock - currentStock;
+                if (delta == 0)
+                {
+                    appliedStock = currentStock;
+                    appliedDelta = 0;
+                    return;
+                }
+
+                var osagaiak = _produktuaOsagaiaRepo.GetByProduktuaId(produktua.Id);
+
+                var applied = delta;
+                if (delta > 0)
+                {
+                    var maxDelta = int.MaxValue;
+                    foreach (var po in osagaiak)
+                    {
+                        if (po.Kantitatea <= 0) continue;
+                        var possible = po.Osagaia.Stock / po.Kantitatea;
+                        if (possible < maxDelta) maxDelta = possible;
+                    }
+                    if (maxDelta < 0) maxDelta = 0;
+                    if (applied > maxDelta) applied = maxDelta;
+                }
+
+                if (applied != 0)
+                {
+                    foreach (var po in osagaiak)
+                    {
+                        if (po.Kantitatea <= 0) continue;
+                        var deltaIng = -applied * po.Kantitatea;
+                        po.Osagaia.Stock += deltaIng;
+                        if (po.Osagaia.Stock < 0)
+                        {
+                            throw new Exception($"Ez dago nahikoa stock '{po.Osagaia.Izena}' osagaian");
+                        }
+                        _osagaiaRepo.Update(po.Osagaia);
+                    }
+                }
+
+                produktua.Stock = currentStock + applied;
+                _repo.Update(produktua);
+                appliedStock = produktua.Stock;
+                appliedDelta = applied;
+            });
+
+            if (appliedStock == null || appliedDelta == null) return StatusCode(500);
+            if (appliedDelta.Value != requestedDelta)
+            {
+                return Ok(
+                    new
+                    {
+                        requestedDelta,
+                        appliedDelta = appliedDelta.Value,
+                        requestedStock,
+                        appliedStock = appliedStock.Value
+                    }
+                );
+            }
+            return NoContent();
+        }
+
         /// <summary>
         /// Produktu bat ezabatzen du.
         /// </summary>

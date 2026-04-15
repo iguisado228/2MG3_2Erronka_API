@@ -21,6 +21,8 @@ namespace _2Erronka_API.Testak
             var mockSession = new Mock<NHibernate.ISession>();
             mockSessionFactory.Setup(sf => sf.GetCurrentSession()).Returns(mockSession.Object);
             var mockRepo = new Mock<ProduktuaRepository>(mockSessionFactory.Object);
+            var mockProduktuaOsagaiaRepo = new Mock<ProduktuaOsagaiaRepository>(mockSessionFactory.Object);
+            var mockOsagaiaRepo = new Mock<OsagaiaRepository>(mockSessionFactory.Object);
 
             var produktuak = new List<Produktua>
             {
@@ -29,7 +31,7 @@ namespace _2Erronka_API.Testak
             };
 
             mockRepo.Setup(r => r.GetAll()).Returns(produktuak);
-            var controller = new ProduktuakController(mockRepo.Object);
+            var controller = new ProduktuakController(mockRepo.Object, mockProduktuaOsagaiaRepo.Object, mockOsagaiaRepo.Object);
 
             // Act
             var result = controller.GetAll();
@@ -50,9 +52,11 @@ namespace _2Erronka_API.Testak
             var mockSession = new Mock<NHibernate.ISession>();
             mockSessionFactory.Setup(sf => sf.GetCurrentSession()).Returns(mockSession.Object);
             var mockRepo = new Mock<ProduktuaRepository>(mockSessionFactory.Object);
+            var mockProduktuaOsagaiaRepo = new Mock<ProduktuaOsagaiaRepository>(mockSessionFactory.Object);
+            var mockOsagaiaRepo = new Mock<OsagaiaRepository>(mockSessionFactory.Object);
 
             mockRepo.Setup(r => r.Get(It.IsAny<int>())).Returns((Produktua?)null);
-            var controller = new ProduktuakController(mockRepo.Object);
+            var controller = new ProduktuakController(mockRepo.Object, mockProduktuaOsagaiaRepo.Object, mockOsagaiaRepo.Object);
 
             // Act
             var result = controller.Get(999);
@@ -69,10 +73,12 @@ namespace _2Erronka_API.Testak
             var mockSession = new Mock<NHibernate.ISession>();
             mockSessionFactory.Setup(sf => sf.GetCurrentSession()).Returns(mockSession.Object);
             var mockRepo = new Mock<ProduktuaRepository>(mockSessionFactory.Object);
+            var mockProduktuaOsagaiaRepo = new Mock<ProduktuaOsagaiaRepository>(mockSessionFactory.Object);
+            var mockOsagaiaRepo = new Mock<OsagaiaRepository>(mockSessionFactory.Object);
 
             var produktua = new Produktua { Id = 1, Izena = "CocaCola", Prezioa = 2.5, MotaId = 1, Stock = 50 };
             mockRepo.Setup(r => r.Get(1)).Returns(produktua);
-            var controller = new ProduktuakController(mockRepo.Object);
+            var controller = new ProduktuakController(mockRepo.Object, mockProduktuaOsagaiaRepo.Object, mockOsagaiaRepo.Object);
 
             // Act
             var result = controller.Get(1);

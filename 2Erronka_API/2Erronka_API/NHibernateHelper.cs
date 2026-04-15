@@ -22,9 +22,12 @@ namespace _2Erronka_API
 
         private static ISessionFactory CreateSessionFactory()
         {
+            var connectionString =
+                Environment.GetEnvironmentVariable("OSIS_DB_CONNECTION")
+                ?? "Server=192.168.10.5;Port=3306;Database=2mg3_2erronka;Uid=admin;Pwd=2Taldea2;";
             var config = Fluently.Configure()
                 .Database(MySQLConfiguration.Standard
-                .ConnectionString("Server=192.168.10.5;Port=3306;Database=2mg3_2erronka;Uid=admin;Pwd=2Taldea2;"))
+                .ConnectionString(connectionString))
                 //.ConnectionString("Server=localhost;Port=3306;Database=2mg3_2erronka;Uid=admin;Pwd=2Taldea2;"))
                 .Mappings(m =>
                 {
