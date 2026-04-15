@@ -239,6 +239,29 @@ namespace _2Erronka_API.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+        [HttpPatch("{id}/egoera")]
+        public IActionResult EguneratuEgoera(int id, [FromBody] EgoeraUpdateDto dto)
+        {
+            if (dto == null || string.IsNullOrWhiteSpace(dto.Egoera)) return BadRequest("Egoera derrigorrezkoa da.");
+            try
+            {
+                _repo.ExecuteSerializableTransaction(() =>
+                {
+                    var eskaria = _repo.Get(id);
+                    if (eskaria == null) throw new Exception("Eskaria ez da aurkitu");
+
+                    eskaria.Egoera = dto.Egoera;
+                    _repo.Update(eskaria);
+                });
+
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
  
         /// <summary>
         /// Eskari bat ezabatzen du eta stockak leheneratzen ditu.
@@ -403,5 +426,10 @@ namespace _2Erronka_API.Controllers
             return Ok(dtoList);
         }
  
+    }
+
+    public class EgoeraUpdateDto
+    {
+        public string Egoera { get; set; } = string.Empty;
     }
 }
