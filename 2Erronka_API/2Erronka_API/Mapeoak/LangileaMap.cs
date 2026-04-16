@@ -21,6 +21,7 @@ namespace _2Erronka_API.Mapeoak
             Map(x => x.Langile_kodea);
             Map(x => x.Pasahitza);
             Map(x => x.Helbidea);
+            Map(x => x.Txat_sarbidea).Column("txat_sarbidea");
             References(x => x.Lanpostua).Column("lanpostuak_id");
         }
     }

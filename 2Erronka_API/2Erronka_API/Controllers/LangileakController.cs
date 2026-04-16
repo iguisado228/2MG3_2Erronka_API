@@ -34,6 +34,7 @@ namespace _2Erronka_API.Controllers
                     Erabiltzaile_izena = l.Erabiltzaile_izena,
                     Langile_kodea = l.Langile_kodea,
                     Helbidea = l.Helbidea,
+                    Txat_sarbidea = l.Txat_sarbidea,
                     Lanpostua = new LanpostuaDto
                     {
                         Id = l.Lanpostua?.Id ?? 0,
@@ -61,6 +62,7 @@ namespace _2Erronka_API.Controllers
                     Erabiltzaile_izena = l.Erabiltzaile_izena,
                     Langile_kodea = l.Langile_kodea,
                     Helbidea = l.Helbidea,
+                    Txat_sarbidea = l.Txat_sarbidea,
                     Lanpostua = new LanpostuaDto
                     {
                         Id = l.Lanpostua?.Id ?? 0,
@@ -86,6 +88,7 @@ namespace _2Erronka_API.Controllers
                 Erabiltzaile_izena = l.Erabiltzaile_izena,
                 Langile_kodea = l.Langile_kodea,
                 Helbidea = l.Helbidea,
+                Txat_sarbidea = l.Txat_sarbidea,
                 Lanpostua = new LanpostuaDto
                 {
                     Id = l.Lanpostua?.Id ?? 0,
@@ -112,6 +115,7 @@ namespace _2Erronka_API.Controllers
                 Langile_kodea = dto.Langile_kodea,
                 Pasahitza = HashPassword(dto.Pasahitza),
                 Helbidea = dto.Helbidea,
+                Txat_sarbidea = dto.Txat_sarbidea,
                 Lanpostua = new Lanpostua { Id = dto.Lanpostua.Id }
             };
 
@@ -137,6 +141,7 @@ namespace _2Erronka_API.Controllers
                 langilea.Pasahitza = HashPassword(dto.Pasahitza);
             }
             langilea.Helbidea = dto.Helbidea;
+            langilea.Txat_sarbidea = dto.Txat_sarbidea;
             langilea.Lanpostua = new Lanpostua { Id = dto.Lanpostua.Id };
 
             _repo.Update(langilea);

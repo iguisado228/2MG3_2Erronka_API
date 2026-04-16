@@ -82,6 +82,7 @@ namespace _2Erronka_API.Controllers
                     Erabiltzaile_izena = langilea.Erabiltzaile_izena,
                     Langile_kodea = langilea.Langile_kodea,
                     Helbidea = langilea.Helbidea,
+                    Txat_sarbidea = langilea.Txat_sarbidea,
                     Lanpostua = new LanpostuaDto
                     {
                         Id = langilea.Lanpostua.Id,

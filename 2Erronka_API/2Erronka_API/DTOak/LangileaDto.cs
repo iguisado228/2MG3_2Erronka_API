@@ -21,6 +21,8 @@ namespace _2Erronka_API.DTOak
         public virtual string? Pasahitza { get; set; }
         /// <summary>Langilearen helbidea.</summary>
         public virtual string Helbidea { get; set; }
+        /// <summary>Txata erabiltzeko baimena (1/0 DB-n).</summary>
+        public bool Txat_sarbidea { get; set; }
         /// <summary>Langilearen lanpostua.</summary>
         public virtual LanpostuaDto Lanpostua { get; set; }
     }

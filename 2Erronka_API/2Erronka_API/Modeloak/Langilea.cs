@@ -16,6 +16,7 @@ namespace _2Erronka_API.Domain
         public virtual int Langile_kodea { get; set; }
         public virtual string Pasahitza { get; set; }
         public virtual string Helbidea { get; set; }
+        public virtual bool Txat_sarbidea { get; set; }
         public virtual Lanpostua Lanpostua { get; set; }
     }
 }

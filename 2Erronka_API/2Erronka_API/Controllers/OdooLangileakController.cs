@@ -43,6 +43,7 @@ namespace _2Erronka_API.Controllers
                 Langile_kodea = dto.Langile_kodea,
                 Pasahitza = passwordHash,
                 Helbidea = dto.Helbidea,
+                Txat_sarbidea = false,
                 Lanpostua = new Lanpostua { Id = dto.LanpostuaId }
             };
 
