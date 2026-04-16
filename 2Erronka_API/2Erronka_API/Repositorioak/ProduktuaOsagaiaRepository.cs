@@ -19,6 +19,24 @@ namespace _2Erronka_API.Repositorioak
                 .ToList();
         }
 
+        public virtual ProduktuaOsagaia? GetOne(int produktuaId, int osagaiaId)
+        {
+            return _session.Query<ProduktuaOsagaia>()
+                .FirstOrDefault(po =>
+                    po.Produktua.Id == produktuaId &&
+                    po.Osagaia.Id == osagaiaId);
+        }
+
+        public virtual void SaveOrUpdate(ProduktuaOsagaia entitatea)
+        {
+            _session.SaveOrUpdate(entitatea);
+        }
+
+        public virtual void Delete(ProduktuaOsagaia entitatea)
+        {
+            _session.Delete(entitatea);
+        }
+
         public virtual void UpdateOsagaia(Osagaia osagaia)
         {
             _session.Update(osagaia);

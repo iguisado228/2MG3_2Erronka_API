@@ -89,6 +89,121 @@ namespace _2Erronka_API.Controllers
             return Ok(dtoList);
         }
 
+        [HttpPost("{id}/osagaiak")]
+        public IActionResult AddOsagaia(int id, [FromBody] ProduktuaOsagaiaEguneratuDto dto)
+        {
+            if (dto.Kantitatea <= 0) return BadRequest("Kantitatea positiboa izan behar da.");
+
+            try
+            {
+                _repo.ExecuteSerializableTransaction(() =>
+                {
+                    var produktua = _repo.Get(id);
+                    if (produktua == null) throw new InvalidOperationException("NOT_FOUND");
+
+                    var osagaia = _osagaiaRepo.Get(dto.OsagaiaId);
+                    if (osagaia == null) throw new InvalidOperationException("OSAGAIA_NOT_FOUND");
+
+                    var existing = _produktuaOsagaiaRepo.GetOne(id, dto.OsagaiaId);
+                    if (existing != null) throw new InvalidOperationException("ALREADY_EXISTS");
+
+                    var po = new _2Erronka_API.Modeloak.ProduktuaOsagaia
+                    {
+                        Produktua = produktua,
+                        Osagaia = osagaia,
+                        Kantitatea = dto.Kantitatea
+                    };
+
+                    _produktuaOsagaiaRepo.SaveOrUpdate(po);
+                });
+
+                return NoContent();
+            }
+            catch (InvalidOperationException ex)
+            {
+                return ex.Message switch
+                {
+                    "NOT_FOUND" => NotFound(),
+                    "OSAGAIA_NOT_FOUND" => NotFound("Osagaia ez da aurkitu."),
+                    "ALREADY_EXISTS" => Conflict("Osagaia dagoeneko produktuan dago."),
+                    _ => StatusCode(500, ex.Message)
+                };
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
+
+        [HttpPut("{id}/osagaiak/{osagaiaId}")]
+        public IActionResult UpdateOsagaia(int id, int osagaiaId, [FromBody] ProduktuaOsagaiaEguneratuDto dto)
+        {
+            if (dto.Kantitatea <= 0) return BadRequest("Kantitatea positiboa izan behar da.");
+
+            try
+            {
+                _repo.ExecuteSerializableTransaction(() =>
+                {
+                    var produktua = _repo.Get(id);
+                    if (produktua == null) throw new InvalidOperationException("NOT_FOUND");
+
+                    var existing = _produktuaOsagaiaRepo.GetOne(id, osagaiaId);
+                    if (existing == null) throw new InvalidOperationException("REL_NOT_FOUND");
+
+                    existing.Kantitatea = dto.Kantitatea;
+                    _produktuaOsagaiaRepo.SaveOrUpdate(existing);
+                });
+
+                return NoContent();
+            }
+            catch (InvalidOperationException ex)
+            {
+                return ex.Message switch
+                {
+                    "NOT_FOUND" => NotFound(),
+                    "REL_NOT_FOUND" => NotFound("Produktua-osagaia erlazioa ez da aurkitu."),
+                    _ => StatusCode(500, ex.Message)
+                };
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
+
+        [HttpDelete("{id}/osagaiak/{osagaiaId}")]
+        public IActionResult RemoveOsagaia(int id, int osagaiaId)
+        {
+            try
+            {
+                _repo.ExecuteSerializableTransaction(() =>
+                {
+                    var produktua = _repo.Get(id);
+                    if (produktua == null) throw new InvalidOperationException("NOT_FOUND");
+
+                    var existing = _produktuaOsagaiaRepo.GetOne(id, osagaiaId);
+                    if (existing == null) throw new InvalidOperationException("REL_NOT_FOUND");
+
+                    _produktuaOsagaiaRepo.Delete(existing);
+                });
+
+                return NoContent();
+            }
+            catch (InvalidOperationException ex)
+            {
+                return ex.Message switch
+                {
+                    "NOT_FOUND" => NotFound(),
+                    "REL_NOT_FOUND" => NotFound("Produktua-osagaia erlazioa ez da aurkitu."),
+                    _ => StatusCode(500, ex.Message)
+                };
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
+
         /// <summary>
         /// Produktu berri bat sortzen du.
         /// </summary>
