@@ -145,14 +145,6 @@ namespace _2Erronka_API.Controllers
  
             session.Update(erreserba);
  
-            session.CreateQuery("delete from EskariaProduktua ep where ep.Eskaria.Id in (select e.Id from Eskaria e where e.Erreserba.Id = :id)")
-                   .SetInt32("id", dto.ErreserbaId)
-                   .ExecuteUpdate();
- 
-            session.CreateQuery("delete from Eskaria e where e.Erreserba.Id = :id")
-                   .SetInt32("id", dto.ErreserbaId)
-                   .ExecuteUpdate();
- 
             tx.Commit();
  
             return Ok();
