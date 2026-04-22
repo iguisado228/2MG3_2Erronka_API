@@ -260,14 +260,14 @@ namespace _2Erronka_API.Controllers
  
             double subtotala = produktuak.Sum(p => p.Kantitatea * p.Prezioa);
             double iva = subtotala / 1.10;
-            double guztira = subtotala + iva;
+            double guztira = subtotala - iva;
  
-            doc.Add(new Paragraph($"Subtotala: {subtotala:0.00}\nIVA (10%): {iva:0.00}")
+            doc.Add(new Paragraph($"Subtotala: {guztira:0.00}\nIVA (10%): {iva:0.00}")
                 .SetFont(regularFont)
                 .SetFontSize(8)
                 .SetTextAlignment(TextAlignment.RIGHT));
                
-            doc.Add(new Paragraph($"GUZTIRA: {guztira:0.00} €")
+            doc.Add(new Paragraph($"GUZTIRA: {subtotala:0.00} €")
                 .SetFont(boldFont)
                 .SetFontSize(12)
                 .SetTextAlignment(TextAlignment.RIGHT)
