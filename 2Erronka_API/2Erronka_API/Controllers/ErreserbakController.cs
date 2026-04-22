@@ -258,16 +258,16 @@ namespace _2Erronka_API.Controllers
            
             doc.Add(new LineSeparator(new iText.Kernel.Pdf.Canvas.Draw.DashedLine()).SetMarginTop(5).SetMarginBottom(5));
  
-            double subtotala = produktuak.Sum(p => p.Kantitatea * p.Prezioa);
-            double iva = subtotala / 1.10;
-            double guztira = subtotala - iva;
+            double guztira = produktuak.Sum(p => p.Kantitatea * p.Prezioa);
+            double iva = guztira - (guztira / 1.10);
+            double subtotala = guztira - iva;
  
-            doc.Add(new Paragraph($"Subtotala: {guztira:0.00}\nIVA (10%): {iva:0.00}")
+            doc.Add(new Paragraph($"Subtotala: {subtotala:0.00}\nIVA (10%): {iva:0.00}")
                 .SetFont(regularFont)
                 .SetFontSize(8)
                 .SetTextAlignment(TextAlignment.RIGHT));
                
-            doc.Add(new Paragraph($"GUZTIRA: {subtotala:0.00} €")
+            doc.Add(new Paragraph($"GUZTIRA: {guztira:0.00} €")
                 .SetFont(boldFont)
                 .SetFontSize(12)
                 .SetTextAlignment(TextAlignment.RIGHT)
