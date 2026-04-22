@@ -218,13 +218,13 @@ namespace _2Erronka_API.Controllers
             var boldFont = PdfFontFactory.CreateFont(StandardFonts.HELVETICA_BOLD);
             var regularFont = PdfFontFactory.CreateFont(StandardFonts.HELVETICA);
  
-            doc.Add(new Paragraph("TXAPELA JATETXEA")
+            doc.Add(new Paragraph("MAISON IMANOL")
                 .SetFont(boldFont)
                 .SetFontSize(12)
                 .SetTextAlignment(TextAlignment.CENTER)
                 .SetMarginBottom(0));
  
-            doc.Add(new Paragraph("CIF: B12345678\nLazkao\nTel: 943 623 081")
+            doc.Add(new Paragraph("CIF: B12345678\nOrdizia\nTel: 943 623 081")
                 .SetFont(regularFont)
                 .SetFontSize(8)
                 .SetTextAlignment(TextAlignment.CENTER)
