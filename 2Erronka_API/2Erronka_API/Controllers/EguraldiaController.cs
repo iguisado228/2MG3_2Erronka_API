@@ -63,10 +63,23 @@ namespace _2Erronka_API.Controllers
                     {
                         Data = BalioaLortu(eguna.Attribute("data")),
                         AstekoEguna = BalioaLortu(eguna.Element("astekoEguna")),
-                        ZeruEgoera = BalioaLortu(eguna.Element("zeruEgoera")),
+                        ZeruEgoera = AtributuaLortu(eguna.Element("zeruEgoera"), "textua"),
+                        ZeruEgoeraKodea = BalioaLortu(eguna.Element("zeruEgoera")),
                         TenperaturaMinimoa = BalioaLortu(eguna.Element("tenperaturaMinimoa")),
                         TenperaturaMaximoa = BalioaLortu(eguna.Element("tenperaturaMaximoa")),
-                        PrezipitazioProbabilitatea = BalioaLortu(eguna.Element("prezipitazioProbabilitatea"))
+                        PrezipitazioProbabilitatea = BalioaLortu(eguna.Element("prezipitazioProbabilitatea")),
+                        Xehetasunak = eguna
+                            .Element("xehetasunak")?
+                            .Elements("tartea")
+                            .Select(tartea => new EguraldiTarteaDto
+                            {
+                                Aldia = BalioaLortu(tartea.Attribute("aldia")),
+                                Ordua = BalioaLortu(tartea.Element("ordua")),
+                                Tenperatura = BalioaLortu(tartea.Element("tenperatura")),
+                                ZeruEgoera = AtributuaLortu(tartea.Element("zeruEgoera"), "textua"),
+                                ZeruEgoeraKodea = BalioaLortu(tartea.Element("zeruEgoera"))
+                            })
+                            .ToList() ?? new List<EguraldiTarteaDto>()
                     })
                     .ToList();
             }
@@ -82,6 +95,14 @@ namespace _2Erronka_API.Controllers
         private static string BalioaLortu(XAttribute? atributua)
         {
             return atributua?.Value?.Trim() ?? string.Empty;
+        }
+
+        private static string AtributuaLortu(XElement? elementua, string atributua)
+        {
+            string balioa = elementua?.Attribute(atributua)?.Value?.Trim() ?? string.Empty;
+            return string.IsNullOrWhiteSpace(balioa)
+                ? BalioaLortu(elementua)
+                : balioa;
         }
     }
 }
