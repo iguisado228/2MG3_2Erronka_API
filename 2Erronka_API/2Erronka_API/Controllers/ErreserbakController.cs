@@ -129,9 +129,16 @@ namespace _2Erronka_API.Controllers
                 return NotFound();
  
             erreserba.Ordainduta = 1;
-            erreserba.PrezioTotala = dto.Guztira;
- 
             var produktuak = _repo.LortuProduktuakErreserbarako(dto.ErreserbaId);
+
+            double guztiraHasierakoa = produktuak.Sum(p => p.Kantitatea * p.Prezioa);
+
+            erreserba.PrezioTotalaHasierakoa = guztiraHasierakoa;
+            erreserba.PrezioTotala = dto.Guztira;
+            erreserba.DeskontuKodea = string.IsNullOrWhiteSpace(dto.DeskontuKodea) ? null : dto.DeskontuKodea.Trim();
+            erreserba.DeskontuMota = string.IsNullOrWhiteSpace(dto.DeskontuMota) ? null : dto.DeskontuMota.Trim();
+            erreserba.DeskontuBalioa = dto.DeskontuBalioa;
+            erreserba.DeskontuZenbatekoa = dto.DeskontuZenbatekoa;
  
             string fakturaRuta = SortuTicketPdf(
                 erreserba,
@@ -250,7 +257,9 @@ namespace _2Erronka_API.Controllers
            
             doc.Add(new LineSeparator(new iText.Kernel.Pdf.Canvas.Draw.DashedLine()).SetMarginTop(5).SetMarginBottom(5));
  
-            double guztira = produktuak.Sum(p => p.Kantitatea * p.Prezioa);
+            double guztiraLerroak = produktuak.Sum(p => p.Kantitatea * p.Prezioa);
+            double deskontua = erreserba.DeskontuZenbatekoa;
+            double guztira = erreserba.PrezioTotala;
             double iva = guztira - (guztira / 1.10);
             double subtotala = guztira - iva;
  
@@ -258,6 +267,26 @@ namespace _2Erronka_API.Controllers
                 .SetFont(regularFont)
                 .SetFontSize(8)
                 .SetTextAlignment(TextAlignment.RIGHT));
+
+            if (deskontua > 0)
+            {
+                string label = "Deskontua";
+                if (!string.IsNullOrWhiteSpace(erreserba.DeskontuKodea))
+                    label = $"{label} ({erreserba.DeskontuKodea})";
+
+                if (!string.IsNullOrWhiteSpace(erreserba.DeskontuMota) && erreserba.DeskontuBalioa.HasValue)
+                {
+                    if (erreserba.DeskontuMota == "ehunekoa")
+                        label = $"{label} - {erreserba.DeskontuBalioa:0.##}%";
+                    else if (erreserba.DeskontuMota == "finkoa")
+                        label = $"{label} - {erreserba.DeskontuBalioa:0.00}€";
+                }
+
+                doc.Add(new Paragraph($"Lerroak: {guztiraLerroak:0.00} €\n{label}: -{deskontua:0.00} €")
+                    .SetFont(regularFont)
+                    .SetFontSize(8)
+                    .SetTextAlignment(TextAlignment.RIGHT));
+            }
                
             doc.Add(new Paragraph($"GUZTIRA: {guztira:0.00} €")
                 .SetFont(boldFont)

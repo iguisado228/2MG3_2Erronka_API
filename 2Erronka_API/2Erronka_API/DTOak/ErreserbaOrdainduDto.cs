@@ -1,4 +1,4 @@
-﻿namespace _2Erronka_API.DTOak
+namespace _2Erronka_API.DTOak
 {
     /// <summary>
     /// Erreserba baten ordainketa erregistratzeko datuak.
@@ -17,6 +17,10 @@
         public int LangileaId { get; set; }
         /// <summary>Ordainketa modua (adib. "Eskudirua", "Txartela").</summary>
         public string OrdainketaModua { get; set; } = string.Empty;
+        public string? DeskontuKodea { get; set; }
+        public string? DeskontuMota { get; set; }
+        public double? DeskontuBalioa { get; set; }
+        public double DeskontuZenbatekoa { get; set; }
     }
 }
  

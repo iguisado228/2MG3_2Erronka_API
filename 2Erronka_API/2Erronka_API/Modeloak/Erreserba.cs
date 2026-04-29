@@ -1,4 +1,4 @@
-﻿using _2Erronka_API.Domain;
+using _2Erronka_API.Domain;
 
 namespace _2Erronka_API.Modeloak
 {
@@ -10,8 +10,13 @@ namespace _2Erronka_API.Modeloak
         public virtual int PertsonaKopurua { get; set; }
         public virtual DateTime EgunaOrdua { get; set; }
         public virtual double PrezioTotala { get; set; }
+        public virtual double? PrezioTotalaHasierakoa { get; set; }
         public virtual int Ordainduta { get; set; } = 0;
         public virtual string FakturaRuta { get; set; }
+        public virtual string? DeskontuKodea { get; set; }
+        public virtual string? DeskontuMota { get; set; }
+        public virtual double? DeskontuBalioa { get; set; }
+        public virtual double DeskontuZenbatekoa { get; set; }
         public virtual Langilea Langilea { get; set; }
         public virtual Mahaia Mahaia { get; set; }
     }
